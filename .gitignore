@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+analysis/run.log
+nohup.out
