@@ -11,6 +11,50 @@ import yfinance as yf
 CACHE_DIR = os.path.join(os.path.dirname(__file__), os.pardir, "data_cache")
 
 
+def _cache_path(ticker: str, start: str, end: str) -> str:
+    return os.path.join(CACHE_DIR, f"{ticker}_{start}_{end}.csv")
+
+
+def bulk_fetch(
+    tickers: list[str], start: str, end: str, batch: int = 60
+) -> dict[str, pd.DataFrame]:
+    """Download many tickers, reusing/filling the same per-ticker CSV cache
+    that get_ohlcv() uses. Returns {ticker: DataFrame} for everything that
+    resolved (failed/delisted names are silently skipped)."""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    out: dict[str, pd.DataFrame] = {}
+    missing: list[str] = []
+    for t in tickers:
+        p = _cache_path(t, start, end)
+        if os.path.exists(p):
+            df = pd.read_csv(p, index_col=0, parse_dates=True)
+            if not df.empty:
+                out[t] = df
+                continue
+        missing.append(t)
+
+    for i in range(0, len(missing), batch):
+        chunk = missing[i : i + batch]
+        try:
+            raw = yf.download(
+                chunk, start=start, end=end, progress=False,
+                auto_adjust=True, group_by="ticker", threads=True,
+            )
+        except Exception:  # noqa: BLE001 - skip whole-batch provider errors
+            continue
+        for t in chunk:
+            try:
+                sub = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
+                df = sub[["Open", "High", "Low", "Close", "Volume"]].dropna()
+                if df.empty:
+                    continue
+                df.to_csv(_cache_path(t, start, end))
+                out[t] = df
+            except Exception:  # noqa: BLE001 - skip individual bad ticker
+                continue
+    return out
+
+
 def get_ohlcv(
     ticker: str, start: str, end: str, max_retries: int = 4
 ) -> pd.DataFrame:
