@@ -1,0 +1,50 @@
+ticker,name,sector,rev_growth_TTM_%,net_margin_%,L1M_%,L3M_%,L12M_%,close,n_detectors,detectors
+EMN,Eastman Chemical Company,Basic Materials,-4.9,4.6,-2.4,-9.5,-7.1,74.12,1,trend_continuation
+NUE,Nucor Corporation,Basic Materials,21.3,6.8,18.3,24.3,96.8,232.0,1,trend_continuation
+IFF,International Flavors & Fragran,Basic Materials,-3.6,,,,,75.28,1,trend_continuation
+ROST,"Ross Stores, Inc.",Consumer Cyclical,12.2,9.4,-4.2,8.5,42.6,234.81,6,fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation
+CZR,"Caesars Entertainment, Inc.",Consumer Cyclical,2.7,-4.2,0.4,53.3,-9.4,28.47,2,fast_donchian+trend_continuation
+F,Ford Motor Company,Consumer Cyclical,6.4,-3.2,9.1,-3.9,32.0,14.93,2,six_month_high+range_expansion
+MGM,MGM Resorts International,Consumer Cyclical,4.2,1.0,-3.9,8.3,5.8,38.4,1,trend_continuation
+SLB,SLB Limited,Energy,2.7,,,,,57.28,1,six_month_high
+TRGP,"Targa Resources, Inc.",Energy,-10.2,,,,,276.75,1,six_month_high
+BK,The Bank of New York Mellon Cor,Financial Services,13.4,28.7,0.5,15.1,56.4,138.98,4,fast_donchian+donchian_20+six_month_high+squeeze_release
+GS,"Goldman Sachs Group, Inc. (The)",Financial Services,14.5,29.4,5.4,5.3,58.3,996.73,2,six_month_high+trend_continuation
+FITB,Fifth Third Bancorp,Financial Services,33.0,24.1,-4.4,-9.6,24.6,49.48,1,trend_continuation
+NTRS,Northern Trust Corporation,Financial Services,13.9,22.4,4.5,12.6,57.9,167.77,1,fast_donchian
+TFC,Truist Financial Corporation,Financial Services,5.2,29.6,-4.0,-8.6,19.1,48.38,1,trend_continuation
+WST,"West Pharmaceutical Services, I",Healthcare,21.0,16.8,12.3,21.0,47.0,316.42,1,trend_continuation
+BIIB,Biogen Inc.,Healthcare,1.9,,,,,193.76,1,trend_continuation
+GNRC,Generac Holdlings Inc.,Industrials,12.4,4.4,27.1,17.5,105.2,270.14,2,gap_go+trend_continuation
+ETN,"Eaton Corporation, PLC",Industrials,16.8,14.0,2.0,3.2,22.8,391.35,1,trend_continuation
+ROK,"Rockwell Automation, Inc.",Industrials,11.9,12.4,11.4,14.2,48.1,452.29,1,trend_continuation
+PLD,"Prologis, Inc.",Real Estate,8.3,39.6,-1.2,1.9,35.1,145.9,4,fast_donchian+donchian_20+six_month_high+squeeze_release
+ESS,"Essex Property Trust, Inc.",Real Estate,6.4,29.1,7.7,7.5,-0.3,276.7,3,fast_donchian+donchian_20+six_month_high
+KIM,Kimco Realty Corporation (HC),Real Estate,4.0,28.5,-3.2,2.4,14.3,24.11,2,fast_donchian+trend_continuation
+INVH,Invitation Homes Inc.,Real Estate,9.2,21.0,6.3,4.7,-13.0,29.29,2,fast_donchian+six_month_high
+CPT,Camden Property Trust,Real Estate,-0.5,,,,,107.47,2,fast_donchian+donchian_20
+UDR,"UDR, Inc.",Real Estate,4.2,,,,,38.01,2,fast_donchian+donchian_20
+DOC,"Healthpeak Properties, Inc.",Real Estate,7.1,7.7,13.4,17.3,22.4,19.73,1,six_month_high
+EQIX,"Equinix, Inc.",Real Estate,12.1,,,,,1079.79,1,trend_continuation
+HPQ,HP Inc.,Technology,6.9,4.5,5.5,9.8,-23.7,25.24,6,fast_donchian+donchian_20+six_month_high+volume_thrust+gap_go+range_expansion
+NTAP,"NetApp, Inc.",Technology,4.4,18.1,15.7,17.7,22.7,139.36,6,fast_donchian+donchian_20+six_month_high+volume_thrust+range_expansion+trend_continuation
+HPE,Hewlett Packard Enterprise Comp,Technology,18.4,-0.3,27.8,46.8,90.1,37.58,5,fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation
+CSCO,"Cisco Systems, Inc.",Technology,12.0,19.7,39.9,54.7,97.3,120.41,4,fast_donchian+donchian_20+six_month_high+trend_continuation
+FTNT,"Fortinet, Inc.",Technology,20.1,27.5,49.0,43.5,18.9,133.93,4,fast_donchian+donchian_20+six_month_high+trend_continuation
+NXPI,NXP Semiconductors N.V.,Technology,12.2,21.0,36.4,19.9,40.6,316.47,4,fast_donchian+donchian_20+six_month_high+trend_continuation
+SNPS,"Synopsys, Inc.",Technology,65.5,13.8,13.9,14.9,-2.9,524.74,4,fast_donchian+donchian_20+range_expansion+trend_continuation
+SWKS,"Skyworks Solutions, Inc.",Technology,-1.0,8.9,16.7,11.7,-1.0,82.42,4,fast_donchian+donchian_20+six_month_high+range_expansion
+CRWD,"CrowdStrike Holdings, Inc.",Technology,23.3,-3.4,42.1,38.3,36.3,663.46,3,fast_donchian+donchian_20+six_month_high
+FFIV,"F5, Inc.",Technology,11.0,22.0,17.7,32.4,28.8,393.63,3,fast_donchian+donchian_20+six_month_high
+TXN,Texas Instruments Incorporated,Technology,18.6,29.1,36.4,34.5,66.1,309.21,2,six_month_high+trend_continuation
+AMD,"Advanced Micro Devices, Inc.",Technology,37.8,13.4,52.4,104.6,260.3,467.51,2,six_month_high+trend_continuation
+ANET,"Arista Networks, Inc.",Technology,35.1,38.3,-11.8,0.3,44.5,154.03,2,fast_donchian+trend_continuation
+AMAT,"Applied Materials, Inc.",Technology,11.4,29.3,12.0,23.2,153.0,432.16,1,trend_continuation
+GLW,Corning Incorporated,Technology,20.0,11.1,15.5,44.0,314.2,194.05,1,trend_continuation
+INTC,Intel Corporation,Technology,7.2,-5.9,58.8,132.5,405.4,119.84,1,trend_continuation
+MPWR,"Monolithic Power Systems, Inc.",Technology,26.1,23.0,10.5,32.6,112.7,1589.81,1,trend_continuation
+ON,ON Semiconductor Corporation,Technology,4.7,9.5,41.5,56.6,150.2,116.2,1,trend_continuation
+QCOM,QUALCOMM Incorporated,Technology,-3.5,22.3,49.8,44.1,34.8,238.16,1,six_month_high
+SMCI,"Super Micro Computer, Inc.",Technology,122.7,,,,,35.58,1,six_month_high
+LNT,Alliant Energy Corporation,Utilities,5.0,18.6,-1.8,0.3,20.9,73.95,1,fast_donchian
+EVRG,"Evergy, Inc.",Utilities,5.0,,,,,83.94,1,fast_donchian
