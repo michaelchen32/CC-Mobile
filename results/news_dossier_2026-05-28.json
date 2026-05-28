@@ -1,0 +1,2138 @@
+{
+  "A": {
+    "ticker": "A",
+    "close": 137.59,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+gap_go+range_expansion+squeeze_release",
+    "trend": "up",
+    "name": "Agilent Technologies, Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.07,
+    "profit_margin": 0.18259001,
+    "market_cap": 38836621312,
+    "news": [
+      {
+        "title": "Agilent stock gets \u2019buy\u2019 upgrade from BofA after impressive quarterly beat",
+        "summary": "Investing.com -- Bank of America upgraded Agilent Technologies to \u201cBuy\u201d from \u201cNeutral,\u201d citing strong execution, market share gains, and resilience across key end markets despite broader concerns in the life sciences tools sector.",
+        "source": "Investing.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Agilent Technologies Q2 Earnings Beat Estimates, Revenues Up Y/Y",
+        "summary": "A beats Q2 earnings and revenue estimates as recurring revenue hits 66% of sales, but shares lost despite raised fiscal 2026 guidance.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Agilent Stock Is Having Its Best Day Since 2002. Earnings Leave Wall Street With \u2018Little to Pick At.\u2019",
+        "summary": "Agilent Technologies stock surges as Wall Street approves of the company\u2019s second-quarter earnings and guidance update.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Agilent Technologies Sees Broad-Based Growth Momentum on Product Cycles, End-Market Strength, RBC Says",
+        "summary": "Agilent Technologies (A) is benefiting from broad-based product cycle momentum and resilient end-mar",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Agilent Just Retook Its 200-Day Line. Here's What's Driving Its Bullish Move.",
+        "summary": "Agilent stock rocketed Thursday after the research tools outfit put up a broad fiscal second-quarter beat and biked its guidance.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "MSCI": {
+    "ticker": "MSCI",
+    "close": 624.49,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+six_month_high+squeeze_release+trend_continuation",
+    "trend": "up",
+    "name": "MSCI Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges",
+    "rev_growth_TTM": 0.141,
+    "profit_margin": 0.40737998,
+    "market_cap": 45421289472,
+    "news": [
+      {
+        "title": "Franklin Resources (BEN) Up 7.5% Since Last Earnings Report: Can It Continue?",
+        "summary": "Franklin Resources (BEN) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "MSCI poised to benefit from AI and systematic investing trends, Wells Fargo says",
+        "summary": "Investing.com -- Wells Fargo has upgraded MSCI to \u201cOverweight\u201d from \u201cEqual Weight,\u201d raising its price target to $700 from $650, citing accelerating demand for data-driven investment strategies and growing opportunities tied to artificial intelligence.",
+        "source": "Investing.com",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "FedEx upgraded, Dollar General downgraded: Wall Street's top analyst calls",
+        "summary": "FedEx upgraded, Dollar General downgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "AI Momentum Stocks Beat Global Markets by 17 Percentage Points",
+        "summary": "Tech inflows and AI enthusiasm pushed MSCI's momentum gauge toward its strongest two-month outperformance since 1991.",
+        "source": "GuruFocus.com",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Is MSCI (MSCI) Fairly Priced After Recent Mixed Share Price Performance?",
+        "summary": "If you are wondering whether MSCI is priced fairly or if the stock might be offering hidden value right now, this article walks through what the current market price could be telling you. MSCI shares last closed at US$588.55, with returns of 0.8% over 7 days, a slight decline of 0.7% over 30 days, a 4.1% gain year to date, and 6.8% over the past year, alongside longer term returns of 28.4% over 3 years and 32.9% over 5 years. Recent coverage of MSCI has focused on its role as a key index and...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "DLTR": {
+    "ticker": "DLTR",
+    "close": 112.75,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+volume_thrust+gap_go+range_expansion",
+    "trend": "weak",
+    "name": "Dollar Tree, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores",
+    "rev_growth_TTM": 0.09,
+    "profit_margin": 0.06607,
+    "market_cap": 21981577216,
+    "news": [
+      {
+        "title": "Costco earnings, April inflation data, Fedspeak: What to Watch",
+        "summary": "Asking for a Trend Host Josh Lipton previews several of the biggest stories to come tomorrow,&nbsp;Thursday, May 28, including earnings from retailers like Dollar Tree (DLTR), Best Buy (BBY), Kohl's (KSS), and Costco Wholesale (COST); the April reading on the Federal Reserve's preferred inflation gauge, the Personal Consumption Expenditures (PCE) report; and the latest commentary from top Fed officials.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Equity Markets Rise Intraday Amid US-Iran Deal Report",
+        "summary": "US benchmark equity indexes were higher intraday as traders parsed a report that Washington and Iran",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Stock Market Today: Nasdaq Leads Gains On Iran Deal Hopes; Best Buy, Dollar Tree Rocket Higher (Live Coverage)",
+        "summary": "Stock Market Today: The Dow Jones index rises Thursday on fresh hopes of a U.S.-Iran war truce. AI stock Snowflake soars on earnings.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "US Equity Indexes Rise Amid Rumors of Iran Peace Deal, Surprise Easing in Fed's Preferred Inflation Measure",
+        "summary": "US equity indexes rose amid speculation of an agreement over a path to end the war against Iran and",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Dollar Tree surges on strong first quarter earnings, boosted profit guidance",
+        "summary": "Dollar Tree, Inc. (NASDAQ:DLTR) shares jumped almost 18% on Thursday morning after the discount retailer reported stronger-than-expected earnings and upwardly revised its full-year profit guidance. Adjusted earnings per share were $1.74, above analyst expectations of $1.55. Revenue totaled...",
+        "source": "Proactive",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "HRL": {
+    "ticker": "HRL",
+    "close": 23.81,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+gap_go+range_expansion",
+    "trend": "weak",
+    "name": "Hormel Foods Corporation",
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods",
+    "rev_growth_TTM": -0.029,
+    "profit_margin": 0.0403,
+    "market_cap": 13116023808,
+    "news": [
+      {
+        "title": "Hormel Foods Q2 Earnings Call Highlights",
+        "summary": "Hormel Foods (NYSE:HRL) said its fiscal second-quarter results exceeded internal expectations, driven by organic sales growth across all three operating segments, improved margins and stronger manufacturing performance, particularly in turkey operations. Interim Chief Executive Officer Jeff Ettinge",
+        "source": "MarketBeat",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Hormel Foods Corporation Q2 2026 Earnings Call Summary",
+        "summary": "Moby summary of Hormel Foods Corporation's Q2 2026 earnings call",
+        "source": "Moby",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Hormel Foods Sales Rise as Turnaround Strategy Progresses",
+        "summary": "Hormel Foods posted higher fiscal second-quarter sales and said it achieved its sixth straight quarter of organic top-line growth as it reported progress in its turnaround strategy.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Stocks to Watch: Snowflake, Union Pacific, Dell",
+        "summary": "\u2197\ufe0f Snowflake (SNOW): Shares surged after the cloud-software company lifted its full-year outlook and struck a $6 billion deal with Amazon (AMZN) to access its chips. Amazon\u2019s shares ticked slightly lower.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Hormel Foods' Q2 Earnings Beat, Sales Gain on Segment Strength",
+        "summary": "Hormel Foods tops Q2 estimates as sales rise 2.5% on pricing, organic growth and stronger Retail, Foodservice and International profits.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "AXON": {
+    "ticker": "AXON",
+    "close": 445.85,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+range_expansion",
+    "trend": "down",
+    "name": "Axon Enterprise, Inc.",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.337,
+    "profit_margin": 0.06905,
+    "market_cap": 35893719040,
+    "news": [
+      {
+        "title": "Axon Enterprise, Inc (AXON) is Attracting Investor Attention: Here is What You Should Know",
+        "summary": "Zacks.com users have recently been watching Axon (AXON) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is Axon Enterprise (AXON) Fairly Priced After Recent Public Safety Tech Momentum?",
+        "summary": "Wondering if Axon Enterprise at around US$391 per share is offering value or asking you to pay up for its story is a fair place to start this valuation check. The stock is down 1.8% over the last week, 2.8% over the last month, 30.5% year to date and 47.9% over the past year, although it has gained 102.9% over three years and 176.4% over five years. Recent headlines around Axon have focused on its role in public safety technology and product adoption by law enforcement agencies, which helps...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Axon Enterprise Sees AI, Counter-Drone Demand Fueling Next Growth Wave",
+        "summary": "Axon Enterprise (NASDAQ:AXON) President Josh Isner said the company is seeing growing demand across counter-drone technology, artificial intelligence products, international markets and enterprise security, during a TD Cowen discussion with software analyst Andrew Sherman. Sherman opened by pointin",
+        "source": "MarketBeat",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Axon Enterprise Stock: Analyst Estimates & Ratings",
+        "summary": "Despite Axon Enterprise\u2019s weak performance relative to the broader market over the past year, Wall Street analysts maintain a bullish outlook on the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "AppLovin (APP) Stock Trades Up, Here Is Why",
+        "summary": "Shares of mobile app technology company AppLovin (NASDAQ:APP) jumped 3.6% in the afternoon session after reports indicated a major competitor, Meta Platforms, is not expected to bid on certain mobile advertising traffic, potentially opening up more of the market for AppLovin.",
+        "source": "StockStory",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "TMO": {
+    "ticker": "TMO",
+    "close": 487.42,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+range_expansion",
+    "trend": "down",
+    "name": "Thermo Fisher Scientific Inc",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.062,
+    "profit_margin": 0.15151,
+    "market_cap": 180652621824,
+    "news": [
+      {
+        "title": "QIAGEN Business Breakdown and Growth Drivers for 2026",
+        "summary": "QGEN targets steadier growth through 2027, leaning on new launches, Connect automation and QIAstat-Dx menu expansion amid choppy demand.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is Thermo Fisher Scientific Inc. (TMO) a Buy as RBC Restarts Coverage With Sector Perform Rating?",
+        "summary": "We recently compiled a list of the 10 Most Widely Held Stocks by Individuals in 2026. Thermo Fisher Scientific Inc. (NYSE:TMO) is among the most widely held stocks by individuals. TheFly reported on May 14 that RBC Capital restarted coverage of TMO with a Sector Perform rating and assigned a $490 price objective. The firm pointed [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Thermo Fisher (TMO) Sets a Bold 7% Annual Growth Target at Its 2026 Investor Day",
+        "summary": "Thermo Fisher Scientific Inc. (NYSE:TMO) is one of the best medical technology stocks to buy right now. On May 20, Thermo Fisher Scientific Inc. (NYSE:TMO) hosted its annual Investor Day in New York City, where CEO Marc N. Casper and the senior leadership team outlined the company\u2019s long-term financial targets and strategic priorities. A key [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "What Thermo Fisher Scientific (TMO)'s New Gothenburg Lab Expansion Means For Shareholders",
+        "summary": "Thermo Fisher Scientific recently opened a new bioanalytical and biomarker laboratory in Gothenburg, Sweden, enhancing its GLP-capable support for global drug development and expanding its PPD\u2122 Laboratory Services network alongside existing sites in the US and China. This expansion underlines Thermo Fisher\u2019s push to be a deeper end-to-end partner for pharma and biotech customers, particularly in complex modalities such as cell and gene therapies. We\u2019ll now examine how this expanded...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "1 S&P 500 Stock with Promising Prospects and 2 We Ignore",
+        "summary": "The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
+        "source": "StockStory",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "close": 1128.59,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.555,
+    "profit_margin": 0.34986,
+    "market_cap": 1006597701632,
+    "news": [
+      {
+        "title": "Stock Market Today, May 28: Tech Stocks Rise as Snowflake Surges After $6 Billion Amazon Deal and Strong Earnings",
+        "summary": "Today, May 28, 2026, investors piled into Snowflake after its Amazon pact and earnings beat, even as the Dow barely budged.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "CVS will add these weight-loss options to drug plans",
+        "summary": "CVS Health will reinstate coverage of Eli Lilly's weight-loss injectable Zepbound and begin coverage of the anti-obesity pill Foundayo.",
+        "source": "USA TODAY",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "LLY Stock Hits All-Time High \u2014 CVS Coverage Boost For Zepbound May Be Driving Gains",
+        "summary": "CVS Health\u2019s decision to expand formulary coverage for key GLP-1 therapies marks a boost for Eli Lilly's obesity drug business.",
+        "source": "Stocktwits",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Eli Lilly Stock Heads for Record Close. CVS Weight-Loss Drug Coverage Drives It Higher.",
+        "summary": "CVS Health\u2019s Caremark will resume insurance coverage of Eli Lilly\u2019s Zepbound and separately begin covering its Foundayo weight-loss pill.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Contrarian Opinion: Novo Nordisk Is A Better Buy Than Eli Lilly Right Now",
+        "summary": "Novo Nordisk lost its lead in the GLP-1 race, but Eli Lilly's valuation is a bit rich.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "DHR": {
+    "ticker": "DHR",
+    "close": 180.42,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Danaher Corporation",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.037,
+    "profit_margin": 0.14887999,
+    "market_cap": 127695978496,
+    "news": [
+      {
+        "title": "RBC Capital Resumes Coverage of Danaher Corporation (DHR)",
+        "summary": "Danaher Corporation (NYSE:DHR) is one of the best medical stocks to invest in according to billionaires. RBC Capital resumed coverage of Danaher Corporation (NYSE:DHR) with an Outperform rating on May 14, setting a price target of $200. The firm told investors in a research note that it sees the company\u2019s growth recovering with an improvement in [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Research Tools & Consumables Stocks Q1 Results: Benchmarking Danaher (NYSE:DHR)",
+        "summary": "Looking back on research tools & consumables stocks\u2019 Q1 earnings, we examine this quarter\u2019s best and worst performers, including Danaher (NYSE:DHR) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "A Look At Danaher (DHR) Valuation After Strong Q1 Earnings Beat And Raised Guidance",
+        "summary": "Danaher (DHR) drew fresh attention after strong first quarter results, with adjusted earnings per share ahead of expectations and full year guidance raised. This combination supported renewed interest in the stock. See our latest analysis for Danaher. Despite the positive Q1 surprise and raised guidance, Danaher\u2019s share price return is still down 25.35% year to date and the 1 year total shareholder return is down 6.15%. Recent momentum therefore remains fragile. If earnings driven moves in...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Danaher (DHR) Is Up 5.3% After Q1 Beat, EPS Hike And Biotech Momentum - What's Changed",
+        "summary": "In recent weeks, Danaher reported strong Q1 2026 results with an earnings beat, raised full\u2011year adjusted EPS guidance, and highlighted 7% core revenue growth in its Biotechnology segment, while also advancing its pending US$9.90 billion Masimo acquisition and showcasing innovation such as the AI\u2011native Genedata Vico platform and carbon\u2011capture filtration pilots at Pall. Together, these developments underscore how Danaher is reinforcing its position across diagnostics, bioprocessing, and...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Danaher Targets Carbon Capture And AI CMC To Shape Long Term Growth",
+        "summary": "Pall Corporation, a Danaher subsidiary, received government funding to pilot advanced filtration technology for carbon capture at engineering scale. Genedata, also part of Danaher, launched Genedata Vico, an AI native CMC solution co developed with major pharma partners and recognized with industry awards. For investors watching NYSE:DHR at a share price of $173.33, these updates highlight activity in both climate focused filtration and biopharma software. The stock is up 5.3% over the past...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "FICO": {
+    "ticker": "FICO",
+    "close": 1309.42,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Fair Isaac Corporation",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.387,
+    "profit_margin": 0.33675,
+    "market_cap": 30334865408,
+    "news": [
+      {
+        "title": "Fair Isaac (FICO) Up 22.5% Since Last Earnings Report: Can It Continue?",
+        "summary": "Fair Isaac (FICO) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Fair Isaac Corporation Stock: Analyst Estimates & Ratings",
+        "summary": "Fair Isaac Corporation has lagged behind the broader market over the past year, and analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "I Recently Bought an Artificial Intelligence (AI) Stock That I Predict Will Double by the End of 2026",
+        "summary": "Upstart is using artificial intelligence to transform the lending industry, which could yield significant rewards for shareholders.",
+        "source": "Motley Fool",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "If You Invested $1000 in Fair Isaac a Decade Ago, This is How Much It'd Be Worth Now",
+        "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Is FICO\u2019s UltraFICO Cash-Flow Push Quietly Redefining Its Data Moat And Pricing Power? (FICO)",
+        "summary": "Earlier in May 2026, FICO launched the next-generation UltraFICO Score, combining its traditional scoring model with real-time, consumer-permissioned cash flow data via Plaid to give lenders a richer, operationally simple view of credit risk. This move not only underscores FICO\u2019s push into open-banking-style data, but also positions the company to address financial inclusion concerns by helping lenders assess consumers with thin or uneven credit files more precisely. We\u2019ll now examine how...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "IQV": {
+    "ticker": "IQV",
+    "close": 180.0,
+    "n_det": 2,
+    "detectors": "fast_donchian+range_expansion",
+    "trend": "down",
+    "name": "IQVIA Holdings, Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.084,
+    "profit_margin": 0.08327,
+    "market_cap": 30041999360,
+    "news": [
+      {
+        "title": "Here's Why Investors Must Hold IQV Stock in Their Portfolios for Now",
+        "summary": "IQVIA's record $34.2B backlog, AI-led pharma demand and $1.24B buybacks support growth despite weak liquidity and no dividend.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "What Makes IQVIA Holdings (IQV) an Investment Bet?",
+        "summary": "Artisan Partners, an investment management company, released its first-quarter 2026 investor letter for \u201cArtisan Value Fund\u201d. A copy of the letter is available to download here. The Funds\u2019 Investor Class: ARTLX, Advisor Class: APDLX, and Institutional Class: APHLX returned -3.54%, -3.50%. and 3.50%, respectively, in Q1 vs, 2.10% return for the Russell 1000\u00ae Value Index. Performance [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Veeva Systems' AI & Vault CRM Strength Signal More Upside Ahead",
+        "summary": "VEEV's growing Vault CRM adoption and AI momentum, backed by major pharma wins, reinforce confidence in its long-term growth outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Are Wall Street Analysts Predicting IQVIA Holdings Stock Will Climb or Sink?",
+        "summary": "While IQVIA Holdings has lagged behind the SPX over the past year, Wall Street analysts maintain a bullish outlook on the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "Veeva Systems' RTSM Momentum Signals Another Long-Term Growth Driver",
+        "summary": "VEEV benefits from RTSM traction with major pharma wins, strengthening its clinical software strategy and long-term R&D growth outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "MOS": {
+    "ticker": "MOS",
+    "close": 23.98,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Mosaic Company (The)",
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs",
+    "rev_growth_TTM": 0.144,
+    "profit_margin": 0.0036199999,
+    "market_cap": 7620373504,
+    "news": [
+      {
+        "title": "What Mosaic (MOS)'s Q1 Loss and Pulled Phosphate Outlook Means For Shareholders",
+        "summary": "Earlier this month, The Mosaic Company reported first-quarter 2026 results showing sales of US$2,998 million but a net loss of US$257.6 million, reversing a profit a year earlier, and issued updated production and pricing guidance for its key potash and phosphate segments. A particularly important development was Mosaic\u2019s decision to withdraw full-year 2026 phosphate production guidance as it reassesses operating rates amid shifting raw material markets, highlighting increased uncertainty...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "The 30-Year Treasury Just Crossed 5%. Here Are 2 Hard Asset Stocks Under $40 Built for What Comes Next",
+        "summary": "Long bonds are doing something they have not done in years: pricing real risk. With the 10-year Treasury at 4.67% and the 20- and 30-year already above 5%, capital is rotating out of duration-sensitive growth and into companies that actually make stuff out of the ground. That backdrop favors value cyclicals: energy producers, miners, and ... The 30-Year Treasury Just Crossed 5%. Here Are 2 Hard Asset Stocks Under $40 Built for What Comes Next",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "Brazil Potash: Autazes Project De-Risking as Financing Visibility Improves  \u2013 Quarterly Update Report",
+        "summary": "Download the Complete Report Here Brazil Potash Corp. (GRO) FEED Award and Equity Raise Improve Autazes Financing Visibility; 1Q26 Execution Supports Continued Project De-Risking. Valuation Remains Attractive. Key Takeaways: FEED award moves Autazes toward lender-ready execution planning, with Wood and Promon strengthening technical credibility and Brazilian delivery capability. The $63.3 million equity raise materially improves [\u2026]",
+        "source": "Exec Edge",
+        "pub": "2026-05-14"
+      }
+    ]
+  },
+  "TDG": {
+    "ticker": "TDG",
+    "close": 1263.48,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Transdigm Group Incorporated",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.183,
+    "profit_margin": 0.21909,
+    "market_cap": 70673760256,
+    "news": [
+      {
+        "title": "HEICO Q2 Earnings Beat Estimates, Sales Increase Year Over Year",
+        "summary": "HEI tops fiscal Q2 EPS and sales estimates as net sales rose 25.3% to $1.38 billion, margins widen to 25.5%, and record net income hits $233.8 million.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is TransDigm\u2019s Upgraded 2026 Outlook After Strong Q2 Results Altering The Investment Case For TDG?",
+        "summary": "Earlier in May 2026, TransDigm Group reported Q2 results with revenue and adjusted EPS above analyst forecasts and raised its full-year 2026 outlook, reflecting solid demand for its aerospace components. The upgraded guidance highlights how stronger-than-expected operating momentum may influence expectations for the company\u2019s earnings power and cash generation profile. Next, we\u2019ll examine how TransDigm\u2019s upgraded 2026 outlook following its strong Q2 performance could reshape the company\u2019s...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Are Wall Street Analysts Bullish on TransDigm Group Stock?",
+        "summary": "While TransDigm Group has considerably underperformed the broader market over the past 52 weeks, Wall Street analysts maintain a moderately optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "4 High-Flying Stocks Stubbornly Resist Splits\u2014Here\u2019s Which Might Crack First",
+        "summary": "The stock split is back in fashion. Yet a small club of high-priced names has refused to play along for decades, even as peers embrace splits to court retail investors. Four stand out: AutoZone (NYSE: AZO) has not split since its 1991 IPO, Goldman Sachs (NYSE: GS) has not split since 2000, NVR (NYSE: NVR) ... 4 High-Flying Stocks Stubbornly Resist Splits\u2014Here\u2019s Which Might Crack First",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Elbit Systems to Post Q1 Earnings: What's in Store for the Stock?",
+        "summary": "ESLT heads into Q1 2026 earnings with rising defense demand, a record backlog and a new UAV acquisition boosting its global reach.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "close": 273.83,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "rev_growth_TTM": 0.166,
+    "profit_margin": 0.12224,
+    "market_cap": 2944973930496,
+    "news": [
+      {
+        "title": "Anthropic more valuable than OpenAI in latest funding round",
+        "summary": "Anthropic is more valuable than OpenAI in latest funding round.",
+        "source": "Yahoo Finance",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Anthropic raises $65B in Series H funding at $965B valuation",
+        "summary": "Investing.com -- Anthropic has raised $65 billion in Series H funding at a post-money valuation of $965 billion, the artificial intelligence company announced Thursday.",
+        "source": "Investing.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Anthropic overtakes OpenAI as the most valuable AI startup",
+        "summary": "Anthropic raised $65 billion in a Series H funding round, valuing the AI lab at $965 billion post-money, in one of the largest private funding rounds in tech history.",
+        "source": "Axios",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Stock Market Today, May 28: Tech Stocks Rise as Snowflake Surges After $6 Billion Amazon Deal and Strong Earnings",
+        "summary": "Today, May 28, 2026, investors piled into Snowflake after its Amazon pact and earnings beat, even as the Dow barely budged.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Anthropic passes OpenAI to become biggest AI startup in the world",
+        "summary": "Anthropic also unveiled Claude Opus 4.8, an upgrade to its Opus class of models with stronger performance across coding, agentic tasks, and professional work",
+        "source": "Quartz",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "APP": {
+    "ticker": "APP",
+    "close": 605.1,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Applovin Corporation",
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies",
+    "rev_growth_TTM": 0.59,
+    "profit_margin": 0.6429,
+    "market_cap": 202850369536,
+    "news": [
+      {
+        "title": "US High Growth Tech Stocks To Watch",
+        "summary": "Over the last 7 days, the United States market has risen 1.3% and over the past 12 months, it is up by an impressive 28%, with earnings forecasted to grow by 17% annually. In this robust environment, identifying high growth tech stocks involves looking for companies that demonstrate strong innovation potential and scalability in line with these positive market trends.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Coherent vs. AppLovin: Which AI Growth Stock is Better Positioned?",
+        "summary": "Coherent's AI infrastructure demand, rising bookings and strong liquidity give COHR an edge over APP's premium valuation.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "High Insider Ownership Growth Stocks To Watch In May 2026",
+        "summary": "Over the last 7 days, the United States market has risen by 1.3%, contributing to a robust 28% increase over the past year, with earnings expected to grow by 17% annually. In this thriving environment, growth companies with high insider ownership can be particularly appealing as they often signal confidence from those closest to the business and may align well with current market optimism.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Analyst resets AppLovin stock forecast on hidden metric",
+        "summary": "AppLovin has already become one of Wall Street\u2019s more closely watched artificial-intelligence advertising stories. The company\u2019s growth has been fast enough to raise a different question for investors: How much more can it squeeze out of mobile ads after such a large run? Morgan Stanley says the ...",
+        "source": "TheStreet",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Why Wall Street Still Sees More Upside In AppLovin (APP)",
+        "summary": "With a five-year EPS forecast of 41.31%, AppLovin Corporation (NASDAQ:APP) is among the 12 Best Future Stocks to Buy Right Now. On May 7, Deutsche Bank raised its price target on AppLovin Corporation (NASDAQ:APP) to $660 from $640 while maintaining a Buy rating on the shares. The target increase reflects continued confidence in AppLovin\u2019s ability to execute [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "CZR": {
+    "ticker": "CZR",
+    "close": 29.06,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Caesars Entertainment, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos",
+    "rev_growth_TTM": 0.027,
+    "profit_margin": -0.041950002,
+    "market_cap": 5916814848,
+    "news": [
+      {
+        "title": "Caesars Entertainment to be bought by Fertitta Entertainment in $17.6 billion deal",
+        "summary": "Casino giant Caesars Entertainment is set to be acquired by Fertitta Entertainment in a $17.6 billion all-cash deal.",
+        "source": "Yahoo Finance",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Tilman Fertitta to acquire Caesars Entertainment for $5.7B",
+        "summary": "The deal, which also includes $11.9 billion in debt, would create a giant network of casinos, hotels and restaurants.",
+        "source": "Nation's Restaurant News",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Caesars Entertainment buyout potential catalyst for broader casino consolidation, says Jefferies",
+        "summary": "Caesars Entertainment Inc (NASDAQ:CZR) is set to be acquired by Fertitta Entertainment in an all-cash deal valued at approximately $17.6 billion, including about $11.9 billion in outstanding debt. Under the agreement, Caesars shareholders will receive $31 per share in cash, representing a 49%...",
+        "source": "Proactive",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Top Midday Stories: US Reportedly Reaches Deal With Iran, Needs Trump's Approval; Caesars to be Acquired by Fertitta for $17.6 Billion",
+        "summary": "The S&P 500 and Nasdaq Composite were up, while the Dow Jones Industrial Average was down slightly i",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Why Is Caesars Entertainment (CZR) Up 5.1% Since Last Earnings Report?",
+        "summary": "Caesars Entertainment (CZR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "FDS": {
+    "ticker": "FDS",
+    "close": 243.0,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "FactSet Research Systems Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges",
+    "rev_growth_TTM": 0.071,
+    "profit_margin": 0.24481001,
+    "market_cap": 8874987520,
+    "news": [
+      {
+        "title": "Costco Sales Accelerate, Analysts Lift Targets With Earnings Due",
+        "summary": "Costco releases Q3 results late Thursday as retailers warn that higher fuel prices and inflation pressures could hit consumer spending.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Update: Photronics Shares Fall Following Fiscal Q2 Miss, Weak Fiscal Q3 Guidance",
+        "summary": "(Updates with the latest stock movement in the headline and the first paragraph, and clarifies fisca",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Burlington Stores Lifts Full-Year Guide; Second-Quarter Outlook Implies Comparable Sales Slowdown",
+        "summary": "Burlington Stores (BURL) raised its full-year outlook on Thursday, while the off-price retailer's gu",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Here's Why TT Stock Is a Compelling Pick for You Right Now",
+        "summary": "Trane Technologies stock gains 11.6% in six months as booming HVAC demand, AI-driven cooling demand and a record backlog fuel growth prospect.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Best Buy Reports Higher Profit on Rising Sales",
+        "summary": "Best Buy reported a higher profit and rising sales in the first quarter, boosted by strong gaming, computer and cellphone demand.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "ORCL": {
+    "ticker": "ORCL",
+    "close": 204.14,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Oracle Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "rev_growth_TTM": 0.217,
+    "profit_margin": 0.25298,
+    "market_cap": 587202297856,
+    "news": [
+      {
+        "title": "Palantir vs. Oracle in 2026. Which One Is the Better Buy Right Now?",
+        "summary": "Oracle may be the more balanced AI bet for investors focused on valuation and long-term upside.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "After Comparing Every Generative AI ETF These 3 Capture the Software Layer Most Investors Miss",
+        "summary": "Most capital chasing the generative AI theme has flowed into chips. Semiconductor funds have absorbed the bulk of inflows, and the price action shows it: the iShares Semiconductor ETF (NASDAQ:SOXX) is up 87% year to date. The software layer, where applications, model providers, and enterprise platforms turn raw compute into recurring revenue, has trailed that ... After Comparing Every Generative AI ETF These 3 Capture the Software Layer Most Investors Miss",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Oracle at $192: Buy, Sell or Hold?",
+        "summary": "At $192.08, Oracle (NYSE:ORCL) screens favorably on backlog and valuation, with shares down sharply from last fall\u2019s peak but sitting on an AI cloud backlog few peers can match. The market has repriced this stock twice in nine months, first as an AI infrastructure winner, then as a capex-bleeding hyperscaler-in-training. Oracle sells database software, enterprise ... Oracle at $192: Buy, Sell or Hold?",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "3 Software Stocks to Watch as the Industry Grapples With Headwinds",
+        "summary": "Amid broader market volatility, steady digital transformation and strong adoption of AI bode well for Computer Software industry participants like ORCL, INTU and PRGS",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Can ServiceNow Sustain Its Growth Amid Rising AI Competition?",
+        "summary": "NOW is betting on governance, security and enterprise integration to sustain growth and capture larger AI budgets.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "WAT": {
+    "ticker": "WAT",
+    "close": 362.76,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Waters Corporation",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.914,
+    "profit_margin": 0.11926,
+    "market_cap": 35625263104,
+    "news": [
+      {
+        "title": "Are Wall Street Analysts Bullish on Waters Corporation Stock?",
+        "summary": "Waters Corporation has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Waters' (NYSE:WAT) Anemic Earnings Might Be Worse Than You Think",
+        "summary": "The latest earnings report from Waters Corporation ( NYSE:WAT ) disappointed investors. Our analysis suggests that...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "The 5 Most Interesting Analyst Questions From Waters Corporation\u2019s Q1 Earnings Call",
+        "summary": "Waters Corporation\u2019s first quarter saw a strong market response, as the company delivered results ahead of Wall Street\u2019s revenue and earnings expectations despite headline sales declining year over year. Management pointed to robust organic growth in its legacy divisions and better-than-expected early performance from recently acquired Biosciences and Diagnostic Solutions businesses. CEO Udit Batra credited the swift execution of a 180-day integration plan and operational improvements for drivin",
+        "source": "StockStory",
+        "pub": "2026-05-15"
+      }
+    ]
+  },
+  "WST": {
+    "ticker": "WST",
+    "close": 323.33,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "West Pharmaceutical Services, I",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies",
+    "rev_growth_TTM": 0.21,
+    "profit_margin": 0.16849001,
+    "market_cap": 22842839040,
+    "news": [
+      {
+        "title": "Natera to Launch Enhanced Panorama NIPT for Low Fetal Fractions",
+        "summary": "NTRA upgrades Panorama NIPT with SNP-informed deep sequencing, validated for low fetal fraction to cut no-calls and boost reliable prenatal results.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Stryker Launches Pangea Plating System in Europe for Fracture Fixation",
+        "summary": "SYK launches Pangea Plating System in Europe, completing its first London case as it broadens trauma care solutions for many fractures.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Here's Why You Should Add BrightSpring Stock to Your Portfolio Now",
+        "summary": "BTSG leans on surging Specialty & Infusion and integrated home health branches, but IRA and generic shifts may pressure 2026 margins.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Natera Expands Austin Operations With New Sequencing Facility",
+        "summary": "NTRA is expanding in Austin with what it says will be the world's largest sequencing capacity as oncology testing demand keeps surging.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on West Pharmaceutical Services Stock?",
+        "summary": "West Pharmaceutical Services has considerably outperformed the broader market over the past 52 weeks, and Wall Street analysts maintain a highly optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "ALGN": {
+    "ticker": "ALGN",
+    "close": 173.44,
+    "n_det": 2,
+    "detectors": "fast_donchian+range_expansion",
+    "trend": "weak",
+    "name": "Align Technology, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies",
+    "rev_growth_TTM": 0.062,
+    "profit_margin": 0.10496,
+    "market_cap": 12416792576,
+    "news": [
+      {
+        "title": "Align Technology Highlights New Invisalign Solutions, Financing and Global Growth",
+        "summary": "Align Technology (NASDAQ:ALGN) executives highlighted product innovation, financing initiatives and international expansion as key growth drivers during a discussion at the 2026 Stifel Jaws & Paws Conference. Chief Financial Officer John Morici, joined by Shirley Stacy, vice president of financ",
+        "source": "MarketBeat",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Align Technology (ALGN): Record Aligner Shipments and Stifel Stays Bullish at $210",
+        "summary": "Align Technology, Inc. (NASDAQ:ALGN) is one of the best medical technology stocks to buy right now. On May 18, Stifel analyst Jonathan Block reaffirmed his Buy rating and $210 price target on Align Technology, Inc. (NASDAQ:ALGN) following a routine update to the firm\u2019s financial model. Align Technology (ALGN): Record Aligner Shipments and Stifel Stays Bullish [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "What Are Wall Street Analysts' Target Price for Align Technology Stock?",
+        "summary": "Align Technology has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Align Technology to establish $200m manufacturing facility in India",
+        "summary": "The planned Hyderabad site will strengthen Align\u2019s global operations.",
+        "source": "Hospital Management",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Will Align\u2019s US$200 Million India Plant Shift Align Technology's (ALGN) Global Expansion and Efficiency Narrative?",
+        "summary": "Align Technology recently disclosed plans to invest about US$200,000,000 in a new clear-aligner manufacturing facility in Hyderabad, India, scheduled to open in 2027 and create more than 300 direct jobs as its first production site in the country. This expansion, alongside Align\u2019s existing Global Capability Center and Innovation Center in Hyderabad, points to a deeper integration of Indian operations into its global supply chain and manufacturing footprint. Next, we\u2019ll examine how this...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "CRL": {
+    "ticker": "CRL",
+    "close": 183.26,
+    "n_det": 2,
+    "detectors": "fast_donchian+range_expansion",
+    "trend": "weak",
+    "name": "Charles River Laboratories Inte",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.012,
+    "profit_margin": -0.04585,
+    "market_cap": 8830108672,
+    "news": [
+      {
+        "title": "Are Wall Street Analysts Bullish on Charles River Laboratories Stock?",
+        "summary": "Charles River Laboratories has underperformed the S&P 500 over the past 52 weeks, yet Wall Street analysts maintain a highly optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Is Charles River (CRL) Quietly Recasting Its Moat Around AI Pathology And Cell Therapy Services?",
+        "summary": "Earlier in May 2026, Charles River Laboratories and MEDIPOST signed a non-exclusive MOU to collaborate on GMP-compliant testing and commercialization support for cell therapies across APAC and North America, while the company also highlighted major AI-enabled enhancements to its end-to-end digital pathology platform. Together, these moves strengthen Charles River\u2019s role in advanced biologics and cell therapies while using AI-driven workflows to speed studies and support reduced animal use...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-24"
+      },
+      {
+        "title": "Charles River Laboratories (CRL) is a Top-Ranked Value Stock: Should You Buy?",
+        "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+        "source": "Zacks",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "Drug Development Inputs & Services Stocks Q1 In Review: Charles River Laboratories (NYSE:CRL) Vs Peers",
+        "summary": "Looking back on drug development inputs & services stocks\u2019 Q1 earnings, we examine this quarter\u2019s best and worst performers, including Charles River Laboratories (NYSE:CRL) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "The 5 Most Interesting Analyst Questions From Charles River Laboratories\u2019s Q1 Earnings Call",
+        "summary": "Charles River Laboratories\u2019 first quarter results reflected a mix of ongoing business transformation and operational adjustments. Management pointed to the impact of strategic divestitures, portfolio optimization, and cost-saving measures as key factors shaping performance. CEO Birgit Girshick highlighted that \u201cincremental efficiency initiatives and divestitures\u201d were central to margin improvement efforts, while the company also navigated discrete margin headwinds, including higher costs in its",
+        "source": "StockStory",
+        "pub": "2026-05-18"
+      }
+    ]
+  },
+  "EXR": {
+    "ticker": "EXR",
+    "close": 145.74,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Extra Space Storage Inc",
+    "sector": "Real Estate",
+    "industry": "REIT - Industrial",
+    "rev_growth_TTM": 0.038,
+    "profit_margin": 0.27142,
+    "market_cap": 32188209152,
+    "news": [
+      {
+        "title": "UBS Reaffirms Buy on Extra Space Storage (EXR) After PT Increase",
+        "summary": "Extra Space Storage Inc. (NYSE:EXR) is included among the 10 Best June Dividend Stocks to Buy. On May 18, UBS analyst Michael Goldsmith raised the firm\u2019s price recommendation on Extra Space Storage Inc. (NYSE:EXR) to $158 from $148. He reiterated a Buy rating on the shares. During the company\u2019s Q1 2026 earnings call, CEO and [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "A Look At Extra Space Storage (EXR) Valuation As Shares Show Mixed Recent Performance",
+        "summary": "Extra Space Storage stock: recent performance snapshot Extra Space Storage (EXR) has drawn investor attention after a mixed stretch, with the stock up around 1% over the past month but down about 6% over the past 3 months. Against that choppy share performance, the company reports revenue of US$3.48b and net income of US$942.35m. This gives investors a large, established self storage REIT to assess on both income stability and valuation grounds. See our latest analysis for Extra Space...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on Extra Space Storage Stock?",
+        "summary": "While Extra Space Storage has considerably underperformed the broader market over the past 52 weeks, Wall Street analysts maintain a moderately optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "GD": {
+    "ticker": "GD",
+    "close": 349.45,
+    "n_det": 2,
+    "detectors": "fast_donchian+squeeze_release",
+    "trend": "weak",
+    "name": "General Dynamics Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.103,
+    "profit_margin": 0.08068,
+    "market_cap": 94499119104,
+    "news": [
+      {
+        "title": "Kyiv struck by large-scale Russian attack after warning of Oreshnik launch",
+        "summary": "Investing.com -- Russian forces launched a major overnight missile and drone attack on Kyiv early Sunday, injuring at least three people and damaging residential buildings across the Ukrainian capital, local officials said.",
+        "source": "Investing.com",
+        "pub": "2026-05-24"
+      },
+      {
+        "title": "How Investors May Respond To General Dynamics (GD) Q1 Beat And Record US$131 Billion Backlog",
+        "summary": "In the past few days, General Dynamics reported Q1 2026 results that exceeded Wall Street expectations, with revenue up 10.3% year-on-year and adjusted EPS of US$4.10, supported by over US$26.00 billion in new orders that lifted its total backlog to US$131.00 billion. The combination of stronger-than-expected earnings and a record multi-year backlog underlines how demand across Aerospace and Marine Systems is feeding into both near-term performance and longer-term revenue visibility. We\u2019ll...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Possible Bearish Signals With General Dynamics Insiders Disposing Stock",
+        "summary": "Many General Dynamics Corporation ( NYSE:GD ) insiders ditched their stock over the past year, which may be of interest...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "U.S. denies Taiwan arms sale pause due to Iran munition needs \u2013 Reuters",
+        "summary": "Investing.com \u2014 U.S. arms sales to Taiwan are subject to multi-year administrative processing timelines and remain entirely separate from ongoing military operations in the Middle East, according to a source familiar with the matter reported exclusively by Reuters on Saturday.",
+        "source": "Investing.com",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Our Cadre Holdings Pick Has Disappointed. We\u2019re Sticking With It.",
+        "summary": "The stock is down 32% since Barron\u2019s highlighted it but there are reasons to expect better returns going forward.",
+        "source": "Barrons.com",
+        "pub": "2026-05-23"
+      }
+    ]
+  },
+  "HSIC": {
+    "ticker": "HSIC",
+    "close": 76.65,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Henry Schein, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Distribution",
+    "rev_growth_TTM": 0.063,
+    "profit_margin": 0.029509999,
+    "market_cap": 8738554880,
+    "news": [
+      {
+        "title": "Is This the Right Time to Keep HSIC Stock in Your Portfolio?",
+        "summary": "Henry Schein is backed by a dental and medical distribution scale, digital dentistry push and acquisitions, but debt and macro headwinds weigh on its outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "3 Small-Cap Stocks We\u2019re Skeptical Of",
+        "summary": "Small-cap stocks can be incredibly lucrative investments because their lack of analyst coverage leads to frequent mispricings. However, these businesses (and their stock prices) often stay small because their subscale operations make it harder to expand their competitive moats.",
+        "source": "StockStory",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "Assessing Henry Schein (HSIC) Valuation After Recent Uneven Share Price Performance",
+        "summary": "Henry Schein (HSIC) is drawing fresh attention as investors reassess the stock after recent share price swings. The company\u2019s mixed near term returns contrast with its longer term performance profile and current valuation metrics. See our latest analysis for Henry Schein. Recent share price swings reflect this tension, with a 7 day share price return of 5.44% after a weaker 30 day share price return of 7.48% and a 1 year total shareholder return of 1.60%. This suggests that momentum has been...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "Henry Schein Highlights Dental Momentum, $125M Savings Goal Despite Medical Softness",
+        "summary": "Henry Schein (NASDAQ:HSIC) executives said the company is seeing continued momentum in its dental business and remains committed to previously outlined operating improvement targets, while acknowledging softness in medical tied to a weaker respiratory illness season. Speaking at a Bank of America h",
+        "source": "MarketBeat",
+        "pub": "2026-05-17"
+      },
+      {
+        "title": "What Lone Peak\u2019s $20 Million Thermon Exit Could Signal After Record Earnings",
+        "summary": "Thermon Group delivers industrial heating solutions worldwide, serving sectors from energy and transit to tech and manufacturing.",
+        "source": "Motley Fool",
+        "pub": "2026-05-17"
+      }
+    ]
+  },
+  "LMT": {
+    "ticker": "LMT",
+    "close": 536.91,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Lockheed Martin Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.003,
+    "profit_margin": 0.06382,
+    "market_cap": 123796520960,
+    "news": [
+      {
+        "title": "Lockheed Martin Javelin Launcher Delivery Highlights Valuation Gap And Growth Watchpoints",
+        "summary": "Lockheed Martin (NYSE:LMT) and Raytheon\u2019s Javelin Joint Venture delivered the first Lightweight Command Launch Units to the U.S. Army. The Lightweight Command Launch Unit is described as a next generation launcher with reduced size and weight and updated performance for the Javelin system. This delivery marks a shift from prior updates on factory output and munitions capacity toward fielded hardware in the hands of end users. For investors watching NYSE:LMT, this milestone sits in the core...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "SCHD\u2019s $71.6 Billion Portfolio Delivers 20% Gains Plus 3.3% Yield This Year",
+        "summary": "Schwab U.S. Dividend Equity ETF (NYSEARCA:SCHD) has become one of the most-owned dividend funds in the country, with $71.6 billion in assets and a 0.06% expense ratio. SCHD currently yields roughly 3.3% and has delivered a 20% year-to-date price return on top of income, outpacing the S&P 500. The key question is whether the distribution ... SCHD\u2019s $71.6 Billion Portfolio Delivers 20% Gains Plus 3.3% Yield This Year",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "RTX (RTX)\u2019s The Javelin Joint Venture Makes its First LWCLU Delivery",
+        "summary": "RTX Corporation (NYSE:RTX) is one of the 10 Best Stocks in Steve Cohen\u2019s Portfolio. On May 26, 2026, The Javelin Joint Venture, a partnership between Raytheon, a subsidiary of RTX Corporation (NYSE:RTX), and Lockheed Martin (LMT), delivered its first Lightweight Command Launch Units (LWCLU) to the U.S. Army. The next-generation system reduces size by 30%, [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "U.S. Scores Major Rare Earth Win With Greenland Deposit Deal",
+        "summary": "REalloys secures a 15-year offtake deal for heavy rare earths from Greenland's Tanbreez project, adding critical dysprosium and terbium supply ahead of the Pentagon's 2027 China ban.",
+        "source": "Oilprice.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "The SpaceX Halo Effect: What\u2019s Next For Sky-High Redwire Stock?",
+        "summary": "Redwire (RDW) presents a complex setup right now. The stock is caught between explosive top-line growth fueled by real defense hardware demand and significant profitability challenges. Following its recent surge past $24 in late May 2026, the company's valuation leaves very little margin for error, reflecting a high degree of optimism in a highly speculative space sector.",
+        "source": "Trefis",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "RTX": {
+    "ticker": "RTX",
+    "close": 179.49,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "RTX Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.087,
+    "profit_margin": 0.080290005,
+    "market_cap": 241743134720,
+    "news": [
+      {
+        "title": "RTX (RTX)\u2019s The Javelin Joint Venture Makes its First LWCLU Delivery",
+        "summary": "RTX Corporation (NYSE:RTX) is one of the 10 Best Stocks in Steve Cohen\u2019s Portfolio. On May 26, 2026, The Javelin Joint Venture, a partnership between Raytheon, a subsidiary of RTX Corporation (NYSE:RTX), and Lockheed Martin (LMT), delivered its first Lightweight Command Launch Units (LWCLU) to the U.S. Army. The next-generation system reduces size by 30%, [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "RTX Corporation (RTX) Is a Trending Stock: Facts to Know Before Betting on It",
+        "summary": "RTX (RTX) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Top Stock Reports for RTX, Wells Fargo & Amgen",
+        "summary": "RTX builds a $271B backlog on defense demand and recovering air travel, but tariffs and supply-chain issues cloud growth.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "3 Defense Giants Boosting Dividends as Shares Take a Ride",
+        "summary": "Northrop Grumman and two other large defense stocks just announced significant increases to their dividends as shares swing in 2026.",
+        "source": "MarketBeat",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "GE Benefits From Strong Order Growth: A Sign for More Upside?",
+        "summary": "GE Aerospace is seeing strong engine demand and defense contract wins that continue to fuel order momentum.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "TPR": {
+    "ticker": "TPR",
+    "close": 144.35,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "weak",
+    "name": "Tapestry, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Luxury Goods",
+    "rev_growth_TTM": 0.212,
+    "profit_margin": 0.08442,
+    "market_cap": 29184350208,
+    "news": [
+      {
+        "title": "DLTR Q1 Earnings Beat Estimates on Margin Gains and Higher Comps",
+        "summary": "Dollar Tree beats Q1 estimates as stronger comps, margin gains and lower freight costs lift earnings, while FY26 EPS guidance moves higher.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "BBWI Stock Jumps 10% on Q1 Earnings Beat & Growth Strategy Optimism",
+        "summary": "Bath & Body Works beats Q1 earnings estimates as Consumer First Formula gains traction, with management targeting stronger momentum through 2026 and 2027.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "DICK'S Sporting Q1 Earnings Miss Estimates, Comparable Sales Up 6%",
+        "summary": "DKS posts Q1 results with sales strength from the Foot Locker addition and healthy comps, but earnings slip and come in just shy of expectations",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Capri Holdings Beats Q4 Earnings Estimates, Sees FY27 Growth Ahead",
+        "summary": "CPRI projects FY27 revenue and EPS growth after Q4 earnings beat estimates, as Michael Kors and Jimmy Choo show improving trends.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Amazon licenses Alexa for Shopping AI technology to retailers",
+        "summary": "The AWS Agentic Shopping Assistant packages the architecture behind Alexa for Shopping, and Kate Spade has already deployed it",
+        "source": "Quartz",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "WY": {
+    "ticker": "WY",
+    "close": 24.57,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "weak",
+    "name": "Weyerhaeuser Company",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty",
+    "rev_growth_TTM": -0.02,
+    "profit_margin": 0.057800002,
+    "market_cap": 17718614016,
+    "news": [
+      {
+        "title": "Dycom to Report Q1 Earnings: Here's What to Expect This Season",
+        "summary": "DY heads into Q1 with rising AI-driven fiber demand, BEAD tailwinds and a projected 19% jump in backlog ahead of earnings.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "How Weyerhaeuser's New Cash-Return Framework Could Reshape WY Investors' Total-Return Expectations",
+        "summary": "Earlier this year, Weyerhaeuser\u2019s board declared a quarterly base cash dividend of US$0.21 per share, payable on June 22, 2026, to shareholders of record as of June 5, 2026. The company also outlined a plan to return 75 to 80 percent of annual Adjusted Funds Available for Distribution through a mix of base dividends, potential supplemental dividends, and opportunistic share repurchases, highlighting a clearer framework for returning cash to investors. Now we\u2019ll examine how this commitment to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-15"
+      }
+    ]
+  },
+  "CTSH": {
+    "ticker": "CTSH",
+    "close": 53.99,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Cognizant Technology Solutions ",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "rev_growth_TTM": 0.058,
+    "profit_margin": 0.10413,
+    "market_cap": 25534904320,
+    "news": [
+      {
+        "title": "A Look At Cognizant Technology Solutions (CTSH) Valuation After Recent Share Price Weakness",
+        "summary": "How Cognizant Technology Solutions (CTSH) stock has been moving Cognizant Technology Solutions (CTSH) has caught investor attention after a period of mixed share performance, with the stock down over the past month and past 3 months despite positive annual revenue and net income growth. See our latest analysis for Cognizant Technology Solutions. At a share price of $51.81, Cognizant\u2019s momentum has been fading, with the stock down over the year to date and the 1 year total shareholder return...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Why Cognizant (CTSH) is a Top Growth Stock for the Long-Term",
+        "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "As Zscaler Doubles Down on AI Security, ZS Stock Still Needs More to Justify Its Steep Valuation",
+        "summary": "Zscaler is leaning hard into AI security with a new acquisition and fresh product pushes, but the stock still needs stronger execution to justify its premium.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "DXC and Grid Dynamics Stocks Trade Up, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after sentiment improved as the broader market rallied on Iran peace deal progress and cooling Treasury yields.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Here's Why Cognizant (CTSH) is a Strong Value Stock",
+        "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+        "source": "Zacks",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "DG": {
+    "ticker": "DG",
+    "close": 110.54,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Dollar General Corporation",
+    "sector": "Consumer Defensive",
+    "industry": "Discount Stores",
+    "rev_growth_TTM": 0.059,
+    "profit_margin": 0.0354,
+    "market_cap": 24336109568,
+    "news": [
+      {
+        "title": "Ulta Beauty Set to Release Q1 Earnings: Key Insights for Investors",
+        "summary": "ULTA gears up for first-quarter earnings with sales growth expected as loyalty, digital engagement and exclusive beauty launches drive demand.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Dollar Stores\u2019 Stock Rally Bucks the Trend for Low-End Retailers",
+        "summary": "The stock response is unlike that of other consumer companies that tend to serve lower-income consumers.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Dollar Tree Soars 17%, Dollar General Jumps 5%: Here\u2019s Why Discount Store Stocks Are Catching a Bid",
+        "summary": "Shares of Dollar Tree (NASDAQ:DLTR) are up 17% in early trading Thursday, jumping from $95.87 to roughly $112 after the discount retailer posted a sizable Q1 FY2026 beat and raised its full-year profit outlook. Peer Dollar General (NYSE:DG) is riding the sympathy wave, with DG stock up 5% ahead of its own earnings report on ... Dollar Tree Soars 17%, Dollar General Jumps 5%: Here\u2019s Why Discount Store Stocks Are Catching a Bid",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Dollar Tree Stock Surges After Earnings. The Retailer Has a Big New Delivery Partner.",
+        "summary": "Earlier Thursday, delivery platform  DoorDash  announced a partnership with  Dollar Tree  to offer on-demand delivery from the retailer\u2019s U.S. stores.  Dollar Tree stock spiked 17%.  Shares had tumbled 22% in 2026\u2014the company\u2019s first calendar year since selling Family Dollar at an enormous loss last summer.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "What's Ollie's Bargain Probability of an Earnings Beat This Season?",
+        "summary": "OLLI nears Q1 results on June 3 as investors weigh comp sales, margins, store growth and sourcing after a 22.5% three-month slide.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "IDXX": {
+    "ticker": "IDXX",
+    "close": 568.05,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "IDEXX Laboratories, Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.143,
+    "profit_margin": 0.24634,
+    "market_cap": 44828418048,
+    "news": [
+      {
+        "title": "IDEXX Laboratories (IDXX) Embeds an Early Kidney Disease Detector Into Its Most Popular Test Profile",
+        "summary": "IDEXX Laboratories, Inc. (NASDAQ:IDXX) is one of the best medical technology stocks to buy right now. On May 19, IDEXX Laboratories, Inc. (NASDAQ:IDXX) announced that its SDMA kidney biomarker will be built directly into Catalyst CLIPs. Catalyst CLIPs is the most widely used point-of-care chemistry profiles on the company\u2019s Catalyst platform. IDEXX said this integration [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on IDEXX Laboratories Stock?",
+        "summary": "Although IDEXX Laboratories has lagged the broader market over the past year, Wall Street analysts remain fairly bullish about the company\u2019s long-term growth prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Should IDEXX\u2019s (IDXX) SDMA-Enhanced Catalyst Panels Prompt Action From Long-Term Diagnostics Investors?",
+        "summary": "Earlier in 2026, IDEXX Laboratories integrated SDMA, a key renal biomarker recognized by the International Renal Interest Society, into its widely used Catalyst in-clinic chemistry profiles in the US and Canada to support earlier detection of kidney disease in pets. This move effectively turns routine point-of-care blood testing into an advanced kidney assessment tool, potentially increasing test utilization while keeping veterinary workflows unchanged. We\u2019ll now examine how embedding SDMA...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "IP": {
+    "ticker": "IP",
+    "close": 33.44,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "International Paper Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "rev_growth_TTM": 0.134,
+    "profit_margin": -0.13767,
+    "market_cap": 17701222400,
+    "news": [
+      {
+        "title": "International Paper starts work on Mississippi plant",
+        "summary": "The project centres on a 468,000ft\u00b2 corrugated packaging plant to be built on an 80-acre site in the East Metro Center, Brandon.",
+        "source": "Packaging Gateway",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "International Paper Starts Brandon Plant As Valuation Gap Draws Attention",
+        "summary": "International Paper has started construction on a new $225 million sustainable packaging facility in Brandon, Mississippi. The project has board approval and is part of the company\u2019s broader modernization and growth plans. The facility is expected to support expanded sustainable packaging capacity and create new jobs in the region. For investors tracking NYSE:IP, this new plant comes as the stock trades around $31.29, with performance that has been mixed across timeframes. The share price...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Here\u2019s Why Diamond Hill Capital Large Cap Strategy Exited International Paper Company (IP) in Q1",
+        "summary": "Diamond Hill Capital, a First Eagle Investment Management company, issued its Q1 2026 investor letter for its \u201cLarge Cap Strategy\u201d. A copy of the letter is available to download here. The Strategy declined 2.39% (net of fees), trailing the Russell 1000 Value Index\u2019s 2.10%. The performance was positively affected by stock selection in industrials and consumer discretionary, along [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "1 of Wall Street\u2019s Favorite Stock with Competitive Advantages and 2 We Find Risky",
+        "summary": "The stocks in this article have caught Wall Street\u2019s attention in a big way, with price targets implying returns above 20%. But investors should take these forecasts with a grain of salt because analysts typically say nice things about companies so their firms can win business in other product lines like M&A advisory.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "International Paper breaks ground on $225m Brandon packaging plant",
+        "summary": "The Brandon packaging facility is set to boost local jobs and modernise regional packaging production.",
+        "source": "World Construction Network",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "J": {
+    "ticker": "J",
+    "close": 119.04,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Jacobs Solutions Inc.",
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "rev_growth_TTM": 0.27,
+    "profit_margin": 0.028959999,
+    "market_cap": 14045129728,
+    "news": [
+      {
+        "title": "A Look Back at Government & Technical Consulting Stocks\u2019 Q1 Earnings: Jacobs Solutions (NYSE:J) Vs The Rest Of The Pack",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at Jacobs Solutions (NYSE:J) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Jacobs-Stantec JV Wins 5-Year Water Infrastructure Deal in Melbourne",
+        "summary": "J wins a five-year Melbourne water contract in a Stantec JV, lifting infrastructure momentum, backlog strength and long-term visibility.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Are Wall Street Analysts Predicting Jacobs Solutions\u2019 Stock Will Climb or Sink?",
+        "summary": "Despite Jacobs Solutions\u2019 shaky stock performance, Wall Street still sees enough fuel in the tank to keep optimism alive.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Fifth Third Bancorp And 2 Stocks Possibly Undervalued For Consideration",
+        "summary": "In the last week, the United States market has stayed flat, yet it is up 27% over the past year with earnings forecasted to grow by 17% annually. In such an environment, identifying potentially undervalued stocks like Fifth Third Bancorp can offer investors opportunities for growth at a reasonable price.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "1 Mid-Cap Stock with Exciting Potential and 2 That Underwhelm",
+        "summary": "Mid-cap stocks often strike the right balance between having proven business models and market opportunities that can support $100 billion corporations. However, they face intense competition from scaled industry giants and can be disrupted by new innovative players vying for a slice of the pie.",
+        "source": "StockStory",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "MTD": {
+    "ticker": "MTD",
+    "close": 1160.2,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Mettler-Toledo International, I",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.072,
+    "profit_margin": 0.21395999,
+    "market_cap": 23405502464,
+    "news": [
+      {
+        "title": "1 Oversold Stock Ready to Bounce Back and 2 We Find Risky",
+        "summary": "Rock-bottom prices don't always mean rock-bottom businesses. The stocks we're examining today have all touched their 52-week lows, creating a classic investor's dilemma: bargain opportunity or value trap?",
+        "source": "StockStory",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "GoodRx, RadNet, Addus HomeCare, Novavax, and Mettler-Toledo Shares Plummet, What You Need To Know",
+        "summary": "A number of stocks fell in the afternoon session after the April PPI report showed wholesale inflation accelerating to 6% annually, with service-sector prices rising at their fastest pace in four years.",
+        "source": "StockStory",
+        "pub": "2026-05-17"
+      }
+    ]
+  },
+  "NOW": {
+    "ticker": "NOW",
+    "close": 109.98,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "down",
+    "name": "ServiceNow, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.221,
+    "profit_margin": 0.12586,
+    "market_cap": 113217093632,
+    "news": [
+      {
+        "title": "Snowflake stock soars on growing enterprise AI demand, AWS partnership",
+        "summary": "Snowflake stock jumped after a better than expected quarter driven by accelerating enterprise AI demand.",
+        "source": "Yahoo Finance",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Salesforce Gives Lukewarm Outlook That Fails to Ease AI Fear",
+        "summary": "(Bloomberg) -- Salesforce Inc. gave a revenue outlook for the current period that fell just short of analysts\u2019 estimates, failing to ease the concerns of investors already worried about the possibility that artificial intelligence will disrupt the software business.Most Read from BloombergSingapore Hands Byju's Founder His First Ever Jail TermIran\u2019s Khamenei Says No Going Back for Middle East Rocked by WarApple to Overhaul iOS 27 Siri, AI Features: Here's a First PeekTwo More Oil Supertankers Ex",
+        "source": "Bloomberg",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Why Is CoStar (CSGP) Down 5.3% Since Last Earnings Report?",
+        "summary": "CoStar (CSGP) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Can ServiceNow Sustain Its Growth Amid Rising AI Competition?",
+        "summary": "NOW is betting on governance, security and enterprise integration to sustain growth and capture larger AI budgets.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is Salesforce Stock Deeply Undervalued At $175?",
+        "summary": "The market reaction to Salesforce (CRM) centers on a mild deceleration in top-line metrics. Current remaining performance obligation (cRPO) growth cooled to 14% year-over-year from 16% in the prior quarter, while second-quarter revenue guidance of $11.27 billion to $11.35 billion fell slightly below expectations. However, focusing solely on this top-line friction misses the structural transformation taking place within the company's business model.",
+        "source": "Trefis",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "close": 142.77,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Palantir Technologies Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "rev_growth_TTM": 0.847,
+    "profit_margin": 0.43673,
+    "market_cap": 342048473088,
+    "news": [
+      {
+        "title": "Why the skilled worker gap may turn into a 'national security issue'",
+        "summary": "Market Domination Host Josh Lipton welcomes Career Education Colleges and Universities President and CEO Jason Altmire to discuss the potential long-term economic consequences of the skilled worker shortage amid the rise of AI.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Palantir vs. Oracle in 2026. Which One Is the Better Buy Right Now?",
+        "summary": "Oracle may be the more balanced AI bet for investors focused on valuation and long-term upside.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "US High Growth Tech Stocks To Watch",
+        "summary": "Over the last 7 days, the United States market has risen 1.3% and over the past 12 months, it is up by an impressive 28%, with earnings forecasted to grow by 17% annually. In this robust environment, identifying high growth tech stocks involves looking for companies that demonstrate strong innovation potential and scalability in line with these positive market trends.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "1 Profitable Stock with Impressive Fundamentals and 2 Facing Challenges",
+        "summary": "While profitability is essential, it doesn\u2019t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies \u2014 as Jeff Bezos said, \u201cYour margin is my opportunity\u201d.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Snowflake Stock Went From Software Loser to AI Winner in an Instant",
+        "summary": "Snowflake is counting on its revenue model and data warehousing to flourish with the rise of AI agents.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "TECH": {
+    "ticker": "TECH",
+    "close": 51.0,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Bio-Techne Corp",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "rev_growth_TTM": -0.015,
+    "profit_margin": 0.09049,
+    "market_cap": 7970915328,
+    "news": [
+      {
+        "title": "Are Wall Street Analysts Bullish on Bio-Techne Stock?",
+        "summary": "While Bio-Techne has lagged behind the broader market over the past year, Wall Street analysts maintain a moderately optimistic outlook on the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "2 Healthcare Stocks to Research Further and 1 We Find Risky",
+        "summary": "Personal health and wellness is one of the many secular tailwinds for healthcare companies. But financial performance has lagged recently as players offloaded surplus COVID inventories in 2023 and 2024, a headwind for overall demand. The result? Over the past six months, the industry\u2019s 1.8% return has trailed the S&P 500 by 9 percentage points.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "The 5 Most Interesting Analyst Questions From Bio-Techne\u2019s Q1 Earnings Call",
+        "summary": "Bio-Techne\u2019s first quarter was marked by a negative market reaction, with revenue coming in below Wall Street expectations. Management attributed the shortfall primarily to continued softness in emerging biotech demand and the impact of order timing from two cell therapy customers with FDA Fast Track Designation. CEO Kim Kelderman acknowledged that, despite stable performance from large pharmaceutical customers and improving trends in U.S. academia, the emerging biotech segment \u201cwas indeed our s",
+        "source": "StockStory",
+        "pub": "2026-05-16"
+      }
+    ]
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "close": 311.09,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "rev_growth_TTM": 0.166,
+    "profit_margin": 0.27152002,
+    "market_cap": 4569970507776,
+    "news": [
+      {
+        "title": "Best Buy stock gains as new gadgets and higher tax refunds boost sales",
+        "summary": "This marks the first report since the company announced CEO Corie Barry is stepping down from the electronics retailer at the end of the third quarter.",
+        "source": "Yahoo Finance",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Tim Cook Has Never Hyped AI. Apple Stock Is at an All-Time High Anyway",
+        "summary": "NVIDIA (NASDAQ:NVDA) dominates 2026 financial television as the consensus AI play. But the trade quietly outrunning it belongs to a company whose CEO refuses to say the magic words. Apple (NASDAQ:AAPL) closed at $311, an all-time high on a split-adjusted basis, carrying a $4.57 trillion market cap, up 54% in one year. Tim Cook never ... Tim Cook Has Never Hyped AI. Apple Stock Is at an All-Time High Anyway",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "\u2018It\u2019s insulting\u2019: Ferrari fans have given their verdict on its first electric car, and it\u2019s not good",
+        "summary": "It\u2019s deemed outrageously expensive, it\u2019s insulting to existing owners and perhaps most damning of all \u2013 it looks like a Nissan Leaf. Those are just some of the unflattering comments directed at Ferrari\u2019s first electric car, the Luce, since it was unveiled earlier this week by the legendary Italian marque.",
+        "source": "CNN Business",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "While Nvidia Battles AMD, Qualcomm Quietly Signed the Biggest AI Deal in Its History. With ByteDance",
+        "summary": "You may want to keep hitting the buy button on Qualcomm (NASDAQ:QCOM), and the last six weeks handed you three more reasons to do it again. While the financial press tracks every twitch in the Nvidia (NASDAQ:NVDA) versus AMD (NASDAQ:AMD) slap fight, Qualcomm quietly signed the biggest AI deal in its history. The stock has run 100% from ... While Nvidia Battles AMD, Qualcomm Quietly Signed the Biggest AI Deal in Its History. With ByteDance",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Anthropic to roll out Claude Mythos in coming weeks, launches Opus 4.8",
+        "summary": "Anthropic on Thursday said it is launching an upgraded \u200cClaude Opus 4.8 model even as \u200cit works to release its powerful, market-moving Mythos model \u200bto all customers in the coming weeks.  Mythos is the AI lab's large language model with advanced cybersecurity capabilities that have \u200craised concerns among \u2060executives and world leaders about its impact.  As a part of Project \u2060Glasswing, major tech firms such as Amazon, Microsoft and Apple are permitted to \u200buse Mythos \u200bfor cybersecurity purposes.",
+        "source": "Reuters",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "ADM": {
+    "ticker": "ADM",
+    "close": 79.93,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Archer-Daniels-Midland Company",
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "rev_growth_TTM": 0.016,
+    "profit_margin": 0.013409999,
+    "market_cap": 38515556352,
+    "news": [
+      {
+        "title": "Archer Daniels' Ethanol Margins Surge: Is Growth Now Sustainable?",
+        "summary": "ADM's ethanol margins surge in Q1 as stronger biofuel demand, policy incentives and exports boost profits. The company lifts its 2026 earnings outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Archer Daniels Midland (ADM) Just Overtook the 20-Day Moving Average",
+        "summary": "When a stock breaks out above the 20-day simple moving average, good things could be on the horizon. How should investors react?",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Buy 3 AgriTech & Food Innovation Stocks to Lift Your Portfolio Returns",
+        "summary": "ADM, TSN and BG stand out as AgriTech and Food Innovation plays poised to benefit from rising demand in 2026.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Is Archer-Daniels-Midland (ADM) Attractive After Its 66% One-Year Share Price Surge?",
+        "summary": "If you are wondering whether Archer-Daniels-Midland stock offers solid value at its current price, it helps to break the story into recent returns, current expectations, and what the numbers actually say about valuation. The stock most recently closed at US$77.12, after a week where it declined 5.3%, a month where it gained 10.4%, and year to date it is up 30.6%, with a 65.9% return over the last year. Recent price moves sit against a backdrop of ongoing attention on Archer-Daniels-Midland's...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Here's Why Archer Daniels Midland (ADM) is a Strong Momentum Stock",
+        "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+        "source": "Zacks",
+        "pub": "2026-05-21"
+      }
+    ]
+  },
+  "BA": {
+    "ticker": "BA",
+    "close": 228.93,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Boeing Company (The)",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.14,
+    "profit_margin": 0.024600001,
+    "market_cap": 180505460736,
+    "news": [
+      {
+        "title": "Stifel Canada on Opportunities For CAE Under New Defence Industrial Strategy",
+        "summary": "This week at CANSEC, Canada's global defense & security trade show, Prime Minister Mark Carney annou",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "China Doesn\u2019t Matter for Boeing. This Does.",
+        "summary": "Boeing stock has been pulled in multiple directions lately, but CEO Kelly Ortberg made clear the company\u2019s biggest challenge remains increasing jet production.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "9 \u2018Hidden\u2019 Space Stocks Haven\u2019t Joined SpaceX IPO Bubble Yet",
+        "summary": "Rocket Lab and AST SpaceMobile have surged as investors bet on the next phase of the space economy. But aerospace giants including Boeing, Airbus, and Lockheed Martin could also benefit from growing enthusiasm around SpaceX.",
+        "source": "Barrons.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Boeing Shares Rise As FAA Clears Path Toward 47 Max Jets Monthly",
+        "summary": "Boeing highlighted higher 737 Max output, China orders, and stronger defense demand outlook at an investor conference.",
+        "source": "GuruFocus.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is The Boeing Company (BA) Among the Best Future Stocks to Buy Right Now?",
+        "summary": "With a five-year EPS forecast of 87.41%, The Boeing Company (NYSE:BA) is among the 12 Best Future Stocks to Buy Right Now. On May 19, The Boeing Company (NYSE:BA) was awarded a $251.06 million firm-fixed-price and cost-plus-fixed-fee contract for the procurement, software development, integration, installation, and acceptance of P-8A Poseidon training systems for the government of Germany. [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "CPT": {
+    "ticker": "CPT",
+    "close": 108.16,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "Camden Property Trust",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": -0.005,
+    "profit_margin": 0.24486999,
+    "market_cap": 10719125504,
+    "news": [
+      {
+        "title": "Morgan Stanley Maintains Equal Weight Rating on Camden (CPT)",
+        "summary": "Camden Property Trust (NYSE:CPT) is one of the 10 Best Residential REITs to Buy in 2026. On May 15, 2026, Morgan Stanley analyst Adam Kramer lowered the firm\u2019s price target on Camden Property Trust (NYSE:CPT) to $117 from $119 and maintained an Equal Weight rating on the shares. On May 11, 2026, BofA raised the [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "This REIT Yielding 16% Just Landed a New $5 Million Bet From EMG Holdings",
+        "summary": "This mortgage REIT invests in agency and non-agency MBS, offering a double-digit dividend yield and exposure to U.S. housing markets.",
+        "source": "Motley Fool",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "KB Home Stock Is Down 15%. So Why Did One Investor Buy Up $4 Million in Shares Last Quarter?",
+        "summary": "KB Home develops single-family homes and townhomes for a range of buyers across major U.S. markets, with integrated financial services.",
+        "source": "Motley Fool",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "A Look At Camden Property Trust (CPT) Valuation After Recent Share Price Softness",
+        "summary": "Camden Property Trust (CPT) stock has softened recently, with the price closing at $102.59 and total return down over the past year and past 3 months. This has put renewed focus on its income and valuation profile. See our latest analysis for Camden Property Trust. The recent softening in Camden Property Trust\u2019s share price, with a 90 day share price return down 5.47% and year to date share price return down 6.88%, contrasts with a 3 year total shareholder return of 8.19%. This suggests that...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-18"
+      }
+    ]
+  },
+  "GS": {
+    "ticker": "GS",
+    "close": 1006.91,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Goldman Sachs Group, Inc. (The)",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "rev_growth_TTM": 0.145,
+    "profit_margin": 0.29363,
+    "market_cap": 297019375616,
+    "news": [
+      {
+        "title": "Goldman Sachs COO calls inflation 'the single biggest risk element' to the economy",
+        "summary": "Goldman Sachs COO John Waldron called out inflation as \"the single biggest risk element\" to the economy on Thursday during a talk at the Bernstein Strategic Decisions Conference in New York.",
+        "source": "Yahoo Finance",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Best CD rates today, May 28, 2026: Lock in up to 4% APY",
+        "summary": "If you're on the hunt for today's best CD rates, we've narrowed down some of the top offers. Learn more about CD rates today, May 28, 2026, and how to open an account.",
+        "source": "Yahoo Personal Finance",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Dollar's 2.4% March Rally Pressures Treasury Demand",
+        "summary": "Goldman says foreign official institutions sold Treasuries as governments defended currencies during the first month of the US-Iran conflict.",
+        "source": "GuruFocus.com",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Goldman vs. Citigroup: Which Financial Giant Should You Pick Now?",
+        "summary": "Can C's restructuring and lower valuation give it the edge over GS in the race for banking growth in 2026? Let us find out.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Jim Cramer Can\u2019t Believe Goldman Sachs\u2019 (GS) Current Valuation",
+        "summary": "We recently published Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks. The Goldman Sachs Group, Inc. (NYSE:GS) is one of the stocks discussed by Jim Cramer. Investment bank The Goldman Sachs Group, Inc. (NYSE:GS)\u2019s shares are up by 61% over the past year and by 9% year-to-date. Citi [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "HLT": {
+    "ticker": "HLT",
+    "close": 336.73,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging",
+    "rev_growth_TTM": 0.11,
+    "profit_margin": 0.30408,
+    "market_cap": 76671967232,
+    "news": [
+      {
+        "title": "Why Is Hilton Worldwide (HLT) Up 7.1% Since Last Earnings Report?",
+        "summary": "Hilton Worldwide (HLT) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "How to Invest Now If You Want to Profit from the 2026 World Cup",
+        "summary": "The FIFA World Cup is going to generate up to $40.9 billion worth of consumer spend, and a lot of companies will see a major boost in revenue. Fortunately, there's still time for investors to cash in on World Cup fever.",
+        "source": "Barchart",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "3 Reasons HLT is Risky and 1 Stock to Buy Instead",
+        "summary": "Hilton trades at $315.85 per share and has stayed right on track with the overall market, gaining 17.9% over the last six months. At the same time, the S&P 500 has returned 13.3%.",
+        "source": "StockStory",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "Landmark Investment Partners Cuts Howard Hughes Holdings Stake, According to Recent SEC Filing",
+        "summary": "Howard Hughes is built on master-planned communities that can create value over decades and the pending Vantage deal could change how investors value that real estate engine.",
+        "source": "Motley Fool",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "A Look At Hilton Worldwide Holdings (HLT) Valuation After Recent Share Price Cooling",
+        "summary": "Hilton Worldwide Holdings stock overview after recent performance Hilton Worldwide Holdings (HLT) has drawn fresh attention after recent trading, with the stock last closing at US$318.14. Investors are weighing this level against the company\u2019s latest return profile and underlying earnings base. See our latest analysis for Hilton Worldwide Holdings. The share price has cooled in the past month, with a 30 day share price return of a 6.71% decline, yet the 1 year total shareholder return of...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-19"
+      }
+    ]
+  },
+  "IFF": {
+    "ticker": "IFF",
+    "close": 77.94,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "International Flavors & Fragran",
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "rev_growth_TTM": -0.036,
+    "profit_margin": 0.076570004,
+    "market_cap": 19886862336,
+    "news": [
+      {
+        "title": "Reasons Why You Should Retain IFF Stock in Your Portfolio Now",
+        "summary": "International Flavors eyes long-term growth through portfolio streamlining, emerging market demand and disciplined capital allocation strategies.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "1 Profitable Stock for Long-Term Investors and 2 We Find Risky",
+        "summary": "While profitability is essential, it doesn\u2019t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies - as Jeff Bezos said, \"Your margin is my opportunity\".",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "3 Cash-Producing Stocks Walking a Fine Line",
+        "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+        "source": "StockStory",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "Is It Time To Reassess International Flavors & Fragrances (IFF) After Five-Year Share Price Slump",
+        "summary": "If you are wondering whether International Flavors & Fragrances at around US$73.70 is priced attractively or not, the key is to look past the headline share price and focus on what the underlying valuation signals are telling you. The stock has been choppy, with the share price falling around 6.4% over the last week and 2.9% over the past month, while still sitting up about 8.3% year to date despite a decline of 2.4% over the past year and 4.4% over three years, and a sharper fall of 40.6%...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-19"
+      },
+      {
+        "title": "Are Wall Street Analysts Predicting International Flavors & Fragrances Stock Will Climb or Sink?",
+        "summary": "International Flavors & Fragrances has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-19"
+      }
+    ]
+  },
+  "MDLZ": {
+    "ticker": "MDLZ",
+    "close": 62.4,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Mondelez International, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Confectioners",
+    "rev_growth_TTM": 0.082,
+    "profit_margin": 0.06638,
+    "market_cap": 80112582656,
+    "news": [
+      {
+        "title": "2 S&P 500 Stocks for Long-Term Investors and 1 Facing Challenges",
+        "summary": "The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Mondelez (MDLZ) Up 2% Since Last Earnings Report: Can It Continue?",
+        "summary": "Mondelez (MDLZ) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "5 High-Yield Stocks and ETFs to Buy and Hold for the Next Decade",
+        "summary": "Five high-yield names spanning pharmaceuticals, consumer staples, energy, and ETFs offer income investors compelling yields and durable businesses for a ten-year hold.",
+        "source": "MarketBeat",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "The use of AI in food NPD is changing",
+        "summary": "Seeking an edge, food manufacturers are looking at different ways of using AI in their NPD processes.",
+        "source": "Just Food",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "A Look At Mondelez International (MDLZ) Valuation As Shares Show Renewed Momentum",
+        "summary": "Why Mondelez International (MDLZ) is on investors\u2019 radar today Mondelez International (MDLZ) has drawn fresh attention after recent trading, with the stock last closing at $61.76. Investors are weighing that price against its recent returns and the company\u2019s current earnings profile. See our latest analysis for Mondelez International. Recent trading has been supported by a 7.2% 1 month share price return and a 15.1% year to date share price return, although the 1 year total shareholder return...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-24"
+      }
+    ]
+  },
+  "PAYX": {
+    "ticker": "PAYX",
+    "close": 95.75,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "Paychex, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.199,
+    "profit_margin": 0.26633,
+    "market_cap": 34288435200,
+    "news": [
+      {
+        "title": "Paychex's PEO Revenue Growth Expected to Reaccelerate in 2027, RBC Says",
+        "summary": "Paychex's (PAYX) Professional Employer Organization revenue growth is expected to soften in fiscal Q",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Paychex WISE Launch Puts AI Workflows And Valuation In Focus",
+        "summary": "Paychex (NasdaqGS:PAYX) has launched WISE, an AI-powered intelligence and automation platform for its HR and payroll solutions. WISE introduces AI agents, predictive analytics, and multi-channel assistance as a broad upgrade to the company\u2019s existing tools. For you as an investor watching HR and payroll services, WISE signals a shift in how Paychex (NasdaqGS:PAYX) is positioning its platform in a market where automation and AI are becoming core expectations. The company operates in a space...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Here's Why You Should Retain Paychex Stock in Your Portfolio",
+        "summary": "PAYX gains 7.9% over the past month as SaaS demand, AI-driven HR tools and expanding PEO services support its growth outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "What Are Wall Street Analysts' Target Price for Paychex Stock?",
+        "summary": "As Paychex has underperformed relative to the broader market over the past year, Wall Street analysts maintain a cautious outlook on the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "2 Large-Cap Stocks for Long-Term Investors and 1 We Avoid",
+        "summary": "Large-cap stocks usually command their industries because they have the scale to drive market trends. The flip side though is that their sheer size can limit growth as expanding further becomes an increasingly challenging task.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      }
+    ]
+  },
+  "RVTY": {
+    "ticker": "RVTY",
+    "close": 101.5,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Revvity, Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.07,
+    "profit_margin": 0.08258,
+    "market_cap": 11319970816,
+    "news": [
+      {
+        "title": "Revvity Stock: Analyst Estimates & Ratings",
+        "summary": "Revvity has underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Revvity's (NYSE:RVTY) Conservative Accounting Might Explain Soft Earnings",
+        "summary": "Revvity, Inc.'s ( NYSE:RVTY ) stock was strong despite it releasing a soft earnings report last week. We think that...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "The Top 5 Analyst Questions From Revvity\u2019s Q1 Earnings Call",
+        "summary": "Revvity\u2019s first quarter results were well received by the market, as the company delivered stronger-than-expected organic growth and margins. Management attributed the positive performance to solid execution in both the Life Sciences and Diagnostics segments, with particular momentum in reagents, instruments, and reproductive health. CEO Prahlad Singh highlighted that \u201cthe better-than-anticipated revenue and margin performance\u201d reflected resilience across key customer groups, including pharma, b",
+        "source": "StockStory",
+        "pub": "2026-05-15"
+      }
+    ]
+  },
+  "TEAM": {
+    "ticker": "TEAM",
+    "close": 94.81,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Atlassian Corporation",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.317,
+    "profit_margin": -0.03502,
+    "market_cap": 24055922688,
+    "news": [
+      {
+        "title": "Analyst Dan Ives Warns Companies Talking About Job Cuts Are \u2018Shooting Themselves in the Foot\u2019",
+        "summary": "Wedbush Securities analyst Dan Ives has a message for tech CEOs racing to publicly tie artificial intelligence to headcount reductions. On a recent segment of The AI Daily Brief, Ives argued that framing AI as a workforce-reduction tool is a strategic mistake at a moment when investors are paying a premium for AI-driven growth stories ... Analyst Dan Ives Warns Companies Talking About Job Cuts Are \u2018Shooting Themselves in the Foot\u2019",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Wall Street Analysts Believe Atlassian (TEAM) Could Rally 49.75%: Here's is How to Trade",
+        "summary": "The mean of analysts' price targets for Atlassian (TEAM) points to a 49.8% upside in the stock. While this highly sought-after metric has not proven reasonably effective, strong agreement among analysts in raising earnings estimates does indicate an upside in the stock.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Here's How Much a $1000 Investment in Atlassian Made 10 Years Ago Would Be Worth Today",
+        "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Atlassian, Dynatrace, and Nutanix Shares Skyrocket, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after Treasury yields cooled and risk-on rotation lifted AI-linked growth names, helping the SaaS sector recover from the previous day's Intuit-driven sell-off.",
+        "source": "StockStory",
+        "pub": "2026-05-24"
+      },
+      {
+        "title": "Here\u2019s What Jim Cramer Thinks About Atlassian\u2019s (TEAM) YouTube Controversy",
+        "summary": "We recently published Jim Cramer Took A Side On Biggest AI Debate & Discussed These 13 Stocks. Atlassian Corporation (NASDAQ:TEAM) is one of the stocks discussed by Jim Cramer. Atlassian Corporation (NASDAQ:TEAM)\u2019s stock is down by 60% over the past year and by 46% year-to-date. Oppenheimer discussed the firm on May 11th as it raised [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-23"
+      }
+    ]
+  },
+  "DGX": {
+    "ticker": "DGX",
+    "close": 196.46,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "weak",
+    "name": "Quest Diagnostics Incorporated",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.092,
+    "profit_margin": 0.0908,
+    "market_cap": 21746313216,
+    "news": [
+      {
+        "title": "3 Reasons to Sell DGX and 1 Stock to Buy Instead",
+        "summary": "Since November 2025, Quest has been in a holding pattern, posting a small return of 2.6% while floating around $194.06. The stock also fell short of the S&P 500\u2019s 9.8% gain during that period.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Are Medical Stocks Lagging  Quest Diagnostics (DGX) This Year?",
+        "summary": "Here is how Quest Diagnostics (DGX) and DaVita HealthCare (DVA) have performed compared to their sector so far this year.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Quest Diagnostics Stock: Analyst Estimates & Ratings",
+        "summary": "Quest Diagnostics is keeping analysts reasonably upbeat as steady execution and momentum continue supporting Wall Street confidence.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "1 Profitable Stock to Own for Decades and 2 We Avoid",
+        "summary": "Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn\u2019t mean it will thrive tomorrow.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "Why Is Quest Diagnostics (DGX) Down 5% Since Last Earnings Report?",
+        "summary": "Quest Diagnostics (DGX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-21"
+      }
+    ]
+  },
+  "TDY": {
+    "ticker": "TDY",
+    "close": 633.68,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "Teledyne Technologies Incorpora",
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "rev_growth_TTM": 0.076,
+    "profit_margin": 0.14987001,
+    "market_cap": 29372672000,
+    "news": [
+      {
+        "title": "HEICO Q2 Earnings Beat Estimates, Sales Increase Year Over Year",
+        "summary": "HEI tops fiscal Q2 EPS and sales estimates as net sales rose 25.3% to $1.38 billion, margins widen to 25.5%, and record net income hits $233.8 million.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Here's How Much a $1000 Investment in ATI Made 10 Years Ago Would Be Worth Today",
+        "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Teledyne Technologies Stock Outlook: Is Wall Street Bullish or Bearish?",
+        "summary": "Although Teledyne Technologies Incorporated has lagged the broader market over the past year, Wall Street analysts remain broadly optimistic about the company\u2019s long-term growth outlook.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Elbit Systems to Post Q1 Earnings: What's in Store for the Stock?",
+        "summary": "ESLT heads into Q1 2026 earnings with rising defense demand, a record backlog and a new UAV acquisition boosting its global reach.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Why Is Teledyne (TDY) Down 6.9% Since Last Earnings Report?",
+        "summary": "Teledyne (TDY) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      }
+    ]
+  }
+}
