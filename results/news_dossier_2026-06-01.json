@@ -1,0 +1,1996 @@
+{
+  "CDNS": {
+    "ticker": "CDNS",
+    "close": 414.16,
+    "n_det": 6,
+    "detectors": "fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation",
+    "trend": "up",
+    "name": "Cadence Design Systems, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.187,
+    "market_cap": 114231959552,
+    "news": [
+      {
+        "title": "Nvidia Highlights New AI Products at Computex",
+        "summary": "Jensen Huang outlined agentic AI, physical AI and major partnerships.",
+        "source": "GuruFocus.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "1 Software Stock with Solid Fundamentals and 2 We Turn Down",
+        "summary": "From commerce to culture, software is digitizing every aspect of our lives. In the past, the undeniable tailwinds fueling SaaS companies led to lofty valuation multiples that made it easier to raise capital. But this was a double-edged sword as the high prices exposed them to big drawdowns, and unfortunately, the industry has tumbled by 3.2% over the last six months. This drawdown is a noticeable divergence from the S&P 500\u2019s 10.9% return.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Software Stocks Gain After Nvidia CEO Dispels SaaSpocalypse Fears",
+        "summary": "\"A lot of people have said, Jensen, AI is coming. Agentic AI is coming. Therefore, all of the software companies are going to go out of business. I said it's exactly the opposite because there are going to be so many agents.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "AI \u2018Virtual Engineer\u2019 Has Slashed Chip Production Time. The Stock Is Rising.",
+        "summary": "Cadence Design Systems stock was climbing as it said its AI agent can now independently carry out complex work on chip design.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Stocks Set to Open Higher as AI Optimism Overshadows Fresh U.S.-Iran Hostilities, Jobs Data Awaited",
+        "summary": "June S&P 500 E-Mini futures (ESM26) are up +0.31%, and June Nasdaq 100 E-Mini futures (NQM26) are up +0.23% this morning as optimism surrounding artificial intelligence helped offset concerns about renewed U.S.-Iran tensions.",
+        "source": "Barchart",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "HUM": {
+    "ticker": "HUM",
+    "close": 328.31,
+    "n_det": 6,
+    "detectors": "fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation",
+    "trend": "up",
+    "name": "Humana Inc.",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.235,
+    "market_cap": 39417393152,
+    "news": [
+      {
+        "title": "Can UnitedHealth's Pediatric Authorization Cuts Ease Care Delays?",
+        "summary": "UNH plans to eliminate nearly two-thirds of pediatric prior authorizations by year-end, aiming to speed care access and reduce provider paperwork.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Humana (HUM) Up 30.6% Since Last Earnings Report: Can It Continue?",
+        "summary": "Humana (HUM) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Stocks Finish Mostly Higher on Iran Peace Progress",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Tuesday closed up +0.61%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.76%. June E-mini S&P futures (ESM26 ) rose +0.61%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "S&P 500 and Nasdaq 100 Climb to Record Highs on Tech Stock Strength",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.81%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.10%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.74%. June E-mini S&P futures (ESM26 ) are up +0.77%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Humana (HUM) Slid as Medicare Advantage Rate Fell Short of Expectations",
+        "summary": "Artisan Partners, an investment management company, released its first-quarter 2026 investor letter for \u201cArtisan Value Fund\u201d. A copy of the letter is available to download here. The Funds\u2019 Investor Class: ARTLX, Advisor Class: APDLX, and Institutional Class: APHLX returned -3.54%, -3.50%. and 3.50%, respectively, in Q1 vs, 2.10% return for the Russell 1000\u00ae Value Index. Performance [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "close": 219.43,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation",
+    "trend": "up",
+    "name": "Marvell Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 0.276,
+    "market_cap": 191957352448,
+    "news": [
+      {
+        "title": "Stock Market Today, June 1: Tech and Software Stocks Lift Markets",
+        "summary": "Today, June 1, 2026, Nvidia's superchip and a software comeback helped keep U.S. indexes near record highs even as higher oil prices pressured the Dow.",
+        "source": "Motley Fool",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Jim Cramer is Bullish on Arm Holdings",
+        "summary": "Arm Holdings plc (NASDAQ:ARM) was one of the stocks on Jim Cramer\u2019s radar on Mad Money as he explained that many investors might be missing out on the market\u2019s biggest winners. Cramer believes the stock still has room to grow, as he commented: Are we too late? I don\u2019t think so. Today was also a [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Marvell Technology Stock Hits a New All-Time High. Is It Still a Buy?",
+        "summary": "The tech stock has surged more than 130% this year.",
+        "source": "Motley Fool",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "The Zacks Analyst Blog Highlights NVIDIA and Marvell Technology",
+        "summary": "NVIDIA and Marvell are riding the AI infrastructure boom, but NVIDIA's faster growth, profitability and valuation stand out in the comparison.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Interpreting Marvell (MRVL) International Revenue Trends",
+        "summary": "Explore how Marvell's (MRVL) revenue from international markets is changing and the resulting impact on Wall Street's predictions and the stock's prospects.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "ADM": {
+    "ticker": "ADM",
+    "close": 82.62,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Archer-Daniels-Midland Company",
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "rev_growth_TTM": 0.016,
+    "market_cap": 39819247616,
+    "news": [
+      {
+        "title": "The Zacks Analyst Blog Highlights Archer-Daniels-Midland, Casey's General Stores, Nucor, Ross Stores and Imperial Oil",
+        "summary": "Archer-Daniels-Midland, Casey's, Nucor, Ross Stores and Imperial Oil are highlighted as non-AI stocks riding the market rally in 2026.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "The Bull Case For Archer-Daniels-Midland (ADM) Could Change Following Upgraded Earnings Outlook Learn Why",
+        "summary": "In recent months, Archer-Daniels-Midland has seen analysts lift their full-year earnings estimates, reflecting a stronger earnings outlook compared with earlier expectations. This upgrade in projected profitability has coincided with improving analyst sentiment on the stock, highlighting how earnings revisions can materially influence investor perceptions of Archer-Daniels-Midland\u2019s business trajectory. We\u2019ll now examine how this upgraded earnings outlook reshapes Archer-Daniels-Midland\u2019s...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Are Consumer Staples Stocks Lagging  Archer Daniels Midland (ADM) This Year?",
+        "summary": "Here is how Archer Daniels Midland (ADM) and ARKO Corp. (ARKO) have performed compared to their sector so far this year.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Mission Produce Acquires Calavo Growers: What's Ahead for the Stock?",
+        "summary": "AVO closes the Calavo deal, adding guacamole and new produce lines. Watch integration and synergy goals for the stock now.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Buy 5 Non-AI Stocks That Have Surged Year to Date to Tap Market Rally",
+        "summary": "ADM, CASY, NUE, ROST and IMO have surged in 2026 as strong execution, expansion plans and earnings growth fuel gains beyond AI stocks.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "STX": {
+    "ticker": "STX",
+    "close": 921.26,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Seagate Technology Holdings PLC",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "rev_growth_TTM": 0.441,
+    "market_cap": 208437018624,
+    "news": [
+      {
+        "title": "STX Stock Gains Over 6% \u2014 Company Settles Huawei Lawsuit For $175M",
+        "summary": "Seagate agreed to pay $175 million to settle claims that it failed to disclose hard drive sales to Huawei that allegedly violated U.S. export restrictions.",
+        "source": "Stocktwits",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Jim Cramer on Micron: \u201cUnlike the Dot-Coms, It\u2019s Insanely Profitable\u201d",
+        "summary": "Micron Technology, Inc. (NASDAQ:MU) was one of the stocks on Jim Cramer\u2019s radar on Mad Money as he explained that many investors might be missing out on the market\u2019s biggest winners. Cramer discussed the \u201cbubble\u201d concerns around the stock and its peers, as he said: I think it\u2019s an insult to group this market\u2019s winners [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "SanDisk Stock Near $1,700: Two Risks That Could Break the Momentum",
+        "summary": "When a stock goes vertical, climbing 167% in three months and a staggering 669% in six, it is easy to assume the move is driven by pure momentum. But if you look closely at SanDisk (NASDAQ: SNDK) as it hovers near $1,700, the reality is far more calculated than a typical trend. While institutional allocators have spent weeks confirming management's latest guidance raise, buying at these levels requires balancing that fundamental execution against two looming structural traps. The strategic wager",
+        "source": "Trefis",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Natera And 2 Other Companies That May Be Trading Below Their Estimated Value",
+        "summary": "The United States market has experienced a notable upswing, climbing 1.6% in the last week and rising 28% over the past year, with earnings expected to grow by 17% annually. In such an environment, identifying stocks that may be trading below their estimated value can offer potential opportunities for investors seeking to capitalize on undervalued assets.",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Seagate Technology (STX): Best Future Tech Stocks to Buy According to Billionaires",
+        "summary": "Seagate Technology Holdings (NASDAQ:STX) is one of the best future tech stocks to buy according to billionaires. On May 28, Seagate Technology closed the privately negotiated exchange of $185.908 million in aggregate principal amount of its 3.50% Exchangeable Senior Notes due 2028. The company settled this transaction using a combination of $185.908 million in cash [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "ADBE": {
+    "ticker": "ADBE",
+    "close": 274.03,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+gap_go",
+    "trend": "down",
+    "name": "Adobe Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.12,
+    "market_cap": 110762926080,
+    "news": [
+      {
+        "title": "Stock Market Today, June 1: Tech and Software Stocks Lift Markets",
+        "summary": "Today, June 1, 2026, Nvidia's superchip and a software comeback helped keep U.S. indexes near record highs even as higher oil prices pressured the Dow.",
+        "source": "Motley Fool",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Nvidia Is Taking On Intel and AMD With AI Chip for Computers",
+        "summary": "(Bloomberg) -- Nvidia Corp. is entering the PC market with a new chip aimed at loosening the stranglehold of Intel Corp. technology in that arena and modernizing the machines for the AI era.Most Read from BloombergUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedRussia Finance Officials Tell Putin War Spending Is UnaffordableBerkshire Hathaway to Buy Taylor Morrison for $6.8 BillionStocks Rise on Trump\u2019s Iran Remarks, AI Optimism: Markets WrapA Rare \u2018Super\u2019 El Ni\u00f1o Is Looking More L",
+        "source": "Bloomberg",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "ServiceNow Is Leading a Software Comeback for These Stocks",
+        "summary": "A cluster of software stocks rally, signaling to investors that the beaten-down sector may be mounting a comeback.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Nvidia Discloses New AI Chip to Power Windows PCs",
+        "summary": "Nvidia (NVDA) has announced a new artificial intelligence chip to power Microsoft (MSFT) Windows per",
+        "source": "MT Newswires",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Palantir Eyes Buy Point As Software Stocks Extend Rally On Snowflake, Dell Earnings",
+        "summary": "Palantir stock rose Monday, eyeing an early buy point, as software names again rallied, boosted by financial results at Snowflake and Dell.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "IT": {
+    "ticker": "IT",
+    "close": 179.59,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+range_expansion",
+    "trend": "down",
+    "name": "Gartner, Inc.",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "rev_growth_TTM": -0.015,
+    "market_cap": 12023888896,
+    "news": [
+      {
+        "title": "Gartner Finance Symposium\u2019s AI message: Trial Balance",
+        "summary": "At Gartner's most recent CFO conference, conversations increasingly focused on the challenge of connecting AI investments to business performance.",
+        "source": "CFO.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "America's Greatest Opportunities: Gauging The P-E Ratio On Gartner Stock",
+        "summary": "Gartner stock's P-E ratio was operating in a range of 30 to 39 before it broke out. Afterward, it eventually ballooned to 123.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "SentinelOne\u2019s Gartner Leader Streak And What It May Mean For Investors",
+        "summary": "SentinelOne (NYSE:S) has been recognized as a Leader in the 2026 Gartner Magic Quadrant for Endpoint Protection Platforms. This is the sixth consecutive year the company has received a Leader placement. The recognition highlights progress in its AI driven Singularity Platform and recent platform expansions. SentinelOne (NYSE:S) focuses on autonomous cybersecurity, with its Singularity Platform using AI to help protect endpoints across cloud, on premises, and hybrid environments. The latest...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "The Asymmetric AI Winner: Cybersecurity ETFs Gaining From Cloud Buildout",
+        "summary": "Cybersecurity ETFs are gaining traction as AI-driven cloud expansion fuels demand for digital protection and risk management.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Gartner Stock: Analyst Estimates & Ratings",
+        "summary": "As Gartner has significantly underperformed the broader market over the past 52 weeks, Wall Street analysts remain cautious about the stock's prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "ADP": {
+    "ticker": "ADP",
+    "close": 233.74,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+range_expansion",
+    "trend": "up",
+    "name": "Automatic Data Processing, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.07,
+    "market_cap": 93433888768,
+    "news": [
+      {
+        "title": "Markets Await JOLTS Numbers",
+        "summary": "Markets Await JOLTS Numbers",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "No Rate Cuts Until 2027? Grab These High-Yielding Safe Dividend Kings Now",
+        "summary": "Persistent inflation is likely to keep the Federal Reserve from cutting rates until well into 2027. Rising costs in services, housing, energy, and tariffs continue to keep inflation above the Fed\u2019s 2% target, while the labor market remains strong enough to support wage pressures. Because of this, the Fed is expected to keep rates higher ... No Rate Cuts Until 2027? Grab These High-Yielding Safe Dividend Kings Now",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "US Dollar Rises Early Monday, Focus on May Employment Data This Week",
+        "summary": "The US dollar rose against its major trading partners early Monday ahead of a busy week of economic",
+        "source": "MT Newswires",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "US Equity Investors to Focus on Labor Market Data and Trump's Decision on Framework to End Iran War This Week",
+        "summary": "US equity investors will focus this week on the labor market data while keeping an eye on another me",
+        "source": "MT Newswires",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Fresh Jobs Data May Help Fed Gauge How Much AI Strains US Labor Market",
+        "summary": "The US Bureau of Labor Statistics will be reporting May\u2019s much-anticipated employment figures at the end of the week.",
+        "source": "The Daily Upside",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "BG": {
+    "ticker": "BG",
+    "close": 129.97,
+    "n_det": 3,
+    "detectors": "fast_donchian+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Bunge Limited",
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "rev_growth_TTM": 0.878,
+    "market_cap": 25216534528,
+    "news": [
+      {
+        "title": "3 Cash-Burning Stocks That Concern Us",
+        "summary": "Rapid spending isn\u2019t always a sign of progress. Some cash-burning businesses fail to convert investments into meaningful competitive advantages, leaving them vulnerable.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "New Strong Buy Stocks for May 28th",
+        "summary": "MPC, BG, EZPW, LXFR and PHIN have been added to the Zacks Rank #1 (Strong Buy) List on May 28, 2026.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Buy 3 AgriTech & Food Innovation Stocks to Lift Your Portfolio Returns",
+        "summary": "ADM, TSN and BG stand out as AgriTech and Food Innovation plays poised to benefit from rising demand in 2026.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "A Look At Bunge Global (BG) Valuation After Strong Recent Shareholder Returns",
+        "summary": "Why Bunge Global (BG) is on investors\u2019 radar today Bunge Global (BG) is back in focus after recent share price moves, with the stock last closing at US$120.71. For investors, the key question is how this level lines up with fundamentals. See our latest analysis for Bunge Global. Recent price action has cooled slightly, with the 30 day share price return down 3.35%. However, the year to date share price return of 30.30% and 1 year total shareholder return of 58.91% still point to strong...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-24"
+      },
+      {
+        "title": "3 Reasons to Avoid BG and 1 Stock to Buy Instead",
+        "summary": "Bunge Global\u2019s 32.9% return over the past six months has outpaced the S&P 500 by 19.7%, and its stock price has climbed to $123.36 per share. This was partly due to its solid quarterly results, and the run-up might have investors contemplating their next move.",
+        "source": "StockStory",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "STT": {
+    "ticker": "STT",
+    "close": 159.79,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "State Street Corporation",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "rev_growth_TTM": -0.028,
+    "market_cap": 44224602112,
+    "news": [
+      {
+        "title": "Are You Looking for a High-Growth Dividend Stock?",
+        "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does State Street (STT) have what it takes? Let's find out.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Zacks Industry Outlook Highlights State Street and Northern Trust",
+        "summary": "State Street and Northern Trust are positioned to benefit from improving loan demand, expanding fee income and favorable regional banking trends.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "\u2018VOO and Chill\u2019 Pushes Vanguard S&P 500 ETF Toward Record $1T",
+        "summary": "The fund would become the first ETF to hit the trillion-dollar milestone.",
+        "source": "The Daily Upside",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Wells Fargo Raises its Price Target on State Street (STT)",
+        "summary": "State Street Corporation (NYSE:STT) is one of the 12 Undervalued Financial Stocks to Buy Now. On May 26, 2026, Wells Fargo raised the firm\u2019s price target on State Street Corporation (NYSE:STT) to $171 from $162 and maintained an Overweight rating on the shares. Wells Fargo said a meeting with CFO John Woods reinforced its view [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Which Is the Better Aerospace and Defense ETF, Invesco's PPA or State Street's XAR?",
+        "summary": "One ETF captured higher recent returns, while the other showed greater resilience in downturns. See how their portfolios and costs stack up for investors.",
+        "source": "Motley Fool",
+        "pub": "2026-05-30"
+      }
+    ]
+  },
+  "UPS": {
+    "ticker": "UPS",
+    "close": 109.02,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "United Parcel Service, Inc.",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "rev_growth_TTM": -0.016,
+    "market_cap": 92667682816,
+    "news": [
+      {
+        "title": "Is United Parcel Service Stock Underperforming the Nasdaq?",
+        "summary": "Despite United Parcel Service's underperformance relative to the broader Nasdaq Composite over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "UPS Targets Manufacturers With $50M Mexico Air Freight Investment",
+        "summary": "As part of the project, the logistics giant is offering one-to-three day service options for manufacturers amid nearshoring and tariff-driven supply chain shifts.",
+        "source": "Sourcing Journal",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "UPS upgrades service level for US-Mexico industrial shippers",
+        "summary": "UPS says it has invested $50M in elevating service for freight shippers that use its parcel network between Mexico and the U.S. with the introduction of guaranteed day delivery and freight-specific pricing. The post UPS upgrades service level for US-Mexico industrial shippers appeared first on FreightWaves.",
+        "source": "FreightWaves",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "UPS Expands Heavy Air Freight To Mexico As Shares Trade At Discount",
+        "summary": "UPS (NYSE:UPS) is investing US$50 million to expand its heavy air freight services across North America. The company is launching time definite air freight services to and from Mexico focused on automotive and industrial customers. UPS is also creating a dedicated expert team to support automotive and industrial supply chains. For investors watching NYSE:UPS, this move sits at the intersection of freight, manufacturing and cross border trade. Automotive and industrial customers often have...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "2 Industrial Stocks You'll Wish You Bought in 2026 a Decade From Now",
+        "summary": "With high yields and troubled businesses, these two unloved industrial stocks could be attractive long-term opportunities.",
+        "source": "Motley Fool",
+        "pub": "2026-05-30"
+      }
+    ]
+  },
+  "ROP": {
+    "ticker": "ROP",
+    "close": 344.25,
+    "n_det": 2,
+    "detectors": "fast_donchian+range_expansion",
+    "trend": "down",
+    "name": "Roper Technologies, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.113,
+    "market_cap": 34740801536,
+    "news": [
+      {
+        "title": "Roper Technologies, Inc. (ROP) Announces Dividend of $0.91 Per Share",
+        "summary": "Roper Technologies, Inc. (NASDAQ:ROP) is among the 10 Most Oversold S&P 500 Stocks So Far in 2026. On May 19, the company said that its Board of Directors had approved a dividend of $0.91 per share. The payment is scheduled for July 22, 2026, to all shareholders of record as of July 8, 2026. The [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Roper Technologies (ROP): 10 Cheap NASDAQ Stocks to Buy Right Now",
+        "summary": "Roper Technologies, Inc. (NASDAQ:ROP) is one of the cheap NASDAQ stocks to buy right now. On April 23, Roper Technologies reported a strong Q1 2026, with revenue increasing 11% to $2.10 billion, driven by 6% organic growth and contributions from acquisitions. Adjusted net earnings rose 4% to $539 million, while adjusted diluted EPS grew 8% [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Roper Technologies Stock: Is Wall Street Bullish or Bearish?",
+        "summary": "Roper Technologies has notably underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-21"
+      },
+      {
+        "title": "Roche Breast Cancer Data At ASCO 2026 Tests Pipeline Narrative",
+        "summary": "Roche Holding (SWX:ROP) and its subsidiary Genentech are presenting new breast cancer data at the ASCO 2026 Annual Meeting. The update centers on giredestrant for estrogen receptor positive breast cancer, with results described by the companies as potentially practice changing. The companies are also sharing broader oncology findings that highlight developments across Roche's cancer drug pipeline. For investors watching Roche Holding, the ASCO 2026 spotlight comes as the stock trades around...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-20"
+      },
+      {
+        "title": "A Look At Roper Technologies (ROP) Valuation After Recent Share Price Weakness",
+        "summary": "Roper Technologies (ROP) is back in focus after recent trading put a spotlight on its mixed return profile, including a decline of about 9% over the past month alongside slightly positive performance over the past 3 months. See our latest analysis for Roper Technologies. At a share price of US$328.91, Roper Technologies has seen its 1 day share price return slip 0.63%, while the 1 month share price return is down 9.25% and the 1 year total shareholder return has fallen 42.68%. This points to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "ABNB": {
+    "ticker": "ABNB",
+    "close": 137.87,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "Airbnb, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Travel Services",
+    "rev_growth_TTM": 0.179,
+    "market_cap": 81826521088,
+    "news": [
+      {
+        "title": "Airbnb, Inc. (ABNB): One of the Top Stocks in the Jeff Bezos Portfolio",
+        "summary": "We just covered the Jeff Bezos Stock Portfolio: Top 10 Stock Picks and Airbnb, Inc. (NASDAQ:ABNB) ranks 2nd on this list. In the summer of 2011, Bezos Expeditions participated heavily in the transformative $112 million Series B funding round for Airbnb, Inc. (NASDAQ:ABNB), which valued the nascent home-sharing platform at just over $1 billion. Led [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "The Exclusive Retreat Where Wealthy Kids Learn How Not to Blow an Inheritance",
+        "summary": "Inside a three-day gathering where a group of heirs collectively worth $7 billion learn the secrets to staying rich.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Airbnb Backs WeRoad To Tap Growth In Curated Group Travel",
+        "summary": "Airbnb, listed as NasdaqGS:ABNB, is leading a US$58m Series C funding round in group travel startup WeRoad. The deal includes an expansion partnership as WeRoad plans to enter the U.S. market with Airbnb's support. This marks an investment move for Airbnb outside its core short term rental and travel booking platform. For you as an investor, this development highlights how NasdaqGS:ABNB is engaging with a different part of the travel ecosystem: group adventures and escorted trips. The core...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Airbnb Expands Travel Platform with Airport Pickups, Grocery Delivery, and Car Rentals",
+        "summary": "Airbnb, Inc. (NASDAQ:ABNB) is included among the 10 Best Reddit Stocks to Buy According to Billionaires. On May 20, Airbnb, Inc. (NASDAQ:ABNB) announced a range of new services for travelers looking to use a single platform to plan their trips. The company added features such as airport pickups, grocery delivery, and luggage storage. Guests who [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Airbnb CEO Brian Chesky: Chatbots Are Not The Future Of AI \u2014 Consumer Products Are",
+        "summary": "Text-based AI chatbots are unlikely to become the dominant interface for travel and e-commerce, according to Airbnb Inc. (NASDAQ:ABNB) CEO Brian Chesky. \"I do not think a chatbot is the right interface for travel or e-commerce,\" he said on the...",
+        "source": "Benzinga",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "C": {
+    "ticker": "C",
+    "close": 129.09,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "Citigroup, Inc.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "rev_growth_TTM": 0.159,
+    "market_cap": 220172926976,
+    "news": [
+      {
+        "title": "Citi turns bullish on copper, sees price hitting $15,000 per ton within a year",
+        "summary": "Investing.com -- Citi has turned bullish on copper after several months of a broadly neutral stance, raising its near-term price forecast to $14,500 per metric ton and targeting $15,000 per ton within the next six to twelve months, driven by U.S. tariff tailwinds, tighter supply and resilient demand from energy transition and AI infrastructure.",
+        "source": "Investing.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Is Citigroup Stock Outperforming the Dow?",
+        "summary": "While Citigroup has exceeded the Dow over the past year, Wall Street analysts maintain a cautiously optimistic outlook on the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "UBS Group Slashes Hundreds of Jobs in EMEA Amid CS Integration Drive",
+        "summary": "UBS cuts hundreds of jobs across EMEA as the bank accelerates Credit Suisse integration and targets $13.5B in cost savings by 2026.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "PepsiCo (PEP) Extends Credit Facilities to Strengthen Long-Term Liquidity",
+        "summary": "PepsiCo, Inc. (NASDAQ:PEP) is one of the 10 Safest Dividend Stocks to Buy Right Now. PepsiCo, Inc. (NASDAQ:PEP) restructured its credit facilities on May 22, 2026, to maintain short- and long-term liquidity. The company replaced its existing $5 billion 364-day unsecured revolving credit facility with a new one expiring May 21, 2027. At the same [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Citigroup Forecasts Tokenized Securities Market Will Hit $5.5 Trillion",
+        "summary": "American bank Citigroup (NYSE: $C) is forecasting that the market for tokenized securities will reach $5.5 trillion...",
+        "source": "CryptoProwl",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "FCX": {
+    "ticker": "FCX",
+    "close": 67.04,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "Freeport-McMoRan, Inc.",
+    "sector": "Basic Materials",
+    "industry": "Copper",
+    "rev_growth_TTM": 0.088,
+    "market_cap": 96374013952,
+    "news": [
+      {
+        "title": "First Quantum Minerals (FQVLF) Soars 5.0%: Is Further Upside Left in the Stock?",
+        "summary": "First Quantum Minerals (FQVLF) saw its shares surge in the last session with trading volume being higher than average. The latest trend in earnings estimate revisions may not translate into further price increase in the near term.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Is Freeport-McMoRan Inc. (FCX) Among the Best Performing Silver Stocks So Far in 2026?",
+        "summary": "Freeport-McMoRan Inc. (NYSE:FCX) is one of the 10 Best Performing Silver Stocks So Far in 2026. On May 20, 2026, Reuters reported that majority-owned by Indonesia\u2019s state holding and operated by Freeport-McMoRan Inc. (NYSE:FCX), PT Freeport Indonesia said recovery at the Grasberg copper and gold complex is taking longer than expected. The reason is due [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Reassessing Freeport McMoRan (FCX) Valuation After A Strong 1 Year Return Attracts Renewed Investor Attention",
+        "summary": "Why Freeport-McMoRan (FCX) is back on investors\u2019 radar Freeport-McMoRan (FCX) has drawn fresh attention after a strong 1 year total return of 70.73% and year to date return of 26.84%. This has prompted investors to reassess the copper focused miner\u2019s recent performance. See our latest analysis for Freeport-McMoRan. The recent 1 day share price return of 3.52% and 7 day share price return of 5.71% have added to a 30 day share price return of 13.16%. However, the 90 day share price return...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Is Freeport-McMoRan (FCX) a Buy as Wall Street Analysts Look Optimistic?",
+        "summary": "Based on the average brokerage recommendation (ABR), Freeport-McMoRan (FCX) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
+        "summary": "Recently, Zacks.com users have been paying close attention to Freeport-McMoRan (FCX). This makes it worthwhile to examine what the stock has in store.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "MCO": {
+    "ticker": "MCO",
+    "close": 464.2,
+    "n_det": 2,
+    "detectors": "fast_donchian+squeeze_release",
+    "trend": "up",
+    "name": "Moody's Corporation",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges",
+    "rev_growth_TTM": 0.081,
+    "market_cap": 81084801024,
+    "news": [
+      {
+        "title": "5 Warren Buffett Stocks to Hold Forever",
+        "summary": "Berkshire Hathaway has had some of these titles in its equity portfolio for decades.",
+        "source": "Motley Fool",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "South East Water breaches Ofwat licence after supply chaos",
+        "summary": "South East Water has breached its operating licence just days after it was struck by fresh supply chaos, leaving thousands of customers without water during the heatwave.",
+        "source": "The Telegraph",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Investors Say It\u2019s Time for Pemex to Tap Global Debt Markets",
+        "summary": "(Bloomberg) -- Lea la nota en espa\u00f1olMost Read from BloombergSingapore Hands Byju's Founder His First Ever Jail TermIran\u2019s Khamenei Says No Going Back for Middle East Rocked by WarEx-President Biden Sues to Stop DOJ Sharing Interview TapesTwo More Oil Supertankers Exit Hormuz to Help Push Up Flows\u2018KPop Demon Hunters\u2019 Studio Draws Tencent Music InvestmentInvestors say the time is right for state-owned Petroleos Mexicanos SA to sell global bonds for the first time in more than three years.In the w",
+        "source": "Bloomberg",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Ellison Privately Vows to Limit Enlarged Paramount\u2019s Debt",
+        "summary": "(Bloomberg) -- It began as a concession in private conversations to assuage wary credit analysts looking at Paramount Skydance Corp.\u2019s blockbuster takeover of Warner Bros. Discovery Inc.: a verbal pledge by the Ellison family to do whatever it takes to slash debt at the combined company.Most Read from BloombergIran\u2019s Khamenei Says No Going Back for Middle East Rocked by WarSingapore Hands Byju's Founder His First Ever Jail TermPutin Signs Law on Use of Army to Aid Russians Detained AbroadEx-Pres",
+        "source": "Bloomberg",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Are Wall Street Analysts Bullish on Moody\u2019s Corporation Stock?",
+        "summary": "Amid AI-related pressures, are analysts bullish on Moody\u2019s Corporation stock?",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "PAYC": {
+    "ticker": "PAYC",
+    "close": 148.58,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Paycom Software, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.078,
+    "market_cap": 6927854080,
+    "news": [
+      {
+        "title": "Dynatrace, Paycom, and Zeta Global Shares Skyrocket, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after Snowflake's impressive earnings results provided clearer evidence that the \"SaaSpocalypse\" \u2014 a rolling selloff that had erased approximately $2 trillion from software market values since late 2025 on fears that AI would make subscription software obsolete \u2014 had been overstated for platforms sitting at the centre of AI workflows.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Block Stock Gains 24.9% in Past 3 Months: Will It Continue to Rise?",
+        "summary": "XYZ's stock surges 24.9%, backed by strong Cash App growth, rising gross profit, and expanding BNPL and lending momentum.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "A Look At Paycom Software (PAYC) Valuation After Q1 Beat And Ongoing Share Buybacks",
+        "summary": "Paycom Software (PAYC) has been back in focus after its Q1 report, where revenue slightly exceeded analyst expectations, earnings continued to grow, and management kept buying back stock despite softer guidance versus HR software peers. See our latest analysis for Paycom Software. Since the Q1 release, buyers have cautiously returned, with an 11.4% 30 day share price return and a 15.5% 90 day share price return contrasting with a much weaker 1 year total shareholder return. This suggests that...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Q1 Earnings Roundup: Paycom (NYSE:PAYC) And The Rest Of The HR Software Segment",
+        "summary": "Wrapping up Q1 earnings, we look at the numbers and key takeaways for the hr software stocks, including Paycom (NYSE:PAYC) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "5 Reasons to Add BILL Holdings Stock to Your Portfolio Right Now",
+        "summary": "BILL's SMB finance platform keeps expanding with new products, AI automation, partner reach and a $1B buyback despite macro risks.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "PAYX": {
+    "ticker": "PAYX",
+    "close": 102.44,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Paychex, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.199,
+    "market_cap": 36703318016,
+    "news": [
+      {
+        "title": "Will Paychex (PAYX) Beat Estimates Again in Its Next Earnings Report?",
+        "summary": "Paychex (PAYX) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "A Look Back at HR Software Stocks\u2019 Q1 Earnings: Paychex (NASDAQ:PAYX) Vs The Rest Of The Pack",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at Paychex (NASDAQ:PAYX) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Paychex's PEO Revenue Growth Expected to Reaccelerate in 2027, RBC Says",
+        "summary": "Paychex's (PAYX) Professional Employer Organization revenue growth is expected to soften in fiscal Q",
+        "source": "MT Newswires",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Paychex WISE Launch Puts AI Workflows And Valuation In Focus",
+        "summary": "Paychex (NasdaqGS:PAYX) has launched WISE, an AI-powered intelligence and automation platform for its HR and payroll solutions. WISE introduces AI agents, predictive analytics, and multi-channel assistance as a broad upgrade to the company\u2019s existing tools. For you as an investor watching HR and payroll services, WISE signals a shift in how Paychex (NasdaqGS:PAYX) is positioning its platform in a market where automation and AI are becoming core expectations. The company operates in a space...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Here's Why You Should Retain Paychex Stock in Your Portfolio",
+        "summary": "PAYX gains 7.9% over the past month as SaaS demand, AI-driven HR tools and expanding PEO services support its growth outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "EFX": {
+    "ticker": "EFX",
+    "close": 173.59,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Equifax, Inc.",
+    "sector": "Industrials",
+    "industry": "Consulting Services",
+    "rev_growth_TTM": 0.143,
+    "market_cap": 20940959744,
+    "news": [
+      {
+        "title": "Upstart's Auto Loan Push Is the 1 Story That Could Change the AI Lending Thesis",
+        "summary": "The company's current business mix could -- and probably will -- look very different in just a few years.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Canada's Credit Stress Is Rising, Not Breaking, Says National Bank",
+        "summary": "Total debt insolvency in Canada reached its highest level since the 2009 financial crisis in Q1, acc",
+        "source": "MT Newswires",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Does Expanding Its GBG Fraud Partnership Reshape Equifax\u2019s (EFX) Digital Identity Ambitions?",
+        "summary": "Earlier in May 2026, GBG announced it is expanding its partnership with Equifax into the US, integrating Equifax Identity and Fraud solutions into its GBG Go platform while Equifax embeds GBG\u2019s data verification in its own US offerings. This two-way integration creates a broader identity and fraud prevention toolkit for both companies\u2019 clients, potentially deepening Equifax\u2019s role in global digital identity verification. Next, we\u2019ll examine how this expanded fraud and identity partnership...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Canadian Insolvency Volumes in Q1 Reach Highest Level Since 2009, Says Equifax",
+        "summary": "Canadian insolvency volumes in Q1 have increased to levels not seen since 2009, up 18.8% year-over-y",
+        "source": "MT Newswires",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Equifax Stock: Is Wall Street Bullish or Bearish?",
+        "summary": "While Equifax has underperformed the broader market over the past year, Wall Street still appears optimistic about the stock.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "EPAM": {
+    "ticker": "EPAM",
+    "close": 108.76,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "EPAM Systems, Inc.",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "rev_growth_TTM": 0.076,
+    "market_cap": 5682106880,
+    "news": [
+      {
+        "title": "Here Are Friday\u2019s Top Wall Street Analyst Research Calls: Best Buy, Cogent Communications, Dell Technologies, EPAM Systems, Federal Realty, Gap, Snowflake, Viper Energy, and More",
+        "summary": "Pre-Market Stock Futures: Futures are trading higher after yet another winning day for Wall Street, as all major indices finished the day higher after starting the session lower. Once again, all four indices we track for readers posted all-time highs as the AI/Data Center, Memory Chip rally continues to roll on. Healthcare and consumer stocks ... Here Are Friday\u2019s Top Wall Street Analyst Research Calls: Best Buy, Cogent Communications, Dell Technologies, EPAM Systems, Federal Realty, Gap, Snowfl",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Why Jefferies sees more downside risk for digital IT services",
+        "summary": "Investing.com -- Jefferies has reiterated a cautious stance on the IT services sector, downgrading EPAM Systems and Grid Dynamics to Hold while warning that the demand environment carries more downside risk than upside as artificial intelligence continues to reshape the industry.",
+        "source": "Investing.com",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "2 Value Stocks Worth Investigating and 1 Facing Challenges",
+        "summary": "Value investing has produced some of the world\u2019s most famous investing billionaires, including Warren Buffett, David Einhorn, and Seth Klarman, who built their fortunes by purchasing wonderful businesses at reasonable prices. But these hidden gems are few and far between - many stocks that appear cheap often stay that way because they face structural issues.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "FedEx Spin-Off Gets Rare S&P 500 Fast Pass As Freight Unit Prepares To Trade",
+        "summary": "FedEx will spin off FedEx Freight as an independent company on June 1, and the new business will quickly join the S&P 500 index.",
+        "source": "Stocktwits",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Are Wall Street Analysts Bullish on EPAM Systems Stock?",
+        "summary": "EPAM Systems has notably underperformed the broader market over the past year, but analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "LVS": {
+    "ticker": "LVS",
+    "close": 53.27,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Las Vegas Sands Corp.",
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos",
+    "rev_growth_TTM": 0.253,
+    "market_cap": 35298689024,
+    "news": [
+      {
+        "title": "Barry Diller Offers to Buy MGM Resorts. The Stock Jumps 16%.",
+        "summary": "People Inc. offers to acquire MGM Resorts for $48.30 a share in cash, valuing the casino operator at roughly $18 billion.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Is Las Vegas Sands (LVS) One of the Cheap NYSE Stocks to Buy According to Analysts?",
+        "summary": "Las Vegas Sands Corp. (NYSE:LVS) is one of the cheap NYSE stocks to buy according to analysts. On April 22, Las Vegas Sands reported strong Q1 2026 results, with net revenue rising 25.3% year-over-year to $3.59 billion. The company saw significant growth in profitability, with net income increasing 57.1% to $641 million and diluted EPS [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Why Is Las Vegas Sands (LVS) Down 4.8% Since Last Earnings Report?",
+        "summary": "Las Vegas Sands (LVS) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Why Investors Need to Take Advantage of These 2 Consumer Discretionary Stocks Now",
+        "summary": "The Zacks Earnings ESP is a great way to find potential earnings surprises. Why investors should take advantage now.",
+        "source": "Zacks",
+        "pub": "2026-05-21"
+      }
+    ]
+  },
+  "MELI": {
+    "ticker": "MELI",
+    "close": 1730.98,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "MercadoLibre, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "rev_growth_TTM": 0.49,
+    "market_cap": 87755808768,
+    "news": [
+      {
+        "title": "House of Doge and Paxos Partner to Expand Regulated Access to Dogecoin",
+        "summary": "House of Doge is pushing Dogecoin further into regulated fintech infrastructure through a new partnership with Paxo...",
+        "source": "CryptoProwl",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "TBH Stock Climbs On House Of Doge-Paxos Dogecoin Deal, But Reverse Split Muddies The Retail Sentiment",
+        "summary": "Dogecoin did not follow the stock higher, with the meme token\u2019s price down around 1.8% on the day, and retail sentiment on TBH dropping to \u2018neutral\u2019 from \u2018bullish\u2019 territory.",
+        "source": "Stocktwits",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Why a Fintech-Focused Fund Just Added $44 Million of MercadoLibre Stock",
+        "summary": "MercadoLibre powers e-commerce and fintech across Latin America, serving businesses and consumers in rapidly expanding digital markets.",
+        "source": "Motley Fool",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Why a Fund Made a $17 Million Bet on MercadoLibre Despite a 35% Stock Drop",
+        "summary": "MercadoLibre delivers e-commerce, payments, and logistics solutions across Latin America, serving consumers and businesses at scale.",
+        "source": "Motley Fool",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "A Look At MercadoLibre (MELI) Valuation As Contrarian Interest Rises And Analyst Concerns Persist",
+        "summary": "MercadoLibre (MELI) is back in focus after high profile TV commentators highlighted the stock as a contrarian idea, pointing to low bullish sentiment alongside signs of institutional buying interest. See our latest analysis for MercadoLibre. At a share price of US$1,695.65, MercadoLibre has seen short term pressure, with a 30 day share price return down 8.35% and year to date share price return down 14.09%. The 3 year total shareholder return of 33.45% still points to a materially positive...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "TRMB": {
+    "ticker": "TRMB",
+    "close": 58.15,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Trimble Inc.",
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "rev_growth_TTM": 0.118,
+    "market_cap": 13555435520,
+    "news": [
+      {
+        "title": "Robust Recurring Revenue Affirms Trimble Inc. (TRMB) as a Stock That Could 10x by 2030",
+        "summary": "Trimble Inc. (NASDAQ:TRMB) is one of the stocks that could 10x by 2030. On May 6, Trimble Inc. (NASDAQ:TRMB) delivered impressive first-quarter results characterized by record recurring revenue and gross margins, and provided solid guidance for 2026. The impressive first-quarter results came against the backdrop of the Connect & Scale strategy, which is helping the [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "Farming Has a Tough Row to Hoe. This Analyst Still Likes Corteva and a Tech Provider.",
+        "summary": "Government policies, geopolitics, and innovation are reshaping agricultural-related companies. These stocks are weathering the storm.",
+        "source": "Barrons.com",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "3 Mid-Cap Stocks That Concern Us",
+        "summary": "Many investors pay attention to mid-cap stocks because they have established business models and expansive market opportunities. However, their paths to becoming $100 billion corporations are ripe with competition, ranging from giants with vast resources to agile upstarts eager to disrupt the status quo.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "1 Oversold Stock Set for a Comeback and 2 We Avoid",
+        "summary": "The past year hasn't been kind to the stocks featured in this article. Each has tumbled to their lowest points in 12 months, leaving investors to decide whether they're witnessing fire sales or falling knives.",
+        "source": "StockStory",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Assessing Trimble (TRMB) Valuation After Recent Share Price Pullback And Subscription Growth Narrative",
+        "summary": "Trimble (TRMB) has drawn attention after its share price fell about 19% over the past month and about 17% over the past 3 months, prompting investors to reassess the stock. See our latest analysis for Trimble. At the latest share price of US$55.97, Trimble\u2019s momentum has cooled, with the 30 day share price return down about 19% and the year to date share price return down about 29%. However, the 3 year total shareholder return of about 20% underlines a very different longer term picture. If...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-21"
+      }
+    ]
+  },
+  "TSCO": {
+    "ticker": "TSCO",
+    "close": 31.78,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Tractor Supply Company",
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail",
+    "rev_growth_TTM": 0.036,
+    "market_cap": 16667009024,
+    "news": [
+      {
+        "title": "Tractor Supply Company (TSCO) Acquires VIP Petcare Veterinary Services",
+        "summary": "Tractor Supply Company (NASDAQ:TSCO) is among the 10 Most Oversold S&P 500 Stocks So Far in 2026. On May 28, the company said it had acquired VIP Petcare from PetIQ. The business is the largest mobile veterinary services provider in the United States, serving more than 1 million pets annually through its network of nearly [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "1 Cash-Producing Stock with Exciting Potential and 2 We Avoid",
+        "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "2 Profitable Stocks for Long-Term Investors and 1 We Turn Down",
+        "summary": "Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn\u2019t mean it will thrive tomorrow.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Piper Sandler Sees Pressure on Tractor Supply (TSCO) from Weak Pet Spending Trends",
+        "summary": "With a 5-year dividend growth rate of 22.7%, Tractor Supply Company (NASDAQ:TSCO) is included among the 10 Best Dividend Growth Stocks to Buy and Hold for 3 Years. On May 5, Piper Sandler analyst Peter Keith downgraded Tractor Supply Company (NASDAQ:TSCO) to Neutral from Overweight. It cut the stock\u2019s price target to $36 from $51. The [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-24"
+      },
+      {
+        "title": "Tractor Supply (TSCO) Valuation Check After Recent Share Price Weakness",
+        "summary": "Recent share performance puts Tractor Supply in focus Tractor Supply (TSCO) has drawn fresh attention after its share price fell about 19% over the past month and roughly 40% over the past 3 months, prompting investors to reassess the rural retailer\u2019s fundamentals. See our latest analysis for Tractor Supply. At a share price of US$31.62, Tractor Supply has seen its 30 day share price return fall 18.84% and its year to date share price return decline 37.79%, while the 1 year total shareholder...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      }
+    ]
+  },
+  "TYL": {
+    "ticker": "TYL",
+    "close": 329.83,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "down",
+    "name": "Tyler Technologies, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "rev_growth_TTM": 0.086,
+    "market_cap": 13569388544,
+    "news": [
+      {
+        "title": "Tyler Technologies (TYL) Selected by Anchorage for Enterprise Payments Platform",
+        "summary": "Tyler Technologies, Inc. (NYSE:TYL) is one of the 10 Best Debt-Free S&P 500 Stocks to Buy Now. On May 26, 2026, Tyler Technologies, Inc. (NYSE:TYL) announced that the Municipality of Anchorage, Alaska, selected Tyler\u2019s enterprise Payments platform. The cloud-based platform will help Anchorage manage the full payments life cycle, including billing, presentment, revenue collection, fund [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Tyler Technologies (TYL) Down 10.3% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Tyler Technologies (TYL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "What Are Wall Street Analysts' Target Price for Tyler Technologies Stock?",
+        "summary": "Tyler Technologies has lagged behind the broader market over the past year, yet analysts remain highly optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Does Tyler Technologies\u2019 (TYL) Anchorage Cloud Payments Win Reveal Deeper Strength in Its Platform Strategy?",
+        "summary": "Tyler Technologies recently announced that the Municipality of Anchorage, Alaska, has adopted Tyler\u2019s cloud-based enterprise Payments platform to centralize billing, revenue collection, reconciliation, and reporting across multiple payment channels for residents and businesses. This expansion within an existing Tyler client highlights how governments are deepening use of the company\u2019s integrated cloud solutions to modernize core financial workflows. We\u2019ll now examine how this Anchorage cloud...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Here\u2019s Why TCW Concentrated Large Cap Growth Fund Chose to Exit Tyler Technologies (TYL)",
+        "summary": "TCW Funds, an investment management firm, published its first-quarter 2026 investor letter for the \u2018TCW Concentrated Large Cap Growth Fund.\u2019 A copy of the letter is available to download here. The first quarter was marked by volatility in equity markets, driven by geopolitical tensions, concerns about the private credit sector, a government shutdown, and ongoing [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "VRSK": {
+    "ticker": "VRSK",
+    "close": 183.97,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Verisk Analytics, Inc.",
+    "sector": "Industrials",
+    "industry": "Consulting Services",
+    "rev_growth_TTM": 0.039,
+    "market_cap": 24104087552,
+    "news": [
+      {
+        "title": "Does Verisk (VRSK) Expanding Catastrophe Models Strengthen Its Edge in Insurance Risk Analytics?",
+        "summary": "In late May 2026, Verisk Analytics expanded its catastrophe risk capabilities by updating its U.S. Tropical Cyclone model on the Synergy Studio platform and adding KatRisk\u2019s multi-peril models to the open, multi-vendor Verisk Model Exchange. These enhancements deepen Verisk\u2019s role at the center of insurance risk analytics by giving insurers and reinsurers more granular, comparable views of physical and cyber catastrophe exposures on a single governed platform. We\u2019ll now examine how the...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Will Verisk's Valuable Data Moat Hold, or Will AI Commoditize It?",
+        "summary": "The stock is down nearly 50% from its highs amid fears that AI will erode the value of the company's data and analytics franchise.",
+        "source": "Motley Fool",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "Why Is Verisk (VRSK) Down 6.3% Since Last Earnings Report?",
+        "summary": "Verisk (VRSK) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "1 S&P 500 Stock Worth Investigating and 2 That Underwhelm",
+        "summary": "While the S&P 500 (^GSPC) includes industry leaders, not every stock in the index is a winner. Some companies are past their prime, weighed down by poor execution, weak financials, or structural headwinds.",
+        "source": "StockStory",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Are Options Traders Betting on a Big Move in Verisk Analytics Stock?",
+        "summary": "Investors need to pay close attention to VRSK stock based on the movements in the options market lately.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "WYNN": {
+    "ticker": "WYNN",
+    "close": 106.53,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Wynn Resorts, Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos",
+    "rev_growth_TTM": 0.092,
+    "market_cap": 11056400384,
+    "news": [
+      {
+        "title": "Barry Diller Offers to Buy MGM Resorts. The Stock Jumps 16%.",
+        "summary": "People Inc. offers to acquire MGM Resorts for $48.30 a share in cash, valuing the casino operator at roughly $18 billion.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Jim Cramer Calls Wynn Resorts a \u201cVery Difficult Investment\u201d",
+        "summary": "Wynn Resorts, Limited (NASDAQ:WYNN) was one of the stocks on Jim Cramer\u2019s radar on Mad Money as he explained that many investors might be missing out on the market\u2019s biggest winners. A caller sought Cramer\u2019s opinion on the stock during the episode. In response, he commented: If it weren\u2019t for its commitment, which I admire, [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "1 Mid-Cap Stock with Competitive Advantages and 2 We Avoid",
+        "summary": "Mid-cap stocks have the best odds of scaling into $100 billion corporations thanks to their tested business models and large addressable markets. But the many opportunities in front of them attract significant competition, spanning from industry behemoths with seemingly infinite resources to small, nimble players with chips on their shoulders.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Stock Market Today, May 28: Caesars Entertainment Jumps After Fertitta Entertainment Agrees to Acquire Company for Cash",
+        "summary": "Caesars faces a high-stakes buyout and soaring volume today, May 28, 2026.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Caesars Entertainment, a Las Vegas Strip icon, is sold for nearly $6 billion",
+        "summary": "Billionaire hospitality mogul Tilman Fertitta is acquiring Caesars Entertainment for almost $6 billion, a merger that would create one of the largest gaming empires.  Caesars became an iconic name after the opening of Caesar\u2019s Palace on the Las Vegas Strip in 1966.  Fertitta is the CEO of Fertitta Entertainment, a company that owns Las Vegas' Golden Nugget and chains like Rainforest Cafe and Morton's. Fertitta also owns the NBA team Houston Rockets, and he is the largest shareholder in Wynn Resorts as well as in DraftKings, the sports betting company.",
+        "source": "Associated Press",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "AMAT": {
+    "ticker": "AMAT",
+    "close": 458.17,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Applied Materials, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "rev_growth_TTM": 0.114,
+    "market_cap": 363768414208,
+    "news": [
+      {
+        "title": "Jim Cramer Says He\u2019s Betting \u201cApplied Materials Will Just Keep Winning\u201d",
+        "summary": "Applied Materials, Inc. (NASDAQ:AMAT) was one of the stocks on Jim Cramer\u2019s radar on Mad Money as he explained that many investors might be missing out on the market\u2019s biggest winners. Cramer was bullish on the stock during the episode, as he stated: We have had an unstoppable bull market in the semiconductor capital equipment [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Is It Worth Investing in Applied Materials (AMAT) Based on Wall Street's Bullish Views?",
+        "summary": "According to the average brokerage recommendation (ABR), one should invest in Applied Materials (AMAT). It is debatable whether this highly sought-after metric is effective because Wall Street analysts' recommendations tend to be overly optimistic. Would it be worth investing in the stock?",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Applied Materials, Inc. (AMAT) Is a Trending Stock: Facts to Know Before Betting on It",
+        "summary": "Applied Materials (AMAT) has received quite a bit of attention from Zacks.com users lately. Therefore, it is wise to be aware of the facts that can impact the stock's prospects.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Applied Materials (AMAT) \u2013 Among the 10 Best Long-Term Dividend Stocks to Invest In According to Billionaires",
+        "summary": "Applied Materials, Inc. (NASDAQ:AMAT) is included among the 10 Best Long-Term Dividend Stocks to Invest In According to Billionaires. Mizuho analyst Vijay Rakesh raised the firm\u2019s price recommendation on Applied Materials, Inc. (NASDAQ:AMAT) to $540 from $500 on May 27. He reiterated an Outperform rating on the shares. The firm also increased its wafer fab [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "These Artificial Intelligence (AI) Stocks Have Crushed Nvidia in 2026 With Gains of 67% and 121%. They Can Still Soar Higher",
+        "summary": "Lumentum Holdings and Applied Materials are important players in the AI infrastructure space, which explains why their stock prices have been soaring this year.",
+        "source": "Motley Fool",
+        "pub": "2026-05-30"
+      }
+    ]
+  },
+  "CZR": {
+    "ticker": "CZR",
+    "close": 29.15,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Caesars Entertainment, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos",
+    "rev_growth_TTM": 0.027,
+    "market_cap": 5937667584,
+    "news": [
+      {
+        "title": "For Goldman\u2019s Top Bankers, It\u2019s All AI Data Centers All the Time",
+        "summary": "(Bloomberg) -- For leveraged finance practitioners, artificial intelligence is the only game in town \u2014 especially in the absence of more debt deals to finance mergers and acquisitions.Most Read from BloombergUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedRussia Finance Officials Tell Putin War Spending Is UnaffordableBerkshire Hathaway to Buy Taylor Morrison for $6.8 BillionStocks Rise on Trump\u2019s Iran Remarks, AI Optimism: Markets WrapA Rare \u2018Super\u2019 El Ni\u00f1o Is Looking More Likely.",
+        "source": "Bloomberg",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Barry Diller Offers to Buy MGM Resorts. The Stock Jumps 16%.",
+        "summary": "People Inc. offers to acquire MGM Resorts for $48.30 a share in cash, valuing the casino operator at roughly $18 billion.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "MGM Stock Soars After Barry Diller's Company Makes $18 Billion Bid",
+        "summary": "Barry Diller's company People, Inc. made an offer to buy the part of MGM Resorts it does not already own. Shares of MGM Resorts jumped 15%.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "summary": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "After Caesars Deal, These 4 Struggling Companies Look Ripe for Acquisition",
+        "summary": "The Caesars deal just put a clock on the rest of corporate America. On May 28, 2026, Caesars Entertainment (NASDAQ: CZR) announced a definitive agreement to be acquired by Fertitta Entertainment in an all-cash transaction valued at approximately $17.6 billion, including the assumption of approximately $11.9 billion of Caesars\u2019 outstanding debt. Shareholders take home $31.00 ... After Caesars Deal, These 4 Struggling Companies Look Ripe for Acquisition",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "ELV": {
+    "ticker": "ELV",
+    "close": 402.66,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Elevance Health, Inc.",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.026,
+    "market_cap": 87442604032,
+    "news": [
+      {
+        "title": "Elevance Health Stock: Is ELV Underperforming the Health Care Sector?",
+        "summary": "Elevance Health has underperformed the Health Care sector over the past year, but analysts are moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Elevance again avoids Medicare Advantage sanctions, but threat remains",
+        "summary": "The CMS pushed back sanctions until July 1 after Elevance made progress on fixing faulty data submissions for its privatized Medicare plans. But the company still has more to do, regulators said.",
+        "source": "Healthcare Dive",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Elevance Health (ELV): One of the Best Undervalued Stocks to Buy According to the Financial Media",
+        "summary": "Elevance Health, Inc. (NYSE:ELV) is one of the Best Undervalued Stocks to Buy According to the Financial Media. On May 19, Evercore ISI added the company to its Tactical Outperform list for Q2, noting that Elevance Health, Inc. (NYSE:ELV) is expected to see strong upside in EPS this year, provided current trends hold or improve. [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
+        "summary": "Healthcare stocks declined late Friday afternoon, with the NYSE Healthcare Index decreasing 0.8% and",
+        "source": "MT Newswires",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Why Is Avantor (AVTR) Up 13% Since Last Earnings Report?",
+        "summary": "Avantor (AVTR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "EW": {
+    "ticker": "EW",
+    "close": 88.16,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Edwards Lifesciences Corporatio",
+    "sector": "Healthcare",
+    "industry": "Medical Devices",
+    "rev_growth_TTM": 0.167,
+    "market_cap": 50762530816,
+    "news": [
+      {
+        "title": "OPKO Health (OPK) Up 17.1% Since Last Earnings Report: Can It Continue?",
+        "summary": "OPKO Health (OPK) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is Edwards Lifesciences (EW) Fairly Priced After Recent Share Price Strength?",
+        "summary": "Wondering if Edwards Lifesciences at around US$86.51 is offering good value today, or if the recent share price leaves little margin for error. The stock has returned 4.3% over the last week, 3.7% over the past month, 1.4% year to date, and 12.8% over the past year, while the 3 year return sits at 2.7% and the 5 year return shows a decline of 7.4%. Recent coverage has focused on Edwards Lifesciences as a key player in medical equipment, with attention on how its products fit into long term...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Boston Scientific Bets on WATCHMAN to Drive Structural Heart Growth",
+        "summary": "WATCHMAN's 19% growth and trial wins bolster Boston Scientific's push to expand its addressable market from 5M to 20M patients worldwide.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "FANG": {
+    "ticker": "FANG",
+    "close": 199.03,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Diamondback Energy, Inc.",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "rev_growth_TTM": 0.042,
+    "market_cap": 55989788672,
+    "news": [
+      {
+        "title": "Diamondback Energy Inc. (FANG) One of the Best Oil Stocks to Buy Amid US-Iran War that Citi is Bullish On",
+        "summary": "Diamondback Energy Inc. (NASDAQ:FANG) is one of the best oil stocks to buy now amid the US-Iran Conflict. On May 20, analysts at Citi reiterated their Buy rating on Diamondback Energy Inc. (NASDAQ:FANG) and raised their price target to $245 from $225. The upgrade comes after Diamondback Energy rallied by more than 30% year to [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Strong Q1 Beat And Governance Shift Could Be A Game Changer For Diamondback Energy (FANG)",
+        "summary": "In May 2026, Diamondback Energy reported a strong first quarter with revenue, EPS and EBITDA all surpassing analyst expectations, while investors and analysts also emphasized its exposure to Middle East\u2013related oil price shocks and its concentrated operations in the Permian Basin. At the same time, the company\u2019s governance evolved as Travis D. Stice shifted from Executive Chairman to non-executive Chairman and senior leaders prepared to discuss Diamondback\u2019s positioning and outlook at...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Stocks Settle Mixed on Conflicting US-Iran Signals",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Wednesday closed up +0.02%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.09%. June E-mini S&P futures (ESM26 ) rose +0.04%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Stocks Finish Mostly Higher on Iran Peace Progress",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Tuesday closed up +0.61%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.76%. June E-mini S&P futures (ESM26 ) rose +0.61%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Winners And Losers Of Q1: Diamondback Energy (NASDAQ:FANG) Vs The Rest Of The U.S. Shale E&P Stocks",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at Diamondback Energy (NASDAQ:FANG) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "FOX": {
+    "ticker": "FOX",
+    "close": 59.84,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": -0.086,
+    "market_cap": 25143949312,
+    "news": [
+      {
+        "title": "Consumer Discretionary - Broadcasting Stocks Q1 Earnings: FOX (NASDAQ:FOXA) Best of the Bunch",
+        "summary": "As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the consumer discretionary - broadcasting industry, including FOX (NASDAQ:FOXA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Sone Capital Management Adds to MarketAxess Stake, According to Recent SEC Filing",
+        "summary": "MarketAxess sits at the center of the shift toward electronic bond trading and investors are watching whether record activity is turning into deeper client reliance on its trading, data, and automation tools.",
+        "source": "Motley Fool",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Stronger Q3 Beat And Institutional Support Might Change The Case For Investing In Fox (FOXA)",
+        "summary": "In May 2026, Fox Corporation reported fiscal third-quarter results that exceeded Wall Street expectations on both revenue and earnings, reinforcing its position across FOX News Media, FOX Sports, and Tubi Media Group. Large long-term holders such as the Yacktman Focused Fund and rising hedge fund ownership have signaled ongoing confidence in Fox\u2019s business model despite earlier share weakness. We\u2019ll now examine how Fox\u2019s stronger-than-expected quarterly results and reaffirmed institutional...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Fox Corporation (FOXA) Slid in Q1 Following a Strong Performance",
+        "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG \u201cYacktman Focused Fund\u201d. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000\u00ae Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "What Are Wall Street Analysts' Target Price for Fox Corporation Stock?",
+        "summary": "While Fox has underperformed the broader market over the past year, Wall Street still appears optimistic about the stock.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "FOXA": {
+    "ticker": "FOXA",
+    "close": 66.81,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": -0.086,
+    "market_cap": 28072646656,
+    "news": [
+      {
+        "title": "Consumer Discretionary - Broadcasting Stocks Q1 Earnings: FOX (NASDAQ:FOXA) Best of the Bunch",
+        "summary": "As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the consumer discretionary - broadcasting industry, including FOX (NASDAQ:FOXA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Sone Capital Management Adds to MarketAxess Stake, According to Recent SEC Filing",
+        "summary": "MarketAxess sits at the center of the shift toward electronic bond trading and investors are watching whether record activity is turning into deeper client reliance on its trading, data, and automation tools.",
+        "source": "Motley Fool",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Stronger Q3 Beat And Institutional Support Might Change The Case For Investing In Fox (FOXA)",
+        "summary": "In May 2026, Fox Corporation reported fiscal third-quarter results that exceeded Wall Street expectations on both revenue and earnings, reinforcing its position across FOX News Media, FOX Sports, and Tubi Media Group. Large long-term holders such as the Yacktman Focused Fund and rising hedge fund ownership have signaled ongoing confidence in Fox\u2019s business model despite earlier share weakness. We\u2019ll now examine how Fox\u2019s stronger-than-expected quarterly results and reaffirmed institutional...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Fox Corporation (FOXA) Slid in Q1 Following a Strong Performance",
+        "summary": "Yachtman Asset Management released its first-quarter 2026 investor letter for its AMG \u201cYacktman Focused Fund\u201d. A copy of the letter is available to download here. The Fund returned 10.37% for the first quarter, outperforming both the Russell 1000\u00ae Value Index and the S&P 500 Index, which returned 2.10% and -4.33%, respectively. The U.S. markets continue [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "What Are Wall Street Analysts' Target Price for Fox Corporation Stock?",
+        "summary": "While Fox has underperformed the broader market over the past year, Wall Street still appears optimistic about the stock.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "KDP": {
+    "ticker": "KDP",
+    "close": 30.2,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "Keurig Dr Pepper Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "rev_growth_TTM": 0.094,
+    "market_cap": 41088897024,
+    "news": [
+      {
+        "title": "Keurig Dr Pepper (KDP) Declares Dividend of $0.23 per Share",
+        "summary": "Keurig Dr Pepper (NYSE:KDP) is included among the 10 Best Dividend-Paying Beverage Stocks to Buy Now. Keurig Dr Pepper (NYSE:KDP) is a leading beverage company in North America. The company has a portfolio of more than 150 owned, licensed, and partner brands and powerful distribution capabilities to provide a beverage for every need, anytime, anywhere. [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "2 Aluminum Stocks Poised for Big Tariff-Related Gains",
+        "summary": "With aluminum at multi-year highs and the impact of tariffs remaining strong, domestic aluminum firms could be positioned to benefit.",
+        "source": "MarketBeat",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "1 Consumer Stock Worth Your Attention and 2 We Brush Off",
+        "summary": "Consumer staples are considered safe havens in turbulent markets due to their inelastic demand profiles. The flip side is that they frequently fall behind growth industries when times are good, and this perception became a reality over the past six months as the sector was down 3.3% while the S&P 500 was up 9.7%.",
+        "source": "StockStory",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "A Look At Keurig Dr Pepper (KDP) Valuation After Recent Share Price Momentum And GHOST Energy Growth Story",
+        "summary": "Recent performance snapshot Keurig Dr Pepper (KDP) has drawn fresh attention after a modest 1-day gain of 1.18%, alongside a month return of 9.72% and a slight decline of 1.42% over the past 3 months. See our latest analysis for Keurig Dr Pepper. With the share price at $29.12, Keurig Dr Pepper\u2019s recent 30 day share price return of 9.72% contrasts with a year to date share price gain of 5.01% and a 1 year total shareholder return that is down 8.58%. This suggests short term momentum has...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-23"
+      },
+      {
+        "title": "A Look Back at Beverages, Alcohol, and Tobacco Stocks\u2019 Q1 Earnings: Keurig Dr Pepper (NASDAQ:KDP) Vs The Rest Of The Pack",
+        "summary": "The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let\u2019s take a look at how Keurig Dr Pepper (NASDAQ:KDP) and the rest of the beverages, alcohol, and tobacco stocks fared in Q1.",
+        "source": "StockStory",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "LYV": {
+    "ticker": "LYV",
+    "close": 170.45,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Live Nation Entertainment, Inc.",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": 0.122,
+    "market_cap": 39665897472,
+    "news": [
+      {
+        "title": "3 Hyped Up  Stocks with Questionable Fundamentals",
+        "summary": "The stocks in this article are all trading near their 52-week highs. This strength often reflects positive developments such as new product launches, favorable industry trends, or improved financial performance.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "States Flex Muscle on Antitrust Enforcement as Trump Administration Pulls Back",
+        "summary": "When the Justice Department settled with  Live Nation  at the start of a long-awaited antitrust trial, it mounted a pressure campaign against a group of plaintiff states to demand that Republican attorneys general join the truce.  Then-Attorney General  Pam Bondi  warned some of the GOP state officials that the deal was personal to President  Trump,  according to people familiar with the matter.  Following the April jury verdict that found the company engaged in illegal monopolization, the states on Thursday asked a judge to impose sweeping changes on Live Nation, including forcing it to sell off its Ticketmaster subsidiary and some of the amphitheaters where it packs fans for summertime tours.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Could Mark Cuban\u2019s Backing Amid Monopoly Ruling Reshape Live Nation\u2019s Regulatory Risk Narrative (LYV)?",
+        "summary": "In recent months, Live Nation Entertainment was highlighted by Mark Cuban as one of his top stock picks, even as a US court found the company and Ticketmaster hold a harmful monopoly over major concert venues. This contrast between high-profile investor endorsement and legal scrutiny around market power raises fresh questions about how Live Nation\u2019s business model balances growth with regulatory risk. Now, we\u2019ll examine how Mark Cuban\u2019s backing amid monopoly concerns could influence Live...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "MOH": {
+    "ticker": "MOH",
+    "close": 183.25,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Molina Healthcare Inc",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": -0.043,
+    "market_cap": 9547325440,
+    "news": [
+      {
+        "title": "UnitedHealth vs. Molina: Which Managed Care Stock Is the Better Bet?",
+        "summary": "MOH's Medicaid focus, dual-eligible expansion and stronger share gains make it stand out against UNH in managed care.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Should Value Investors Buy Molina Healthcare (MOH) Stock?",
+        "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Is Molina Healthcare Worth Buying at a Premium 26.83X P/E Valuation?",
+        "summary": "MOH's premium valuation reflects confidence in growth, acquisitions and cash strength, even as elevated medical costs pressure margins.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Molina (MOH) Up 3.8% Since Last Earnings Report: Can It Continue?",
+        "summary": "Molina (MOH) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Here's Why Molina (MOH) Could be Great Choice for a Bottom Fisher",
+        "summary": "Molina (MOH) appears to have found support after losing some value lately, as indicated by the formation of a hammer chart. In addition to this technical chart pattern, strong agreement among Wall Street analysts in revising earnings estimates higher enhances the stock's potential for a turnaround in the near term.",
+        "source": "Zacks",
+        "pub": "2026-05-22"
+      }
+    ]
+  },
+  "MPC": {
+    "ticker": "MPC",
+    "close": 258.66,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Marathon Petroleum Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing",
+    "rev_growth_TTM": 0.088,
+    "market_cap": 75512332288,
+    "news": [
+      {
+        "title": "Oil Stocks Look Poised for Another Leg Higher",
+        "summary": "Peace talks between the US and Iran have again collapsed and oil stocks look ready to rally again. Marathon Petroleum, Valero Energy and Phillips 66 all boast top Zacks Ranks and strong price momentum.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "The Zacks Analyst Blog Highlights Marathon Petroleum, Nabors Industries and Suncor Energy",
+        "summary": "Marathon Petroleum, Nabors Industries and Suncor Energy are highlighted as growth stocks benefiting from tight energy supplies and strong demand.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Are Oils-Energy Stocks Lagging  Kolibri Global Energy Inc. (KGEI) This Year?",
+        "summary": "Here is how Kolibri Global Energy Inc. (KGEI) and Marathon Petroleum (MPC) have performed compared to their sector so far this year.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Is Marathon Petroleum (MPC) a Buy as Wall Street Analysts Look Optimistic?",
+        "summary": "The average brokerage recommendation (ABR) for Marathon Petroleum (MPC) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Liberty Energy Soars 60% in 6 Months: Still a Buy or Time to Hold?",
+        "summary": "LBRT delivers tech-driven, high-demand completions and natural gas innovations, yet cyclical markets, pricing pressure and capex needs may limit profits.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "close": 224.36,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "NVIDIA Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 0.852,
+    "market_cap": 5434223624192,
+    "news": [
+      {
+        "title": "Nvidia partners with Microsoft on new RTX Spark laptops",
+        "summary": "Nvidia CEO Jensen Huang introduces the new RTX Spark laptop lineup powered by the Blackwell RTX GPU. This is a major collaboration with Microsoft and other industry partners to reinvent the personal computer for the AI era.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Strategy sells $2.5M in bitcoin, Berkshire to acquire Taylor Morrison",
+        "summary": "Market Catalysts Host Julie Hyman and Yahoo Finance Markets and Data Editor Jared Blikre track several of the day's top trending stock tickers, including Strategy (MSTR) stock taking a hit after selling $2.5 million worth of bitcoin (BTC-USD), IBM (IBM) stock jumping on a resurfaced video of President Trump praising IBM CEO Arvind Krishna, and Berkshire Hathaway (BRK-A, BRK-B) to acquire Taylor Morrison Home (TMHC) in a $6..8 billion deal.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Nvidia to enter personal computers with new chip reveals at Computex",
+        "summary": "Nvidia (NVDA) debuted its RTX Spark and N1X chips at Computex Taipei 2026 over the weekend. Morning Brief Host Julie Hyman, Yahoo Finance Breaking News Reporter Jake Conley, and Barron's Investor Circle Newsletter editor Josh Schafer dive into the details and examine the new businesses that the chipmaker is trying to get into with its latest products.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang just perfectly explained the AI stock boom",
+        "summary": "Jensen level sets with the bulls.",
+        "source": "Yahoo Finance",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+        "summary": "Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "OXY": {
+    "ticker": "OXY",
+    "close": 58.92,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Occidental Petroleum Corporatio",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "rev_growth_TTM": -0.083,
+    "market_cap": 58603872256,
+    "news": [
+      {
+        "title": "Why Occidental Petroleum Stock Is Up Today",
+        "summary": "Oil prices are rising once again.",
+        "source": "Motley Fool",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Berkshire Stock Drops. Its Bargain-Priced Deal for Home Builder Fails to Impress Investors.",
+        "summary": "Most home-building stocks have been weak in the past year, with Taylor Morrison trading near a 52-week low on Friday.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Berkshire Hathaway to Buy Taylor Morrison for $6.8 Billion",
+        "summary": "(Bloomberg) -- Berkshire Hathaway Inc. will acquire Taylor Morrison Home Corp. in an all-cash deal worth about $6.8 billion, the first major purchase under chief executive Greg Abel and a vote of confidence in the US housing market. Most Read from BloombergUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedBerkshire Hathaway to Buy Taylor Morrison for $6.8 BillionRussia Finance Officials Tell Putin War Spending Is UnaffordableA Rare \u2018Super\u2019 El Ni\u00f1o Is Looking More Likely. Here\u2019s What",
+        "source": "Bloomberg",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "New Strong Buy Stocks for June 1st",
+        "summary": "PGY, TTMI, GDOT, OXY and CIVB have been added to the Zacks Rank #1 (Strong Buy) List on June 1st, 2026.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Best Income Stocks to Buy for June 1st",
+        "summary": "CAPL, CIVB and OXY made it to the Zacks Rank #1 (Strong Buy) income stocks list on June 1st, 2026.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "PSX": {
+    "ticker": "PSX",
+    "close": 180.24,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Phillips 66",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing",
+    "rev_growth_TTM": 0.069,
+    "market_cap": 72264531968,
+    "news": [
+      {
+        "title": "Oil Stocks Look Poised for Another Leg Higher",
+        "summary": "Peace talks between the US and Iran have again collapsed and oil stocks look ready to rally again. Marathon Petroleum, Valero Energy and Phillips 66 all boast top Zacks Ranks and strong price momentum.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Analyst Upgrades Phillips 66 (PSX), Raises Price Target by $42",
+        "summary": "Phillips 66 (NYSE:PSX) is included among the 14 Best Oil and Gas Stocks to Buy According to Hedge Funds. Phillips 66 (NYSE:PSX) is a diversified and integrated downstream energy provider that manufactures, transports, and markets products. On May 27, Mizuho analyst Nitin Kumar upgraded Phillips 66 (NYSE:PSX) from \u2018Neutral\u2019 to \u2018Outperform\u2019, while also raising the [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Phillips 66 Expands Midstream Footprint With Zeus And Coastal Bend Projects",
+        "summary": "Phillips 66 (NYSE:PSX) is moving ahead with its Zeus Gas Plant project, adding new gas processing capacity in the Permian. The company is also progressing a third Coastal Bend Fractionator on the Gulf Coast to increase NGL fractionation capacity. These projects support Phillips 66\u2019s integrated midstream footprint from the wellhead to end markets. For investors watching NYSE:PSX, the timing of these projects comes as the stock trades around $175.88 and has delivered a 34.7% return year to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Phillips 66 (PSX) Down 1.4% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Phillips 66 (PSX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Phillips 66 (PSX) Is Considered a Good Investment by Brokers: Is That True?",
+        "summary": "Based on the average brokerage recommendation (ABR), Phillips 66 (PSX) should be added to one's portfolio. Wall Street analysts' overly optimistic recommendations cast doubt on the effectiveness of this highly sought-after metric. So, is the stock worth buying?",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "STLD": {
+    "ticker": "STLD",
+    "close": 261.59,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Steel Dynamics, Inc.",
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "rev_growth_TTM": 0.191,
+    "market_cap": 37724622848,
+    "news": [
+      {
+        "title": "Is Steel Dynamics\u2019 (STLD) Dividend Steadiness Masking a Deeper Capital Allocation Trade-Off?",
+        "summary": "Steel Dynamics recently reported first-quarter 2026 earnings in line with expectations at US$2.78 per share, with revenue beating forecasts and the board declaring a second-quarter cash dividend of US$0.53 per share. This combination of solid quarterly results, a maintained cash return to shareholders, and supportive analyst commentary highlights how operations and capital allocation are aligning for the company. Next, we'll examine how these steady earnings and the latest dividend decision...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Winmill Loads Up Qualys, Inc. Stock With 88,000 Shares in A New Position",
+        "summary": "Qualys delivers cloud-based security and compliance solutions to enterprises and public sector clients across multiple industries.",
+        "source": "Motley Fool",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Barclays Initiates Coverage of Freeport-McMoRan (FCX) with Overweight Rating",
+        "summary": "Freeport-McMoRan Inc. (NYSE:FCX) is one of the 15 High Growth Stocks to Buy and Hold for the Next Decade. On May 21, 2026, Barclays initiated coverage of Freeport-McMoRan Inc. (NYSE:FCX) with an Overweight rating and a $77 price target. Barclays analyst Richard Garchitorena said investments in \u201ctransformative\u201d technologies and higher trade barriers are driving renewed [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls",
+        "summary": "Texas Instruments, Generac upgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "pub": "2026-05-22"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on Steel Dynamics Stock?",
+        "summary": "Despite Steel Dynamics' strong performance relative to the broader market over the past year, Wall Street analysts maintain a cautiously optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-20"
+      }
+    ]
+  },
+  "VLO": {
+    "ticker": "VLO",
+    "close": 252.52,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Valero Energy Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing",
+    "rev_growth_TTM": 0.066,
+    "market_cap": 74981466112,
+    "news": [
+      {
+        "title": "REX: Tax Credits & Falling Corn Prices Fuel Record Quarter \u2013 Quarterly Update Report",
+        "summary": "Download the Complete Report Here REX American Resources Corp. (REX) 45Z and Lower Corn Costs Drive Record First Quarter; One Earth and CCS Projects Advance; Valuation Remains Reasonable Key Takeaways: REX delivered its best first-quarter EPS of $0.56, well ahead of consensus at $0.14 and up from $0.26 y/y. 45Z is becoming a structural earnings [\u2026]",
+        "source": "Exec Edge",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Eni Expands Energy Storage Ambitions Through Partnership With FIB",
+        "summary": "E and FIB teams up to build lithium iron phosphate batteries in Italy, from cells to storage systems, with plans to add recycling later.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Oil Stocks Look Poised for Another Leg Higher",
+        "summary": "Peace talks between the US and Iran have again collapsed and oil stocks look ready to rally again. Marathon Petroleum, Valero Energy and Phillips 66 all boast top Zacks Ranks and strong price momentum.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Ukrainian Drones Have Spooked Kremlin Into Banning Jet Fuel Exports",
+        "summary": "This has proven to be the most cost-effective way to beat the Kremlin.",
+        "source": "Moby",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Mizuho Raises Valero Energy (VLO) Price Target by $67. Here is Why",
+        "summary": "Valero Energy Corporation (NYSE:VLO) is included among the 14 Best Oil and Gas Stocks to Buy According to Hedge Funds. Valero Energy Corporation (NYSE:VLO) is the world\u2019s premier independent petroleum refiner and a leading producer of low-carbon transportation fuels. On May 27, Mizuho significantly bumped up its price target on Valero Energy Corporation (NYSE:VLO) from [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "ZS": {
+    "ticker": "ZS",
+    "close": 155.71,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Zscaler, Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "rev_growth_TTM": 0.254,
+    "market_cap": 25179791360,
+    "news": [
+      {
+        "title": "Stock Market Today: Dow Up As Trump Says This On Iran; AI Stocks Pop On Anthropic IPO Move (Live Coverage)",
+        "summary": "The Dow Jones index fought back Monday after President Trump spoke on Iran. Nvidia popped. Warren Buffett's Berkshire boosted a stock.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Top 3 High Growth Tech Stocks in the US Market",
+        "summary": "The United States market has shown robust performance recently, with a 1.6% increase over the last week and a substantial 28% rise over the past year, while earnings are anticipated to grow by 17% annually in the coming years. In this favorable environment, identifying high growth tech stocks involves looking for companies that demonstrate strong innovation potential and scalability to capitalize on these positive market conditions.",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Zscaler Stock Surges. Wall Street Is Buying the Company\u2019s \u2018Trust Me Story\u2019 on AI.",
+        "summary": "Zscaler stock rises after Guggenheim analysts upgrade shares to a Buy rating. The firm sees the cybersecurity company\u2019s offerings growing in relevance in the AI world.",
+        "source": "Barrons.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "summary": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Wall Street Bulls Look Optimistic About Zscaler (ZS): Should You Buy?",
+        "summary": "The average brokerage recommendation (ABR) for Zscaler (ZS) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "APA": {
+    "ticker": "APA",
+    "close": 37.75,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "weak",
+    "name": "APA Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "rev_growth_TTM": -0.119,
+    "market_cap": 13343501312,
+    "news": [
+      {
+        "title": "Stocks Settle Mixed on Conflicting US-Iran Signals",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Wednesday closed up +0.02%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.36%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.09%. June E-mini S&P futures (ESM26 ) rose +0.04%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Stocks Mixed Awaiting Fresh Iran News",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is down -0.07%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.54%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.44%. June E-mini S&P futures (ESM26 ) are down -0.07%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Stocks Finish Mostly Higher on Iran Peace Progress",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Tuesday closed up +0.61%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.23%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.76%. June E-mini S&P futures (ESM26 ) rose +0.61%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "S&P 500 and Nasdaq 100 Climb to Record Highs on Tech Stock Strength",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.81%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.10%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.74%. June E-mini S&P futures (ESM26 ) are up +0.77%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Petrobras or APA: Which Oil Stock Offers Better Risk Reward?",
+        "summary": "Petrobras vs. APA: record output and refining gains at PBR meet APA's Permian efficiency and 2028 Suriname upside - better risk/reward?",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "PKG": {
+    "ticker": "PKG",
+    "close": 221.67,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "weak",
+    "name": "Packaging Corporation of Americ",
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "rev_growth_TTM": 0.106,
+    "market_cap": 19750496256,
+    "news": [
+      {
+        "title": "Fortune Brands Stock Is Down 24%. Here's Why It Seems One Investor Bought $113 Million",
+        "summary": "Fortune Brands Innovations delivers water management, outdoor living, and security products through a portfolio of leading brands.",
+        "source": "Motley Fool",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "KRT or PKG: Which Is the Better Value Stock Right Now?",
+        "summary": "KRT vs. PKG: Which Stock Is the Better Value Option?",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Packaging Corporation Of America Extension Puts Hydroelectric Compliance In Investor Focus",
+        "summary": "Packaging Corporation of America (NYSE:PKG) has requested an extension of regulatory deadlines tied to environmental compliance at its International Falls Hydroelectric Project. The extension would give the company more time to complete environmental impact analyses, including work related to fish protection and coordination with federal and state wildlife agencies. This regulatory step relates to the facility\u2019s ongoing permitting and operational requirements and has not been widely...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "3 Unpopular Stocks Walking a Fine Line",
+        "summary": "When Wall Street turns bearish on a stock, it\u2019s worth paying attention. These calls stand out because analysts rarely issue grim ratings on companies for fear their firms will lose out in other business lines such as M&A advisory.",
+        "source": "StockStory",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Packaging Corporation of America Stock: Is Wall Street Bullish or Bearish?",
+        "summary": "Despite Packaging Corporation of America's weak performance relative to the broader market over the past year, Wall Street analysts maintain a moderately optimistic outlook about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-05-26"
+      }
+    ]
+  }
+}
