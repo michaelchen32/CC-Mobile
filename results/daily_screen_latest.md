@@ -1,623 +1,751 @@
-# Daily breakout screen — 2026-05-29
-Universe: 502 SPY+QQQ names. **78 signals** on the latest bar. High-recall technical screen (OR of 8 detectors); `trend` is context only, not a filter.
+# Daily breakout screen — 2026-06-01
+Universe: 502 SPY+QQQ names. **94 signals** on the latest bar. High-recall technical screen (OR of 8 detectors); `trend` is context only, not a filter.
 
-Compared to previous run (2026-05-28): **38 new**, 38 dropped.
+Compared to previous run (2026-05-29): **46 new**, 30 dropped.
 
 ## Full list (ranked by detector count)
 
 | # | ticker | close | n_det | detectors | trend | NEW? |
 |---|---|---|---|---|---|---|
-| 1 | PLTR | 156.54 | 6 | fast_donchian+donchian_20+volume_thrust+gap_go+range_expansion+squeeze_release | down |  |
-| 2 | DDOG | 247.35 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up |  |
-| 3 | DELL | 420.91 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up |  |
-| 4 | HPE | 43.04 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up | 🟢 NEW |
-| 5 | WDAY | 146.19 | 5 | fast_donchian+donchian_20+gap_go+range_expansion+squeeze_release | down | 🟢 NEW |
-| 6 | CRWD | 731.0 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up | 🟢 NEW |
-| 7 | HPQ | 27.04 | 5 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion | up | 🟢 NEW |
-| 8 | MSFT | 450.24 | 5 | fast_donchian+donchian_20+volume_thrust+range_expansion+squeeze_release | up | 🟢 NEW |
-| 9 | MU | 971.0 | 5 | fast_donchian+donchian_20+six_month_high+gap_go+trend_continuation | up | 🟢 NEW |
-| 10 | NTAP | 174.29 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up | 🟢 NEW |
-| 11 | ORCL | 225.78 | 5 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion | up |  |
-| 12 | PANW | 281.69 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up | 🟢 NEW |
-| 13 | SMCI | 46.09 | 5 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion | up |  |
-| 14 | IBM | 297.8 | 5 | fast_donchian+donchian_20+volume_thrust+gap_go+range_expansion | weak | 🟢 NEW |
-| 15 | NOW | 124.37 | 4 | fast_donchian+donchian_20+gap_go+range_expansion | down |  |
-| 16 | ARM | 353.29 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 17 | AVGO | 446.77 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
-| 18 | CPAY | 361.8 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
-| 19 | FTNT | 137.97 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
-| 20 | GS | 1025.56 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 21 | JBHT | 276.43 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 22 | MGM | 43.67 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 23 | MS | 208.0 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 24 | MSCI | 631.38 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 25 | ODFL | 225.15 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
-| 26 | TEAM | 107.61 | 4 | fast_donchian+donchian_20+gap_go+range_expansion | up |  |
-| 27 | URI | 995.67 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
-| 28 | AXON | 448.72 | 3 | fast_donchian+donchian_20+squeeze_release | down |  |
-| 29 | CRM | 191.1 | 3 | fast_donchian+donchian_20+range_expansion | down | 🟢 NEW |
-| 30 | BBY | 77.95 | 3 | fast_donchian+donchian_20+range_expansion | up |  |
-| 31 | F | 17.44 | 3 | fast_donchian+donchian_20+six_month_high | up |  |
-| 32 | QCOM | 251.02 | 3 | six_month_high+gap_go+trend_continuation | up | 🟢 NEW |
-| 33 | ACN | 187.07 | 2 | fast_donchian+donchian_20 | down | 🟢 NEW |
-| 34 | APTV | 67.94 | 2 | fast_donchian+donchian_20 | down |  |
-| 35 | BR | 153.72 | 2 | fast_donchian+squeeze_release | down | 🟢 NEW |
-| 36 | CDW | 125.45 | 2 | fast_donchian+gap_go | down | 🟢 NEW |
-| 37 | CTSH | 55.76 | 2 | fast_donchian+donchian_20 | down |  |
-| 38 | DHR | 182.67 | 2 | fast_donchian+donchian_20 | down |  |
-| 39 | TMO | 492.51 | 2 | fast_donchian+donchian_20 | down |  |
-| 40 | APP | 613.09 | 2 | fast_donchian+donchian_20 | up |  |
-| 41 | CNC | 59.6 | 2 | six_month_high+trend_continuation | up | 🟢 NEW |
-| 42 | DXCM | 73.74 | 2 | fast_donchian+donchian_20 | up | 🟢 NEW |
-| 43 | FDS | 245.47 | 2 | fast_donchian+donchian_20 | up |  |
-| 44 | GEN | 25.79 | 2 | fast_donchian+donchian_20 | up | 🟢 NEW |
-| 45 | IVZ | 28.46 | 2 | fast_donchian+donchian_20 | up | 🟢 NEW |
-| 46 | NUE | 250.0 | 2 | six_month_high+trend_continuation | up |  |
-| 47 | RVTY | 104.55 | 2 | fast_donchian+donchian_20 | up |  |
-| 48 | WAT | 383.57 | 2 | fast_donchian+donchian_20 | up |  |
-| 49 | ALGN | 174.95 | 2 | fast_donchian+trend_continuation | weak |  |
-| 50 | DLTR | 116.44 | 2 | fast_donchian+donchian_20 | weak |  |
-| 51 | GE | 323.76 | 2 | fast_donchian+donchian_20 | weak |  |
-| 52 | HON | 237.86 | 2 | fast_donchian+donchian_20 | weak | 🟢 NEW |
-| 53 | KMX | 44.62 | 2 | fast_donchian+donchian_20 | weak |  |
-| 54 | CPB | 21.11 | 1 | fast_donchian | down | 🟢 NEW |
-| 55 | J | 119.86 | 1 | fast_donchian | down |  |
-| 56 | MTD | 1180.58 | 1 | fast_donchian | down |  |
-| 57 | NOC | 563.68 | 1 | fast_donchian | down | 🟢 NEW |
-| 58 | RCL | 284.63 | 1 | fast_donchian | down | 🟢 NEW |
-| 59 | SPGI | 424.0 | 1 | fast_donchian | down | 🟢 NEW |
-| 60 | TECH | 51.68 | 1 | fast_donchian | down |  |
-| 61 | VMC | 282.92 | 1 | fast_donchian | down | 🟢 NEW |
-| 62 | AKAM | 149.54 | 1 | trend_continuation | up | 🟢 NEW |
-| 63 | ANET | 159.47 | 1 | trend_continuation | up | 🟢 NEW |
-| 64 | BA | 231.15 | 1 | trend_continuation | up |  |
-| 65 | CCI | 91.5 | 1 | squeeze_release | up | 🟢 NEW |
-| 66 | CSCO | 120.42 | 1 | six_month_high | up | 🟢 NEW |
-| 67 | EMR | 143.82 | 1 | fast_donchian | up | 🟢 NEW |
-| 68 | EXR | 144.31 | 1 | squeeze_release | up |  |
-| 69 | FSLR | 306.79 | 1 | six_month_high | up |  |
-| 70 | HBAN | 16.36 | 1 | fast_donchian | up | 🟢 NEW |
-| 71 | IQV | 182.21 | 1 | fast_donchian | up |  |
-| 72 | PPG | 112.98 | 1 | trend_continuation | up | 🟢 NEW |
-| 73 | TEL | 213.41 | 1 | fast_donchian | up | 🟢 NEW |
-| 74 | WDC | 531.21 | 1 | six_month_high | up | 🟢 NEW |
-| 75 | WST | 322.81 | 1 | trend_continuation | up |  |
-| 76 | APH | 148.76 | 1 | fast_donchian | weak |  |
-| 77 | TPR | 145.46 | 1 | trend_continuation | weak |  |
-| 78 | VZ | 47.81 | 1 | squeeze_release | weak | 🟢 NEW |
+| 1 | HPE | 47.0 | 7 | fast_donchian+donchian_20+six_month_high+volume_thrust+gap_go+range_expansion+trend_continuation | up |  |
+| 2 | MGM | 50.69 | 7 | fast_donchian+donchian_20+six_month_high+volume_thrust+gap_go+range_expansion+trend_continuation | up |  |
+| 3 | ARM | 408.85 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up |  |
+| 4 | CDNS | 414.16 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up | 🟢 NEW |
+| 5 | HUM | 328.31 | 6 | fast_donchian+donchian_20+six_month_high+gap_go+range_expansion+trend_continuation | up | 🟢 NEW |
+| 6 | AVGO | 459.97 | 5 | fast_donchian+donchian_20+six_month_high+squeeze_release+trend_continuation | up |  |
+| 7 | DDOG | 277.49 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up |  |
+| 8 | DELL | 465.96 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up |  |
+| 9 | MRVL | 219.43 | 5 | fast_donchian+donchian_20+six_month_high+range_expansion+trend_continuation | up | 🟢 NEW |
+| 10 | MU | 1035.5 | 5 | fast_donchian+donchian_20+six_month_high+gap_go+trend_continuation | up |  |
+| 11 | ORCL | 248.15 | 5 | fast_donchian+donchian_20+six_month_high+volume_thrust+range_expansion | up |  |
+| 12 | CRM | 209.6 | 4 | fast_donchian+donchian_20+gap_go+range_expansion | down |  |
+| 13 | NOW | 135.86 | 4 | fast_donchian+donchian_20+gap_go+range_expansion | down |  |
+| 14 | ADM | 82.62 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
+| 15 | CNC | 62.0 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 16 | CRWD | 782.17 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 17 | FTNT | 147.14 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 18 | GEN | 27.76 | 4 | fast_donchian+donchian_20+six_month_high+range_expansion | up |  |
+| 19 | GS | 1048.58 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 20 | IBM | 320.42 | 4 | fast_donchian+donchian_20+six_month_high+range_expansion | up |  |
+| 21 | JBHT | 279.46 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 22 | MS | 211.01 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 23 | MSCI | 643.83 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 24 | ODFL | 228.53 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 25 | PANW | 300.48 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up |  |
+| 26 | STX | 921.26 | 4 | fast_donchian+donchian_20+six_month_high+trend_continuation | up | 🟢 NEW |
+| 27 | ACN | 196.59 | 3 | fast_donchian+donchian_20+gap_go | down |  |
+| 28 | ADBE | 274.03 | 3 | fast_donchian+donchian_20+gap_go | down | 🟢 NEW |
+| 29 | IT | 179.59 | 3 | fast_donchian+donchian_20+range_expansion | down | 🟢 NEW |
+| 30 | WDAY | 157.23 | 3 | fast_donchian+donchian_20+gap_go | down |  |
+| 31 | ADP | 233.74 | 3 | fast_donchian+donchian_20+range_expansion | up | 🟢 NEW |
+| 32 | BG | 129.97 | 3 | fast_donchian+six_month_high+trend_continuation | up | 🟢 NEW |
+| 33 | DXCM | 74.87 | 3 | fast_donchian+donchian_20+six_month_high | up |  |
+| 34 | FDS | 270.85 | 3 | fast_donchian+donchian_20+range_expansion | up |  |
+| 35 | HPQ | 29.34 | 3 | fast_donchian+donchian_20+six_month_high | up |  |
+| 36 | NUE | 251.49 | 3 | fast_donchian+donchian_20+six_month_high | up |  |
+| 37 | STT | 159.79 | 3 | fast_donchian+donchian_20+six_month_high | up | 🟢 NEW |
+| 38 | TEAM | 115.95 | 3 | fast_donchian+donchian_20+gap_go | up |  |
+| 39 | UPS | 109.02 | 3 | fast_donchian+donchian_20+trend_continuation | up | 🟢 NEW |
+| 40 | CDW | 140.98 | 3 | fast_donchian+donchian_20+range_expansion | weak |  |
+| 41 | APTV | 68.6 | 2 | fast_donchian+donchian_20 | down |  |
+| 42 | AXON | 476.88 | 2 | fast_donchian+donchian_20 | down |  |
+| 43 | BR | 159.96 | 2 | fast_donchian+donchian_20 | down |  |
+| 44 | CTSH | 57.16 | 2 | fast_donchian+donchian_20 | down |  |
+| 45 | PLTR | 160.65 | 2 | fast_donchian+donchian_20 | down |  |
+| 46 | RCL | 289.05 | 2 | fast_donchian+donchian_20 | down |  |
+| 47 | ROP | 344.25 | 2 | fast_donchian+range_expansion | down | 🟢 NEW |
+| 48 | SPGI | 428.56 | 2 | fast_donchian+squeeze_release | down |  |
+| 49 | ABNB | 137.87 | 2 | fast_donchian+trend_continuation | up | 🟢 NEW |
+| 50 | ANET | 170.68 | 2 | fast_donchian+trend_continuation | up |  |
+| 51 | C | 129.09 | 2 | fast_donchian+trend_continuation | up | 🟢 NEW |
+| 52 | CPAY | 364.13 | 2 | six_month_high+trend_continuation | up |  |
+| 53 | FCX | 67.04 | 2 | fast_donchian+trend_continuation | up | 🟢 NEW |
+| 54 | IQV | 186.82 | 2 | fast_donchian+donchian_20 | up |  |
+| 55 | MCO | 464.2 | 2 | fast_donchian+squeeze_release | up | 🟢 NEW |
+| 56 | MSFT | 460.52 | 2 | fast_donchian+donchian_20 | up |  |
+| 57 | NTAP | 179.7 | 2 | six_month_high+trend_continuation | up |  |
+| 58 | PAYC | 148.58 | 2 | fast_donchian+donchian_20 | up | 🟢 NEW |
+| 59 | PAYX | 102.44 | 2 | fast_donchian+donchian_20 | up | 🟢 NEW |
+| 60 | EFX | 173.59 | 1 | fast_donchian | down | 🟢 NEW |
+| 61 | EPAM | 108.76 | 1 | fast_donchian | down | 🟢 NEW |
+| 62 | J | 123.02 | 1 | fast_donchian | down |  |
+| 63 | LVS | 53.27 | 1 | fast_donchian | down | 🟢 NEW |
+| 64 | MELI | 1730.98 | 1 | fast_donchian | down | 🟢 NEW |
+| 65 | MTD | 1183.57 | 1 | fast_donchian | down |  |
+| 66 | TRMB | 58.15 | 1 | fast_donchian | down | 🟢 NEW |
+| 67 | TSCO | 31.78 | 1 | fast_donchian | down | 🟢 NEW |
+| 68 | TYL | 329.83 | 1 | gap_go | down | 🟢 NEW |
+| 69 | VRSK | 183.97 | 1 | fast_donchian | down | 🟢 NEW |
+| 70 | WYNN | 106.53 | 1 | fast_donchian | down | 🟢 NEW |
+| 71 | AKAM | 154.01 | 1 | trend_continuation | up |  |
+| 72 | AMAT | 458.17 | 1 | six_month_high | up | 🟢 NEW |
+| 73 | CSCO | 121.33 | 1 | six_month_high | up |  |
+| 74 | CZR | 29.15 | 1 | six_month_high | up | 🟢 NEW |
+| 75 | ELV | 402.66 | 1 | six_month_high | up | 🟢 NEW |
+| 76 | EW | 88.16 | 1 | six_month_high | up | 🟢 NEW |
+| 77 | FANG | 199.03 | 1 | trend_continuation | up | 🟢 NEW |
+| 78 | FOX | 59.84 | 1 | fast_donchian | up | 🟢 NEW |
+| 79 | FOXA | 66.81 | 1 | fast_donchian | up | 🟢 NEW |
+| 80 | KDP | 30.2 | 1 | squeeze_release | up | 🟢 NEW |
+| 81 | LYV | 170.45 | 1 | six_month_high | up | 🟢 NEW |
+| 82 | MOH | 183.25 | 1 | trend_continuation | up | 🟢 NEW |
+| 83 | MPC | 258.66 | 1 | trend_continuation | up | 🟢 NEW |
+| 84 | NVDA | 224.36 | 1 | trend_continuation | up | 🟢 NEW |
+| 85 | OXY | 58.92 | 1 | trend_continuation | up | 🟢 NEW |
+| 86 | PSX | 180.24 | 1 | trend_continuation | up | 🟢 NEW |
+| 87 | SMCI | 46.88 | 1 | six_month_high | up |  |
+| 88 | STLD | 261.59 | 1 | six_month_high | up | 🟢 NEW |
+| 89 | URI | 997.82 | 1 | six_month_high | up |  |
+| 90 | VLO | 252.52 | 1 | trend_continuation | up | 🟢 NEW |
+| 91 | WDC | 546.2 | 1 | six_month_high | up |  |
+| 92 | ZS | 155.71 | 1 | gap_go | up | 🟢 NEW |
+| 93 | APA | 37.75 | 1 | gap_go | weak | 🟢 NEW |
+| 94 | PKG | 221.67 | 1 | fast_donchian | weak | 🟢 NEW |
 
-**Dropped since 2026-05-28:** A, AAPL, ADM, AMD, AMZN, CPT, CRL, CZR, DAL, DG, DGX, EMN, FCX, FICO, GD, GM, GNRC, HLT, HRL, HSIC, IDXX, IFF, IP, LHX, LLY, LMT, MDLZ, MOS, NKE, PAYX, RTX, STLD, STX, TDG, TDY, UAL, UPS, WY
+**Dropped since 2026-05-29:** ALGN, APH, APP, BA, BBY, CCI, CPB, DHR, DLTR, EMR, EXR, F, FSLR, GE, HBAN, HON, IVZ, KMX, NOC, PPG, QCOM, RVTY, TECH, TEL, TMO, TPR, VMC, VZ, WAT, WST
 
 ## New additions — earnings recap & rise drivers
 
-### ACN — Accenture plc
+### ABNB — Airbnb, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 69.67B (7.4% YoY), net margin 11.0%, FCF 10.87B (15.6% margin).
+_Latest FY:_ revenue 12.24B (10.3% YoY), net margin 20.5%, FCF 4.65B (38.0% margin).
 
-_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: down
+_Breakout trigger:_ 10-day-high break, uptrend continuation off a dip; trend tag: up
 
-_Why the stock has been rising:_ revenue growth 7.4% latest FY (accelerating); TTM revenue growth 8.3%
+_Why the stock has been rising:_ revenue growth 10.3% latest FY (decelerating); TTM revenue growth 17.9%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### AKAM — Akamai Technologies, Inc.
+### ADBE — Adobe Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 4.21B (5.4% YoY), net margin 10.7%, FCF 699.3M (16.6% margin).
+_Latest FY:_ revenue 23.77B (10.5% YoY), net margin 30.0%, FCF 9.85B (41.4% margin).
 
-_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+_Breakout trigger:_ 10-day-high break, 20-day-high break, gap-up and held; trend tag: down
 
-_Why the stock has been rising:_ revenue growth 5.4% latest FY (accelerating); TTM revenue growth 5.8%
+_Why the stock has been rising:_ revenue growth 10.5% latest FY (decelerating); TTM revenue growth 12.0%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### ANET — Arista Networks, Inc.
+### ADM — Archer-Daniels-Midland Company
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 9.01B (28.6% YoY), net margin 39.0%, FCF 4.25B (47.2% margin).
-
-_Breakout trigger:_ uptrend continuation off a dip; 1M -11.8%, 3M 0.3%; -20.1% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M -11.8% / L3M 0.3% / L12M 44.5%; revenue growth 28.6% latest FY (accelerating); TTM revenue growth 35.1%; recovering (-20.1% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### AVGO — Broadcom Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 63.89B (23.9% YoY), net margin 36.2%, FCF 26.91B (42.1% margin).
+_Latest FY:_ revenue 80.27B (-6.2% YoY), net margin 1.3%, FCF 4.20B (5.2% margin).
 
 _Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, uptrend continuation off a dip; trend tag: up
 
-_Why the stock has been rising:_ revenue growth 23.9% latest FY (decelerating); TTM revenue growth 29.5%
+_Why the stock has been rising:_ revenue growth -6.2% latest FY (accelerating); TTM revenue growth 1.6%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### BR — Broadridge Financial Solutions,
+### ADP — Automatic Data Processing, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 6.89B (5.9% YoY), net margin 12.2%, FCF 1.06B (15.3% margin).
+_Latest FY:_ revenue 20.56B (7.1% YoY), net margin 19.8%, FCF 4.39B (21.4% margin).
 
-_Breakout trigger:_ 10-day-high break, volatility-squeeze release; trend tag: down
+_Breakout trigger:_ 10-day-high break, 20-day-high break, range expansion (>=2x ATR); trend tag: up
 
-_Why the stock has been rising:_ revenue growth 5.9% latest FY (decelerating); TTM revenue growth 7.8%
+_Why the stock has been rising:_ revenue growth 7.1% latest FY (accelerating); TTM revenue growth 7.0%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CCI — Crown Castle Inc.
+### AMAT — Applied Materials, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 4.26B (-4.4% YoY), net margin 10.4%, FCF 2.88B (67.4% margin).
+_Latest FY:_ revenue 28.37B (4.4% YoY), net margin 24.7%, FCF 5.70B (20.1% margin).
 
-_Breakout trigger:_ volatility-squeeze release; trend tag: up
+_Breakout trigger:_ new 6-month high; 1M 12.0%, 3M 23.2%; at/near 12-mo high; trend tag: up
 
-_Why the stock has been rising:_ revenue growth -4.4% latest FY (accelerating); TTM revenue growth -4.8%
+_Why the stock has been rising:_ price L1M 12.0% / L3M 23.2% / L12M 153.0%; revenue growth 4.4% latest FY (accelerating); TTM revenue growth 11.4%; breaking to fresh 12-mo highs
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CDW — CDW Corporation
+### APA — APA Corporation
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 22.42B (6.8% YoY), net margin 4.8%, FCF 1.09B (4.9% margin).
+_Latest FY:_ revenue 8.92B (-8.4% YoY), net margin 16.1%, FCF 1.78B (19.9% margin).
 
-_Breakout trigger:_ 10-day-high break, gap-up and held; trend tag: down
+_Breakout trigger:_ gap-up and held; trend tag: weak
 
-_Why the stock has been rising:_ revenue growth 6.8% latest FY (accelerating); TTM revenue growth 9.2%
+_Why the stock has been rising:_ revenue growth -8.4% latest FY (decelerating); TTM revenue growth -11.9%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CNC — Centene Corporation
+### BG — Bunge Limited
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 194.78B (19.4% YoY), net margin -3.4%, FCF 4.32B (2.2% margin).
+_Latest FY:_ revenue 70.33B (32.4% YoY), net margin 1.2%, FCF -879.0M (-1.2% margin).
 
-_Breakout trigger:_ new 6-month high, uptrend continuation off a dip; trend tag: up
+_Breakout trigger:_ 10-day-high break, new 6-month high, uptrend continuation off a dip; trend tag: up
 
-_Why the stock has been rising:_ revenue growth 19.4% latest FY (accelerating); TTM revenue growth 5.1%
+_Why the stock has been rising:_ revenue growth 32.4% latest FY (accelerating); TTM revenue growth 87.8%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CPAY — Corpay, Inc.
+### C — Citigroup, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 4.53B (13.9% YoY), net margin 23.6%, FCF 1.30B (28.7% margin).
+_Latest FY:_ revenue 85.21B (5.6% YoY), net margin 16.8%, FCF -74.15B (-87.0% margin).
 
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, uptrend continuation off a dip; trend tag: up
+_Breakout trigger:_ 10-day-high break, uptrend continuation off a dip; 1M -4.1%, 3M 11.9%; -6.8% from 12-mo high; trend tag: up
 
-_Why the stock has been rising:_ revenue growth 13.9% latest FY (accelerating); TTM revenue growth 25.4%
+_Why the stock has been rising:_ price L1M -4.1% / L3M 11.9% / L12M 67.6%; revenue growth 5.6% latest FY (accelerating); TTM revenue growth 15.9%; recovering (-6.8% below 12-mo high)
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CPB — The Campbell's Company
+### CDNS — Cadence Design Systems, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 10.25B (6.4% YoY), net margin 5.9%, FCF 705.0M (6.9% margin).
+_Latest FY:_ revenue 5.30B (14.1% YoY), net margin 20.9%, FCF 1.59B (30.0% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, gap-up and held, range expansion (>=2x ATR), uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 14.1% latest FY (accelerating); TTM revenue growth 18.7%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### CZR — Caesars Entertainment, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 11.49B (2.1% YoY), net margin -4.4%, FCF 493.0M (4.3% margin).
+
+_Breakout trigger:_ new 6-month high; 1M 0.4%, 3M 53.3%; -11.8% from 12-mo high; trend tag: up
+
+_Why the stock has been rising:_ price L1M 0.4% / L3M 53.3% / L12M -9.4%; revenue growth 2.1% latest FY (accelerating); TTM revenue growth 2.7%; recovering (-11.8% below 12-mo high)
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### EFX — Equifax, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 6.07B (6.9% YoY), net margin 10.9%, FCF 1.13B (18.7% margin).
 
 _Breakout trigger:_ 10-day-high break; trend tag: down
 
-_Why the stock has been rising:_ revenue growth 6.4% latest FY (accelerating); TTM revenue growth -4.5%
+_Why the stock has been rising:_ revenue growth 6.9% latest FY (decelerating); TTM revenue growth 14.3%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
 
-### CRM — Salesforce, Inc.
+### ELV — Elevance Health, Inc.
 
 _Last 4 reported quarters (EPS):_
 
 EPS history n/a
 
-_Latest FY:_ revenue 41.52B (9.6% YoY), net margin 18.0%, FCF 14.40B (34.7% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, range expansion (>=2x ATR); trend tag: down
-
-_Why the stock has been rising:_ revenue growth 9.6% latest FY (accelerating); TTM revenue growth 13.3%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### CRWD — CrowdStrike Holdings, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 4.81B (21.7% YoY), net margin -3.4%, FCF 1.24B (25.8% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, range expansion (>=2x ATR), uptrend continuation off a dip; 1M 42.1%, 3M 38.3%; at/near 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 42.1% / L3M 38.3% / L12M 36.3%; revenue growth 21.7% latest FY (decelerating); TTM revenue growth 23.3%; breaking to fresh 12-mo highs
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### CSCO — Cisco Systems, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 56.65B (5.3% YoY), net margin 18.0%, FCF 13.29B (23.5% margin).
-
-_Breakout trigger:_ new 6-month high; 1M 39.9%, 3M 54.7%; at/near 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 39.9% / L3M 54.7% / L12M 97.3%; revenue growth 5.3% latest FY (accelerating); TTM revenue growth 12.0%; breaking to fresh 12-mo highs
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### DXCM — DexCom, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 4.66B (15.6% YoY), net margin 17.9%, FCF 1.08B (23.1% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break; 1M 0.7%, 3M -12.0%; -31.2% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 0.7% / L3M -12.0% / L12M -28.8%; revenue growth 15.6% latest FY (accelerating); TTM revenue growth 15.0%; recovering (-31.2% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### EMR — Emerson Electric Company
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 18.02B (3.0% YoY), net margin 12.7%, FCF 2.67B (14.8% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 3.0% latest FY (decelerating); TTM revenue growth 2.9%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### FTNT — Fortinet, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 6.80B (14.2% YoY), net margin 27.3%, FCF 2.23B (32.7% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, uptrend continuation off a dip; 1M 49.0%, 3M 43.5%; at/near 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 49.0% / L3M 43.5% / L12M 18.9%; revenue growth 14.2% latest FY (accelerating); TTM revenue growth 20.1%; breaking to fresh 12-mo highs
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### GEN — Gen Digital Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 5.00B (27.1% YoY), net margin 19.5%, FCF 1.52B (30.5% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 27.1% latest FY (accelerating); TTM revenue growth 27.0%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### HBAN — Huntington Bancshares Incorpora
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 8.13B (10.1% YoY), net margin 27.2%, FCF 2.21B (27.2% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 10.1% latest FY (accelerating); TTM revenue growth 33.6%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### HON — Honeywell International Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 37.44B (7.8% YoY), net margin 12.6%, FCF 5.42B (14.5% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: weak
-
-_Why the stock has been rising:_ revenue growth 7.8% latest FY (accelerating); TTM revenue growth 2.4%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### HPE — Hewlett Packard Enterprise Comp
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 34.30B (13.8% YoY), net margin 0.2%, FCF 627.0M (1.8% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, gap-up and held, range expansion (>=2x ATR), uptrend continuation off a dip; 1M 27.8%, 3M 46.8%; -3.0% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 27.8% / L3M 46.8% / L12M 90.1%; revenue growth 13.8% latest FY (accelerating); TTM revenue growth 18.4%; recovering (-3.0% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### HPQ — HP Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 55.30B (3.2% YoY), net margin 4.6%, FCF 2.80B (5.1% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, gap-up and held, range expansion (>=2x ATR); 1M 5.5%, 3M 9.8%; -26.4% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 5.5% / L3M 9.8% / L12M -23.7%; revenue growth 3.2% latest FY (accelerating); TTM revenue growth 9.0%; recovering (-26.4% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### IBM — International Business Machines
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 67.54B (7.6% YoY), net margin 15.7%, FCF 11.46B (17.0% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, >=5% up-day on >=2x volume, gap-up and held, range expansion (>=2x ATR); trend tag: weak
-
-_Why the stock has been rising:_ revenue growth 7.6% latest FY (accelerating); TTM revenue growth 9.5%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### IVZ — Invesco Ltd
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 6.38B (5.1% YoY), net margin -4.4%, FCF 1.44B (22.6% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 5.1% latest FY (decelerating); TTM revenue growth 14.1%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### MSFT — Microsoft Corporation
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 281.72B (14.9% YoY), net margin 36.1%, FCF 71.61B (25.4% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, >=5% up-day on >=2x volume, range expansion (>=2x ATR), volatility-squeeze release; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 14.9% latest FY (decelerating); TTM revenue growth 18.3%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### MU — Micron Technology, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 37.38B (48.9% YoY), net margin 22.8%, FCF 1.67B (4.5% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, gap-up and held, uptrend continuation off a dip; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 48.9% latest FY (decelerating); TTM revenue growth 196.3%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### NOC — Northrop Grumman Corporation
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 41.95B (2.2% YoY), net margin 10.0%, FCF 3.31B (7.9% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: down
-
-_Why the stock has been rising:_ revenue growth 2.2% latest FY (decelerating); TTM revenue growth 4.4%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### NTAP — NetApp, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 6.57B (4.9% YoY), net margin 18.0%, FCF 1.34B (20.4% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, range expansion (>=2x ATR), uptrend continuation off a dip; 1M 15.7%, 3M 17.7%; -3.7% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 15.7% / L3M 17.7% / L12M 22.7%; revenue growth 4.9% latest FY (accelerating); TTM revenue growth 4.4%; recovering (-3.7% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### PANW — Palo Alto Networks, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 9.22B (14.9% YoY), net margin 12.3%, FCF 3.47B (37.6% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, range expansion (>=2x ATR), uptrend continuation off a dip; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 14.9% latest FY (decelerating); TTM revenue growth 14.9%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### PPG — PPG Industries, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 15.88B (0.2% YoY), net margin 9.9%, FCF 1.16B (7.3% margin).
-
-_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 0.2% latest FY (accelerating); TTM revenue growth 6.7%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### QCOM — QUALCOMM Incorporated
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 44.28B (13.7% YoY), net margin 12.5%, FCF 12.82B (28.9% margin).
-
-_Breakout trigger:_ new 6-month high, gap-up and held, uptrend continuation off a dip; 1M 49.8%, 3M 44.1%; -15.2% from 12-mo high; trend tag: up
-
-_Why the stock has been rising:_ price L1M 49.8% / L3M 44.1% / L12M 34.8%; revenue growth 13.7% latest FY (accelerating); TTM revenue growth -3.5%; recovering (-15.2% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### RCL — Royal Caribbean Cruises Ltd.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 17.93B (8.8% YoY), net margin 23.8%, FCF 1.24B (6.9% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: down
-
-_Why the stock has been rising:_ revenue growth 8.8% latest FY (decelerating); TTM revenue growth 11.3%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### SPGI — S&P Global Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 15.34B (7.9% YoY), net margin 29.2%, FCF 5.46B (35.6% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: down
-
-_Why the stock has been rising:_ revenue growth 7.9% latest FY (decelerating); TTM revenue growth 10.4%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### TEL — TE Connectivity plc
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 17.26B (8.9% YoY), net margin 10.7%, FCF 3.20B (18.6% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 8.9% latest FY (accelerating); TTM revenue growth 14.5%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### URI — United Rentals, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 16.10B (4.9% YoY), net margin 15.5%, FCF 662.0M (4.1% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, uptrend continuation off a dip; trend tag: up
-
-_Why the stock has been rising:_ revenue growth 4.9% latest FY (decelerating); TTM revenue growth 7.2%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### VMC — Vulcan Materials Company (Holdi
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 7.94B (7.1% YoY), net margin 13.6%, FCF 1.14B (14.3% margin).
-
-_Breakout trigger:_ 10-day-high break; trend tag: down
-
-_Why the stock has been rising:_ revenue growth 7.1% latest FY (accelerating); TTM revenue growth 7.4%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### VZ — Verizon Communications Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 138.19B (2.5% YoY), net margin 12.4%, FCF 19.68B (14.2% margin).
-
-_Breakout trigger:_ volatility-squeeze release; 1M -0.9%, 3M -4.0%; -8.4% from 12-mo high; trend tag: weak
-
-_Why the stock has been rising:_ price L1M -0.9% / L3M -4.0% / L12M 16.9%; revenue growth 2.5% latest FY (accelerating); TTM revenue growth 2.9%; recovering (-8.4% below 12-mo high)
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### WDAY — Workday, Inc.
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 9.55B (13.1% YoY), net margin 7.3%, FCF 2.78B (29.1% margin).
-
-_Breakout trigger:_ 10-day-high break, 20-day-high break, gap-up and held, range expansion (>=2x ATR), volatility-squeeze release; trend tag: down
-
-_Why the stock has been rising:_ revenue growth 13.1% latest FY (decelerating); TTM revenue growth 13.5%
-
-_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
-
-### WDC — Western Digital Corporation
-
-_Last 4 reported quarters (EPS):_
-
-EPS history n/a
-
-_Latest FY:_ revenue 9.52B (50.7% YoY), net margin 19.5%, FCF 1.28B (13.4% margin).
+_Latest FY:_ revenue 199.12B (12.6% YoY), net margin 2.8%, FCF 3.17B (1.6% margin).
 
 _Breakout trigger:_ new 6-month high; trend tag: up
 
-_Why the stock has been rising:_ revenue growth 50.7% latest FY (accelerating); TTM revenue growth 45.5%
+_Why the stock has been rising:_ revenue growth 12.6% latest FY (accelerating); TTM revenue growth 2.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### EPAM — EPAM Systems, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 5.46B (15.4% YoY), net margin 6.9%, FCF 612.7M (11.2% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 15.4% latest FY (accelerating); TTM revenue growth 7.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### EW — Edwards Lifesciences Corporatio
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 6.07B (11.5% YoY), net margin 17.7%, FCF 1.33B (22.0% margin).
+
+_Breakout trigger:_ new 6-month high; 1M 2.9%, 3M 7.3%; -6.7% from 12-mo high; trend tag: up
+
+_Why the stock has been rising:_ price L1M 2.9% / L3M 7.3% / L12M 6.0%; revenue growth 11.5% latest FY (accelerating); TTM revenue growth 16.7%; recovering (-6.7% below 12-mo high)
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### FANG — Diamondback Energy, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 14.93B (35.4% YoY), net margin 11.1%, FCF -703.0M (-4.7% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 35.4% latest FY (accelerating); TTM revenue growth 4.2%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### FCX — Freeport-McMoRan, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 25.91B (1.8% YoY), net margin 8.5%, FCF 1.12B (4.3% margin).
+
+_Breakout trigger:_ 10-day-high break, uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 1.8% latest FY (decelerating); TTM revenue growth 8.8%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### FOX — Fox Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 16.30B (16.6% YoY), net margin 13.9%, FCF 2.99B (18.4% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 16.6% latest FY (accelerating); TTM revenue growth -8.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### FOXA — Fox Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 16.30B (16.6% YoY), net margin 13.9%, FCF 2.99B (18.4% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 16.6% latest FY (accelerating); TTM revenue growth -8.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### HUM — Humana Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 129.66B (10.1% YoY), net margin 0.9%, FCF 375.0M (0.3% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, gap-up and held, range expansion (>=2x ATR), uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 10.1% latest FY (decelerating); TTM revenue growth 23.5%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### IT — Gartner, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 6.50B (3.7% YoY), net margin 11.2%, FCF 1.18B (18.1% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, range expansion (>=2x ATR); trend tag: down
+
+_Why the stock has been rising:_ revenue growth 3.7% latest FY (decelerating); TTM revenue growth -1.5%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### KDP — Keurig Dr Pepper Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 16.60B (8.2% YoY), net margin 12.5%, FCF 1.49B (9.0% margin).
+
+_Breakout trigger:_ volatility-squeeze release; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 8.2% latest FY (accelerating); TTM revenue growth 9.4%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### LVS — Las Vegas Sands Corp.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 13.02B (15.2% YoY), net margin 12.5%, FCF 1.78B (13.7% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 15.2% latest FY (accelerating); TTM revenue growth 25.3%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### LYV — Live Nation Entertainment, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 25.20B (8.8% YoY), net margin 2.0%, FCF 305.0M (1.2% margin).
+
+_Breakout trigger:_ new 6-month high; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 8.8% latest FY (accelerating); TTM revenue growth 12.2%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### MCO — Moody's Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 7.72B (8.9% YoY), net margin 31.9%, FCF 2.58B (33.4% margin).
+
+_Breakout trigger:_ 10-day-high break, volatility-squeeze release; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 8.9% latest FY (decelerating); TTM revenue growth 8.1%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### MELI — MercadoLibre, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 28.89B (39.1% YoY), net margin 6.9%, FCF 10.77B (37.3% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 39.1% latest FY (accelerating); TTM revenue growth 49.0%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### MOH — Molina Healthcare Inc
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 45.43B (11.7% YoY), net margin 1.0%, FCF -636.0M (-1.4% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 11.7% latest FY (decelerating); TTM revenue growth -4.3%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### MPC — Marathon Petroleum Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 132.70B (-4.4% YoY), net margin 3.0%, FCF 4.77B (3.6% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth -4.4% latest FY (accelerating); TTM revenue growth 8.8%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### MRVL — Marvell Technology, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 8.19B (42.1% YoY), net margin 32.6%, FCF 1.39B (17.0% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, range expansion (>=2x ATR), uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 42.1% latest FY (accelerating); TTM revenue growth 27.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### NVDA — NVIDIA Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 215.94B (65.5% YoY), net margin 55.6%, FCF 96.68B (44.8% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 65.5% latest FY (decelerating); TTM revenue growth 85.2%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### OXY — Occidental Petroleum Corporatio
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 21.59B (-1.9% YoY), net margin 10.8%, FCF 4.11B (19.0% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth -1.9% latest FY (accelerating); TTM revenue growth -8.3%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### PAYC — Paycom Software, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 2.05B (8.9% YoY), net margin 22.1%, FCF 403.5M (19.7% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 8.9% latest FY (decelerating); TTM revenue growth 7.8%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### PAYX — Paychex, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 5.57B (5.6% YoY), net margin 29.7%, FCF 1.71B (30.7% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 5.6% latest FY (accelerating); TTM revenue growth 19.9%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### PKG — Packaging Corporation of Americ
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 8.99B (7.2% YoY), net margin 8.6%, FCF 728.6M (8.1% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: weak
+
+_Why the stock has been rising:_ revenue growth 7.2% latest FY (decelerating); TTM revenue growth 10.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### PSX — Phillips 66
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 132.38B (-7.5% YoY), net margin 3.3%, FCF 2.73B (2.1% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth -7.5% latest FY (decelerating); TTM revenue growth 6.9%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### ROP — Roper Technologies, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 7.90B (12.3% YoY), net margin 19.4%, FCF 2.44B (30.8% margin).
+
+_Breakout trigger:_ 10-day-high break, range expansion (>=2x ATR); trend tag: down
+
+_Why the stock has been rising:_ revenue growth 12.3% latest FY (decelerating); TTM revenue growth 11.3%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### STLD — Steel Dynamics, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 18.18B (3.6% YoY), net margin 6.5%, FCF 501.5M (2.8% margin).
+
+_Breakout trigger:_ new 6-month high; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 3.6% latest FY (accelerating); TTM revenue growth 19.1%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### STT — State Street Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 13.96B (8.1% YoY), net margin 21.1%, FCF 10.84B (77.6% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high; 1M 7.7%, 3M 20.2%; at/near 12-mo high; trend tag: up
+
+_Why the stock has been rising:_ price L1M 7.7% / L3M 20.2% / L12M 60.8%; revenue growth 8.1% latest FY (decelerating); TTM revenue growth -2.8%; breaking to fresh 12-mo highs
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### STX — Seagate Technology Holdings PLC
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 9.10B (38.9% YoY), net margin 16.1%, FCF 818.0M (9.0% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, new 6-month high, uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 38.9% latest FY (accelerating); TTM revenue growth 44.1%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### TRMB — Trimble Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 3.59B (-2.6% YoY), net margin 11.8%, FCF 360.9M (10.1% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth -2.6% latest FY (accelerating); TTM revenue growth 11.8%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### TSCO — Tractor Supply Company
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 15.52B (4.3% YoY), net margin 7.1%, FCF 740.5M (4.8% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 4.3% latest FY (accelerating); TTM revenue growth 3.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### TYL — Tyler Technologies, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 2.33B (9.1% YoY), net margin 13.5%, FCF 620.8M (26.6% margin).
+
+_Breakout trigger:_ gap-up and held; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 9.1% latest FY (decelerating); TTM revenue growth 8.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### UPS — United Parcel Service, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 88.66B (-2.6% YoY), net margin 6.3%, FCF 4.76B (5.4% margin).
+
+_Breakout trigger:_ 10-day-high break, 20-day-high break, uptrend continuation off a dip; 1M -5.8%, 3M -15.9%; -16.4% from 12-mo high; trend tag: up
+
+_Why the stock has been rising:_ price L1M -5.8% / L3M -15.9% / L12M 6.1%; revenue growth -2.6% latest FY (decelerating); TTM revenue growth -1.6%; recovering (-16.4% below 12-mo high)
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### VLO — Valero Energy Corporation
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 122.69B (-5.5% YoY), net margin 1.9%, FCF 5.03B (4.1% margin).
+
+_Breakout trigger:_ uptrend continuation off a dip; trend tag: up
+
+_Why the stock has been rising:_ revenue growth -5.5% latest FY (accelerating); TTM revenue growth 6.6%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### VRSK — Verisk Analytics, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 3.07B (6.6% YoY), net margin 29.6%, FCF 1.19B (38.8% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 6.6% latest FY (decelerating); TTM revenue growth 3.9%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### WYNN — Wynn Resorts, Limited
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 7.14B (0.1% YoY), net margin 4.6%, FCF 691.8M (9.7% margin).
+
+_Breakout trigger:_ 10-day-high break; trend tag: down
+
+_Why the stock has been rising:_ revenue growth 0.1% latest FY (decelerating); TTM revenue growth 9.2%
+
+_Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
+
+### ZS — Zscaler, Inc.
+
+_Last 4 reported quarters (EPS):_
+
+EPS history n/a
+
+_Latest FY:_ revenue 2.67B (23.3% YoY), net margin -1.6%, FCF 726.7M (27.2% margin).
+
+_Breakout trigger:_ gap-up and held; trend tag: up
+
+_Why the stock has been rising:_ revenue growth 23.3% latest FY (decelerating); TTM revenue growth 25.4%
 
 _Call-transcript narrative unavailable — no transcript API key set (export FMP_API_KEY or FINNHUB_API_KEY). Above is a quantitative recap from reported figures._
