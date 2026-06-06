@@ -1,0 +1,2970 @@
+{
+  "COO": {
+    "ticker": "COO",
+    "close": 67.34,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+volume_thrust+gap_go+range_expansion",
+    "trend": "down",
+    "name": "The Cooper Companies, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies",
+    "rev_growth_TTM": 0.079,
+    "market_cap": 13139003392,
+    "news": [
+      {
+        "title": "US Equity Indexes Plummet as Dwindling Expectations for Monetary Policy Easing Decimate Mega-Cap Technology",
+        "summary": "US equity indexes plunged amid a slide in mega-cap chip names and government bonds, as a strong jobs",
+        "source": "MT Newswires",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Settle Sharply Lower as Tech Companies Routed",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -2.64%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.35%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -4.77%. June E-mini S&P futures (ESM26 ) fell -2.97%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "US Equity Markets End Lower Amid Technology Stock Sell-Off, Stronger-Than-Expected Jobs Data",
+        "summary": "US equity indexes were lower on Friday amid a sell-off in mega-cap tech stocks following a stronger-",
+        "source": "MT Newswires",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "US Equity Indexes Dive as Blockbuster Jobs Report Set to Eliminate Easing Bias in Fed Policy Statement",
+        "summary": "US equity indexes sank amid a slide in mega-cap chip names and government bonds, as strong jobs slas",
+        "source": "MT Newswires",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "CCI": {
+    "ticker": "CCI",
+    "close": 94.49,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+six_month_high+squeeze_release+trend_continuation",
+    "trend": "up",
+    "name": "Crown Castle Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty",
+    "rev_growth_TTM": -0.048,
+    "market_cap": 41240346624,
+    "news": [
+      {
+        "title": "Crown Castle (CCI) Soars 5.8%: Is Further Upside Left in the Stock?",
+        "summary": "Crown Castle (CCI) was a big mover last session on higher-than-average trading volume. The latest trend in FFO estimate revisions might not help the stock continue moving higher in the near term.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Crown Castle (CCI) Offering Value After Rate Concerns And Mixed Valuation Signals?",
+        "summary": "If you are wondering whether Crown Castle stock is priced attractively today, the key is to look past the headlines and focus on what the valuation signals actually say. The stock last closed at US$93.79, with returns of 3.0% over the past week, 5.3% over the past month and 5.7% year to date, while the return over the past year declined 2.1% and the 5 year return declined 40.7%. Recent market attention on Crown Castle has centred on how investors view large tower and infrastructure REITs...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "SBA Communications vs. Crown Castle: Which Real Estate Stock Is a Better Buy in 2026?",
+        "summary": "Net margins, fiber investments, and global footprints set these tower REITs apart. See how their financials and risk profiles stack up for 2026.",
+        "source": "Motley Fool",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Why Is Innovative Industrial Properties (IIPR) Down 3.9% Since Last Earnings Report?",
+        "summary": "Innovative Industrial Properties (IIPR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "EQR": {
+    "ticker": "EQR",
+    "close": 68.19,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+six_month_high+squeeze_release+trend_continuation",
+    "trend": "up",
+    "name": "Equity Residential",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.025,
+    "market_cap": 26346981376,
+    "news": [
+      {
+        "title": "Equity Residential Merger With AvalonBay Reshapes Scale Valuation And Outlook",
+        "summary": "Equity Residential (NYSE:EQR) and AvalonBay Communities agreed to merge in an all stock transaction. The combination is set to create one of the largest publicly traded apartment real estate companies. Management of both companies highlighted expected merger synergies and improved growth prospects for the combined platform. For investors following apartment REITs, this deal brings together two large owners and operators of multifamily properties into a single company with broader reach and...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Wolfe Research upgrades AvalonBay, Equity Residential on merger synergy and value",
+        "summary": "Investing.com -- Wolfe Research upgraded apartment REITs AvalonBay Communities and Equity Residential to Outperform from Peer Perform, arguing that expected merger synergies and attractive valuations outweigh a still-challenging but stabilizing operating environment.",
+        "source": "Investing.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Invitation Home (INVH) Up 2.1% Since Last Earnings Report: Can It Continue?",
+        "summary": "Invitation Home (INVH) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Jim Cramer Can\u2019t Believe Goldman Sachs\u2019 (GS) Current Valuation",
+        "summary": "We recently published Jim Cramer Shared Latest Take On Mega Quantum Computing Investment & Discussed These 13 Stocks. The Goldman Sachs Group, Inc. (NYSE:GS) is one of the stocks discussed by Jim Cramer. Investment bank The Goldman Sachs Group, Inc. (NYSE:GS)\u2019s shares are up by 61% over the past year and by 9% year-to-date. Citi [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "SPG": {
+    "ticker": "SPG",
+    "close": 210.31,
+    "n_det": 5,
+    "detectors": "fast_donchian+donchian_20+six_month_high+squeeze_release+trend_continuation",
+    "trend": "up",
+    "name": "Simon Property Group, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Retail",
+    "rev_growth_TTM": 0.193,
+    "market_cap": 79913508864,
+    "news": [
+      {
+        "title": "Is Simon Property Stock Outperforming the S&P 500?",
+        "summary": "Simon Property has outperformed the S&P 500 over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Shifting Story For Simon Property Group (SPG) As Analysts Rework Valuations And Leadership Changes",
+        "summary": "The updated analyst model now points to a slightly higher fair value for Simon Property Group, with the target price moving from US$208.55 to US$213.55. That shift sits within a broader wave of Street research, where bullish and cautious voices are adjusting targets around new views on earnings support, funding costs, and sector sentiment. As you read on, you will see how these changing targets fit into the evolving narrative and what to watch if you follow this stock. Analyst Price Targets...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "How Senior Housing and Warehouses Defend Monthly Payouts Today",
+        "summary": "The First Trust S&P REIT Index Fund (NYSEARCA:FRI) gives investors exposure to American commercial real estate cash flow without picking between malls, warehouses, and senior living towers. Because REITs must distribute at least 90% of taxable income, FRI\u2019s payout rises and falls with rent collected by underlying companies. The question for income investors is whether ... How Senior Housing and Warehouses Defend Monthly Payouts Today",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "Scotiabank Raises its Price Target on Simon Property Group (SPG)",
+        "summary": "Simon Property Group, Inc. (NYSE:SPG) is one of the 12 Most Profitable Stocks to Invest In. On May 19, 2026, Scotiabank raised the firm\u2019s price target on Simon Property Group, Inc. (NYSE:SPG) to $206 from $192 and maintained a Sector Perform rating on the shares. Scotiabank said it was updating price targets for U.S. Retail [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "AVB": {
+    "ticker": "AVB",
+    "close": 189.72,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "AvalonBay Communities, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.025,
+    "market_cap": 26915969024,
+    "news": [
+      {
+        "title": "Equity Residential Merger With AvalonBay Reshapes Scale Valuation And Outlook",
+        "summary": "Equity Residential (NYSE:EQR) and AvalonBay Communities agreed to merge in an all stock transaction. The combination is set to create one of the largest publicly traded apartment real estate companies. Management of both companies highlighted expected merger synergies and improved growth prospects for the combined platform. For investors following apartment REITs, this deal brings together two large owners and operators of multifamily properties into a single company with broader reach and...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Wolfe Research upgrades AvalonBay, Equity Residential on merger synergy and value",
+        "summary": "Investing.com -- Wolfe Research upgraded apartment REITs AvalonBay Communities and Equity Residential to Outperform from Peer Perform, arguing that expected merger synergies and attractive valuations outweigh a still-challenging but stabilizing operating environment.",
+        "source": "Investing.com",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Top Analyst Reports for Alphabet, Apple & Micron Technology",
+        "summary": "Alphabet's AI-driven growth in Search, Cloud and subscriptions is boosting momentum, though spending and legal risks remain in focus.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Equity Residential-AvalonBay Communities Merger Set to Boost Cost Savings, Tech Gains, BofA Says",
+        "summary": "Equity Residential (EQR) and AvalonBay Communities (AVB) are expected to benefit from their merger t",
+        "source": "MT Newswires",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "GL": {
+    "ticker": "GL",
+    "close": 159.18,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Globe Life Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "rev_growth_TTM": 0.054,
+    "market_cap": 12359492608,
+    "news": [
+      {
+        "title": "Buy 5 Stocks With High ROE as Markets Swing on War Skirmishes",
+        "summary": "ROST joins TEL, CVE, GL and SCHW high-ROE cash cows screened for $1B+ cash flow as markets whip on Iran-U.S. skirmishes.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Raised 2026 Guidance and Analyst Downgrade Might Change The Case For Investing In Globe Life (GL)",
+        "summary": "Earlier in 2026, Globe Life Inc. reported first-quarter net operating income rising 11.7% year over year, with higher life and health premiums and investment income, but earnings slightly missed estimates due to elevated expenses, while management raised full-year 2026 net operating income guidance to US$15.40\u2013US$15.90 per diluted share. A major analyst subsequently downgraded the stock\u2019s rating even as they acknowledged the improved earnings outlook, underscoring a cautious stance toward...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "HLT": {
+    "ticker": "HLT",
+    "close": 343.1,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging",
+    "rev_growth_TTM": 0.11,
+    "market_cap": 78106157056,
+    "news": [
+      {
+        "title": "Hilton Worldwide Stock: Is HLT Outperforming the Consumer Discretionary Sector?",
+        "summary": "Hilton Worldwide has outperformed the Consumer Discretionary sector over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "3 High-Flying Stocks We\u2019re Skeptical Of",
+        "summary": "Expensive stocks typically earn their valuations through superior growth rates that other companies simply can\u2019t match. The flip side though is that these lofty expectations make them particularly susceptible to drawdowns when market sentiment shifts.",
+        "source": "StockStory",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "NVIDIA, Marriott, and PCA Just Delivered Big News for Income Investors",
+        "summary": "See where NVIDIA's dividend yield sits after a 25x dividend boost; one of the largest investors will ever see. Two other industry leaders also lifted payouts.",
+        "source": "MarketBeat",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Is Marriott International Stock Outperforming the Nasdaq?",
+        "summary": "Marriott International has rallied the Nasdaq Composite over the past year, and analysts remain moderately bullish about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "HST": {
+    "ticker": "HST",
+    "close": 24.62,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Host Hotels & Resorts, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Hotel & Motel",
+    "rev_growth_TTM": 0.028,
+    "market_cap": 17080525824,
+    "news": [
+      {
+        "title": "8 Dividend S&P 500 Stocks Yield Enough To Still Be Worthwhile",
+        "summary": "It's getting tougher to find S&P 500 dividend stocks that make any sense anymore. Thanks to skyrocketing stock prices, the S&P 500's yield is now less than 1%. Meanwhile, the yield on Vanguard Total Bond Market ETF is up to nearly 4%.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Top Dividend Stocks To Consider In May 2026",
+        "summary": "The United States market has shown robust performance, rising 1.2% over the last week and 29% over the past year, with earnings projected to grow by 17% annually. In this dynamic environment, selecting dividend stocks that offer reliable income and potential for capital appreciation can be an effective strategy for investors looking to benefit from both current returns and future growth.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "3 Dividend Stocks To Consider With Yields Up To 5.7%",
+        "summary": "The United States market has shown robust performance, with a 1.1% increase over the last week and a remarkable 29% rise over the past year. In this dynamic environment, dividend stocks can offer a compelling opportunity for investors seeking steady income and potential growth, especially when yields are as attractive as up to 5.7%.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Why Host Hotels (HST) is a Top Momentum Stock for the Long-Term",
+        "summary": "The Zacks Style Scores offers investors a way to easily find top-rated stocks based on their investing style. Here's why you should take advantage.",
+        "source": "Zacks",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "INVH": {
+    "ticker": "INVH",
+    "close": 30.04,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Invitation Homes Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.092,
+    "market_cap": 17845022720,
+    "news": [
+      {
+        "title": "Camden Stock Moves Up 9.1% in 6 Months: Will It Continue to Gain?",
+        "summary": "CPT is benefiting from strong apartment demand, falling new supply and active capital recycling, while tech investments and liquidity support growth.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Essex Property Stock Gains 8.4% in Three Months: Will the Trend Last?",
+        "summary": "ESS rises 8.4% in three months as tight West Coast housing supply, tech-led efficiencies and strong liquidity support growth.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Assessing Invitation Homes (INVH) Valuation After Recent Mixed Share Price Performance",
+        "summary": "Recent stock performance snapshot Invitation Homes (INVH) has drawn attention after a mixed stretch in its stock performance, with the price at US$29.25 and returns varying between short term softness and gains over the past month and the past 3 months. See our latest analysis for Invitation Homes. While the recent 1 month share price return of 2.52% and 3 month share price return of 11.30% point to building momentum from the US$29.25 level, the 1 year total shareholder return is still down...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Invitation Home (INVH) Up 2.1% Since Last Earnings Report: Can It Continue?",
+        "summary": "Invitation Home (INVH) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "MAR": {
+    "ticker": "MAR",
+    "close": 392.51,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Marriott International",
+    "sector": "Consumer Cyclical",
+    "industry": "Lodging",
+    "rev_growth_TTM": 0.126,
+    "market_cap": 103500423168,
+    "news": [
+      {
+        "title": "Marriott (MAR) Up 9.4% Since Last Earnings Report: Can It Continue?",
+        "summary": "Marriott (MAR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Hilton Worldwide Stock: Is HLT Outperforming the Consumer Discretionary Sector?",
+        "summary": "Hilton Worldwide has outperformed the Consumer Discretionary sector over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How Marriott\u2019s ResortPass Expansion And Steady Travel Demand At Marriott International (MAR) Has Changed Its Investment Story",
+        "summary": "In May 2026, ResortPass, Inc. announced an agreement with Marriott International to expand day-access spa and wellness offerings across participating Marriott properties, reflecting hotels\u2019 growing use of local, non-overnight guests to boost revenue from existing amenities. At the same time, Marriott\u2019s leadership highlighted broadly healthy travel demand, with leisure and group segments offsetting regional pressure in the Middle East where RevPAR fell sharply. Next, we\u2019ll examine how...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Earn up to 125,000 Marriott Bonvoy points with this limited-time offer",
+        "summary": "These limited-time offers from Marriott can help new cardholders score a free hotel stay this summer.",
+        "source": "Yahoo Personal Finance",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "PFG": {
+    "ticker": "PFG",
+    "close": 105.22,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Principal Financial Group Inc",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "rev_growth_TTM": -0.045,
+    "market_cap": 22728822784,
+    "news": [
+      {
+        "title": "Assessing Principal Financial Group (PFG) Valuation After Strong 1 Year Share Price Return",
+        "summary": "What recent performance suggests about Principal Financial Group (PFG) Principal Financial Group (PFG) has drawn attention after recent share price moves, with the stock last closing at US$103.31 and showing mixed short term returns alongside stronger gains over the past year. Over the past day the stock gained 0.4%, while the past week shows a decline of 1.3%. In contrast, the past month return is 2.2% and the past 3 months return is 10.5%, with a 1 year total return of 38.5%. See our latest...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "PFG Stock Trading at a Discount to Industry at 1.88X: Time to Hold?",
+        "summary": "Principal Financial targets long-term growth through retirement, asset management and benefits businesses supported by strong capital levels.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "MGIC Investment Lags Industry, Trades at a Discount: Time to Hold?",
+        "summary": "MTG benefits from strong mortgage insurance growth, rising insurance in force and improving capital strength despite housing risks.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Are Wall Street Analysts Predicting Principal Financial Stock Will Climb or Sink?",
+        "summary": "Principal Financial\u2019s shares have surged past the broader benchmark and sector peers, but analysts are cautious on the stock\u2019s growth potential.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "PCG": {
+    "ticker": "PCG",
+    "close": 17.11,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+squeeze_release+trend_continuation",
+    "trend": "weak",
+    "name": "Pacific Gas & Electric Co.",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "rev_growth_TTM": 0.15,
+    "market_cap": 37680066560,
+    "news": [
+      {
+        "title": "Ongoing Data Center Wave Bodes Well For PG&E Corp. (PCG)",
+        "summary": "PG&E Corp. (NYSE:PCG) is one of the 10 best large cap stocks under $30 with highest upside potential. As of the June 3 closing, consensus sentiment around PG&E Corp. (NYSE:PCG) was strongly bullish. 10 of the 12 analysts who covered it assigned Buy ratings to the stock, while 2 analysts gave Hold calls. With no [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Here's Why PG&E (PCG) is a Strong Value Stock",
+        "summary": "Wondering how to pick strong, market-beating stocks for your investment portfolio? Look no further than the Zacks Style Scores.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "A Look At PG&E (PCG) Valuation As It Surpasses 1 Million Customer Solar Systems Connected",
+        "summary": "PG&E (PCG) just crossed a milestone that matters for long term energy investors. It is now the first U.S. utility with more than 1 million customer solar systems tied into its grid. See our latest analysis for PG&E. The clean energy milestone arrives as the share price sits at US$16.82, with a 7 day share price return of 3.25% but a 90 day share price decline of 7.48%. The 1 year total shareholder return of 6.59% and 5 year total shareholder return of 62.67% point to moderate long term gains...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Why Is Ameren (AEE) Down 3.1% Since Last Earnings Report?",
+        "summary": "Ameren (AEE) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "ALL": {
+    "ticker": "ALL",
+    "close": 221.01,
+    "n_det": 3,
+    "detectors": "fast_donchian+range_expansion+trend_continuation",
+    "trend": "up",
+    "name": "Allstate Corporation (The)",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.03,
+    "market_cap": 56892596224,
+    "news": [
+      {
+        "title": "PLMR Stock Declines 39.1% in a Year: What Should Investors Do Now?",
+        "summary": "Palomar targets stronger 2026 earnings through premium growth, specialty expansion and rising investment income.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Is Now The Time To Put Allstate (NYSE:ALL) On Your Watchlist?",
+        "summary": "It's common for many investors, especially those who are inexperienced, to buy shares in companies with a good story...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "How Is Chubb's Stock Performance Compared to Other Property & Casualty Insurance Stocks?",
+        "summary": "While Chubb has underperformed its industry peers recently, analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Allstate (ALL) Down 4.6% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Allstate (ALL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "CPT": {
+    "ticker": "CPT",
+    "close": 112.6,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Camden Property Trust",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": -0.005,
+    "market_cap": 11157600256,
+    "news": [
+      {
+        "title": "Camden Stock Moves Up 9.1% in 6 Months: Will It Continue to Gain?",
+        "summary": "CPT is benefiting from strong apartment demand, falling new supply and active capital recycling, while tech investments and liquidity support growth.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Morgan Stanley Maintains Equal Weight Rating on Camden (CPT)",
+        "summary": "Camden Property Trust (NYSE:CPT) is one of the 10 Best Residential REITs to Buy in 2026. On May 15, 2026, Morgan Stanley analyst Adam Kramer lowered the firm\u2019s price target on Camden Property Trust (NYSE:CPT) to $117 from $119 and maintained an Equal Weight rating on the shares. On May 11, 2026, BofA raised the [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "EIX": {
+    "ticker": "EIX",
+    "close": 73.33,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "Edison International",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "rev_growth_TTM": 0.077,
+    "market_cap": 28216940544,
+    "news": [
+      {
+        "title": "Why Is NRG (NRG) Down 6% Since Last Earnings Report?",
+        "summary": "NRG (NRG) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Why Is PSEG (PEG) Down 2% Since Last Earnings Report?",
+        "summary": "PSEG (PEG) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Edison CEO Calls Steyer's Anti-Utility Comments 'Unfortunate'",
+        "summary": "Edison International CEO Pedro Pizarro spoke with Bloomberg's Tyler Kendall on the sidelines of the Edison Electric Institute 2026 Conference in Las Vegas. He pushed back against California governor candidate Tom Steyer's call to lower rates.",
+        "source": "Bloomberg",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Is It Too Late To Consider Edison International (EIX) After Its Strong 1-Year Rally?",
+        "summary": "This article explores whether Edison International at US$70.92 offers good value or if the easier gains may already have passed, by breaking down what the current price implies. Over shorter periods the stock\u2019s performance has been mixed, with a slight decline of 0.4% over the last week, a 1.5% gain over the last month, and returns of 16.4% year to date and 34.2% over the past year. Recent coverage has discussed Edison International in the context of broader interest in regulated utilities...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "ESS": {
+    "ticker": "ESS",
+    "close": 285.43,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Essex Property Trust, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.064,
+    "market_cap": 19673602048,
+    "news": [
+      {
+        "title": "Essex Property Stock Gains 8.4% in Three Months: Will the Trend Last?",
+        "summary": "ESS rises 8.4% in three months as tight West Coast housing supply, tech-led efficiencies and strong liquidity support growth.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "How The Essex Property Trust (ESS) Narrative Is Evolving With An Unchanged Analyst Price Target",
+        "summary": "Essex Property Trust\u2019s latest analyst update comes with no change in the price target, keeping expectations at the same level as previous reports. With no new commentary from analysts this time, the focus shifts to what this silence might mean for your view on the stock. Read on to see how to track future updates and incorporate this steady price target into your own research process. Stay updated as the Fair Value for Essex Property Trust shifts by adding it to your watchlist or portfolio...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "A Look At Essex Property Trust (ESS) Valuation After Recent Share Price Pullback",
+        "summary": "Recent performance snapshot Essex Property Trust (ESS) has drawn fresh attention after a recent pullback, with the stock down about 1.4% over the past week and roughly flat over the past year. At a recent close of US$272.64 and a market value near US$18.1b, the West Coast focused apartment REIT shows a mix of modest annual revenue growth and declining net income, which gives investors several angles to assess. See our latest analysis for Essex Property Trust. For context, Essex\u2019s share price...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Why Is Mid-America Apartment Communities (MAA) Up 1.3% Since Last Earnings Report?",
+        "summary": "Mid-America Apartment Communities (MAA) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "FITB": {
+    "ticker": "FITB",
+    "close": 52.01,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "Fifth Third Bancorp",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.33,
+    "market_cap": 47137263616,
+    "news": [
+      {
+        "title": "Northern Trust Stock Touched a New 52-Week High: Is More Upside Left?",
+        "summary": "Can NTRS's wealth management growth, improving profitability and strong shareholder returns drive further gains after its new 52-week high? Let us find out.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Truist Financial Stock Outperforming the Dow?",
+        "summary": "Truist Financial has outperformed the Dow over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Fifth Third\u2019s Big Bet Is On",
+        "summary": "Fifth Third Bancorp is transforming through its Comerica merger, expanding scale, boosting earnings potential, and strengthening long-term growth prospects",
+        "source": "MarketBeat",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "FRT": {
+    "ticker": "FRT",
+    "close": 122.56,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Federal Realty Investment Trust",
+    "sector": "Real Estate",
+    "industry": "REIT - Retail",
+    "rev_growth_TTM": 0.103,
+    "market_cap": 10652719104,
+    "news": [
+      {
+        "title": "Federal Realty Stock Rises 12.3% in 3 Months: Will it Keep Going?",
+        "summary": "FRT shares are up 12.3% in 3 months as FFO and leasing hit records. Can momentum last as rate risks linger?",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How The Federal Realty (FRT) Investment Story Is Evolving Without New Analyst Commentary",
+        "summary": "The latest update for Federal Realty Investment Trust comes with no change in the current price target, keeping expectations steady for now. Even without a shift in price target, the absence of fresh analyst commentary itself can be informative for how sentiment is holding. As you read on, you will see how to keep track of these updates and what to watch as the narrative around this REIT continues to evolve. Wall Street's queuing for one rocket. While SpaceX counts down to its IPO, other...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "summary": "Microsoft initiated, Dell upgraded: Wall Street's top analyst calls",
+        "source": "The Fly",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Accenture, Caesars Entertainment, Carnival, Dell Technologies, IBM, Kohl\u2019s, Microsoft, Zscaler, and More",
+        "summary": "Pre-Market Stock Futures: Futures are trading higher to start a new trading week and a new month after what was an incredible May, and anybody who followed \u201cSell in May and Go Away\u201d is having total seller\u2019s remorse. All the major indices, except the Russell 2000, finished the day higher, helping them reach all-time highs, ... Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Accenture, Caesars Entertainment, Carnival, Dell Technologies, IBM, Kohl\u2019s, Microsoft, Zscaler, and More",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "GWW": {
+    "ticker": "GWW",
+    "close": 1300.01,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "W.W. Grainger, Inc.",
+    "sector": "Industrials",
+    "industry": "Industrial Distribution",
+    "rev_growth_TTM": 0.101,
+    "market_cap": 61377527808,
+    "news": [
+      {
+        "title": "Is Now The Time To Look At Buying W.W. Grainger, Inc. (NYSE:GWW)?",
+        "summary": "Let's talk about the popular W.W. Grainger, Inc. ( NYSE:GWW ). The company's shares received a lot of attention from a...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "1 Cash-Producing Stock Worth Investigating and 2 Facing Headwinds",
+        "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+        "source": "StockStory",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Is Wall Street Bullish or Bearish on W.W. Grainger Stock?",
+        "summary": "Are Wall Street analysts favoring W.W. Grainger\u2019s stock post its Q1 earnings?",
+        "source": "Barchart",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Barclays Raises Grainger (GWW) PT But Warns of Future Earnings Pressure",
+        "summary": "W.W. Grainger, Inc. (NYSE:GWW) is included among the 10 Best Blue Chip Stocks to Buy for Your Retirement Portfolio. On May 12, Barclays raised its price target on W.W. Grainger, Inc. (NYSE:GWW) to $1,171 from $1,047 and maintained an Underweight rating on the stock. The firm viewed the company\u2019s Q1 report positively but said ongoing headwinds [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "MAA": {
+    "ticker": "MAA",
+    "close": 137.54,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Mid-America Apartment Communiti",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.008,
+    "market_cap": 16412185600,
+    "news": [
+      {
+        "title": "How The Mid-America Apartment Communities (MAA) Story Is Shifting As Analyst Views Diverge",
+        "summary": "Mid-America Apartment Communities has seen its fair value estimate adjusted slightly, moving from US$140.71 to US$140.46, a modest shift that still keeps the valuation band relatively tight. This small change sits against a more mixed backdrop on Wall Street, where some analysts are trimming price targets and even downgrading the stock, while others maintain more optimistic targets up to about US$150. As you read on, you will see how these differing views are taking shape and what to watch as...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Why Is Mid-America Apartment Communities (MAA) Up 1.3% Since Last Earnings Report?",
+        "summary": "Mid-America Apartment Communities (MAA) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Morgan Stanley Maintains Overweight Rating on Mid-America Apartment (MAA)",
+        "summary": "Mid-America Apartment Communities, Inc. (NYSE:MAA) is one of the 10 Best Residential REITs to Buy in 2026. On May 15, 2026, Morgan Stanley analyst Adam Kramer lowered the firm\u2019s price target on Mid-America Apartment Communities, Inc. (NYSE:MAA) to $150 from $153.50 and maintained an Overweight rating on the shares. On May 11, 2026, Barclays raised [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      },
+      {
+        "title": "Mid-America Apartment Communities (MAA) Faces Lower Rent Growth Expectations, Scotiabank Says",
+        "summary": "With an annual dividend yield of 4.66%, Mid-America Apartment Communities, Inc. (NYSE:MAA) is included among the 10 High Yield Stocks for Lasting Retirement Income. Top 100 Places Where the Rich People Own Real Estate On May 14, Scotiabank downgraded Mid-America Apartment Communities, Inc. (NYSE:MAA) to Underperform from Sector Perform and lowered its price target to $120 from [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-24"
+      }
+    ]
+  },
+  "MTB": {
+    "ticker": "MTB",
+    "close": 222.44,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "M&T Bank Corporation",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.057,
+    "market_cap": 32575238144,
+    "news": [
+      {
+        "title": "Northern Trust Stock Touched a New 52-Week High: Is More Upside Left?",
+        "summary": "Can NTRS's wealth management growth, improving profitability and strong shareholder returns drive further gains after its new 52-week high? Let us find out.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Fifth Third's Robust Capital Return Strategy: What's Driving It?",
+        "summary": "FITB's capital return plan is supported by 9.96% CET1, steady dividend hikes and buybacks, with strong liquidity backing future payouts.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Here's Why We Think M&T Bank (NYSE:MTB) Might Deserve Your Attention Today",
+        "summary": "For beginners, it can seem like a good idea (and an exciting prospect) to buy a company that tells a good story to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "NWSA": {
+    "ticker": "NWSA",
+    "close": 27.26,
+    "n_det": 3,
+    "detectors": "fast_donchian+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "News Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": 0.088,
+    "market_cap": 14858425344,
+    "news": [
+      {
+        "title": "Q1 Earnings Outperformers: News Corp (NASDAQ:NWSA) And The Rest Of The Consumer Discretionary - Media Stocks",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at News Corp (NASDAQ:NWSA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "March Home Down Payments Drop Amid Buyer-Friendly Market, Redfin Says",
+        "summary": "Down payments for home purchases in the US decreased in March amid a buyer-friendly market that's re",
+        "source": "MT Newswires",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "News Corporation\u2019s US$1b Buyback And What It Means For Shareholders",
+        "summary": "News Corporation (NasdaqGS:NWSA) announced a new US$1b stock repurchase program. The buyback is aimed at reducing the number of outstanding shares. The program reflects management's stated focus on shareholder value and capital returns. For readers watching media and publishing companies, News Corporation operates across news, digital real estate services, subscription video, and book publishing. The new US$1b repurchase program comes at a time when the broader media industry is working...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Trump Revives $10B Defamation Battle Against WSJ Publisher News Corp",
+        "summary": "The lawsuit, associated with Jeffrey Epstein, has intensified Trump\u2019s legal battles with major media organizations.",
+        "source": "Stocktwits",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "PNC": {
+    "ticker": "PNC",
+    "close": 228.37,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "PNC Financial Services Group, I",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.138,
+    "market_cap": 91705311232,
+    "news": [
+      {
+        "title": "LPL Financial Recruits $2 Billion Team From PNC Private Bank",
+        "summary": "Align Private Wealth is a planning-focused practice serving wealthy families in the Indianapolis market.",
+        "source": "Barrons.com",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "June 2026's Top Dividend Stocks For Reliable Income",
+        "summary": "In the last week, the United States market has stayed flat, but over the past 12 months, it has risen by 26%, with earnings forecast to grow by 17% annually. In this context of robust growth and stability, selecting dividend stocks that offer reliable income can be a prudent strategy for investors seeking consistent returns amidst evolving market conditions.",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is PNC Financial Services Stock Outperforming the Dow?",
+        "summary": "PNC Financial Services has outperformed the Dow Jones over the past year, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "May 2026 Dividend Stocks To Consider",
+        "summary": "Over the last 7 days, the United States market has risen by 1.3%, and over the past 12 months, it is up by an impressive 28%, with earnings forecasted to grow by 17% annually. In such a robust market environment, identifying dividend stocks that offer both stability and potential for income growth can be a prudent strategy for investors seeking to capitalize on these favorable conditions.",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "RF": {
+    "ticker": "RF",
+    "close": 28.54,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "Regions Financial Corporation",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.073,
+    "market_cap": 24355452928,
+    "news": [
+      {
+        "title": "Can Huntington Turn Growth Momentum Into 30% EPS Expansion by 2027?",
+        "summary": "HBAN targets an adjusted EPS of $1.90-$1.93 by 2027. Can revenue growth, fee-income gains and merger synergies drive more than 30% growth?",
+        "source": "Zacks",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Regions Financial Expands Homeownership Support And Deepens Retail Banking Ties",
+        "summary": "Regions Financial (NYSE:RF) is marking National Homeownership Month with enhanced homeownership resources. The company is rolling out free educational webinars and tailored mortgage guidance for first-time buyers and local communities. The initiative focuses on financial education and support beyond traditional banking services. Regions Financial, trading at $27.34, is putting extra attention on housing access and education at a time when many buyers are facing affordability questions. The...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Regions to pay $4.9M for allegedly forgiving ineligible PPP loan",
+        "summary": "The Department of Justice said that Birmingham, Alabama-based Regions sought forgiveness from the Small Business Administration for a Paycheck Protection Program loan that the bank should have known did not qualify.",
+        "source": "American Banker",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "Regions Financial (RF): Buy, Sell, or Hold Post Q1 Earnings?",
+        "summary": "Regions Financial trades at $27.83 and has moved in lockstep with the market. Its shares have returned 9.4% over the last six months while the S&P 500 has gained 9.7%.",
+        "source": "StockStory",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "UDR": {
+    "ticker": "UDR",
+    "close": 39.2,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "UDR, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Residential",
+    "rev_growth_TTM": 0.042,
+    "market_cap": 14524213248,
+    "news": [
+      {
+        "title": "How The Story Around UDR (UDR) Is Shifting With Recalibrated Multifamily Expectations",
+        "summary": "UDR's updated fair value estimate has shifted from $40.48 to $40.17, a small trim that keeps expectations in a relatively tight band. This adjustment lines up with recent analyst commentary that clusters around recalibrated targets in the high $30s, as views split between cautious readings on multifamily supply and demand and more constructive takes on occupancy and rent trends. As you read on, you will see how these moving pieces shape the evolving narrative around UDR and what to watch...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Here\u2019s Why UDR is Among the 10 Best Residential REITs to Buy in 2026",
+        "summary": "UDR, Inc. (NYSE:UDR) is one of the 10 Best Residential REITs to Buy in 2026. On May 14, 2026, Scotiabank lowered the firm\u2019s price target on UDR, Inc. (NYSE:UDR) to $38 from $39 and maintained a Sector Perform rating on the shares. The firm said it updated its outlook for U.S. multifamily REITs and continues [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "AJG": {
+    "ticker": "AJG",
+    "close": 216.14,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Arthur J. Gallagher & Co.",
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers",
+    "rev_growth_TTM": 0.346,
+    "market_cap": 55535443968,
+    "news": [
+      {
+        "title": "Is Arthur J. Gallagher Stock Underperforming the Dow?",
+        "summary": "Although Arthur J. Gallagher has trailed the Dow Jones Industrial Average over the last 12 months, analysts maintain a moderately positive stance on the stock.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "How Arthur J. Gallagher (AJG) Narrative Is Evolving With An Unchanged Fair Value Estimate",
+        "summary": "Arthur J. Gallagher\u2019s latest analyst update comes with no change in the price target, signaling that coverage remains steady based on the information currently available. As the narrative around the stock develops, you will see how to track these updates and place them in context so you can stay aligned with the evolving story. Analyst Price Targets don't always capture the full story. Head over to our Company Report to find new ways to value Arthur J. Gallagher. Do your thoughts align with...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "1 Profitable Stock with Exciting Potential and 2 We Turn Down",
+        "summary": "While profitability is essential, it doesn\u2019t guarantee long-term success. Some companies that rest on their margins will lose ground as competition intensifies \u2014 as Jeff Bezos said, \u201cYour margin is my opportunity\u201d.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "AJG Bets on Specialty Insurance Buyouts for Long-Term Growth",
+        "summary": "Arthur J. Gallagher expands its specialty insurance capabilities through acquisitions, targeting growing demand for complex risk and brokerage solutions.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "WTW": {
+    "ticker": "WTW",
+    "close": 263.54,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "down",
+    "name": "Willis Towers Watson Public Lim",
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers",
+    "rev_growth_TTM": 0.085,
+    "market_cap": 24890820608,
+    "news": [
+      {
+        "title": "How The Willis Towers Watson (WTW) Narrative Is Shifting With AI And Reset Valuations",
+        "summary": "Willis Towers Watson\u2019s fair value estimate has been trimmed from US$354.74 to US$334.32, a reduction of about 5.8% in the modeled price target. Analysts link this reset to a mix of caution and renewed confidence, as they weigh AI related disruption risks against the potential for technology to support long term profitability in the insurance broker business. Read on to see how these shifting views are shaping the evolving narrative around the stock and what signals to watch next. Wall...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "UnitedHealth Just Raised Its Dividend 5%. Why You Should Buy UNH Stock Here.",
+        "summary": "UnitedHealth Group raised its quarterly dividend by 5% to $2.32 per share, marking its 16th consecutive year of dividend increases amid a challenging health insurance environment with rising medical costs.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "WTW Acquires Redefind to Expand Its Crypto Insurance Presence",
+        "summary": "Willis Towers expands into crypto insurance with the acquisition of Redefind, enhancing its specialty risk and digital asset capabilities.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Willis Towers Watson buys digital asset insurance platform Redefind",
+        "summary": "Redefind's co-founders, Richard Daws and Connor Edward, have joined WTW following completion of the transaction.",
+        "source": "Life Insurance International",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "ABBV": {
+    "ticker": "ABBV",
+    "close": 227.23,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "AbbVie Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.124,
+    "market_cap": 401468325888,
+    "news": [
+      {
+        "title": "Is Amgen An Undervalued Stock Or Value Trap?",
+        "summary": "Amgen (AMGN) stock is at an interesting point right now. If you bet on it, you are betting on a company that's growing reasonably, is sustaining good cash flow and margin, has a low-debt to market capital structure, and is relatively cheaply valued. But is that enough.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "AbbVie (ABBV) Announces European Commission\u2019s Approval of AQUIPTA\u00ae",
+        "summary": "AbbVie Inc. (NYSE:ABBV) is one of the best cheap stocks to buy for beginners. AbbVie Inc. (NYSE:ABBV) announced on June 2 that the European Commission approved AQUIPTA\u00ae for the acute treatment of migraine in adults with or without aura, to be taken as needed. Management stated that the approval marks the second indication for AQUIPTA in [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "AbbVie (ABBV) Ascends While Market Falls: Some Facts to Note",
+        "summary": "AbbVie (ABBV) closed at $227.23 in the latest trading session, marking a +1.02% move from the prior day.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "3 Stocks That Could Be Trading At A Discount Of Up To 34.5%",
+        "summary": "The United States market has shown a remarkable 26% increase over the past year, despite remaining flat over the last week, with expectations for earnings to grow by 16% annually in the coming years. In this context, identifying stocks that are potentially undervalued can be crucial for investors seeking opportunities that align with these growth prospects and current market stability.",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "AFL": {
+    "ticker": "AFL",
+    "close": 118.24,
+    "n_det": 2,
+    "detectors": "six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "AFLAC Incorporated",
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "rev_growth_TTM": 0.279,
+    "market_cap": 60182372352,
+    "news": [
+      {
+        "title": "Aflac Stock: Is AFL Outperforming the Financial Sector?",
+        "summary": "Despite Aflac's strong price performance and its outperformance of the broader financial sector over the past year, Wall Street analysts remain measured in their expectations for the stock's future upside.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Piper Sandler Raises Aflac (AFL) Price Target, Favors Insurance Carriers over Brokers",
+        "summary": "Aflac Incorporated (NYSE:AFL) is included among the 10 Best Long-Term Dividend Stocks to Invest In According to Billionaires. Piper Sandler analyst John Barnidge raised the firm\u2019s price target on Aflac Incorporated (NYSE:AFL) to $130 from $125 on May 26 and maintained an Overweight rating on the stock. The firm pointed to the stock\u2019s recent performance [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "Why Is Aflac (AFL) Down 0.9% Since Last Earnings Report?",
+        "summary": "Aflac (AFL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "A Fresh Look At Aflac (AFL) Valuation As Investor Interest Picks Up",
+        "summary": "Why Aflac (AFL) is on investors\u2019 radar today Aflac (AFL) has been drawing attention after recent share performance that includes a small gain over the past month and a modest advance in the past 3 months, prompting closer scrutiny of its fundamentals. See our latest analysis for Aflac. At a share price of $114.85, Aflac\u2019s recent 7 day share price return is slightly negative, while its 1 year total shareholder return of 15.01% highlights stronger momentum over a longer period. If this kind of...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "AMT": {
+    "ticker": "AMT",
+    "close": 194.12,
+    "n_det": 2,
+    "detectors": "six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "American Tower Corporation (REI",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty",
+    "rev_growth_TTM": 0.068,
+    "market_cap": 90439155712,
+    "news": [
+      {
+        "title": "AMT Stock Rallies 10.5% Year-to-Date: Will the Momentum Last?",
+        "summary": "American Tower climbs 10.5% YTD as 5G expansion, data center growth and $50.4B in future lease receipts support revenues and cash flow visibility.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Assessing American Tower\u2019s Valuation After Recent Share Price Rebound",
+        "summary": "Recent performance snapshot American Tower (AMT) has drawn investor attention after a recent month where the stock returned 8.86%, compared with a 2.82% gain over the past 3 months and a 10.93% return year to date. See our latest analysis for American Tower. The recent 1 day share price return of 6.40% and 1 month share price return of 8.86% contrast with a 1 year total shareholder return that is down 7.01%. This suggests short term momentum is building while longer term holders have faced...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Postal Realty Trust (PSTL) Down 4.8% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Postal Realty Trust (PSTL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "American Tower Stock: Is AMT Underperforming the Real Estate Sector?",
+        "summary": "American Tower has underperformed the Real Estate sector over the past year, but analysts are highly optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-02"
+      }
+    ]
+  },
+  "CI": {
+    "ticker": "CI",
+    "close": 289.48,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "The Cigna Group",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.046,
+    "market_cap": 76576841728,
+    "news": [
+      {
+        "title": "Can UNH Stock Sustain Its Recent 40% Rally?",
+        "summary": "After a brutal stretch, the insurance behemoth came roaring back. But does the underlying data fully support the sustainability of this momentum.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Humana Jumps 6%, UnitedHealth Climbs 5%, Cigna Rises 4% as Analysts Cheer Softer Medical Cost Trends",
+        "summary": "Health insurers are running higher in Thursday afternoon trading after a wave of bullish Wall Street analyst notes on the managed-care sector, centered on UnitedHealth, citing softer medical cost and utilization trends plus potential AI efficiency upside. Humana (NYSE:HUM) stock is leading the move, up 6% to $348, with UnitedHealth Group (NYSE:UNH) stock up 5% ... Humana Jumps 6%, UnitedHealth Climbs 5%, Cigna Rises 4% as Analysts Cheer Softer Medical Cost Trends",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "UnitedHealth, CVS, Cigna Seen Benefiting From Utilization Trends, AI Upside, Morgan Stanley Says",
+        "summary": "UnitedHealth (UNH), CVS Health (CVS) and Cigna (CI) are among the managed-care companies that could",
+        "source": "MT Newswires",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "CVS": {
+    "ticker": "CVS",
+    "close": 95.93,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "CVS Health Corporation",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.061,
+    "market_cap": 122399703040,
+    "news": [
+      {
+        "title": "CVS Health Balances 340B Lawsuits With GLP 1 Growth Prospects",
+        "summary": "CVS Health (NYSE:CVS) is facing lawsuits from multiple health systems that allege the company diverted hundreds of millions of dollars in savings tied to the federal 340B drug discount program. At the same time, CVS Health is expanding access to GLP-1 weight management drugs through new formulary decisions, including the reintroduction of Zepbound and removal of barriers for Foundayo. These developments come as pharmacy benefit manager practices receive increased attention from regulators...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "CVS Health (CVS) Advances While Market Declines: Some Information for Investors",
+        "summary": "The latest trading day saw CVS Health (CVS) settling at $95.93, representing a +1.17% change from its previous close.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Dow Jones Futures Rise, Techs Fall As AI Trade Cools; Jobs Report Looms",
+        "summary": "Dow Jones futures rose slightly early Friday, while S&P 500 futures and especially Nasdaq futures fell. The May jobs report is on tap before the open. S&P Dow Jones Indices announced late Thursday that it won't fast track SpaceX and other upcoming megacap IPOs such as Anthropic and OpenAI into the benchmark index.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Can UNH Stock Sustain Its Recent 40% Rally?",
+        "summary": "After a brutal stretch, the insurance behemoth came roaring back. But does the underlying data fully support the sustainability of this momentum.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "KEY": {
+    "ticker": "KEY",
+    "close": 21.76,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "KeyCorp",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.118,
+    "market_cap": 23592751104,
+    "news": [
+      {
+        "title": "Bank of America Strategist Sees Dot-Com Comparisons: 5 Safe Buy-Rated Dividend Stocks They Love Now",
+        "summary": "Bank of America\u2019s (NYSE: BAC) Chief Investment Strategist Michael Hartnett adopted a cautious yet opportunistic stance in his latest Flow Show, warning that investors are approaching a pivotal juncture. He highlighted rising bond yields, elevated technology valuations, and evolving global capital flows as forces likely to trigger a rotation in market leadership. Despite the AI-fueled ... Bank of America Strategist Sees Dot-Com Comparisons: 5 Safe Buy-Rated Dividend Stocks They Love Now",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Can Huntington Turn Growth Momentum Into 30% EPS Expansion by 2027?",
+        "summary": "HBAN targets an adjusted EPS of $1.90-$1.93 by 2027. Can revenue growth, fee-income gains and merger synergies drive more than 30% growth?",
+        "source": "Zacks",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Assessing KeyCorp (KEY) Valuation After A Mixed Share Price Performance And 15% Undervaluation View",
+        "summary": "KeyCorp stock triggered by recent performance KeyCorp (KEY) has drawn investor attention after a mixed stretch for the stock, with it down over the past month but up over the past 3 months and the past year. See our latest analysis for KeyCorp. At a share price of $21.33, KeyCorp\u2019s recent pullback over the past month contrasts with a stronger trend, with its 1-year total shareholder return of 38.8% pointing to improving sentiment toward the stock\u2019s risk and income profile. If this shift in...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-31"
+      },
+      {
+        "title": "If Rates Fall Further, Here\u2019s What Happens to the KRE Regional Banking ETF",
+        "summary": "The SPDR S&P Regional Banking ETF (NYSEARCA:KRE) has quietly become one of 2026\u2019s better-performing financial trades, rising roughly 9% year to date and 28% over the past year to around $70 a share. The rally reflects what Q1 earnings just confirmed: regional bank net interest margins are finally widening as deposit costs roll over. For ... If Rates Fall Further, Here\u2019s What Happens to the KRE Regional Banking ETF",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "MET": {
+    "ticker": "MET",
+    "close": 84.49,
+    "n_det": 2,
+    "detectors": "six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "MetLife, Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "rev_growth_TTM": 0.027,
+    "market_cap": 54363975680,
+    "news": [
+      {
+        "title": "MetLife (MET) Valuation Check As New Annuity Cancellation Feature Reshapes Income Mix",
+        "summary": "MetLife (MET) has rolled out a new liquidity feature for its MetLife Guaranteed Income Program immediate income annuity, introducing a three year Annuity Cancellation Option with refunds and no surrender fees for defined contribution savers. See our latest analysis for MetLife. MetLife\u2019s recent product updates arrive as momentum in the stock has been firming, with a 90 day share price return of 17.6% and a 3 year total shareholder return of 71.8% pointing to stronger sentiment after a more...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Aflac Stock: Is AFL Outperforming the Financial Sector?",
+        "summary": "Despite Aflac's strong price performance and its outperformance of the broader financial sector over the past year, Wall Street analysts remain measured in their expectations for the stock's future upside.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is MetLife Stock Outperforming the S&P 500?",
+        "summary": "MetLife has trailed the S&P 500 over the past year, but the stock has picked up momentum lately, outperforming the broader market over the past three months. Analysts remain optimistic, albeit with a measured outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Here's Why Investors Should Stay Neutral on MetLife Stock for Now",
+        "summary": "MET is backed by premium growth, AI-driven efficiency and strong liquidity, but volatile investment income and lower ROIC support a neutral view.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "NWS": {
+    "ticker": "NWS",
+    "close": 31.19,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "News Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": 0.088,
+    "market_cap": 17000524800,
+    "news": [
+      {
+        "title": "Q1 Earnings Outperformers: News Corp (NASDAQ:NWSA) And The Rest Of The Consumer Discretionary - Media Stocks",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at News Corp (NASDAQ:NWSA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "March Home Down Payments Drop Amid Buyer-Friendly Market, Redfin Says",
+        "summary": "Down payments for home purchases in the US decreased in March amid a buyer-friendly market that's re",
+        "source": "MT Newswires",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "News Corporation\u2019s US$1b Buyback And What It Means For Shareholders",
+        "summary": "News Corporation (NasdaqGS:NWSA) announced a new US$1b stock repurchase program. The buyback is aimed at reducing the number of outstanding shares. The program reflects management's stated focus on shareholder value and capital returns. For readers watching media and publishing companies, News Corporation operates across news, digital real estate services, subscription video, and book publishing. The new US$1b repurchase program comes at a time when the broader media industry is working...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Trump Revives $10B Defamation Battle Against WSJ Publisher News Corp",
+        "summary": "The lawsuit, associated with Jeffrey Epstein, has intensified Trump\u2019s legal battles with major media organizations.",
+        "source": "Stocktwits",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "PRU": {
+    "ticker": "PRU",
+    "close": 104.62,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Prudential Financial, Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "rev_growth_TTM": 0.153,
+    "market_cap": 36337156096,
+    "news": [
+      {
+        "title": "Prudential (PRU) Up 0.6% Since Last Earnings Report: Can It Continue?",
+        "summary": "Prudential (PRU) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "PRU Expands Retirement Market Presence With Fixed Indexed Annuity",
+        "summary": "Prudential Financial expands its retirement offerings with new fixed indexed annuities aimed at growing its advisor distribution network.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Inflation Squeezes Retirement. 5 Smart Tips to Protect Yourself.",
+        "summary": "Own stocks, TIPS and gold. And wait as long as possible to collect Social Security to max out your inflation-adjusted benefit.",
+        "source": "Barrons.com",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "1 Large-Cap Stock with Impressive Fundamentals and 2 We Find Risky",
+        "summary": "Large-cap stocks have the power to shape entire industries thanks to their size and widespread influence. With such vast footprints, however, finding new areas for growth is much harder than for smaller, more agile players.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "USB": {
+    "ticker": "USB",
+    "close": 55.69,
+    "n_det": 2,
+    "detectors": "fast_donchian+trend_continuation",
+    "trend": "up",
+    "name": "U.S. Bancorp",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.046,
+    "market_cap": 86382493696,
+    "news": [
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is U.S. Bancorp Stock Underperforming the Nasdaq?",
+        "summary": "U.S. Bancorp has lagged behind the Nasdaq Composite over the past year, and analysts remain moderately bullish about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "U.S. Bancorp Completes BTIG Buyout, Expands Capital Markets Platform",
+        "summary": "USB completes BTIG buyout, adding equity trading, equity capital markets and M&A advisory to expand its capital markets platform and fee-based revenue mix.",
+        "source": "Zacks",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "U.S. Bancorp (USB) Could Be a Great Choice",
+        "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does U.S. Bancorp (USB) have what it takes? Let's find out.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "WFC": {
+    "ticker": "WFC",
+    "close": 81.94,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Wells Fargo & Company",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "rev_growth_TTM": 0.057,
+    "market_cap": 250751926272,
+    "news": [
+      {
+        "title": "JPMorgan, Citi and Big Banks Plan New Tokenized Deposit System to Answer Crypto",
+        "summary": "The new network could help banks contend with a wave of new competition from stablecoins and crypto firms.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Stock Market Today, June 4: Bank of America Rises as Cross-Border Payments Plan Expands Transaction Banking",
+        "summary": "The rollout could strengthen Bank of America's transaction-banking relationships, though investors will monitor whether lending income and market activity remain the primary drivers of earnings.",
+        "source": "Motley Fool",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Assessing Wells Fargo (WFC) Valuation After Recent Share Price Momentum And Asset Cap Developments",
+        "summary": "What Wells Fargo stock's recent performance suggests for investors Wells Fargo (WFC) has drawn fresh attention after a recent move in its share price, with the stock up 3.7% over the past day and 6.5% over the past week. Over the past month the stock is up 2.2%, and it has gained 1.5% in the past 3 months, while year to date performance is down 14.3%. This combination creates a mixed backdrop for investors assessing the current level. See our latest analysis for Wells Fargo. At the current...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "AMGN": {
+    "ticker": "AMGN",
+    "close": 349.58,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Amgen Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.058,
+    "market_cap": 188671213568,
+    "news": [
+      {
+        "title": "Assessing Whether Amgen (AMGN) Is Slightly Undervalued After Recent Share Price Gains",
+        "summary": "Amgen stock snapshot and recent performance Amgen (AMGN) is drawing attention after recent price moves, with the stock last closing at US$349.58. Over the past month it gained about 5.6%, while over the past 3 months it declined roughly 5.4%. See our latest analysis for Amgen. The recent 1-day share price return of 1.15% and 7-day return of 3.8% build on a 30-day share price gain of 5.6%, while the 1-year total shareholder return of 24% and 3-year total shareholder return of about 75% point...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Is Amgen An Undervalued Stock Or Value Trap?",
+        "summary": "Amgen (AMGN) stock is at an interesting point right now. If you bet on it, you are betting on a company that's growing reasonably, is sustaining good cash flow and margin, has a low-debt to market capital structure, and is relatively cheaply valued. But is that enough.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Amgen Inc. (AMGN) Announces EC\u2019s Grant of Marketing Authorization for IMDYLLTRA\u00ae",
+        "summary": "Amgen Inc. (NASDAQ:AMGN) is one of the best cheap stocks to buy for beginners. Amgen Inc. (NASDAQ:AMGN) announced on June 1 that the European Commission granted marketing authorization for IMDYLLTRA\u00ae (tarlatamab) as a monotherapy for the treatment of adults with extensive-stage small cell lung cancer who require systemic therapy following disease progression on or after first-line [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Oncology Approval And Autoimmune Data Momentum Altering The Investment Case For Amgen (AMGN)?",
+        "summary": "Amgen recently received European Commission approval for IMDYLLTRA (tarlatamab) to treat adults with extensive-stage small cell lung cancer after platinum-based chemotherapy and presented fresh Phase 3 and real-world data on UPLIZNA and TAVNEOS at the EULAR 2026 Congress, reinforcing their safety and disease-control profiles in rare autoimmune conditions. Together, the new oncology authorization and autoimmune data highlight Amgen\u2019s growing presence in high unmet-need niches, where...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "CAH": {
+    "ticker": "CAH",
+    "close": 205.71,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Cardinal Health, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Distribution",
+    "rev_growth_TTM": 0.11,
+    "market_cap": 48178487296,
+    "news": [
+      {
+        "title": "How The Mixed Analyst Calls Are Reframing The Cardinal Health (CAH) Investment Story",
+        "summary": "Cardinal Health is back in focus as fresh Street research reshapes the price target conversation, with several firms trimming their targets while one raises its view and another starts coverage on a bullish footing. Those mixed calls reflect a split between analysts who see room for upside if execution holds and others who are more cautious about how much to pay for the stock right now. As you read on, you will see how to track these shifting views and what they might mean for your own...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Why Coca-Cola and Walmart Top This List of Steady, Low-Volatility Dividend Aristocrats",
+        "summary": "Dividend Aristocrats can offer income, stability, and consistency. Here are four lower-volatility names analysts still like.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Dentsply (XRAY) Down 13.5% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Dentsply (XRAY) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "ES": {
+    "ticker": "ES",
+    "close": 70.6,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "weak",
+    "name": "Eversource Energy (D/B/A)",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "rev_growth_TTM": 0.094,
+    "market_cap": 26551248896,
+    "news": [
+      {
+        "title": "Eversource (ES) Up 4.2% Since Last Earnings Report: Can It Continue?",
+        "summary": "Eversource (ES) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Eversource Energy (ES) Offering Value After Recent Share Price Pullback?",
+        "summary": "For investors considering whether Eversource Energy at around US$68.51 is attractively priced or already reflects its quality, this article examines what the current share price might be implying about value. The stock is roughly flat year to date, up 0.7%, with a 1-year return of 9.8%. However, investors have seen the price decline 1.7% over the last week and 3.6% over the last month. Recent headlines around Eversource Energy have focused less on short-term trading and more on its position...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "BMO Capital Trims Eversource Energy (ES) Forecast After First-Quarter Update",
+        "summary": "With an annual dividend yield of 4.57% as of May 29, Eversource Energy (NYSE:ES) is included among the Dividend Aristocrats Ranked By Yield: Top 10 Stocks. On May 11, BMO Capital analyst James Thalacker lowered the firm\u2019s price recommendation on Eversource Energy (NYSE:ES) to $73 from $75. He reiterated a Market Perform rating on the stock [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "AON": {
+    "ticker": "AON",
+    "close": 328.53,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Aon plc",
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers",
+    "rev_growth_TTM": 0.065,
+    "market_cap": 70166429696,
+    "news": [
+      {
+        "title": "Assessing Aon (AON) Valuation After Recent Share Price Rebound And NFP Acquisition Impact",
+        "summary": "Aon (AON) is in focus after recent trading data showed the stock up 2.1% over the past day and 1.2% over the past week, compared with weaker performance over the past 3 months. See our latest analysis for Aon. Those short term gains sit against a weaker backdrop, with the share price down 6.4% year to date and the 1 year total shareholder return down 12.23%. Meanwhile, the 5 year total shareholder return of 34.44% points to slower momentum compared with longer term performance. If this shift...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Aon Stock Underperforming the Nasdaq?",
+        "summary": "Aon has considerably underperformed the Nasdaq recently, yet analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is Arthur J. Gallagher Stock Underperforming the Dow?",
+        "summary": "Although Arthur J. Gallagher has trailed the Dow Jones Industrial Average over the last 12 months, analysts maintain a moderately positive stance on the stock.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "AJG Bets on Specialty Insurance Buyouts for Long-Term Growth",
+        "summary": "Arthur J. Gallagher expands its specialty insurance capabilities through acquisitions, targeting growing demand for complex risk and brokerage solutions.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "CMG": {
+    "ticker": "CMG",
+    "close": 29.34,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "down",
+    "name": "Chipotle Mexican Grill, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "rev_growth_TTM": 0.074,
+    "market_cap": 37635416064,
+    "news": [
+      {
+        "title": "Why Chipotle Stock Rallied Today",
+        "summary": "After sizable declines, the restaurant chain could be poised for a rebound.",
+        "source": "Motley Fool",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Settle Sharply Lower as Tech Companies Routed",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -2.64%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.35%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -4.77%. June E-mini S&P futures (ESM26 ) fell -2.97%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Chipotle (CMG) Recalibrating Its Growth Story Amid Slower Traffic And Louder Marketing?",
+        "summary": "In recent weeks, Chipotle Mexican Grill has combined aggressive marketing campaigns around the men\u2019s professional basketball championship, loyalty promotions, and upcoming investor presentations with ongoing restaurant expansion and digital initiatives. At the same time, analysts have turned more cautious on Chipotle amid macroeconomic pressures and a pullback in transaction trends, even as they highlight areas of operational strength and long-term growth plans. We\u2019ll now examine how the...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Chipotle CFO zeroes in on international growth",
+        "summary": "The restaurant company could potentially have as many locations outside the U.S. as it does inside, given a few decades of further growth, CFO Adam Rymer said.",
+        "source": "CFO Dive",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "ERIE": {
+    "ticker": "ERIE",
+    "close": 227.22,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Erie Indemnity Company",
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers",
+    "rev_growth_TTM": 0.023,
+    "market_cap": 11881304064,
+    "news": []
+  },
+  "LH": {
+    "ticker": "LH",
+    "close": 265.15,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "down",
+    "name": "Labcorp Holdings Inc.",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.058,
+    "market_cap": 21742299136,
+    "news": [
+      {
+        "title": "Why Is Pediatrix Medical Group (MD) Down 1.7% Since Last Earnings Report?",
+        "summary": "Pediatrix Medical Group (MD) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Assessing Labcorp (LH) Valuation As Shares Cool And P/E Trails Healthcare Peers",
+        "summary": "Labcorp Holdings stock snapshot Labcorp Holdings (LH) stock has been moving without a clear single catalyst, which leads many investors to focus on its fundamentals, including recent returns, revenue, earnings and its current valuation profile. See our latest analysis for Labcorp Holdings. At a share price of $256.87, Labcorp Holdings has seen its short term share price momentum cool, with the share price down over the past week and three months, while longer term total shareholder returns...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "LH Expands Genetic Testing in CRC Through New Collab: Stock to Gain?",
+        "summary": "Labcorp joins a national CRC trial as exclusive genetic testing provider, expanding Invitae-based testing and supporting cancer research.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "3 Cash-Producing Stocks That Concern Us",
+        "summary": "While strong cash flow is a key indicator of stability, it doesn\u2019t always translate to superior returns. Some cash-heavy businesses struggle with inefficient spending, slowing demand, or weak competitive positioning.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "MCK": {
+    "ticker": "MCK",
+    "close": 775.66,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "McKesson Corporation",
+    "sector": "Healthcare",
+    "industry": "Medical Distribution",
+    "rev_growth_TTM": 0.06,
+    "market_cap": 93237469184,
+    "news": [
+      {
+        "title": "Here is What Analysts Are Saying About McKesson Corporation (MCK)",
+        "summary": "McKesson Corporation (NYSE:MCK) is one of top cheap stocks with Strong Buy ratings on Wall Street. Citi cut the price target on McKesson Corporation (NYSE:MCK) to $945 from $975 on May 14 and reiterated a Buy rating on the shares. The company also received a rating update from BofA on May 8, with the firm [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "3 Cash-Producing Stocks with Promising Prospects",
+        "summary": "Businesses with strong free cash flow tend to be more adaptable and resilient. Some of these companies shine bright by using their cash wisely to strengthen their market positions.",
+        "source": "StockStory",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "JP Morgan\u2019s Analyst Focus List for June Has 5 Top Passive Income Dividend Picks",
+        "summary": "All the major Wall Street firms we cover here at 24/7 Wall St. have a list of the top stock picks for their institutional and retail clients to invest in. Typically, these are companies that analysts have a high level of conviction in and feel strongly about their fundamentals and forward-looking prospects. In addition, they ... JP Morgan\u2019s Analyst Focus List for June Has 5 Top Passive Income Dividend Picks",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "McKesson Unit Prices $2.25 Billion Leveraged Loan Ahead of IPO",
+        "summary": "(Bloomberg) -- A $2.25 billion leveraged loan for McKesson Corp.\u2019s medical-surgical unit priced on Wednesday, ahead of its planned initial public offering.Most Read from BloombergTrump Begins Rebuilding His Tariff Wall, Citing Forced LaborRepublican-Led House Votes to Stop Iran War, Rebuking TrumpTrump to Get Audit Immunity as $1.8 Billion Fund in DoubtRussia Finance Officials Tell Putin War Spending Is UnaffordableGlazer Family Members Debate Manchester United Stake SaleThe six-year debt for Mc",
+        "source": "Bloomberg",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "PGR": {
+    "ticker": "PGR",
+    "close": 204.02,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "Progressive Corporation (The)",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.087,
+    "market_cap": 119045677056,
+    "news": [
+      {
+        "title": "Progressive Keeps Taking Auto Insurance Market Share. Can It Keep Winning?",
+        "summary": "Data, pricing, and scale keep Progressive ahead of rivals.",
+        "source": "Motley Fool",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Will Berkshire's Taylor Morrison Deal Strengthen its Housing Bet?",
+        "summary": "BRK.B's planned $6.8B Taylor Morrison buyout at $72.50 a share will deepen its Sun Belt housing exposure.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "3 Reasons Why Unusual Options Activity in Progressive Stock May Point to a Bottom",
+        "summary": "Wednesday was a down day for the major indices. However, Progressive\u2019s unusual options activity suggests the stock, which has struggled in the past year, could be nearing a bottom. Here are three reasons why and what to do about it.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "A Look At Progressive (PGR) Valuation As Analysts Reset Earnings And Price Targets",
+        "summary": "Recent analyst commentary on Progressive (PGR) has focused on revised earnings forecasts and price objectives, reflecting a mix of stronger net investment income, underwriting outperformance, softer policy growth, and pressure on auto insurance pricing. See our latest analysis for Progressive. At a share price of $193.46, Progressive\u2019s recent move reflects pressure on the stock, with the share price return down 8.8% year to date and 8.1% over 90 days. However, the 5 year total shareholder...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "WRB": {
+    "ticker": "WRB",
+    "close": 68.57,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "down",
+    "name": "W.R. Berkley Corporation",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.04,
+    "market_cap": 25527015424,
+    "news": [
+      {
+        "title": "How W. R. Berkley\u2019s (WRB) Bigger Dividend and Buyback Plan Has Changed Its Investment Story",
+        "summary": "W. R. Berkley Corporation recently announced that its board declared a US$0.50 per-share special cash dividend and raised the regular quarterly dividend to US$0.10 per share, both payable on July 2, 2026 to shareholders of record as of June 23, 2026. The combination of a special dividend, a higher recurring payout, and a refreshed 25 million-share repurchase authorization highlights management\u2019s confidence in the insurer\u2019s capital position and ongoing cash generation. Next, we\u2019ll examine how...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Cincinnati Financial Outperforms Industry in a Year: Time to Hold?",
+        "summary": "CINF benefits from commercial lines growth, E&S expansion and strong agency relationships, supporting long-term profitability.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "1 Insurance Stock on Our Watchlist and 2 Facing Challenges",
+        "summary": "Insurance companies serve as the backbone of risk management, providing essential protection and financial security for individuals and businesses. But concerns about claims severity and tightening regulations have tempered enthusiasm, and over the past six months, the industry has pulled back by 4.9%. This performance is a stark contrast from the S&P 500\u2019s 11% gain.",
+        "source": "StockStory",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "CB Stock Trades Above 200-Day SMA: What Should Investors Do?",
+        "summary": "Chubb Limited is leveraging acquisitions, premium growth and rising investment income to drive long-term growth.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "AIZ": {
+    "ticker": "AIZ",
+    "close": 257.35,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Assurant, Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.113,
+    "market_cap": 12751084544,
+    "news": [
+      {
+        "title": "Why Is Assurant (AIZ) Up 5% Since Last Earnings Report?",
+        "summary": "Assurant (AIZ) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Assurant Outlook Rises As Global Lifestyle Earnings And Buybacks Draw Focus",
+        "summary": "Assurant (NYSE:AIZ) reported strong Q1 2026 results, highlighted by record earnings from its Global Lifestyle segment. The company raised its full year 2026 outlook following the quarter and expanded its share repurchase program. Management actions point to confidence in the resilience of Assurant\u2019s business mix and earnings profile. Assurant focuses on specialty insurance and protection products across mobile devices, extended service contracts, vehicle protection and housing related...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "Here's How Assurant Leverages Technology to Power Long-Term Growth",
+        "summary": "AIZ is using AI, automation and digital platforms to improve claims, device lifecycle management and customer experience across its businesses.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Assurant's Acquisition Strategy Fuels Growth and Expansion",
+        "summary": "AIZ rides on acquisitions to expand device lifecycle, automotive and connected living capabilities, strengthening growth and market reach.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "BXP": {
+    "ticker": "BXP",
+    "close": 62.33,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "BXP, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Office",
+    "rev_growth_TTM": 0.006,
+    "market_cap": 11114150912,
+    "news": []
+  },
+  "CFG": {
+    "ticker": "CFG",
+    "close": 63.98,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Citizens Financial Group, Inc.",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.138,
+    "market_cap": 27055986688,
+    "news": [
+      {
+        "title": "Goldman Sachs Sees S&P 500 at 8000 Year-End: 5 of Its Top Picks Pay Big Passive Income Dividends",
+        "summary": "Goldman Sachs is a leading investment firm on Wall Street and worldwide. The firm\u2019s top-tier research department continues to provide institutional and high-net-worth clients with the best ideas across the investment spectrum and is likely to do so for years to come. Founded in 1869, it is the world\u2019s second-largest investment bank by revenue and, ... Goldman Sachs Sees S&P 500 at 8000 Year-End: 5 of Its Top Picks Pay Big Passive Income Dividends",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Citizens Financial Group and NBT Bancorp Stocks Trade Up, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after the broader financial sector rallied sharply, lifting regional bank names alongside their larger peers.",
+        "source": "StockStory",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Citizens Financial Group (CFG) Upgraded to Buy: Here's What You Should Know",
+        "summary": "Citizens Financial Group (CFG) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "CHD": {
+    "ticker": "CHD",
+    "close": 96.74,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Church & Dwight Company, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "rev_growth_TTM": 0.002,
+    "market_cap": 22921922560,
+    "news": [
+      {
+        "title": "3 Cash-Producing Stocks with Warning Signs",
+        "summary": "A company that generates cash isn\u2019t automatically a winner. Some businesses stockpile cash but fail to reinvest wisely, limiting their ability to expand.",
+        "source": "StockStory",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is It Time To Reconsider Church & Dwight (CHD) After Recent Share Price Weakness?",
+        "summary": "Investors may be wondering if Church & Dwight at around US$92.89 is offering value right now, or if the price already reflects what they might expect from the stock. The stock is up 12.4% year to date, even though it is flat over the past month and has declined 5.5% over the last year. This can change how investors think about both upside potential and risk. Recent attention on Church & Dwight has focused on its role within the Household Products sector and how its share price compares with...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Church & Dwight Well Positioned for Growth Despite Macro Headwinds, RBC Says",
+        "summary": "Church & Dwight (CHD) is well positioned to deliver growth despite a \"difficult\" macroeconomic envir",
+        "source": "MT Newswires",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Church & Dwight Buys Miss Mouth's to Strengthen Digital Fabric Care",
+        "summary": "CHD expands Fabric Care with the Miss Mouth's acquisition, adding a fast-growing stain remover brand with strong e-commerce traction.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "CHRW": {
+    "ticker": "CHRW",
+    "close": 184.09,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "C.H. Robinson Worldwide, Inc.",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "rev_growth_TTM": -0.008,
+    "market_cap": 21699248128,
+    "news": [
+      {
+        "title": "CHRW Unveils AI System for Real-Time Supply Chain Optimization",
+        "summary": "CHRW's new AI system automates 92% of global 4PL shipments and cuts supply chain assessments from weeks to minutes, boosting efficiency and resilience.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Here's Why C.H. Robinson Worldwide (CHRW) is a Strong Growth Stock",
+        "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "3 Cash-Producing Stocks That Concern Us",
+        "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+        "source": "StockStory",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Read This Before Considering C.H. Robinson Worldwide, Inc. (NASDAQ:CHRW) For Its Upcoming US$0.63 Dividend",
+        "summary": "It looks like C.H. Robinson Worldwide, Inc. ( NASDAQ:CHRW ) is about to go ex-dividend in the next 4 days. The...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "CINF": {
+    "ticker": "CINF",
+    "close": 165.29,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Cincinnati Financial Corporatio",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.116,
+    "market_cap": 25568169984,
+    "news": [
+      {
+        "title": "Cincinnati Financial Outperforms Industry in a Year: Time to Hold?",
+        "summary": "CINF benefits from commercial lines growth, E&S expansion and strong agency relationships, supporting long-term profitability.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How Is Travelers Companies' Stock Performance Compared to Other Property & Casualty Insurance Stocks?",
+        "summary": "Travelers Companies has outperformed the Property & Casualty Insurance industry over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How The Investment Story Is Shifting For Cincinnati Financial (CINF) After Recent Analyst Revisions",
+        "summary": "Cincinnati Financial\u2019s fair value estimate has shifted slightly higher, moving from US$179.17 to US$181.50 per share. That change aligns with a mix of higher and lower analyst price targets. More constructive views on underwriting performance and the role of carriers sit alongside cautious takes on how much upside may already be reflected in the stock. As you read on, you will see how these moving targets fit into the broader analyst narrative and what to watch as opinions continue to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "CINF vs. WRB: Which P&C Insurance Stock Should You Hold Now?",
+        "summary": "Let's see how CINF and WRB fare in terms of some of the key metrics.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "CL": {
+    "ticker": "CL",
+    "close": 88.58,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Colgate-Palmolive Company",
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "rev_growth_TTM": 0.084,
+    "market_cap": 70880772096,
+    "news": [
+      {
+        "title": "Trump promises support for farmers as fuel, fertilizer costs remain elevated",
+        "summary": "Investing.com -- President Donald Trump said U.S. farmers will see \"very good things\" happen over the next 90 days as he sought to reassure the agricultural sector amid elevated fuel and fertilizer costs linked to the conflict with Iran, according to a Bloomberg report.",
+        "source": "Investing.com",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Stocks Settle Sharply Lower as Tech Companies Routed",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -2.64%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.35%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -4.77%. June E-mini S&P futures (ESM26 ) fell -2.97%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "OPEC crude output drops to lowest level in 37 years",
+        "summary": "Investing.com -- OPEC crude production fell in May to its lowest level in at least 37 years as a US blockade of Iran and disruptions in the Persian Gulf continued to limit output, according to a Bloomberg survey released Friday.",
+        "source": "Investing.com",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Equity returns likely to moderate, but dips remain buying opportunities: GS",
+        "summary": "Investing.com -- Goldman Sachs said equity returns are likely to moderate following a sharp rally but maintained an overweight stance on stocks over a 12-month horizon, telling investors they should buy any pullbacks in the coming months.",
+        "source": "Investing.com",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "DOC": {
+    "ticker": "DOC",
+    "close": 19.79,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Healthpeak Properties, Inc.",
+    "sector": "Real Estate",
+    "industry": "REIT - Healthcare Facilities",
+    "rev_growth_TTM": 0.071,
+    "market_cap": 13643616256,
+    "news": [
+      {
+        "title": "Healthpeak (DOC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Healthpeak (DOC) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "8 Dividend S&P 500 Stocks Yield Enough To Still Be Worthwhile",
+        "summary": "It's getting tougher to find S&P 500 dividend stocks that make any sense anymore. Thanks to skyrocketing stock prices, the S&P 500's yield is now less than 1%. Meanwhile, the yield on Vanguard Total Bond Market ETF is up to nearly 4%.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-05-28"
+      },
+      {
+        "title": "Healthpeak Properties Gains 22.7% Year to Date: Will the Trend Last?",
+        "summary": "DOC gains 22.7% year-to-date, driven by leasing momentum, rising occupancy and Janus Living growth.",
+        "source": "Zacks",
+        "pub": "2026-05-26"
+      },
+      {
+        "title": "SPHD\u2019s High Dividend Low Volatility Promise Has Returned Just 6 Percent Annualized While the S&P 500 Doubled It",
+        "summary": "The Invesco S&P 500 High Dividend Low Volatility ETF (NYSEARCA:SPHD) sells the most appealing pitch in income investing: take the highest yielders in the S&P 500, filter for the calmest fifty, collect monthly checks. Over the last five years that pitch delivered 36% in total, or roughly 6% annualized. The SPDR S&P 500 ETF Trust ... SPHD\u2019s High Dividend Low Volatility Promise Has Returned Just 6 Percent Annualized While the S&P 500 Doubled It",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "FTV": {
+    "ticker": "FTV",
+    "close": 61.28,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "Fortive Corporation",
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "rev_growth_TTM": 0.077,
+    "market_cap": 18681882624,
+    "news": [
+      {
+        "title": "Cognex (CGNX) Down 1.9% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Cognex (CGNX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Guidewire Q3 Earnings & Revenues Beat Estimates, Increase Y/Y",
+        "summary": "GWRE tops fiscal Q3 estimates as revenues rise 26.9% and ARR grows 19%, prompting higher full-year revenue, profit and cash flow outlooks.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "NetApp Q4 Earnings & Revenues Surpass Estimates, Stock Up",
+        "summary": "NTAP tops fiscal Q4 estimates as enterprise AI and hybrid cloud adoption accelerates; shares jump 16.6% premarket, and FY27 outlook follows.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "3 Industrials Stocks Walking a Fine Line",
+        "summary": "Even if they go mostly unnoticed, industrial businesses are the backbone of our country. But their prominence also brings high exposure to the ups and downs of economic cycles. Luckily, the tide is turning in their favor as the industry\u2019s 22% return over the past six months has topped the S&P 500 by 11.7 percentage points.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "INCY": {
+    "ticker": "INCY",
+    "close": 102.38,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Incyte Corporation",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "rev_growth_TTM": 0.209,
+    "market_cap": 20453697536,
+    "news": [
+      {
+        "title": "Adma Biologics (ADMA) Down 5.8% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Adma Biologics (ADMA) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Tafasitamab\u2019s First-Line DLBCL Win Reframing The Investment Case For Incyte (INCY)?",
+        "summary": "In late May 2026, Incyte reported that its pivotal Phase 3 frontMIND trial showed tafasitamab (Monjuvi/Minjuvi) plus lenalidomide and R-CHOP significantly improved progression-free survival versus R-CHOP alone in previously untreated high-risk diffuse large B-cell lymphoma and high-grade B-cell lymphoma. The results, now featured at the 2026 ASCO meeting and published in The Lancet, support global regulatory filings that could move tafasitamab from a later-line option into a potential...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Centene, Deckers and 14 Other \u2018Dividend Hopefuls\u2019",
+        "summary": "These large-cap companies could be poised to join the dividend club, based on cash holdings and free-cash flow yield, according to Morgan Stanley.",
+        "source": "Barrons.com",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Why Is Agios Pharmaceuticals (AGIO) Up 8.6% Since Last Earnings Report?",
+        "summary": "Agios Pharmaceuticals (AGIO) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "JPM": {
+    "ticker": "JPM",
+    "close": 312.37,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "JP Morgan Chase & Co.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "rev_growth_TTM": 0.127,
+    "market_cap": 836998922240,
+    "news": [
+      {
+        "title": "How The Cheniere Energy (LNG) Story Is Shifting As Analyst Views Diverge",
+        "summary": "The latest fair value estimate for Cheniere Energy has been trimmed slightly from US$303.00 to about US$302.55, a move of less than 1% that keeps the core valuation view largely in place. That small adjustment comes as analysts balance bullish arguments around U.S. LNG demand and cash returns with more cautious takes on revenue growth, margins, and execution risk. As you read on, you will see how these competing views are shaping the current story around the stock and how to follow the...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "JPMorgan Turns Rosy on Tesla a Day After Dimon Lauds Musk",
+        "summary": "(Bloomberg) -- The morning after Jamie Dimon offered Elon Musk an audience to talk up SpaceX, JPMorgan Chase & Co.\u2019s new lead autos analyst completely changed the bank\u2019s tune on Tesla Inc.Most Read from BloombergBecerra Advances for California Governor as Hilton Fights SteyerNasdaq 100 Sinks 5% in AI-Led Rout as Yields Climb: Markets WrapSpaceX, Other Mega IPOs Denied Fast Index Entry by S&PWhat to Expect From Apple\u2019s AI, Siri and iOS 27 Launch at WWDCSpaceX Inks $30 Billion Computing Power Deal",
+        "source": "Bloomberg",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Weekly Wrap: Bitcoin Hits Two-Year Low Amid Relentless Selling",
+        "summary": "Cryptocurrencies have concluded their worst week since February of this year as the price of Bitcoin (CRYPTO: $BTC)...",
+        "source": "CryptoProwl",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+        "summary": "Financial stocks were mixed in late Friday afternoon trading, with the NYSE Financial Index decreasi",
+        "source": "MT Newswires",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "KIM": {
+    "ticker": "KIM",
+    "close": 24.23,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Kimco Realty Corporation (HC)",
+    "sector": "Real Estate",
+    "industry": "REIT - Retail",
+    "rev_growth_TTM": 0.04,
+    "market_cap": 16340463616,
+    "news": [
+      {
+        "title": "Assessing Kimco Realty (KIM) Valuation After Recent Share Price Momentum And Intrinsic Discount Debate",
+        "summary": "Why Kimco Realty Stock Is Drawing Investor Attention Kimco Realty (KIM) is back on investor radars after a recent price move, with the stock up about 3% over the past month and roughly 2% over the past 3 months. See our latest analysis for Kimco Realty. While the latest 1-day share price return slipped 0.37% to close at $24.08, Kimco Realty\u2019s 1-month share price return of 2.99% and year to date share price return of 20.04% point to momentum that aligns with its 1-year total shareholder return...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Are You Looking for a High-Growth Dividend Stock?",
+        "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Kimco Realty (KIM) have what it takes? Let's find out.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "KO": {
+    "ticker": "KO",
+    "close": 79.48,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Coca-Cola Company (The)",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "rev_growth_TTM": 0.121,
+    "market_cap": 341961310208,
+    "news": [
+      {
+        "title": "How The Coca-Cola (KO) Investment Narrative Is Evolving Without A Change In Fair Value",
+        "summary": "Coca-Cola\u2019s latest analyst update comes with no change in the price target, signaling that expectations on that front are currently holding steady. In the sections that follow, you will see how to track new data points and commentary so you can keep up with how the Coca-Cola story evolves from here. Stay updated as the Fair Value for Coca-Cola shifts by adding it to your watchlist or portfolio. Alternatively, explore our Community to discover new perspectives on Coca-Cola. Do your thoughts...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Why Coca-Cola and Walmart Top This List of Steady, Low-Volatility Dividend Aristocrats",
+        "summary": "Dividend Aristocrats can offer income, stability, and consistency. Here are four lower-volatility names analysts still like.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Traders Ran for Cover (and Kleenex)",
+        "summary": "One haven from Friday's selloff: Kimberly-Clark, whose stock had been battered over the past year. The Kleenex maker jumped 6.3% Friday, helping consumer staples to become the S&P 500's best-performing sector.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Settle Sharply Lower as Tech Companies Routed",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Friday closed down -2.64%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -1.35%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -4.77%. June E-mini S&P futures (ESM26 ) fell -2.97%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "KVUE": {
+    "ticker": "KVUE",
+    "close": 17.71,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Kenvue Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "rev_growth_TTM": 0.045,
+    "market_cap": 34003351552,
+    "news": [
+      {
+        "title": "Jim Cramer Says He Likes \u201cKimberly-Clark Because It\u2019s Merging With Kenvue\u201d",
+        "summary": "Kimberly-Clark Corporation (NASDAQ:KMB) was among Jim Cramer\u2019s stock calls on Mad Money, as he highlighted several opportunities in out-of-favor sectors. Cramer called it an \u201codd one,\u201d as he commented: We need some staples. I\u2019ve got an odd one. How about a stock I haven\u2019t talked about at all? How about Kimberly-Clark? Here\u2019s a premier Kleenex [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Best Consumer Dividend Stocks to Buy Now: HAS, KVUE, MOV",
+        "summary": "Here are three top-rated consumer dividend stocks that have yields above 3% and have made their way onto the coveted Zacks Rank #1 (Strong Buy) list.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Kenvue Canada saves big on diesel costs with Fuel Transport EV pilot",
+        "summary": "\u201cUse of an EV truck on the Toronto test route resulted in a 44.7% savings on diesel,\u201d Fuel Transport VP of Operations Peter Perrella said.",
+        "source": "Trucking Dive",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "3 Dividend Kings That Earn Their Crown Every Quarter",
+        "summary": "These 3 Dividend Kings combine decades of dividend growth with strong fundamentals, recession resistance, and long-term income potential",
+        "source": "MarketBeat",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "close": 1131.42,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Eli Lilly and Company",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.555,
+    "market_cap": 1008934060032,
+    "news": [
+      {
+        "title": "Eli Lilly Broadens Beyond Obesity Drugs With Vaccine And Genetic Bets",
+        "summary": "Eli Lilly (NYSE:LLY) is pushing beyond its obesity drug franchise with plans to acquire three vaccine focused biotech companies. The company has also entered new collaborations in genetic and RNA based therapies with partners including Ascidian Therapeutics, Hanmi Pharm, and Haisco Pharmaceutical Group. These moves come alongside broader offerings on LillyDirect, signaling a wider repositioning of its product pipeline. Eli Lilly, trading at $1,131.42, has seen very large share price gains...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Dow Jones Futures: What To Do As Market Rally Faces First Real Test; SpaceX IPO, Apple, Oracle Loom",
+        "summary": "The market rally broke key support; here's what to do. The SpaceX IPO, Apple's AI push and Oracle earnings loom.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Dow Jones Futures Rise, Techs Fall As AI Trade Cools; Jobs Report Looms",
+        "summary": "Dow Jones futures rose slightly early Friday, while S&P 500 futures and especially Nasdaq futures fell. The May jobs report is on tap before the open. S&P Dow Jones Indices announced late Thursday that it won't fast track SpaceX and other upcoming megacap IPOs such as Anthropic and OpenAI into the benchmark index.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "UnitedHealth, Eli Lilly Lead Healthcare Rebound as Investors Seek Stability",
+        "summary": "Healthcare stocks gain traction as investors rotate away from volatile AI and technology names.",
+        "source": "GuruFocus.com",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "MNST": {
+    "ticker": "MNST",
+    "close": 89.55,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "Monster Beverage Corporation",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "rev_growth_TTM": 0.269,
+    "market_cap": 87580631040,
+    "news": [
+      {
+        "title": "How Is Monster Beverage\u2019s Stock Performance Compared to Other Food & Beverage Stocks?",
+        "summary": "Monster Beverage has outperformed its industry peers over the past year, and analysts remain reasonably upbeat about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Monster Beverage's International Boom: Why Overseas Sales Hit 45%",
+        "summary": "MNST's overseas business powers Q1 growth as demand surges across Europe, Asia-Pacific and Latin America, lifting international revenue share.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Morgan Stanley resets Monster stock price target after earnings",
+        "summary": "Monster Beverage (MNST) just earned another vote of confidence from Wall Street, and the reasoning behind it tells investors more than the new price tag does. Morgan Stanley lifted its target on the energy drink giant and kept its bullish rating in place. The size of the increase is small. The ...",
+        "source": "TheStreet",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Hedge Fund Broadwood Capital Added Over 1 Million Shares of STAAR Surgical to Its Position. Here's What That Means for Investors.",
+        "summary": "STAAR Surgical supplies implantable lenses for vision correction, serving ophthalmic surgeons and clinics globally with proprietary tech.",
+        "source": "Motley Fool",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "MO": {
+    "ticker": "MO",
+    "close": 72.19,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Altria Group, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Tobacco",
+    "rev_growth_TTM": 0.053,
+    "market_cap": 120549449728,
+    "news": [
+      {
+        "title": "Altria (MO) Gains As Market Dips: What You Should Know",
+        "summary": "In the most recent trading session, Altria (MO) closed at $72.19, indicating a +2.25% shift from the previous trading day.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Mama's Creations Q1 Earnings Awaited: Key Insights for Investors",
+        "summary": "MAMA is set to report Q1 FY27 results on June 8, with revenue consensus at $51.8M as distribution gains and Crown 1 integration drive sales.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Five Boring Dividend Aristocrats That Quietly Pay $36,000 a Year on $850,000 Without a Single Yield Trap",
+        "summary": "Replacing $36,000 a year in income is roughly equivalent to generating the cash flow from a maximum Social Security benefit for a single retiree, or about $3,000 a month before taxes. A 66-year-old with $850,000 in a taxable brokerage account can build that income stream using five Dividend Aristocrats, relying on companies with decades-long records ... Five Boring Dividend Aristocrats That Quietly Pay $36,000 a Year on $850,000 Without a Single Yield Trap",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Altria and Philip Morris Are Both Dividend Giants, But Barchart Data Shows 1 Stock Is a Much Stronger Buy Here",
+        "summary": "Altria and Philip Morris may look similar, but their dividends, markets, valuations, and smoke-free strategies tell a very different story.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "MRK": {
+    "ticker": "MRK",
+    "close": 120.79,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Merck & Company, Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.049,
+    "market_cap": 298330095616,
+    "news": [
+      {
+        "title": "Assessing Merck (MRK) Valuation After Recent Share Price Momentum And Earnings Growth",
+        "summary": "Merck stock snapshot after recent performance Merck (MRK) has drawn investor attention after a period of steady share price movement, with the stock closing at US$120.79 and recording positive returns over the past week, month and past 3 months. At the same time, Merck reports annual revenue of US$65.8b and net income of US$8.9b, with both metrics showing annual growth. These figures help frame how recent price action lines up with the company\u2019s current scale and profitability. See our latest...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Is Amgen An Undervalued Stock Or Value Trap?",
+        "summary": "Amgen (AMGN) stock is at an interesting point right now. If you bet on it, you are betting on a company that's growing reasonably, is sustaining good cash flow and margin, has a low-debt to market capital structure, and is relatively cheaply valued. But is that enough.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Merck & Co. (MRK) One of the Best Cheap Stocks to Buy for Beginners?",
+        "summary": "Merck & Co., Inc. (NYSE:MRK) is one of the best cheap stocks to buy for beginners. Moderna, Inc. and Merck & Co., Inc. (NYSE:MRK) announced on June 1 detailed results from a planned five-year follow-up analysis of the Phase 2b randomized KEYNOTE-942/mRNA-4157-P201 study evaluating intismeran autogene in combination with KEYTRUDA\u00ae in patients with high-risk melanoma following [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "AGEN Early Access Revenues Signal a New Path Ahead of Approval",
+        "summary": "Agenus turns early physician demand for BOT+BAL into revenues and real-world data, testing its launch strategy before formal approval.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "PNW": {
+    "ticker": "PNW",
+    "close": 103.06,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Pinnacle West Capital Corporati",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "rev_growth_TTM": 0.114,
+    "market_cap": 12489548800,
+    "news": [
+      {
+        "title": "Does Pinnacle West\u2019s (PNW) Debt Refinance and EPS Outlook Change The Bull Case For The Stock?",
+        "summary": "Pinnacle West Capital recently completed a US$500 million offering of 4.650% fixed-rate senior unsecured notes due June 1, 2029, using proceeds to refinance upcoming debt maturities and repay commercial paper. The company also reported first-quarter 2026 earnings that surpassed expectations and outlined plans for higher capital investment alongside long-term earnings per share growth targets supported by expanding electricity demand. Next, we\u2019ll examine how the earnings beat and long-term...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Pinnacle West (PNW) Down 2.5% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Pinnacle West (PNW) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
+        "summary": "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "FE vs. PNW: Which Utility Stock Is a Better Investment Pick in 2026?",
+        "summary": "FirstEnergy's earnings outlook, ROE and $36B capex plan give it an edge in a utility head-to-head for 2026.",
+        "source": "Zacks",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "PSA": {
+    "ticker": "PSA",
+    "close": 309.68,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Public Storage",
+    "sector": "Real Estate",
+    "industry": "REIT - Industrial",
+    "rev_growth_TTM": 0.032,
+    "market_cap": 54363004928,
+    "news": [
+      {
+        "title": "Crown Castle (CCI) Soars 5.8%: Is Further Upside Left in the Stock?",
+        "summary": "Crown Castle (CCI) was a big mover last session on higher-than-average trading volume. The latest trend in FFO estimate revisions might not help the stock continue moving higher in the near term.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Why The Narrative Around Public Storage (PSA) Is Shifting Despite Unchanged Analyst Targets",
+        "summary": "For Public Storage, the latest analyst update keeps the existing price targets unchanged, which still sends a signal investors will want to interpret carefully. With no shift in target levels or fresh commentary to dissect, the focus turns to how this stable setup might fit into your own view of the stock. Read on to see how to monitor future updates and keep track of how the narrative around Public Storage evolves over time. Stay updated as the Fair Value for Public Storage shifts by adding...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "UBS Raises its Price Target on Public Storage (PSA)",
+        "summary": "Public Storage (NYSE:PSA) is one of the 12 Most Profitable Stocks to Invest In. On May 18, 2026, UBS analyst Michael Goldsmith raised the firm\u2019s price target on Public Storage (NYSE:PSA) to $314 from $276 previously and maintained a Neutral rating on the shares. Meanwhile, Goldman Sachs raised the firm\u2019s price target on Public Storage [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Public Storage Stock Outlook: Is Wall Street Bullish or Bearish?",
+        "summary": "Public Storage continues drawing measured optimism from analysts as steady execution keeps bearish sentiment parked on the sidelines.",
+        "source": "Barchart",
+        "pub": "2026-05-25"
+      }
+    ]
+  },
+  "SBAC": {
+    "ticker": "SBAC",
+    "close": 208.02,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "SBA Communications Corporation",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty",
+    "rev_growth_TTM": 0.059,
+    "market_cap": 22063228928,
+    "news": [
+      {
+        "title": "SBA Communications vs. Crown Castle: Which Real Estate Stock Is a Better Buy in 2026?",
+        "summary": "Net margins, fiber investments, and global footprints set these tower REITs apart. See how their financials and risk profiles stack up for 2026.",
+        "source": "Motley Fool",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "A Look At SBA Communications (SBAC) Valuation After Recent Share Price Volatility",
+        "summary": "Recent share performance and business snapshot SBA Communications (SBAC) has drawn investor attention after its stock fell about 7% over the past month, even as the company continues to generate revenue of US$2.85b and net income of US$1.02b. See our latest analysis for SBA Communications. The recent 7.05% 1 month share price decline comes after a modest 2.93% 3 month share price gain, while the 1 year total shareholder return is down 10%, indicating momentum has been fading over a longer...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "SBA Communications (SBAC) Down 7.5% Since Last Earnings Report: Can It Rebound?",
+        "summary": "SBA Communications (SBAC) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "5 Strong Buy Passive Income Giants Have Raised Their Dividends by Double Digits for Years",
+        "summary": "Investors love dividend stocks because they provide dependable passive income streams and an excellent opportunity for solid total return. Total return includes interest, capital gains, dividends, and distributions realized over time. In other words, the total return on an investment or portfolio consists of income and stock appreciation. At 24/7 Wall St., we have focused ... 5 Strong Buy Passive Income Giants Have Raised Their Dividends by Double Digits for Years",
+        "source": "24/7 Wall St.",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "TFC": {
+    "ticker": "TFC",
+    "close": 49.2,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Truist Financial Corporation",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "rev_growth_TTM": 0.052,
+    "market_cap": 61297262592,
+    "news": [
+      {
+        "title": "Truist Remains Bullish on Devon Energy Corporation (DVN)",
+        "summary": "Devon Energy Corporation (NYSE:DVN) is one of the top cheap stocks with Strong Buy ratings on Wall Street. Truist lifted the price target on Devon Energy Corporation (NYSE:DVN) to $66 from $63 on June 1, maintaining a Buy rating on the shares. The firm cited the Reuters report that suggested that the company received an [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "BTIG Raises its Price Target on Rapport Therapeutics (RAPP)",
+        "summary": "Rapport Therapeutics, Inc. (NASDAQ:RAPP) is one of the 10 Stocks That Have the Potential to Rise 1000%. On May 21, 2026, BTIG raised the firm\u2019s price target on Rapport Therapeutics, Inc. (NASDAQ:RAPP) to $65 from $53 and maintained a Buy rating on the shares. BTIG cited clinical execution behind its more constructive stance on RAP-219 [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How The Genuine Parts (GPC) Story Is Evolving After Recent Analyst Price Target Cuts",
+        "summary": "Recent price target trims of US$3 and US$10 for Genuine Parts are drawing attention to how closely analysts are recalibrating their expectations. These moves align with commentary that points to fine tuning around valuation assumptions rather than any overhaul of the core story. Looking ahead, you will see how to read these shifts and keep up with the evolving analyst narrative around the stock. Wall Street's queuing for one rocket. While SpaceX counts down to its IPO, other companies tied to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "How The Ryman Hospitality Properties (RHP) Story Is Shifting With New Analyst Targets And Caution",
+        "summary": "Street analysts are nudging Ryman Hospitality Properties\u2019 price targets into a US$120 to US$132 range, reflecting updated views after the latest Q1 numbers. These adjustments are being tied to refreshed models and what researchers describe as stronger year to date operating performance, while also acknowledging more cautious voices around lodging REIT valuations and macro uncertainty. Read on to see how these shifting targets and mixed opinions could shape the evolving narrative around the...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "TJX": {
+    "ticker": "TJX",
+    "close": 160.71,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "TJX Companies, Inc. (The)",
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail",
+    "rev_growth_TTM": 0.092,
+    "market_cap": 177537056768,
+    "news": [
+      {
+        "title": "Ross Stores Stock: Is ROST Outperforming the Consumer Discretionary Sector?",
+        "summary": "Ross Stores has rallied the consumer discretionary sector, and analysts remain highly optimistic about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "A Look At TJX Companies (TJX) Valuation After Its Strong Fiscal Q1 2027 And Upgraded Guidance",
+        "summary": "TJX Companies (TJX) just delivered a strong fiscal Q1 2027 update, with 6% comparable sales growth, wider pretax margins, and EPS up 29%, prompting higher full year sales and earnings guidance. See our latest analysis for TJX Companies. The strong Q1 update helped spark a 5.7% one day gain on 20 May, and the stock has kept some of that momentum with a 7 day share price return of 2.4% and a 1 year total shareholder return of 26.1%. The 3 year total shareholder return of over 2x points to...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Five Below's Beat-And-Raise Quarter May End Its Growth Trajectory",
+        "summary": "Investors were spooked by the prospect that Five Below's growth rate might have reached its peak.  Five Below stock sank 14% on Thursday, according to MarketSurge.  Meanwhile, adjusted earnings per share were $2.22, 25% above the $1.77 looked for by Wall Street.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "2 of the Best Retail Stocks to Buy in 2026",
+        "summary": "These two retailers' businesses and execution put them in strong positions to continue doing well.",
+        "source": "Motley Fool",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "UNH": {
+    "ticker": "UNH",
+    "close": 399.47,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "UnitedHealth Group Incorporated",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.02,
+    "market_cap": 362776428544,
+    "news": [
+      {
+        "title": "Dow Jones Futures Rise, Techs Fall As AI Trade Cools; Jobs Report Looms",
+        "summary": "Dow Jones futures rose slightly early Friday, while S&P 500 futures and especially Nasdaq futures fell. The May jobs report is on tap before the open. S&P Dow Jones Indices announced late Thursday that it won't fast track SpaceX and other upcoming megacap IPOs such as Anthropic and OpenAI into the benchmark index.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Can UNH Stock Sustain Its Recent 40% Rally?",
+        "summary": "After a brutal stretch, the insurance behemoth came roaring back. But does the underlying data fully support the sustainability of this momentum.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "UnitedHealth, Eli Lilly Lead Healthcare Rebound as Investors Seek Stability",
+        "summary": "Healthcare stocks gain traction as investors rotate away from volatile AI and technology names.",
+        "source": "GuruFocus.com",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "UnitedHealth Stock Jumps on Upgrade From Bank of America. UNH Is No Longer Just an Insurance Company.",
+        "summary": "The reputed broker cited the company's strong Q1 results for the upgrade.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "UNP": {
+    "ticker": "UNP",
+    "close": 272.32,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Union Pacific Corporation",
+    "sector": "Industrials",
+    "industry": "Railroads",
+    "rev_growth_TTM": 0.032,
+    "market_cap": 161679982592,
+    "news": [
+      {
+        "title": "\ud83d\udd0e Under the Radar: Transportation Stocks Defy Market Sell-off",
+        "summary": "Transportation stocks offered a rare bright spot in an otherwise bleeding market today. The Dow Jones Transportation Average, which tracks 20 large U.S. companies ranging from airlines to railroads to truckers, was up about 1.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Auto & Transport Roundup: Market Talk",
+        "summary": "Find insight on Descartes Systems, Union Pacific, International Airlines Group\u2019s rewards division and more in the latest Market Talks covering Auto and Transport.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Union Pacific CEO responds to Trump idea for U.S.  stake in $71.5 billion railroad mega merger: \u2018We do not need anybody\u2019s help to do this\u2019",
+        "summary": "Union Pacific's CEO Jim Vena said he's not had any direct conversations with Trump about the government acquiring a 15% stake in the pending UP-Norfolk Southern merger.",
+        "source": "Fortune",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Union Pacific Faces Merger Uncertainty As Regulators Extend Norfolk Southern Review",
+        "summary": "The Surface Transportation Board has paused and conditionally accepted review of Union Pacific\u2019s proposed acquisition of Norfolk Southern. Regulators cited unclear and underdeveloped elements in the merger application and requested additional information. The review timeline may extend the potential completion of the deal into late Fall 2027. For Union Pacific (NYSE:UNP), this proposed merger comes at a time when the stock trades around $263.5 and has returned 13.6% year to date and 23.1%...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      }
+    ]
+  },
+  "CB": {
+    "ticker": "CB",
+    "close": 326.27,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "Chubb Limited",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.102,
+    "market_cap": 126547107840,
+    "news": [
+      {
+        "title": "AFG's Investment Portfolio Provides Strong Earnings Tailwind",
+        "summary": "American Financial benefits from a large investment portfolio, with rising yields and invested assets helping drive earnings growth.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "1 Profitable Stock with Impressive Fundamentals and 2 We Ignore",
+        "summary": "Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn\u2019t mean it will thrive tomorrow.",
+        "source": "StockStory",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "1 Large-Cap Stock Worth Your Attention and 2 We Avoid",
+        "summary": "Large-cap stocks usually command their industries because they have the scale to drive market trends. The flip side though is that their sheer size can limit growth as expanding further becomes an increasingly challenging task.",
+        "source": "StockStory",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Chubb\u2019s Higher Dividend And New Buybacks Put Cash Returns In Focus",
+        "summary": "Chubb (NYSE:CB) has approved a 5.2% increase in its annual dividend, marking the 33rd consecutive yearly raise. The company also authorized a new $7.5b share repurchase program as part of its capital return approach. These actions highlight ongoing efforts to return capital to shareholders through both dividends and buybacks. For investors watching Chubb at a share price of $312.27, the latest capital return moves come after a mixed run in the stock. Shares are up 6.7% over the past year...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "CCEP": {
+    "ticker": "CCEP",
+    "close": 94.74,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "Coca-Cola Europacific Partners ",
+    "sector": "Consumer Defensive",
+    "industry": "Beverages - Non-Alcoholic",
+    "rev_growth_TTM": 0.002,
+    "market_cap": 41948696576,
+    "news": [
+      {
+        "title": "Coca-Cola\u2019s America250 Push Highlights Packaging Rewards And Plastic Risks",
+        "summary": "Coca-Cola (NYSE:KO) has launched an America250 collectible mini-can campaign across the U.S. tied to the upcoming semiquincentennial. The promotion features state-specific packaging and prize-based incentives aimed at increasing consumer engagement and retail traffic. At the same time, environmental groups have protested at Coca-Cola Europacific Partners' annual meeting, pressing the company to cut single-use plastic and expand reusable packaging. Coca-Cola is rolling out this America250...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "A Look At Coca-Cola Europacific Partners (ENXTAM:CCEP) Valuation After Recent Share Price Weakness",
+        "summary": "Coca-Cola Europacific Partners (ENXTAM:CCEP) has drawn fresh attention after recent share price moves, with the stock down about 4% over the past month and about 12% over the past 3 months. See our latest analysis for Coca-Cola Europacific Partners. Looking beyond the recent pullback, the stock is still above where it started the year, with a 6.52% year to date share price gain. Longer term total shareholder returns of 3.81% over one year and 50.93% over three years suggest sentiment has been...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-27"
+      },
+      {
+        "title": "Wall Street Futures Advance Premarket Tuesday on Mid East Peace Talks Optimism",
+        "summary": "Wall Street futures were advancing before the market open Tuesday, with investors maintaining optimi",
+        "source": "MT Newswires",
+        "pub": "2026-05-26"
+      }
+    ]
+  },
+  "DGX": {
+    "ticker": "DGX",
+    "close": 200.29,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "Quest Diagnostics Incorporated",
+    "sector": "Healthcare",
+    "industry": "Diagnostics & Research",
+    "rev_growth_TTM": 0.092,
+    "market_cap": 22171387904,
+    "news": [
+      {
+        "title": "How The Quest Diagnostics (DGX) Investment Story Is Evolving Without New Analyst Price Target Changes",
+        "summary": "Quest Diagnostics is in focus today as the latest update shows no changes to the current price targets set by covering analysts. Even without fresh commentary driving the story, the lack of adjustment itself can be useful context as you think about how the stock fits into your watchlist or portfolio. Read on to see how to monitor future shifts in the analyst narrative so you can stay on top of what changes and what stays the same. Wall Street's queuing for one rocket. While SpaceX counts down...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "DaVita HealthCare (DVA) Up 0.6% Since Last Earnings Report: Can It Continue?",
+        "summary": "DaVita HealthCare (DVA) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Encompass Health to Expand WV Footprint With 36-Bed Bridgeport Unit",
+        "summary": "EHC is expanding its rehabilitation network with a new 36-bed hospital in West Virginia.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Quest Diagnostics (DGX) Upgraded to Buy: Here's What You Should Know",
+        "summary": "Quest Diagnostics (DGX) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      }
+    ]
+  },
+  "DTE": {
+    "ticker": "DTE",
+    "close": 145.77,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "weak",
+    "name": "DTE Energy Company",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "rev_growth_TTM": 0.158,
+    "market_cap": 30324289536,
+    "news": [
+      {
+        "title": "PAM vs. DTE: Which Stock Is the Better Value Option?",
+        "summary": "PAM vs. DTE: Which Stock Is the Better Value Option?",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Women run a record 11% of Fortune 500 companies in 2026\u2014but the gain came in a year of high-profile exits",
+        "summary": "Internal promotions and outside hires helped the Fortune 500 notch more women CEOs.",
+        "source": "Fortune",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "DTE Energy partners with LG to deploy 6 GWh of battery storage",
+        "summary": "By 2042, DTE expects to have more than 2.9 GW of energy storage on its system, more than doubling its current storage capacity.",
+        "source": "Utility Dive",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "Is It Time To Reconsider DTE Energy (DTE) After Fair Value Signals",
+        "summary": "How DTE Energy\u2019s Valuation Score Fits Into the Bigger Picture DTE Energy often catches the eye of dividend and utility investors, but the real question is whether the current share price offers good value for the risk you are taking on. Before getting into discounted cash flows, dividend models, and multiples, it helps to understand the basic building blocks of DTE Energy\u2019s valuation and how Simply Wall St scores it on value. Simply Wall St uses six valuation checks that compare the stock...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      }
+    ]
+  },
+  "JNJ": {
+    "ticker": "JNJ",
+    "close": 232.77,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "rev_growth_TTM": 0.099,
+    "market_cap": 560327884800,
+    "news": [
+      {
+        "title": "Nasdaq plunges 1,100 points over renewed rate hike concerns",
+        "summary": "US stocks (^DJI, ^IXIC, ^GSPC) sink in Friday trading, the Nasdaq Composite leading losses and closing over 1,100 points lower (4.18%). The market is reacting to May's overwhelmingly positive labor data \u2014 172,000 jobs added the US economy vs. estimates of 88,000 \u2014 raising investor concerns that the Federal Reserve may be inclined to hike interest rates. Yahoo Finance Markets and Data Editor Jared Blikre breaks down the day's biggest market moves.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Is Amgen An Undervalued Stock Or Value Trap?",
+        "summary": "Amgen (AMGN) stock is at an interesting point right now. If you bet on it, you are betting on a company that's growing reasonably, is sustaining good cash flow and margin, has a low-debt to market capital structure, and is relatively cheaply valued. But is that enough.",
+        "source": "Trefis",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Why Laser Photonics (LASE) Is Up 288.5% After Nasdaq Noncompliance Notice Amid Defense Contract Momentum",
+        "summary": "In May 2026, Laser Photonics Corporation disclosed that Nasdaq had notified the company it was out of compliance due to a delayed Form 10-Q filing for the quarter ended March 31, 2026, starting a process that could eventually lead to delisting if the issue is not resolved within Nasdaq\u2019s prescribed timelines. This filing setback comes as Laser Photonics is gaining higher visibility from U.S. defense evaluations of its Laser Shield Anti-Drone system, a major Navy follow-on contract for laser...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "J&J, Medtronic back CereVasc\u2019s $85M funding round",
+        "summary": "CereVasc is developing a minimally invasive treatment for the buildup of fluid in the brain.",
+        "source": "MedTech Dive",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "PH": {
+    "ticker": "PH",
+    "close": 882.34,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "weak",
+    "name": "Parker-Hannifin Corporation",
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "rev_growth_TTM": 0.106,
+    "market_cap": 111251070976,
+    "news": [
+      {
+        "title": "Q1 Earnings Highs And Lows: Parker-Hannifin (NYSE:PH) Vs The Rest Of The Gas and Liquid Handling Stocks",
+        "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q1 behind us, let\u2019s have a look at Parker-Hannifin (NYSE:PH) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is Parker-Hannifin Stock Underperforming the Dow?",
+        "summary": "Parker-Hannifin has considerably underperformed the Dow recently, yet analysts remain highly optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is Illinois Tool Works Stock Underperforming the S&P 500?",
+        "summary": "Illinois Tool Works has underperformed the S&P 500 over the past year, and analysts are cautious about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "KKR Strikes A Multibillion-Dollar Deal As Its Industrial Strategy Advances",
+        "summary": "With a forward P/E ratio of 12.83, KKR & Co. Inc. (NYSE:KKR) is among the 10 Best Growth Stocks to Buy with Low P/E Ratios. On May 21, KKR & Co. Inc. (NYSE:KKR) and CIRCOR International announced a definitive agreement to sell CIRCOR Aerospace to Parker Hannifin Corporation for $2.55 billion. KKR originally acquired CIRCOR for $1.8 [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-05-31"
+      }
+    ]
+  },
+  "RTX": {
+    "ticker": "RTX",
+    "close": 180.99,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "weak",
+    "name": "RTX Corporation",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "rev_growth_TTM": 0.087,
+    "market_cap": 243736231936,
+    "news": [
+      {
+        "title": "US says Iranian drones shot down near Strait of Hormuz as war tensions persist",
+        "summary": "Investing.com -- The U.S. military said it shot down four Iranian drones launched toward the Strait of Hormuz and struck coastal surveillance radar sites in southern Iran, Al Jazeera reported, citing U.S. Central Command.",
+        "source": "Investing.com",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "How The Investment Story For Raytheon Technologies (RTX) Is Shifting As Analyst Targets Reset",
+        "summary": "RTX is at the center of a reset in analyst price targets, with one research firm moving up to US$240 while others trim their numbers, even as a model fair value of $215.27 per share remains unchanged. These shifts reflect a split narrative in recent research, where some analysts focus on product opportunities such as the PW1100G Section Plus upgrade, while others take a more cautious view and lower their targets. As you read on, you will see how to interpret these moves and track the evolving...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Defense Stocks Hit Pause As Trump's Pentagon Remakes Military Industrial Complex",
+        "summary": "Fast-moving defense stocks have stalled. Depleted weapons supplies and Pentagon budget questions leave the sector's future unclear.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Northrop Grumman Secures Navy Contract for GQM-163A Target Support",
+        "summary": "NOC wins a $100M Navy contract to support GQM-163A target production and launch ops, running through May 2031.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "TRV": {
+    "ticker": "TRV",
+    "close": 303.25,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "The Travelers Companies, Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "rev_growth_TTM": 0.01,
+    "market_cap": 64484503552,
+    "news": [
+      {
+        "title": "How Is Travelers Companies' Stock Performance Compared to Other Property & Casualty Insurance Stocks?",
+        "summary": "Travelers Companies has outperformed the Property & Casualty Insurance industry over the past year, and analysts are cautiously optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "AFG's Investment Portfolio Provides Strong Earnings Tailwind",
+        "summary": "American Financial benefits from a large investment portfolio, with rising yields and invested assets helping drive earnings growth.",
+        "source": "Zacks",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Will Berkshire's Taylor Morrison Deal Strengthen its Housing Bet?",
+        "summary": "BRK.B's planned $6.8B Taylor Morrison buyout at $72.50 a share will deepen its Sun Belt housing exposure.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "PLMR Stock Declines 39.1% in a Year: What Should Investors Do Now?",
+        "summary": "Palomar targets stronger 2026 earnings through premium growth, specialty expansion and rising investment income.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      }
+    ]
+  }
+}
