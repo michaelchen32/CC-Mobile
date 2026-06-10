@@ -1,0 +1,1115 @@
+{
+  "CNC": {
+    "ticker": "CNC",
+    "close": 65.03,
+    "n_det": 4,
+    "detectors": "fast_donchian+donchian_20+six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Centene Corporation",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": 0.051,
+    "market_cap": 32694298624,
+    "news": [
+      {
+        "title": "Bull of the Day: Centene (CNC)",
+        "summary": "Recovering margins, surging cash flow, and upward earnings estimate revisions have this stock back to 52-week highs.",
+        "source": "Zacks",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Is Centene Stock Outperforming the Dow?",
+        "summary": "As Centene has notably outperformed the Dow recently, analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Illinois awards new Medicaid contracts",
+        "summary": "The state said it intends to divvy out new contracts, which represent tens of billions of dollars in revenue for each awardee, to six insurers. Winners are mostly incumbents, except for Humana.",
+        "source": "Healthcare Dive",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Is Centene (CNC) Most Undervalued Stocks to Buy and Hold for 2 Years?",
+        "summary": "Centene Corporation (NYSE:CNC) is one of the most undervalued stocks to buy and hold for 2 years. On April 28, Centene Corporation reported strong Q1 2026 financial results, with adjusted diluted EPS of $3.37, outperforming internal expectations by ~$0.50. Driven by this solid start, the company has increased its full-year 2026 adjusted diluted EPS guidance [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Centene (CNC) Earns A Spot On Bank Of America\u2019s Highest-Conviction List",
+        "summary": "With 72 hedge fund holders as of Q1 2026, Centene Corporation (NYSE:CNC) is among the Top 10 Stocks That Members of Congress Own. On May 27, analysts at BofA added Centene Corporation (NYSE:CNC) to the firm\u2019s prestigious \u201cUS 1 List.\u201d The US 1 List represents Bank of America\u2019s highest-conviction investment ideas and highlights companies that the firm [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-07"
+      }
+    ]
+  },
+  "CZR": {
+    "ticker": "CZR",
+    "close": 29.32,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "Caesars Entertainment, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Resorts & Casinos",
+    "rev_growth_TTM": 0.027,
+    "market_cap": 5998775808,
+    "news": [
+      {
+        "title": "How The Boyd Gaming (BYD) Story Is Shifting With Caesars Deal Chatter And Buybacks",
+        "summary": "Boyd Gaming\u2019s modeled fair value price target has been trimmed slightly to US$93.73 from US$94, alongside a marginal adjustment in the discount rate used in the analysis. This fine tuning comes as analyst commentary around Tilman Fertitta\u2019s proposed US$17.6b acquisition of Caesars Entertainment highlights Boyd\u2019s cash position, regional overlap, and potential exposure to Caesars asset divestitures. Read on to see how these moving pieces shape the current analyst narrative and how you can keep...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "How proposed Caesars, MGM deals could impact casino workers",
+        "summary": "Two proposed multibillion-dollar gaming deals announced less than a week apart would put 17 Las Vegas Strip casino resorts under new ownership, prompting questions about whether the transactions will affect tens of thousands of employees who work for Caesars Entertainment Inc. and MGM Resorts International in Southern Nevada. Combined, Caesars and MGM employ approximately 70,000 workers in Las ...",
+        "source": "The Honolulu Star-Advertiser",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Fertitta Entertainment to Acquire Caesars Entertainment, Inc. (CZR): A Top Sin Stock to Buy",
+        "summary": "Caesars Entertainment, Inc. (NASDAQ:CZR) is one of the best sin stocks to buy now. On May 15, reports emerged indicating Tillman Fertitta is moving closer to acquiring Caesars Entertainment, Inc. (NASDAQ:CZR). Several banks have already committed to a multi-billion-dollar debt financing package. Following these reports, on May 28, Caesars Entertainment, Inc. (NASDAQ: CZR) officially announced [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "MGM Resorts International vs. Caesars Entertainment: Which Consumer Stock Is a Better Buy in 2026?",
+        "summary": "MGM leverages global luxury and digital expansion, while Caesars commands a vast U.S. footprint and loyalty program.",
+        "source": "Motley Fool",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "MGM Buyout: The House Doesn't Always Win",
+        "summary": "The recent buyout proposal for a major casino operator highlights the immense underlying value of real estate and digital assets in the gaming sector today.",
+        "source": "MarketBeat",
+        "pub": "2026-06-02"
+      }
+    ]
+  },
+  "DXCM": {
+    "ticker": "DXCM",
+    "close": 76.62,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+six_month_high",
+    "trend": "up",
+    "name": "DexCom, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Devices",
+    "rev_growth_TTM": 0.15,
+    "market_cap": 30171410432,
+    "news": [
+      {
+        "title": "1 Surging  Stock with Impressive Fundamentals and 2 That Underwhelm",
+        "summary": "The stocks featured in this article are seeing some big returns. Over the past month, they\u2019ve outpaced the market due to some combination of positive news, upbeat results, or supportive macro developments. As such, investors are taking notice and bidding up shares.",
+        "source": "StockStory",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "DexCom Reports Positive CONNECT Data for Non-Insulin Diabetes",
+        "summary": "DXCM reports positive CONNECT trial results as Dexcom G7 improves HbA1c and time in range in adults with Type 2 diabetes not using insulin.",
+        "source": "Zacks",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Assessing DexCom (DXCM) Valuation After Recent Share Price Momentum",
+        "summary": "Recent performance snapshot for DexCom (DXCM) With no single headline event driving DexCom (DXCM) recently, investors are watching the stock after a gain of about 21% over the past month and roughly 7% over the past 3 months. See our latest analysis for DexCom. That recent 20.7% 1 month share price return sits against a 9.5% year to date share price gain, while the 1 year total shareholder return is down 15.9%, so recent momentum contrasts with weaker longer term outcomes. If DexCom\u2019s move...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Is DexCom Stock Underperforming the Dow?",
+        "summary": "DexCom has lagged behind the Dow Jones over the past year, yet analysts remain highly bullish about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Dexcom buys Nutrisense; Insulet rolls out patch pump update",
+        "summary": "In the lead-up to the American Diabetes Association\u2019s Scientific Sessions, Dexcom announced an acquisition and Insulet improved the software for its latest patch pump.",
+        "source": "MedTech Dive",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "EXPD": {
+    "ticker": "EXPD",
+    "close": 163.44,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+squeeze_release",
+    "trend": "up",
+    "name": "Expeditors International of Was",
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "rev_growth_TTM": 0.044,
+    "market_cap": 21755797504,
+    "news": [
+      {
+        "title": "Is It Too Late To Consider Expeditors International Of Washington (EXPD) After 46% One-Year Rally?",
+        "summary": "Wondering if Expeditors International of Washington at US$166.34 is offering fair value today, or if the price is getting ahead of itself. The stock has recently posted returns of 5.4% over 7 days, 6.2% over 30 days, 9.5% year to date and 46.2% over 1 year, with 3 year and 5 year returns of 47.2% and 40.4% respectively. Recent news around Expeditors International of Washington has focused on its position within global logistics and freight forwarding, as investors reassess how efficiently it...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "FedEx Updates Annual Dividend Following FedEx Freight Spin-Off",
+        "summary": "FDX's consistent efforts to reward its shareholders through dividend hikes highlight its financial bliss.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "CNI to Connect BHP's Jansen Potash Mine to Global Export Markets",
+        "summary": "Canadian National lands a transport deal for BHP's Jansen Potash Mine, opening a path for freight growth and export volume gains.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Delta Unveils New SkyMiles Card Perks to Boost Traveler Value",
+        "summary": "DAL adds travel perks and rewards to its AmEx card lineup, aiming to boost loyalty, cardholder growth and spending.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "WAB Stock Up 26.8% Y/Y: Can the Momentum Last Throughout 2026?",
+        "summary": "Wabtec shares surge 26.8% in a year as a growing backlog, strong liquidity and shareholder returns fuel optimism for more gains.",
+        "source": "Zacks",
+        "pub": "2026-06-08"
+      }
+    ]
+  },
+  "MOH": {
+    "ticker": "MOH",
+    "close": 198.41,
+    "n_det": 3,
+    "detectors": "fast_donchian+donchian_20+trend_continuation",
+    "trend": "up",
+    "name": "Molina Healthcare Inc",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "rev_growth_TTM": -0.043,
+    "market_cap": 10579426304,
+    "news": [
+      {
+        "title": "Is Molina Healthcare\u2019s (MOH) ESOP Share Issuance Quietly Reframing Its Defensive Managed-Care Story?",
+        "summary": "Molina Healthcare, Inc. previously filed a shelf registration for an employee stock ownership plan\u2013related offering of 1,500,000 common shares, totaling about US$264.3 million. This ESOP-linked issuance highlights management\u2019s focus on broadening employee ownership, which can better align workforce incentives with the company\u2019s long-term performance goals. Against this backdrop of employee-focused capital raising, we\u2019ll assess how Molina\u2019s role as a defensive managed-care provider shapes its...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Why Molina Healthcare Stock Cruised to a Nearly 10% Gain This Week",
+        "summary": "Towards the end of the week in particular, investors were hungry for less-risky stocks.",
+        "source": "Motley Fool",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stocks Rebound on Strength in Banks and Managed Healthcare",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.41%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.73%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.53%. June E-mini S&P futures (ESM26 ) rose +0.36%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "UnitedHealth, CVS, Cigna Seen Benefiting From Utilization Trends, AI Upside, Morgan Stanley Says",
+        "summary": "UnitedHealth (UNH), CVS Health (CVS) and Cigna (CI) are among the managed-care companies that could",
+        "source": "MT Newswires",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Stocks Mixed as Tech Weakness Weighs",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.02%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +1.49%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.90%. June E-mini S&P futures (ESM26 ) are up +0.02%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "HSIC": {
+    "ticker": "HSIC",
+    "close": 78.05,
+    "n_det": 2,
+    "detectors": "fast_donchian+donchian_20",
+    "trend": "up",
+    "name": "Henry Schein, Inc.",
+    "sector": "Healthcare",
+    "industry": "Medical Distribution",
+    "rev_growth_TTM": 0.063,
+    "market_cap": 9116758016,
+    "news": [
+      {
+        "title": "M.D. Sass Exits Sallie Mae -- Selling Its Entire $33.1 Million Stake",
+        "summary": "SLM Corporation, commonly known as Sallie Mae, is the leading provider of private student loans in the United States.",
+        "source": "Motley Fool",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Why Is Henry Schein (HSIC) Up 4.6% Since Last Earnings Report?",
+        "summary": "Henry Schein (HSIC) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Henry Schein Sees Steady Dental Demand, $125M Profit Lift by 2026",
+        "summary": "Henry Schein (NASDAQ:HSIC) executives said the company is on track with its 2026 commitments and value-creation plan, while pointing to continued momentum in the U.S. dental market despite broader concerns about consumer confidence. Speaking at a Stifel dental track event moderated by Stifel Managi",
+        "source": "MarketBeat",
+        "pub": "2026-05-30"
+      },
+      {
+        "title": "3 Healthcare Stocks We Approach with Caution",
+        "summary": "Healthcare companies are pushing the status quo by innovating in areas like drug development and digital health. Despite the rosy long-term prospects, short-term headwinds such as COVID inventory destocking have caused the industry to lag recently - over the past six months, the collective 4.1% gain for healthcare stocks has fallen short of the S&P 500\u2019s 10.3% rise.",
+        "source": "StockStory",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Is This the Right Time to Keep HSIC Stock in Your Portfolio?",
+        "summary": "Henry Schein is backed by a dental and medical distribution scale, digital dentistry push and acquisitions, but debt and macro headwinds weigh on its outlook.",
+        "source": "Zacks",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "ODFL": {
+    "ticker": "ODFL",
+    "close": 247.01,
+    "n_det": 2,
+    "detectors": "six_month_high+trend_continuation",
+    "trend": "up",
+    "name": "Old Dominion Freight Line, Inc.",
+    "sector": "Industrials",
+    "industry": "Trucking",
+    "rev_growth_TTM": -0.029,
+    "market_cap": 51727949824,
+    "news": [
+      {
+        "title": "Old Dominion Freight Stock: Is ODFL Outperforming the Industrials Sector?",
+        "summary": "Old Dominion Freight has rallied the industrials sector, and analysts remain somewhat optimistic about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "3 Hyped Up  Stocks We\u2019re Skeptical Of",
+        "summary": "The stocks featured in this article have all approached their 52-week highs. When these price levels hit, it typically signals strong business execution, positive market sentiment, or significant industry tailwinds.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Bell Asset Management Sold Old Dominion Freight Line (ODFL) Over Downside Risk Concerns",
+        "summary": "Bell Global Equities Fund, managed by Bell Asset Management, released its latest investor update, available for download. March saw heightened volatility due to the Middle East conflict, with the MSCI World ex Australia Index falling 2.5% and the Bell Global Equities Fund (Wholesale class) declining 3.1%. The portfolio\u2019s underweight in Energy was the primary headwind to relative [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "FedEx Freight Stock Is a Haven in the Market Selloff. Here\u2019s Why.",
+        "summary": "FedEx Freight  bucked the market trend on Friday, making it one of the best-performing stocks in the S&P 500 on a tough day for the market.  Shares of the company, which spun out of  FedEx  on June 1, gained 6.4% on Friday, closing at $167.84, while the  and  fell 2.6% and 4.2%.  FedEx Freight is likely avoiding the drawdown because shares are very new.",
+        "source": "Barrons.com",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Stock Market Today: Dow Jumps 875 Points; Ciena Slammed Yet Holds Key Mark; These 2 Areas Shine (Live Coverage)",
+        "summary": "The Dow Jones index rises and the Nasdaq turns higher. But Broadcom, Ciena and CrowdStrike plunge on earnings.",
+        "source": "Investor's Business Daily",
+        "pub": "2026-06-04"
+      }
+    ]
+  },
+  "BDX": {
+    "ticker": "BDX",
+    "close": 149.99,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "down",
+    "name": "Becton, Dickinson and Company",
+    "sector": "Healthcare",
+    "industry": "Medical Instruments & Supplies",
+    "rev_growth_TTM": 0.052,
+    "market_cap": 41893163008,
+    "news": [
+      {
+        "title": "Jim Cramer on Becton, Dickinson: \u201cI Think You Buy Some and Then You Wait\u201d",
+        "summary": "Becton, Dickinson and Company (NYSE:BDX) was among the stocks on which Jim Cramer gave his opinion, as he warned that increased AI-related spending might cause near-term headwind for stocks. When a caller mentioned that they had started a position in the stock, Cramer commented: I like Becton, Dickinson. It is selling frankly at the lowest [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-06"
+      },
+      {
+        "title": "Is It Smart To Buy Becton, Dickinson and Company (NYSE:BDX) Before It Goes Ex-Dividend?",
+        "summary": "Becton, Dickinson and Company ( NYSE:BDX ) stock is about to trade ex-dividend in 3 days. The ex-dividend date occurs...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Becton, Dickinson and Company Stock: Is BDX Underperforming the Healthcare Sector?",
+        "summary": "Although Becton, Dickinson and Company has underperformed its sector peers recently, analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-04"
+      },
+      {
+        "title": "Is Avantor (AVTR) Elevating Quality To A Strategic Edge With Its New Regulatory Chief?",
+        "summary": "In May 2026, Avantor, Inc. appointed Gerard (Jerry) Porreca as Executive Vice President, Quality and Regulatory, giving him global responsibility for quality assurance, quality systems, and regulatory affairs across all of the company\u2019s businesses. Porreca\u2019s extensive background in steering complex global approvals and regulatory transformations at Getinge, Becton Dickinson, C.R. Bard, and Smith+Nephew adds experienced leadership in areas that are increasingly critical for life sciences...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "Is Stryker Stock Underperforming the S&P 500?",
+        "summary": "Despite Stryker\u2019s underperformance relative to the S&P 500 Index over the past year, Wall Street analysts remain highly bullish about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-01"
+      }
+    ]
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "close": 162.11,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "down",
+    "name": "Coinbase Global, Inc.",
+    "sector": "Financial Services",
+    "industry": "Financial Data & Stock Exchanges",
+    "rev_growth_TTM": -0.308,
+    "market_cap": 40968151040,
+    "news": [
+      {
+        "title": "Both Institutions and Retail Are Buying and Holding Crypto Despite Bitcoin\u2019s 50% Pullback",
+        "summary": "On Friday, June 5, Bitcoin fell below $60,000 for the first time since October 2024, putting the asset down roughly 50% from its peak. While Bitcoin has rebounded to over $63,000 as of Monday, June 8, it\u2019s clear that crypto investors have missed out on the gains the market has seen so far this year. However, John ... Both Institutions and Retail Are Buying and Holding Crypto Despite Bitcoin\u2019s 50% Pullback",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "A16z, Paradigm and Ribbit Back Morpho in $175 Million Credit Market Round",
+        "summary": "Morpho Association has raised $175 million in one of DeFi\u2019s largest funding rounds, giving the onchain credit...",
+        "source": "CryptoProwl",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Institutions Don't Mind Scooping Up Bitcoin At A Discount, Says Top Coinbase Exec",
+        "summary": "John D\u2019Agostino, Head of Institutional Strategy at Coinbase Global Inc. (NASDAQ:COIN), said on Monday that institutional investors are happy at being able to purchase Bitcoin (CRYPTO: BTC) at a discount. Whales Ready To Buy BTC Cheap? During an interview with CNBC, D\u2019Agostino said that investors, who have spent considerable time studying Bitcoin, are not dismayed by the cryptocurrency\u2019s price dip. \u201cI can tell you that the family office is new in the UAE, and the government sovereign funds that a",
+        "source": "Benzinga",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Institutional Conviction Remains Strong Despite Bitcoin Downturn, According to Coinbase Executive",
+        "summary": "Bitcoin (CRYPTO: $BTC) has been struggling this year but its recent drop, including a brief dip below $60,000, hasn...",
+        "source": "CryptoProwl",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Why Coinbase (COIN) Stock Is Trading Up Today",
+        "summary": "Shares of blockchain infrastructure company Coinbase (NASDAQ:COIN) jumped 5.8% in the morning session after the cryptocurrency market rebounded, with Bitcoin reclaiming the $63,000 level.",
+        "source": "StockStory",
+        "pub": "2026-06-08"
+      }
+    ]
+  },
+  "AMAT": {
+    "ticker": "AMAT",
+    "close": 492.17,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Applied Materials, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "rev_growth_TTM": 0.114,
+    "market_cap": 396352487424,
+    "news": [
+      {
+        "title": "This Stock, Which Nearly Tripled In A Year, Is Back In The Spotlight After Latest Expansion To Support AI Infra Buildout \u2013 A Look At Key Details",
+        "summary": "Applied Materials said that the Tampines Campus in Singapore, already operating at volume production, is designed to serve chipmakers that are expanding production to meet AI-driven demand.",
+        "source": "Stocktwits",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "How Record Margins, AI Demand Visibility and Singapore Expansion At Applied Materials (AMAT) Has Changed Its Investment Story",
+        "summary": "In recent days, Applied Materials reported record quarterly revenue and its highest gross margin in more than two decades, raised its semiconductor equipment growth outlook to above 30% for 2026, and continued expanding in Singapore with a new Tampines Campus and plans to increase its Southeast Asia workforce by about 1,000 employees. The company also reinforced its capital returns with a US$0.53 quarterly dividend and nine consecutive years of dividend increases, while deepening its role in...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "UnitedHealth, Applied Materials, Citigroup Stocks Surged To 52-Week Highs Today: What Drove The Uptick?",
+        "summary": "Shares of the blue-chip companies surged to fresh highs amid analyst optimism, dividend announcement, and positive company outlook.",
+        "source": "Stocktwits",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Stocks to Watch Tuesday: Marvell, Intel, GSK, Vail Resorts",
+        "summary": "\u2198\ufe0f Marvell Technology (MRVL): Shares of the chip maker fell 7.6% after surging nearly 10% on Monday. S&P Dow Jones Indices said earlier it would include the company in the S&P 500 index later this month.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Stocks Climb on an AI-Led Rebound",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.93%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.89%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.17%. June E-mini S&P futures (ESM26 ) are up +0.76%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      }
+    ]
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "close": 490.33,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 0.378,
+    "market_cap": 775358709760,
+    "news": [
+      {
+        "title": "Wall Street sees AI trade bearing fruit with MANGOS ahead of IPOs",
+        "summary": "MANGOS \u2014 no, not the tropical stone fruit \u2014 is the latest Big Tech acronym to be at the top of investors' minds ahead of 2026's biggest IPOs. MANGOS consists of Meta Platforms (META), Anthropic (ANTH.PVT), Nvidia (NVDA), Alphabet (GOOG, GOOGL), OpenAI (OPAI.PVT), and SpaceX (SPCX, SPAX.PVT). Yahoo Finance Senior Business Reporter Ines Ferr\u00e9 explains the latest AI tech groupings being coined by Wall Street analysts.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Ark Investment's Cathie Wood Just Sold AMD Shares and Bought Nvidia. Is That the Right Move for Investors?",
+        "summary": "Both semiconductor stocks are seeing tremendous growth.",
+        "source": "Motley Fool",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Anti-Nvidia Data Center Startup Is Valued at $1.55 Billion in New Funding Round",
+        "summary": "TensorWave will use a fresh $350 million to fill more data centers with chips from AMD, an investor.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "TSMC\u2019s Monthly Sales Rise 30% Thanks to Sustained AI Chip Demand",
+        "summary": "(Bloomberg) -- Taiwan Semiconductor Manufacturing Co. reported a 30% rise in its monthly sales, reflecting continued strength in demand spurred by a global rush to build AI infrastructure. Most Read from BloombergHouse Republican Says Hegseth\u2019s D-Day Remarks \u2018Inappropriate\u2019US Strikes Iran After Helicopter Downed, Testing Peace TalksUS Launches Strikes Against Iran After Helicopter Shot DownStocks Pare Tech-Led Drop as Rotation Gains Speed: Markets WrapSurface Naval Drone Rescued Downed US Apache",
+        "source": "Bloomberg",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
+        "summary": "The VanEck Semiconductor ETF (NYSEARCA:SMH) closed Friday at $599, capping a stretch in which SMH has returned roughly 146% over the past year and tacked on nearly 20% in May alone. SMH is up about 66% year to date, and the rally has been driven less by NVIDIA than most holders assume. Because the fund ... SMH ETF Investors: Watch Hyperscaler Capex Guidance at July Earnings Calls",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-10"
+      }
+    ]
+  },
+  "ASML": {
+    "ticker": "ASML",
+    "close": 1749.04,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "ASML Holding N.V. - New York Re",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "rev_growth_TTM": 0.132,
+    "market_cap": 685183991808,
+    "news": [
+      {
+        "title": "BofA Remains Bullish on ASML Holding (ASML) \u2013 Here\u2019s Why",
+        "summary": "ASML Holding N.V. (NASDAQ:ASML) is one of the best NASDAQ stocks to buy and hold for 3 years. BofA lifted the price target on ASML Holding N.V. (NASDAQ:ASML) to EUR 1,921 from EUR 1,710 on June 4 and maintained a Buy rating on the shares. The rating update came after the company\u2019s technology conference, with [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "One Factory to Rule Them All: How Musk\u2019s Terafab Could Rewrite the Scale of U.S. Chip Production",
+        "summary": "The global race for artificial intelligence supremacy is rapidly becoming a race for semiconductor manufacturing capacity. AI models require vast amounts of computing power, data centers are consuming more chips than ever, and governments are increasingly viewing semiconductor production as a matter of national security. Against that backdrop, Elon Musk has unveiled perhaps the most ... One Factory to Rule Them All: How Musk\u2019s Terafab Could Rewrite the Scale of U.S. Chip Production",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Assessing ASML Holding (NasdaqGS:ASML) Valuation After A Strong Multi\u2011Period Share Price Run",
+        "summary": "ASML Holding stock: recent performance snapshot ASML Holding (NasdaqGS:ASML) has drawn attention after a strong run, with the stock showing a 6.5% move over the past day, about 7.4% over the past week, and near 10% for the month. See our latest analysis for ASML Holding. That sharp recent move fits into a strong trend, with the stock posting a 90 day share price return of 26.43% and a 1 year total shareholder return of 128.60%, suggesting momentum has been building rather than fading. If you...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Elon Musk Reveals Insane Plan to Double American Chip Production in a Single Plant",
+        "summary": "Tesla (NASDAQ:TSLA) CEO Elon Musk is once again pitching a project that sounds engineered to break Excel spreadsheets. According to an X post from Sawyer Merritt circulating this week, Musk described Terafab as a roughly 100 million square foot facility, about 10 times larger than Tesla\u2019s Giga Texas factory, with a long-term output target of ... Elon Musk Reveals Insane Plan to Double American Chip Production in a Single Plant",
+        "source": "24/7 Wall St.",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Stocks Climb on an AI-Led Rebound",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.93%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.89%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.17%. June E-mini S&P futures (ESM26 ) are up +0.76%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      }
+    ]
+  },
+  "CMI": {
+    "ticker": "CMI",
+    "close": 672.68,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Cummins Inc.",
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "rev_growth_TTM": 0.027,
+    "market_cap": 92346425344,
+    "news": [
+      {
+        "title": "Cummins Leadership Under Spotlight As CEO Joins 3M Board",
+        "summary": "Cummins (NYSE:CMI) Chair and CEO Jennifer Rumsey has been appointed to 3M's Board of Directors. The appointment expands Rumsey's governance responsibilities across two large industrial companies. The move highlights external interest in Cummins' leadership at the board level. Cummins, through its engine, power systems, and related technologies, sits at the center of key industrial and energy supply chains. The appointment of Jennifer Rumsey to 3M's board puts a spotlight on how Cummins'...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "1 Industrials Stock to Target This Week and 2 We Turn Down",
+        "summary": "Industrials businesses quietly power the physical things we depend on, from cars and homes to e-commerce infrastructure. But their prominence also brings high exposure to the ups and downs of economic cycles. Luckily, the tide is turning in their favor as the industry\u2019s 14.5% return over the past six months has topped the S&P 500 by 7 percentage points.",
+        "source": "StockStory",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Is Cummins Stock Outperforming the S&P 500?",
+        "summary": "Cummins has considerably outperformed the S&P 500 recently, and analysts remain moderately optimistic about the stock\u2019s prospects.",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Broader Market Settles Higher as Chipmakers Rally",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) on Monday closed up +0.30%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.16%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.58%. June E-mini S&P futures (ESM26 ) rose +0.18%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Stocks Rally as Buyers Return After AI-Led Selloff",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +1.01%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.46%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +2.39%. June E-mini S&P futures (ESM26 ) are up +1.00%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-08"
+      }
+    ]
+  },
+  "CSX": {
+    "ticker": "CSX",
+    "close": 47.11,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "CSX Corporation",
+    "sector": "Industrials",
+    "industry": "Railroads",
+    "rev_growth_TTM": 0.017,
+    "market_cap": 87852802048,
+    "news": [
+      {
+        "title": "1 Profitable Stock for Long-Term Investors and 2 We Question",
+        "summary": "Not all profitable companies are built to last - some rely on outdated models or unsustainable advantages. Just because a business is in the green today doesn\u2019t mean it will thrive tomorrow.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Susquehanna Sees Improving Rail Demand, Raises CSX Target",
+        "summary": "With a net profit margin of 21.55%, CSX Corporation (NASDAQ:CSX) is included among the 10 Most Profitable Dividend Stocks to Invest In Now. On June 5, Susquehanna raised its price recommendation on CSX Corporation (NASDAQ:CSX) to $50 from $44. It reiterated a Neutral rating on the shares. The firm said rail volumes appear to be tracking [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "3 Stocks Under $50 with Open Questions",
+        "summary": "Stocks in the $10-50 range offer a sweet spot between affordability and stability as they\u2019re typically more established than penny stocks. But their headline prices don\u2019t guarantee quality, and investors should exercise caution as some have shaky business models.",
+        "source": "StockStory",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "One CSX Insider Raised Stake By 1,701% In Previous Year",
+        "summary": "From what we can see, insiders were net buyers in CSX Corporation's ( NASDAQ:CSX ) during the past 12 months. That is...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Is CSX Corporation Stock Outperforming the Dow?",
+        "summary": "CSX Corporation has outperformed the Dow Jones over the past year, and analysts remain moderately optimistic about the stock\u2019s outlook.",
+        "source": "Barchart",
+        "pub": "2026-06-03"
+      }
+    ]
+  },
+  "EXR": {
+    "ticker": "EXR",
+    "close": 145.0,
+    "n_det": 1,
+    "detectors": "squeeze_release",
+    "trend": "up",
+    "name": "Extra Space Storage Inc",
+    "sector": "Real Estate",
+    "industry": "REIT - Industrial",
+    "rev_growth_TTM": 0.038,
+    "market_cap": 32713459712,
+    "news": []
+  },
+  "FOX": {
+    "ticker": "FOX",
+    "close": 60.34,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": -0.086,
+    "market_cap": 25589346304,
+    "news": [
+      {
+        "title": "Assessing Fox Corp. (FOXA) Valuation As 2026 World Cup Advertising Upside Draws Attention",
+        "summary": "World Cup spotlight puts Fox stock in focus Fox (FOXA) is back on investor radars after recent research highlighted its English-language broadcast rights for the 2026 FIFA World Cup and linked the stock to an estimated US$850 million in tournament advertising spend. See our latest analysis for Fox. Beyond the World Cup angle, Fox's share price has been firming, with a 15.01% 90 day share price return and a 24.82% one year total shareholder return. However, the year to date share price...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "FIFA World Cup: Deutsche Bank says these are the best stocks to own",
+        "summary": "Investing.com -- Deutsche Bank said the 2026 FIFA men\u2019s World Cup, which kicks off June 11 across 16 cities in the United States, Mexico and Canada, will deliver only a modest 0.05% boost to the U.S. GDP, but identified a slate of consumer, media and gaming stocks positioned to benefit from the tournament\u2019s expanded scale.",
+        "source": "Investing.com",
+        "pub": "2026-06-07"
+      },
+      {
+        "title": "The Dealmaking 3: World Cup on Fox, WNBA\u2019s Historic CBA, Knicks Give Back",
+        "summary": "Watch The Dealmaking 3 of the Week: This week of The Dealmaking 3 with \u201cThe Sports Professor\u201d Rick Horrow features Fox Corporation (Nasdaq: FOX) broadcasting all FIFA\u2019s World Cup 104 matches live to reach over 100 million users as 3-4 billion people tune in worldwide, the historic WNBA\u2019s new CBA which raises the salary cap from [\u2026] The post The Dealmaking 3: World Cup on Fox, WNBA\u2019s Historic CBA, Knicks Give Back appeared first on CorpGov.",
+        "source": "CorpGov.com",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Top 3 Streaming Stocks to Watch as Monetization Gains Momentum",
+        "summary": "Streaming shifts from grabbing subscribers to monetization. Ad tiers, premium shows and live sports spotlight Fox Corporation, FuboTV and CuriosityStream.",
+        "source": "Zacks",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Consumer Discretionary - Broadcasting Stocks Q1 Earnings: FOX (NASDAQ:FOXA) Best of the Bunch",
+        "summary": "As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the consumer discretionary - broadcasting industry, including FOX (NASDAQ:FOXA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "FOXA": {
+    "ticker": "FOXA",
+    "close": 67.44,
+    "n_det": 1,
+    "detectors": "fast_donchian",
+    "trend": "up",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "rev_growth_TTM": -0.086,
+    "market_cap": 28707127296,
+    "news": [
+      {
+        "title": "Assessing Fox Corp. (FOXA) Valuation As 2026 World Cup Advertising Upside Draws Attention",
+        "summary": "World Cup spotlight puts Fox stock in focus Fox (FOXA) is back on investor radars after recent research highlighted its English-language broadcast rights for the 2026 FIFA World Cup and linked the stock to an estimated US$850 million in tournament advertising spend. See our latest analysis for Fox. Beyond the World Cup angle, Fox's share price has been firming, with a 15.01% 90 day share price return and a 24.82% one year total shareholder return. However, the year to date share price...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "FIFA World Cup: Deutsche Bank says these are the best stocks to own",
+        "summary": "Investing.com -- Deutsche Bank said the 2026 FIFA men\u2019s World Cup, which kicks off June 11 across 16 cities in the United States, Mexico and Canada, will deliver only a modest 0.05% boost to the U.S. GDP, but identified a slate of consumer, media and gaming stocks positioned to benefit from the tournament\u2019s expanded scale.",
+        "source": "Investing.com",
+        "pub": "2026-06-07"
+      },
+      {
+        "title": "The Dealmaking 3: World Cup on Fox, WNBA\u2019s Historic CBA, Knicks Give Back",
+        "summary": "Watch The Dealmaking 3 of the Week: This week of The Dealmaking 3 with \u201cThe Sports Professor\u201d Rick Horrow features Fox Corporation (Nasdaq: FOX) broadcasting all FIFA\u2019s World Cup 104 matches live to reach over 100 million users as 3-4 billion people tune in worldwide, the historic WNBA\u2019s new CBA which raises the salary cap from [\u2026] The post The Dealmaking 3: World Cup on Fox, WNBA\u2019s Historic CBA, Knicks Give Back appeared first on CorpGov.",
+        "source": "CorpGov.com",
+        "pub": "2026-06-05"
+      },
+      {
+        "title": "Top 3 Streaming Stocks to Watch as Monetization Gains Momentum",
+        "summary": "Streaming shifts from grabbing subscribers to monetization. Ad tiers, premium shows and live sports spotlight Fox Corporation, FuboTV and CuriosityStream.",
+        "source": "Zacks",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Consumer Discretionary - Broadcasting Stocks Q1 Earnings: FOX (NASDAQ:FOXA) Best of the Bunch",
+        "summary": "As the Q1 earnings season wraps, let\u2019s dig into this quarter\u2019s best and worst performers in the consumer discretionary - broadcasting industry, including FOX (NASDAQ:FOXA) and its peers.",
+        "source": "StockStory",
+        "pub": "2026-05-28"
+      }
+    ]
+  },
+  "IEX": {
+    "ticker": "IEX",
+    "close": 218.59,
+    "n_det": 1,
+    "detectors": "six_month_high",
+    "trend": "up",
+    "name": "IDEX Corporation",
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "rev_growth_TTM": 0.089,
+    "market_cap": 16441704448,
+    "news": [
+      {
+        "title": "Zacks Industry Outlook Highlights RBC Bearings, IDEX, Watts Water Technologies and Helios Technologies",
+        "summary": "RBC Bearings, IDEX, Watts Water and Helios Technologies are highlighted as industrial manufacturers benefiting from innovation and manufacturing growth.",
+        "source": "Zacks",
+        "pub": "2026-06-01"
+      },
+      {
+        "title": "A Look At IDEX (IEX) Valuation As Mott Acquisition And Premium P/E Shape Expectations",
+        "summary": "How IDEX (IEX) stock has been moving IDEX (IEX) has seen modest price shifts recently, with the stock up slightly over the past week but down about 3% over the past month, leaving year to date returns near 18%. See our latest analysis for IDEX. Short term momentum has cooled, with a 1 month share price return of down 3%, but the year to date share price return of 17.74% and 1 year total shareholder return of 18.34% still point to resilient interest in the stock. If this kind of steady...",
+        "source": "Simply Wall St.",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Idex (IEX) Down 3.6% Since Last Earnings Report: Can It Rebound?",
+        "summary": "Idex (IEX) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "4 Industrial Manufacturing Stocks to Gain on Robust Industry Trends",
+        "summary": "Rising manufacturing activity, technological advancements and strategic acquisitions are supporting the near-term outlook of the Zacks Manufacturing - General Industrial industry. RBC, IEX, WTS and HLIO are some promising stocks in the industry.",
+        "source": "Zacks",
+        "pub": "2026-05-29"
+      },
+      {
+        "title": "Sone Capital Management Adds to MarketAxess Stake, According to Recent SEC Filing",
+        "summary": "MarketAxess sits at the center of the shift toward electronic bond trading and investors are watching whether record activity is turning into deeper client reliance on its trading, data, and automation tools.",
+        "source": "Motley Fool",
+        "pub": "2026-05-27"
+      }
+    ]
+  },
+  "KLAC": {
+    "ticker": "KLAC",
+    "close": 2108.06,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "KLA Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "rev_growth_TTM": 0.115,
+    "market_cap": 279460610048,
+    "news": [
+      {
+        "title": "The Bull Case For KLA (KLAC) Could Change Following Earnings Beat, Stock Split And AI-Focused Outlook \u2013 Learn Why",
+        "summary": "KLA Corporation recently reported past fiscal Q3 2026 results that exceeded expectations on revenue, earnings, and gross margins, while also announcing a 10-for-1 forward stock split and a higher dividend tied to rising AI-related process control demand. Management\u2019s unusually detailed commentary on anticipated 2027 growth and advanced packaging opportunities highlights how increasing semiconductor complexity is deepening KLA\u2019s role in AI manufacturing workflows. We\u2019ll now examine how KLA\u2019s...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Can KLA Outgrow Chip Equipment Market Through 2030?",
+        "summary": "KLAC targets faster growth than the chip equipment market through 2030, driven by AI, rising process-control demand and advanced packaging.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Stocks Climb on an AI-Led Rebound",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.93%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.89%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.17%. June E-mini S&P futures (ESM26 ) are up +0.76%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Dear KLA Stock Fans, Mark Your Calendars for June 12",
+        "summary": "KLA will start trading on a 10-for-1 split-adjusted basis on June 12.",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Applied Materials and KLA Corporation Stocks Trade Up, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after the broader semiconductor sector recovered from a sharp selloff during the previous trading session.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      }
+    ]
+  },
+  "LRCX": {
+    "ticker": "LRCX",
+    "close": 324.45,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Lam Research Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "rev_growth_TTM": 0.238,
+    "market_cap": 409136824320,
+    "news": [
+      {
+        "title": "Why Lam Research (LRCX) Stock Is Trading Up Today",
+        "summary": "Shares of semiconductor equipment maker Lam Research (NASDAQ:LRCX) jumped 2.8% in the morning session after UBS raised its price target on the stock to $375 from $310, adding to an ongoing rally.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Lam Research (LRCX): A Strategic Investment in the Transformative Industry",
+        "summary": "Sands Capital Management, LLC released its Q1 2026 investor letter for its \u201cSelect Growth Strategy\u201d. A copy of the letter is available to download here. Select Growth mainly targets leading U.S. businesses, driving positive structural changes. U.S. large-cap growth stocks fell in the first quarter. Sharp dispersion driven by AI advances marked the quarter, but late [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Stocks Climb on an AI-Led Rebound",
+        "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.93%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.89%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +1.17%. June E-mini S&P futures (ESM26 ) are up +0.76%, and June E-mini Nasdaq futures...",
+        "source": "Barchart",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Ultra Clean and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
+        "summary": "UCTT is highlighted as Zacks' Bull of the Day on rising AI-driven chip demand and surging earnings estimates, while a cautious industry backdrop weighs on peers.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Semtech, Lam Research, and Photronics Shares Are Soaring, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after the broader semiconductor sector recovered from a sharp selloff during the previous trading session.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      }
+    ]
+  },
+  "MPWR": {
+    "ticker": "MPWR",
+    "close": 1559.18,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Monolithic Power Systems, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 0.261,
+    "market_cap": 75266179072,
+    "news": [
+      {
+        "title": "IPG Photonics, Intel, and Monolithic Power Systems Stocks Trade Down, What You Need To Know",
+        "summary": "A number of stocks fell in the afternoon session after the midday Apache helicopter incident over the Strait of Hormuz removed the stable macro backdrop the semiconductor sector needed to extend its recovery.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Legal Probe Puts Monolithic Power Systems Governance And Growth Story Under Review",
+        "summary": "The Schall Law Firm has launched an investigation into Monolithic Power Systems' (NasdaqGS:MPWR) directors and management. The probe focuses on potential breaches of fiduciary duty and whether the board fulfilled its responsibilities to shareholders. The investigation could lead to litigation or changes in corporate governance practices depending on the findings. Monolithic Power Systems focuses on analog and mixed-signal power solutions, supplying components that sit inside a wide range of...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Allegro MicroSystems and Monolithic Power Systems Shares Are Soaring, What You Need To Know",
+        "summary": "A number of stocks jumped in the afternoon session after the broader semiconductor sector recovered from a sharp selloff during the previous trading session.",
+        "source": "StockStory",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Stock Market Today, June 8: Marvell Technology Surges After S&P 500 Inclusion Confirmed",
+        "summary": "Inclusion in the S&P 500 Index puts Marvell in focus for chip investors, today, June 8, 2026.",
+        "source": "Motley Fool",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Teradyne and Monolithic Power Systems Shares Plummet, What You Need To Know",
+        "summary": "A number of stocks fell in the morning session after the AVGO earnings overhang and the stronger-than-expected jobs report combined to drive one of the broadest global chip selloff of the year.",
+        "source": "StockStory",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "close": 288.85,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Marvell Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 0.276,
+    "market_cap": 233466626048,
+    "news": [
+      {
+        "title": "SpaceX fever is testing the chip trade: Chart of the Day",
+        "summary": "SpaceX is not public yet, but retail traders may already be making room for it.",
+        "source": "Yahoo Finance",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Will This Jensen Huang-Endorsed AI Chip Stock Be the Next Trillion-Dollar Company?",
+        "summary": "This chipmaker's stock has already more than tripled in 2026 alone, and reaching a trillion-dollar market value would require it to more than quadruple from here.",
+        "source": "Motley Fool",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Wall Street dumped nearly $1 trillion in tech stocks by midday\u2014then clawed it back and bought peanut butter and paint",
+        "summary": "A midday rout in the \u201cParabolic 7\u201d chipmakers reversed by the close as money fled into the market\u2019s dullest corners.",
+        "source": "Fortune",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Chip Stocks Tumble in Roller-Coaster Market",
+        "summary": "Stocks took a wild ride on Tuesday. Shares rose at the open before a midday selloff, then made up some ground toward the end of the session. The Nasdaq composite fell about 1%, and the S&P 500 declined 0.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "What Could Go Wrong For Broadcom Stock?",
+        "summary": "The company's spectacular AI success is undeniable, but it also concentrates the two biggest risks investors now face.",
+        "source": "Trefis",
+        "pub": "2026-06-09"
+      }
+    ]
+  },
+  "MU": {
+    "ticker": "MU",
+    "close": 949.28,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Micron Technology, Inc.",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "rev_growth_TTM": 1.963,
+    "market_cap": 1055434997760,
+    "news": [
+      {
+        "title": "SpaceX fever is testing the chip trade: Chart of the Day",
+        "summary": "SpaceX is not public yet, but retail traders may already be making room for it.",
+        "source": "Yahoo Finance",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Why investors can't and shouldn't ignore the AI trade",
+        "summary": "Yahoo Finance Breaking News Reporter Jake Conley and Opening Media CEO Phil Rosen join Julie Hyman on Morning Brief to discuss why the AI trade has become a major driver of market performance and why they believe it could continue to fuel gains.",
+        "source": "Yahoo Finance Video",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Micron and Sandisk Have Crushed Nvidia as the Top Artificial Intelligence (AI) Stock in 2026. Can That Continue?",
+        "summary": "Nvidia's time could be coming.",
+        "source": "Motley Fool",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Wall St futures slip as tech losses mount ahead of key inflation data",
+        "summary": "By Joel Jose and Twesha Dikshit June 10 (Reuters) - U.S. stock index futures fell on Wednesday as technology stocks extended losses, while renewed tensions between the U.S. and Iran weighed on",
+        "source": "Reuters",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Micron Adds AI Veteran To Board As Valuation Stretches On Hot Rally",
+        "summary": "Micron Technology (NasdaqGS:MU) has added Dr. Alexis Black Bj\u00f6rlin to its board of directors. Dr. Black Bj\u00f6rlin is an experienced AI and semiconductor executive with prior leadership roles at NVIDIA, Meta, Broadcom, and Intel. The appointment brings deeper expertise in AI infrastructure, cloud platforms, and advanced semiconductor hardware to Micron\u2019s governance bench. Micron Technology, trading at a recent share price of $935.89, has been one of the more intensely watched AI hardware...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-10"
+      }
+    ]
+  },
+  "RL": {
+    "ticker": "RL",
+    "close": 372.85,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "up",
+    "name": "Ralph Lauren Corporation",
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "rev_growth_TTM": 0.166,
+    "market_cap": 23280412672,
+    "news": [
+      {
+        "title": "Is Lululemon Stock Poised for a Re-Rating?",
+        "summary": "We think Lululemon Athletica (LULU) stock is at a critical turning point: it continues to produce meaningful cash flow, but it is now trading at a steep multi-year valuation discount. Companies with healthy cash profiles can typically use their capital to fuel international expansion or support share buybacks. However, before assuming the stock is an immediate bargain, it is vital to analyze the operational slowdown and margin compression revealed in the company's Q1 earnings.",
+        "source": "Trefis",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Reading the Retail Sales Rally",
+        "summary": "From Bloomingdale's to Victoria's Secret, sales soared last quarter. But why \u2014 and can it last?",
+        "source": "WWD",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Here's How Much You'd Have If You Invested $1000 in Ralph Lauren a Decade Ago",
+        "summary": "Why investing for the long run, especially if you buy certain popular stocks, could reap huge rewards.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Assessing Ralph Lauren (RL) Valuation After Strong Multi Year Returns And Earnings Growth",
+        "summary": "Ralph Lauren stock overview Ralph Lauren (RL) stock is drawing attention after a period of solid multi year total returns, inviting investors to reassess how its current valuation and fundamentals line up with recent performance. See our latest analysis for Ralph Lauren. At a share price of US$366.55, Ralph Lauren has seen a steady share price return in recent months, while its 1 year and multi year total shareholder returns point to strong momentum building off a higher base. If this kind of...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-08"
+      },
+      {
+        "title": "Buy Tapestry Stock to Profit From Gen Z\u2019s Retro Tastes",
+        "summary": "Tapestry\u2019s Coach brand is popular with young consumers. A post-earnings selloff provides investors an entry point to get long the stock.",
+        "source": "Barrons.com",
+        "pub": "2026-06-05"
+      }
+    ]
+  },
+  "SMCI": {
+    "ticker": "SMCI",
+    "close": 43.99,
+    "n_det": 1,
+    "detectors": "gap_go",
+    "trend": "up",
+    "name": "Super Micro Computer, Inc.",
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "rev_growth_TTM": 1.227,
+    "market_cap": 24441647104,
+    "news": [
+      {
+        "title": "Supermicro Shares Slide as Company Launches $7 Billion Fundraising to Support AI Demand (SMCI)",
+        "summary": "Super Micro Computer Inc (NASDAQ:SMCI) shares fell roughly 9% in premarket trading on Wednesday after the company unveiled plans for a major capital raise aimed at funding its rapidly expanding artificial intelligence server business. The fundraising package totals approximately $7 billion and is intended to provide the company with the resources needed to address a growing order backlog linked to demand for AI infrastructure.",
+        "source": "InvestorsHub",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Super Micro\u2019s Stock Sale Exposes Market\u2019s AI Growing Pains",
+        "summary": "The server and storage system maker is planning to raise $7 billion to fulfill $39 billion worth of recent orders.",
+        "source": "Barrons.com",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Stocks to Watch Wednesday: SoftBank, Super Micro, Cracker Barrel",
+        "summary": "\u2198\ufe0f SoftBank Group (JP:9984): The Japanese technology investor and OpenAI backer slid more than 8% in Tokyo as the AI selloff pummeled stocks in Asia. In South Korea, chip makers Samsung Electronics and SK Hynix also dropped sharply.",
+        "source": "The Wall Street Journal",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Fall Ahead Of CPI Data, Oracle Earnings: Why SMCI, TSM, CRWV, YYGH Are Keeping Traders Engaged Today",
+        "summary": "Stocktwits data showed retail traders continued to maintain a \u2018bullish\u2019 stance on QQQ, but have turned \u2018neutral\u2019 on SPY.",
+        "source": "Stocktwits",
+        "pub": "2026-06-10"
+      },
+      {
+        "title": "Why Is SMCI Stock Tumbling Over 8% In Overnight Trading?",
+        "summary": "Super Micro shares fell sharply after the company unveiled a $7 billion fundraising plan, as investors weighed dilution concerns against surging demand for its AI infrastructure products.",
+        "source": "Stocktwits",
+        "pub": "2026-06-10"
+      }
+    ]
+  },
+  "PCAR": {
+    "ticker": "PCAR",
+    "close": 118.44,
+    "n_det": 1,
+    "detectors": "trend_continuation",
+    "trend": "weak",
+    "name": "PACCAR Inc.",
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery",
+    "rev_growth_TTM": -0.089,
+    "market_cap": 62991200256,
+    "news": [
+      {
+        "title": "Paccar (PCAR) Increases Despite Market Slip: Here's What You Need to Know",
+        "summary": "Paccar (PCAR) closed at $119.69 in the latest trading session, marking a +1.06% move from the prior day.",
+        "source": "Zacks",
+        "pub": "2026-06-09"
+      },
+      {
+        "title": "Why Bill to End Truck Tax Matters for Paccar Inc (PCAR) Stock",
+        "summary": "Paccar Inc (NASDAQ:PCAR) is one of the best stocks to buy according to billionaire Bill Gates. Paccar stock is up a modest 2.5% year-to-date, but analysts see the stock picking up pace over the next 12 months as market conditions improve. In a move that could benefit Paccar Inc (NASDAQ:PCAR) by fueling truck sales, a [\u2026]",
+        "source": "Insider Monkey",
+        "pub": "2026-06-07"
+      },
+      {
+        "title": "Paccar (PCAR) Rises As Market Takes a Dip: Key Facts",
+        "summary": "In the closing of the recent trading day, Paccar (PCAR) stood at $114.38, denoting a +1.32% move from the preceding trading day.",
+        "source": "Zacks",
+        "pub": "2026-06-03"
+      },
+      {
+        "title": "1 Cash-Producing Stock on Our Buy List and 2 We Ignore",
+        "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
+        "source": "StockStory",
+        "pub": "2026-06-02"
+      },
+      {
+        "title": "Assessing PACCAR (PCAR) Valuation After Recent Share Price Weakness",
+        "summary": "PACCAR (PCAR) is back in focus for investors after recent trading left the stock down about 6% over the past month and roughly 10% over the past 3 months. See our latest analysis for PACCAR. At a share price of $109.47, PACCAR\u2019s recent 30 day and 90 day share price returns of down 5.69% and down 9.67% suggest fading short term momentum, while 1 year, 3 year and 5 year total shareholder returns of 22.31%, 66.72% and 111.59% highlight a much stronger longer term picture. If you are reassessing...",
+        "source": "Simply Wall St.",
+        "pub": "2026-06-02"
+      }
+    ]
+  }
+}
