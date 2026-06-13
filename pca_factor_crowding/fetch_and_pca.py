@@ -42,7 +42,9 @@ TICKERS = [
     ("LITE","LITE","Optical/Net"), ("COHR","COHR","Optical/Net"), ("AAOI","AAOI","Optical/Net"),
     ("VRT","VRT","AI-power/DC"), ("BE","BE","AI-power/DC"), ("ENPH","ENPH","AI-power/DC"),
     ("CRWD","CRWD","Software/Sec"), ("DDOG","DDOG","Software/Sec"), ("PANW","PANW","Software/Sec"),
-    ("WDAY","WDAY","Software/Sec"), ("TEAM","TEAM","Software/Sec"),
+    ("WDAY","WDAY","Software/Sec"), ("TEAM","TEAM","Software/Sec"), ("NOW","NOW","Software/Sec"),
+    ("HUBS","HUBS","Software/Sec"), ("SHOP","SHOP","Software/Sec"), ("ADBE","ADBE","Software/Sec"),
+    ("MDB","MDB","Software/Sec"), ("U","U","Software/Sec"), ("CDNS","CDNS","EDA"),
     ("AMZN","AMZN","Mega-cap"), ("GOOG","GOOG","Mega-cap"), ("TSLA","TSLA","Mega-cap"),
     ("DELL","DELL","Mega-cap"), ("UBER","UBER","Mega-cap"),
     ("IONQ","IONQ","Quantum"),
@@ -52,7 +54,7 @@ SECTORS = {d: s for d, _, s in TICKERS}
 SECTOR_COLORS = {
     "Memory/HBM":"#d62728", "Compute/AI-silicon":"#1f77b4", "Semicap":"#17becf",
     "Optical/Net":"#9467bd", "AI-power/DC":"#ff7f0e", "Software/Sec":"#2ca02c",
-    "Mega-cap":"#8c564b", "Quantum":"#e377c2", "Consumer":"#7f7f7f",
+    "Mega-cap":"#8c564b", "Quantum":"#e377c2", "Consumer":"#7f7f7f", "EDA":"#bcbd22",
 }
 
 def fetch(sym, rng="1y"):
@@ -217,7 +219,7 @@ def scree():
 def pc1_bar(W=60):
     L = R[W]["loadings"]["PC1"].sort_values()
     cols = [SECTOR_COLORS[SECTORS[i]] for i in L.index]
-    fig, ax = plt.subplots(figsize=(8, 9))
+    fig, ax = plt.subplots(figsize=(8, 11))
     ax.barh(L.index, L.values, color=cols)
     ax.axvline(0, color="k", lw=.6)
     ax.set_title(f"PC1 loading by name ({W}d)  —  PC1={R[W]['evr'][0]*100:.0f}% of variance\n"
@@ -229,7 +231,7 @@ def pc1_bar(W=60):
 
 def heatmap(W=60):
     L = R[W]["loadings"][["PC1","PC2","PC3"]].sort_values("PC1", ascending=False)
-    fig, ax = plt.subplots(figsize=(5.2, 10))
+    fig, ax = plt.subplots(figsize=(5.6, 12))
     norm = TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1)
     im = ax.imshow(L.values, cmap="RdBu_r", norm=norm, aspect="auto")
     ax.set_yticks(range(len(L))); ax.set_yticklabels(L.index, fontsize=8)
