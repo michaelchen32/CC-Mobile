@@ -1,103 +1,103 @@
 # PCA factor / crowding summary
 
-Panel: 42 names, US calendar 2025-06-13 -> 2026-06-12.
+Panel: 42 names, US calendar 2025-07-10 -> 2026-07-09.
 
 | window | n_obs | assets | PC1 | PC2 | PC3 | AR(top k) | avg corr | N_eff |
 |---|---|---|---|---|---|---|---|---|
-| 20d | 20 | 42 | 30.9% | 22.0% | 11.0% | 86.4% (k=8) | 0.248 | 5.9 |
-| 60d | 60 | 41 | 27.0% | 19.0% | 6.6% | 71.7% (k=8) | 0.218 | 8.0 |
+| 20d | 20 | 42 | 40.5% | 20.1% | 8.1% | 88.4% (k=8) | 0.230 | 4.5 |
+| 60d | 60 | 41 | 29.4% | 19.0% | 7.7% | 74.7% (k=8) | 0.211 | 7.2 |
 
 ## 60d loadings (sorted by PC1)
 
 ```
             PC1    PC2    PC3  comm3              sector
-LRCX     +0.868 -0.242 +0.064 +0.817             Semicap
-AMAT     +0.835 -0.254 -0.048 +0.763             Semicap
-MU       +0.766 -0.059 -0.071 +0.595          Memory/HBM
-AMD      +0.761 -0.104 +0.128 +0.606  Compute/AI-silicon
-COHR     +0.741 -0.299 -0.395 +0.794         Optical/Net
-VRT      +0.740 -0.309 -0.159 +0.668         AI-power/DC
-SNDK     +0.706 -0.006 -0.056 +0.501          Memory/HBM
-AVGO     +0.687 +0.112 -0.092 +0.492  Compute/AI-silicon
-TSLA     +0.685 +0.056 +0.167 +0.500            Mega-cap
-INTC     +0.677 -0.144 +0.006 +0.479  Compute/AI-silicon
-MRVL     +0.674 -0.212 -0.255 +0.564  Compute/AI-silicon
-IONQ     +0.645 +0.127 +0.003 +0.432             Quantum
-NVDA     +0.639 +0.217 +0.230 +0.508  Compute/AI-silicon
-BE       +0.605 -0.278 -0.015 +0.444         AI-power/DC
-LITE     +0.592 -0.173 -0.571 +0.706         Optical/Net
-AS       +0.582 -0.013 +0.507 +0.596            Consumer
-CRDO     +0.579 +0.012 -0.081 +0.342  Compute/AI-silicon
-CDNS     +0.559 +0.599 -0.098 +0.681                 EDA
-ENPH     +0.557 -0.070 -0.128 +0.331         AI-power/DC
-AMZN     +0.547 -0.028 +0.405 +0.464            Mega-cap
-QCOM     +0.540 -0.020 -0.122 +0.307  Compute/AI-silicon
-LULU     +0.495 +0.322 +0.380 +0.493            Consumer
-AAOI     +0.495 -0.123 -0.480 +0.491         Optical/Net
-GOOG     +0.442 +0.053 +0.445 +0.395            Mega-cap
-DELL     +0.403 +0.350 -0.210 +0.328            Mega-cap
-SK Hynix +0.372 -0.094 +0.137 +0.166          Memory/HBM
-UBER     +0.349 +0.361 +0.470 +0.474            Mega-cap
-KLAC     +0.291 +0.031 +0.259 +0.153             Semicap
-Samsung  +0.277 -0.030 +0.080 +0.084          Memory/HBM
-CRWD     +0.267 +0.748 -0.222 +0.680        Software/Sec
-U        +0.265 +0.484 +0.227 +0.357        Software/Sec
-PANW     +0.245 +0.702 -0.218 +0.600        Software/Sec
-SHOP     +0.190 +0.679 +0.278 +0.575        Software/Sec
-MDB      +0.127 +0.764 -0.170 +0.629        Software/Sec
-NKE      +0.106 +0.183 +0.521 +0.316            Consumer
-DDOG     +0.101 +0.733 -0.162 +0.574        Software/Sec
-NOW      +0.050 +0.909 -0.104 +0.840        Software/Sec
-TEAM     +0.004 +0.801 -0.093 +0.650        Software/Sec
-HUBS     -0.094 +0.791 -0.061 +0.638        Software/Sec
-ADBE     -0.109 +0.839 -0.092 +0.725        Software/Sec
-WDAY     -0.176 +0.865 -0.140 +0.800        Software/Sec
+LRCX     +0.913 -0.055 +0.042 +0.839             Semicap
+AMAT     +0.865 -0.125 -0.069 +0.769             Semicap
+KLAC     +0.849 -0.061 -0.014 +0.725             Semicap
+MU       +0.824 +0.023 -0.038 +0.680          Memory/HBM
+COHR     +0.813 -0.099 -0.263 +0.741         Optical/Net
+AMD      +0.806 +0.114 +0.193 +0.700  Compute/AI-silicon
+MRVL     +0.792 -0.027 -0.128 +0.644  Compute/AI-silicon
+VRT      +0.775 -0.208 -0.135 +0.662         AI-power/DC
+SNDK     +0.745 -0.016 -0.098 +0.565          Memory/HBM
+INTC     +0.714 -0.026 +0.075 +0.516  Compute/AI-silicon
+CRDO     +0.676 -0.004 +0.013 +0.457  Compute/AI-silicon
+TSLA     +0.674 +0.267 +0.131 +0.542            Mega-cap
+LITE     +0.660 +0.012 -0.480 +0.666         Optical/Net
+QCOM     +0.634 +0.065 +0.064 +0.410  Compute/AI-silicon
+BE       +0.624 -0.162 +0.107 +0.427         AI-power/DC
+AVGO     +0.623 +0.239 -0.004 +0.446  Compute/AI-silicon
+ENPH     +0.614 +0.086 +0.060 +0.388         AI-power/DC
+IONQ     +0.594 +0.254 +0.125 +0.433             Quantum
+SK Hynix +0.553 -0.047 +0.053 +0.311          Memory/HBM
+AAOI     +0.551 +0.144 -0.351 +0.448         Optical/Net
+NVDA     +0.514 +0.369 +0.187 +0.436  Compute/AI-silicon
+CDNS     +0.462 +0.641 -0.132 +0.642                 EDA
+Samsung  +0.458 +0.013 +0.043 +0.211          Memory/HBM
+DELL     +0.322 +0.418 -0.206 +0.321            Mega-cap
+AS       +0.314 +0.161 +0.671 +0.575            Consumer
+PANW     +0.253 +0.626 -0.298 +0.544        Software/Sec
+CRWD     +0.227 +0.716 -0.290 +0.648        Software/Sec
+GOOG     +0.211 +0.162 +0.566 +0.391            Mega-cap
+AMZN     +0.200 +0.373 +0.545 +0.477            Mega-cap
+U        +0.101 +0.723 +0.250 +0.595        Software/Sec
+LULU     -0.000 +0.565 +0.385 +0.467            Consumer
+DDOG     -0.030 +0.661 -0.301 +0.529        Software/Sec
+NKE      -0.030 +0.394 +0.759 +0.733            Consumer
+UBER     -0.031 +0.376 +0.407 +0.308            Mega-cap
+MDB      -0.086 +0.745 -0.206 +0.605        Software/Sec
+SHOP     -0.137 +0.688 +0.211 +0.537        Software/Sec
+NOW      -0.179 +0.895 -0.153 +0.856        Software/Sec
+TEAM     -0.188 +0.763 -0.153 +0.641        Software/Sec
+HUBS     -0.299 +0.694 -0.183 +0.605        Software/Sec
+ADBE     -0.361 +0.750 -0.154 +0.717        Software/Sec
+WDAY     -0.430 +0.778 -0.179 +0.822        Software/Sec
 ```
 
 ## 20d loadings (sorted by PC1)
 
 ```
             PC1    PC2    PC3  comm3              sector
-LRCX     +0.893 -0.341 +0.047 +0.916             Semicap
-AMD      +0.857 -0.194 +0.136 +0.790  Compute/AI-silicon
-AMAT     +0.849 -0.284 -0.093 +0.811             Semicap
-MU       +0.819 -0.056 +0.022 +0.675          Memory/HBM
-TSLA     +0.809 -0.412 +0.074 +0.830            Mega-cap
-IONQ     +0.763 -0.116 -0.219 +0.644             Quantum
-VRT      +0.748 -0.070 -0.329 +0.673         AI-power/DC
-MRVL     +0.716 -0.242 -0.418 +0.746  Compute/AI-silicon
-CDNS     +0.715 +0.359 -0.190 +0.675                 EDA
-SNDK     +0.711 -0.066 +0.084 +0.517          Memory/HBM
-ENPH     +0.710 -0.218 -0.078 +0.557         AI-power/DC
-NVDA     +0.708 +0.299 +0.084 +0.598  Compute/AI-silicon
-BE       +0.691 -0.371 +0.072 +0.620         AI-power/DC
-INTC     +0.690 -0.420 +0.147 +0.675  Compute/AI-silicon
-AVGO     +0.684 +0.103 -0.164 +0.505  Compute/AI-silicon
-LULU     +0.678 +0.165 +0.451 +0.691            Consumer
-COHR     +0.635 -0.383 -0.543 +0.845         Optical/Net
-QCOM     +0.629 -0.178 -0.036 +0.429  Compute/AI-silicon
-CRDO     +0.559 -0.162 -0.004 +0.339  Compute/AI-silicon
-CRWD     +0.537 +0.652 -0.063 +0.717        Software/Sec
-LITE     +0.524 -0.168 -0.659 +0.737         Optical/Net
-AS       +0.503 -0.070 +0.516 +0.523            Consumer
-AMZN     +0.483 -0.082 +0.550 +0.542            Mega-cap
-DELL     +0.445 +0.632 -0.155 +0.621            Mega-cap
-AAOI     +0.436 +0.033 -0.611 +0.564         Optical/Net
-SK Hynix +0.433 -0.003 +0.483 +0.420          Memory/HBM
-SHOP     +0.428 +0.685 +0.362 +0.784        Software/Sec
-PANW     +0.416 +0.695 -0.179 +0.688        Software/Sec
-U        +0.358 +0.590 +0.337 +0.589        Software/Sec
-KLAC     +0.332 +0.066 +0.368 +0.250             Semicap
-DDOG     +0.332 +0.800 -0.255 +0.816        Software/Sec
-NKE      +0.331 +0.122 +0.795 +0.757            Consumer
-Samsung  +0.309 +0.183 +0.148 +0.151          Memory/HBM
-MDB      +0.226 +0.759 -0.250 +0.690        Software/Sec
-UBER     +0.222 +0.577 +0.344 +0.499            Mega-cap
-NOW      +0.154 +0.894 -0.130 +0.841        Software/Sec
-GOOG     +0.124 +0.030 +0.734 +0.555            Mega-cap
-CBRS     +0.088 -0.349 -0.306 +0.223  Compute/AI-silicon
-TEAM     +0.046 +0.899 -0.023 +0.811        Software/Sec
-HUBS     +0.032 +0.929 -0.162 +0.890        Software/Sec
-WDAY     -0.066 +0.893 -0.169 +0.830        Software/Sec
-ADBE     -0.150 +0.876 -0.105 +0.801        Software/Sec
+LRCX     +0.953 +0.047 -0.090 +0.918             Semicap
+MRVL     +0.930 +0.241 +0.039 +0.924  Compute/AI-silicon
+KLAC     +0.914 +0.046 -0.187 +0.873             Semicap
+VRT      +0.909 -0.159 +0.112 +0.864         AI-power/DC
+AMD      +0.908 +0.230 +0.069 +0.882  Compute/AI-silicon
+INTC     +0.899 +0.017 -0.023 +0.809  Compute/AI-silicon
+AMAT     +0.895 -0.137 -0.149 +0.843             Semicap
+SNDK     +0.881 -0.128 +0.092 +0.801          Memory/HBM
+COHR     +0.875 -0.050 +0.038 +0.770         Optical/Net
+MU       +0.873 -0.062 +0.163 +0.792          Memory/HBM
+CRDO     +0.864 -0.037 -0.043 +0.749  Compute/AI-silicon
+LITE     +0.781 +0.045 -0.183 +0.645         Optical/Net
+QCOM     +0.769 +0.115 +0.358 +0.732  Compute/AI-silicon
+SK Hynix +0.760 -0.129 +0.268 +0.666          Memory/HBM
+BE       +0.744 +0.038 +0.177 +0.586         AI-power/DC
+ENPH     +0.717 +0.372 +0.235 +0.708         AI-power/DC
+AVGO     +0.674 +0.263 +0.222 +0.573  Compute/AI-silicon
+TSLA     +0.666 +0.517 -0.144 +0.732            Mega-cap
+NVDA     +0.634 +0.363 +0.291 +0.618  Compute/AI-silicon
+AAOI     +0.630 +0.280 -0.303 +0.567         Optical/Net
+Samsung  +0.614 -0.061 +0.524 +0.655          Memory/HBM
+IONQ     +0.572 +0.377 -0.509 +0.729             Quantum
+DELL     +0.503 +0.229 -0.092 +0.314            Mega-cap
+PANW     +0.375 +0.554 -0.457 +0.657        Software/Sec
+CRWD     +0.361 +0.640 -0.386 +0.689        Software/Sec
+CDNS     +0.315 +0.512 +0.030 +0.362                 EDA
+AS       +0.302 +0.412 +0.545 +0.558            Consumer
+GOOG     +0.209 +0.532 +0.081 +0.333            Mega-cap
+CBRS     +0.164 +0.447 -0.692 +0.706  Compute/AI-silicon
+U        -0.014 +0.810 +0.190 +0.692        Software/Sec
+DDOG     -0.039 +0.685 -0.253 +0.535        Software/Sec
+NKE      -0.069 +0.614 +0.137 +0.401            Consumer
+AMZN     -0.095 +0.872 +0.137 +0.788            Mega-cap
+MDB      -0.207 +0.768 -0.472 +0.856        Software/Sec
+SHOP     -0.229 +0.670 +0.471 +0.722        Software/Sec
+UBER     -0.238 +0.474 +0.513 +0.545            Mega-cap
+TEAM     -0.398 +0.786 +0.102 +0.786        Software/Sec
+LULU     -0.468 +0.483 +0.294 +0.538            Consumer
+NOW      -0.543 +0.751 -0.131 +0.875        Software/Sec
+HUBS     -0.549 +0.572 +0.264 +0.698        Software/Sec
+ADBE     -0.607 +0.437 -0.073 +0.565        Software/Sec
+WDAY     -0.730 +0.499 +0.120 +0.796        Software/Sec
 ```
