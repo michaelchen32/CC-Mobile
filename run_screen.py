@@ -19,14 +19,12 @@ from screener.screen import run_screen, signals_dataframe
 RESULTS = os.path.join(os.path.dirname(__file__), "results")
 
 DETECTOR_LABEL = {
-    "fast_donchian": "10-day base break",
-    "donchian_20": "20-day high",
-    "six_month_high": "6-month high",
-    "volume_thrust": "volume thrust",
-    "gap_go": "gap-and-go",
-    "range_expansion": "range expansion",
-    "squeeze_release": "squeeze release",
-    "trend_continuation": "trend continuation",
+    "donchian_20": "Donchian-20",
+    "darvas_box": "Darvas box",
+    "bollinger_squeeze": "Bollinger squeeze",
+    "ttm_squeeze": "TTM squeeze",
+    "volume_resistance": "volume resistance",
+    "high_52w_momentum": "52w-high momentum",
 }
 
 
@@ -48,8 +46,8 @@ def write_brief(result: dict) -> str:
     for s in sigs:
         by_sector[s.get("sector", "Unknown")].append(s)
 
-    top = [s for s in sigs if s["n_detectors"] >= 4]
-    fragile = [s for s in sigs if s["n_detectors"] == 1 and s["detectors"] == ["gap_go"]]
+    top = [s for s in sigs if s["n_detectors"] >= 3]
+    fragile = [s for s in sigs if s["n_detectors"] == 1 and s["detectors"] == ["donchian_20"]]
 
     L: list[str] = []
     L.append(f"# US Large-Cap Breakout Screen — {sess}")
@@ -57,14 +55,19 @@ def write_brief(result: dict) -> str:
     L.append(f"*Universe:* all US-listed stocks with market cap > "
              f"${result['min_market_cap']/1e9:.0f}bn "
              f"({result['universe_size']} names; OHLCV resolved for {result['resolved']}).  ")
-    L.append(f"*Method:* 8-detector high-recall breakout union (any detector firing = "
-             f"signal; `n_det` = confluence). Trend tag is context only.  ")
+    L.append("*Method:* the 6 canonical breakout algorithms — Donchian-20, Darvas box, "
+             "Bollinger squeeze, TTM squeeze, volume-confirmed resistance, and 52-week-high "
+             "momentum. Any algorithm firing = a signal; `n_det` = how many of the six agree. "
+             "Trend tag is context only.  ")
+    L.append("*Reliability note (from the historical study):* **volume resistance** and "
+             "**52w-high momentum** are the most reliable filters; raw **Donchian-20** fires "
+             "most often but is the noisiest.  ")
     L.append(f"*Signals this session:* **{len(sigs)}** "
              f"(trend mix — up {trend_dist['up']}, weak {trend_dist['weak']}, down {trend_dist['down']}).")
     L.append("")
 
     # Top conviction
-    L.append("## Top conviction (n_det ≥ 4)")
+    L.append("## Top conviction (n_det ≥ 3)")
     L.append("")
     if top:
         L.append("| Ticker | Company | Mkt cap | Close | Day | n_det | Trend | Detectors |")
@@ -75,7 +78,7 @@ def write_brief(result: dict) -> str:
                      f"| {s['close']:.2f} | {s['day_ret']:+.1f}% | {s['n_detectors']} "
                      f"| {s['trend']} | {dets} |")
     else:
-        L.append("*None this session — no name tripped 4+ detectors at once.*")
+        L.append("*None this session — no name tripped 3+ algorithms at once.*")
     L.append("")
 
     # By sector
@@ -100,12 +103,12 @@ def write_brief(result: dict) -> str:
     L.append("## Fragility flag")
     L.append("")
     if fragile:
-        L.append(f"{len(fragile)} single-detector **gap-and-go-only** fires "
-                 f"(the high-false-alarm cohort — these often fade within 1–2 sessions):")
+        L.append(f"{len(fragile)} single-algorithm **raw Donchian-20-only** fires "
+                 f"(the noisiest cohort per the study — treat as low-conviction):")
         L.append("")
         L.append(", ".join(f"`{s['symbol']}`" for s in fragile))
     else:
-        L.append("*No single-detector gap-and-go-only fires this session.*")
+        L.append("*No single-algorithm Donchian-20-only fires this session.*")
     L.append("")
 
     L.append("---")

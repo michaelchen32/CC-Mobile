@@ -1,92 +1,86 @@
 symbol,name,sector,market_cap_bn,close,day_ret_pct,n_detectors,detectors,trend,rev_growth
-TRV,"The Travelers Companies, Inc. Common Stock",Financial Services,78.5,368.98,9.22,6,fast_donchian;donchian_20;six_month_high;volume_thrust;range_expansion;trend_continuation,up,0.003
-VG,"Venture Global, Inc. Class A common stock",Energy,34.3,13.8,8.92,5,fast_donchian;donchian_20;gap_go;range_expansion;trend_continuation,up,0.589
-EQNR,Equinor ASA,Energy,93.4,37.37,4.88,4,fast_donchian;donchian_20;gap_go;trend_continuation,weak,-0.053
-ADM,Archer-Daniels-Midland Company Common Stock,Consumer Defensive,41.4,85.9,3.49,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.016
-VLO,Valero Energy Corporation Common Stock,Energy,91.9,309.65,3.13,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.066
-PSX,Phillips 66 Common Stock,Energy,82.9,206.86,2.75,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.069
-SUN,Sunoco LP Common Units representing limited partner interests,Energy,15.2,74.0,2.68,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,1.064
-EG,"Everest Group, Ltd. Common Stock",Financial Services,15.1,382.57,2.51,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,-0.047
-MPC,Marathon Petroleum Corporation Common Stock,Energy,91.3,312.6,2.21,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.088
-CTRE,"CareTrust REIT, Inc. Common Stock",Real Estate,10.1,42.88,2.17,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.032
-DINO,HF Sinclair Corporation Common Stock,Energy,16.0,88.59,2.02,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.118
-PM,Philip Morris International Inc Common Stock,Consumer Defensive,300.8,192.98,1.65,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.091
-MO,"Altria Group, Inc.",Consumer Defensive,123.9,74.21,1.62,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.053
-VTR,"Ventas, Inc. Common Stock",Real Estate,46.7,96.1,1.12,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.219
-AHR,"American Healthcare REIT, Inc. Common Stock",Real Estate,11.0,57.16,1.01,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.209
-CP,Canadian Pacific Kansas City Limited Common Shares,Industrials,83.6,93.71,0.86,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,-0.025
-EMA,Emera Incorporated Common Shares,Utilities,16.9,55.11,0.86,4,fast_donchian;donchian_20;six_month_high;squeeze_release,up,0.051
-DOC,"Healthpeak Properties, Inc. Common Stock",Real Estate,15.5,22.51,0.81,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.071
-UNP,Union Pacific Corporation Common Stock,Industrials,179.2,301.75,0.78,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.032
-RGA,"Reinsurance Group of America, Incorporated Common Stock",Financial Services,15.8,241.79,0.78,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.235
-WELL,Welltower Inc. Common Stock,Real Estate,171.7,243.25,0.73,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.383
-OHI,"Omega Healthcare Investors, Inc. Common Stock",Real Estate,15.0,50.21,0.68,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.143
-PBA,Pembina Pipeline Corp. Ordinary Shares (Canada),Energy,29.8,51.29,0.65,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,-0.077
-CNI,Canadian National Railway Company Common Stock,Industrials,78.4,129.03,0.63,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,-0.005
-NSC,Norfolk Southern Corporation Common Stock,Industrials,76.4,340.16,0.62,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.002
-FRT,Federal Realty Investment Trust Common Stock,Real Estate,10.9,126.02,0.53,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.103
-EXPD,"Expeditors International of Washington, Inc. Common Stock",Industrials,23.9,182.8,0.46,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.044
-REG,Regency Centers Corporation Common Stock,Real Estate,15.1,82.68,0.36,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.1
-KIM,Kimco Realty Corporation (HC) Common Stock,Real Estate,17.6,26.12,0.35,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.04
-GL,Globe Life Inc. Common Stock,Financial Services,14.3,184.76,0.11,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.054
-MFC,Manulife Financial Corporation Common Stock,Financial Services,72.4,43.39,0.05,4,fast_donchian;donchian_20;six_month_high;trend_continuation,up,0.121
-MUSA,Murphy USA Inc. Common Stock,Consumer Cyclical,11.4,618.57,3.27,3,fast_donchian;donchian_20;trend_continuation,up,0.071
-SU,Suncor Energy  Inc. Common Stock,Energy,73.7,62.43,2.88,3,fast_donchian;donchian_20;trend_continuation,weak,0.175
-FANG,"Diamondback Energy, Inc. Common Stock",Energy,55.0,195.54,2.85,3,fast_donchian;donchian_20;trend_continuation,weak,0.042
-BP,BP p.l.c. Common Stock,Energy,109.7,41.9,2.0,3,fast_donchian;donchian_20;trend_continuation,weak,0.116
-CVX,Chevron Corporation Common Stock,Energy,373.2,187.38,1.91,3,fast_donchian;donchian_20;trend_continuation,weak,0.023
-EOG,"EOG Resources, Inc. Common Stock",Energy,74.5,139.89,1.78,3,fast_donchian;donchian_20;trend_continuation,weak,0.156
-COP,ConocoPhillips Common Stock,Energy,139.8,114.71,1.66,3,fast_donchian;donchian_20;trend_continuation,weak,-0.053
-AFL,AFLAC Incorporated Common Stock,Financial Services,63.5,124.72,1.38,3,fast_donchian;donchian_20;six_month_high,up,0.279
-WPC,W. P. Carey Inc. REIT,Real Estate,16.9,75.86,0.99,3,fast_donchian;donchian_20;trend_continuation,up,0.089
-XOM,ExxonMobil Holdings Corporation Common Stock,Energy,610.8,147.36,0.97,3,fast_donchian;donchian_20;trend_continuation,weak,0.026
-TRGP,"Targa Resources, Inc. Common Stock",Energy,60.7,282.91,0.94,3,fast_donchian;donchian_20;six_month_high,up,-0.102
-PRU,"Prudential Financial, Inc. Common Stock",Financial Services,41.3,119.07,0.69,3,fast_donchian;donchian_20;six_month_high,up,0.153
-SFD,"Smithfield Foods, Inc. Common Stock",Consumer Defensive,10.1,25.77,0.59,3,fast_donchian;squeeze_release;trend_continuation,weak,0.008
-EA,Electronic Arts Inc. Common Stock,Communication Services,52.4,208.9,0.51,3,fast_donchian;donchian_20;six_month_high,up,0.119
-PAA,"Plains All American Pipeline, L.P. Common Units representing Limited Partner Interests",Energy,16.8,23.87,0.51,3,fast_donchian;donchian_20;trend_continuation,up,0.087
-TECH,Bio-Techne Corp Common Stock,Healthcare,11.3,72.12,0.49,3,fast_donchian;donchian_20;six_month_high,up,-0.015
-UPS,"United Parcel Service, Inc. Common Stock",Industrials,100.1,117.72,0.46,3,fast_donchian;donchian_20;trend_continuation,up,-0.016
-ENB,Enbridge Inc Common Stock,Energy,123.8,56.71,0.44,3,fast_donchian;donchian_20;trend_continuation,up,0.208
-CM,Canadian Imperial Bank of Commerce Common Stock,Financial Services,110.9,121.24,0.41,3,fast_donchian;donchian_20;six_month_high,up,0.153
-SN,"SharkNinja, Inc. Ordinary Shares",Consumer Cyclical,21.9,154.53,0.21,3,fast_donchian;donchian_20;six_month_high,up,0.156
-FTS,Fortis Inc. Common Shares,Utilities,29.9,58.78,0.19,3,fast_donchian;donchian_20;six_month_high,up,0.019
-CCK,"Crown Holdings, Inc.",Consumer Cyclical,13.1,117.21,0.16,3,fast_donchian;donchian_20;six_month_high,up,0.129
-DAR,Darling Ingredients Inc. Common Stock,Consumer Defensive,10.0,63.1,3.14,2,fast_donchian;donchian_20,weak,0.123
-FIVE,"Five Below, Inc. Common Stock",Consumer Cyclical,11.2,202.63,2.49,2,fast_donchian;donchian_20,weak,0.325
-PR,Permian Resources Corporation Class A Common Stock,Energy,16.9,20.21,2.48,2,fast_donchian;donchian_20,weak,0.009
-CNQ,Canadian Natural Resources Limited Common Stock,Energy,91.6,43.89,2.4,2,fast_donchian;donchian_20,weak,-0.012
-OVV,Ovintiv Inc. (DE),Energy,16.3,57.79,2.37,2,fast_donchian;donchian_20,weak,0.085
-FOXA,Fox Corporation Class A Common Stock,Communication Services,24.2,57.62,1.43,2,fast_donchian;donchian_20,down,-0.086
-FOX,Fox Corporation Class B Common Stock,Communication Services,21.7,51.63,1.08,2,fast_donchian;donchian_20,down,-0.086
-SNY,Sanofi ADS,Healthcare,108.9,44.66,1.02,2,fast_donchian;donchian_20,up,0.06
-ADBE,Adobe Inc. Common Stock,Technology,94.3,237.25,0.82,2,fast_donchian;donchian_20,down,0.127
-VNOM,"Viper Energy, Inc. Class A Common Stock",Energy,15.8,44.38,0.73,2,fast_donchian;donchian_20,weak,1.091
-ROKU,"Roku, Inc. Class A Common Stock",Communication Services,21.3,144.43,0.42,2,fast_donchian;donchian_20,up,0.224
-BMY,Bristol-Myers Squibb Company Common Stock,Healthcare,124.0,60.74,0.38,2,fast_donchian;donchian_20,up,0.026
-SQM,Sociedad Quimica y Minera S.A. Common Stock,Basic Materials,19.9,69.81,5.25,1,volume_thrust,down,0.698
-BROS,Dutch Bros Inc. Class A Common Stock,Consumer Cyclical,11.9,68.36,4.61,1,trend_continuation,up,0.308
-E,ENI S.p.A. Common Stock,Energy,78.3,49.77,3.6,1,gap_go,weak,-0.126
-BG,Bunge Limited Common Shares,Consumer Defensive,23.1,119.15,2.87,1,fast_donchian,weak,0.878
-APA,APA Corporation Common Stock,Energy,12.4,35.22,2.74,1,gap_go,weak,-0.119
-RNR,RenaissanceRe Holdings Ltd. Common Stock,Financial Services,13.8,323.06,2.47,1,trend_continuation,up,-0.366
-TLK,"PT Telekomunikasi Indonesia, Tbk",Communication Services,14.5,14.62,2.45,1,fast_donchian,down,0.015
-AUR,"Aurora Innovation, Inc. Class A Common Stock",Consumer Cyclical,11.9,6.06,1.85,1,squeeze_release,weak,
-CNA,CNA Financial Corporation Common Stock,Financial Services,14.1,52.27,1.65,1,trend_continuation,up,0.1
-AIT,"Applied Industrial Technologies, Inc. Common Stock",Industrials,12.4,336.41,1.29,1,fast_donchian,up,0.073
-AS,"Amer Sports, Inc. Ordinary Shares",Consumer Cyclical,20.3,36.44,1.14,1,squeeze_release,up,0.321
-GIL,"Gildan Activewear, Inc. Class A Sub. Vot. Common Stock",Consumer Cyclical,10.0,54.08,0.93,1,squeeze_release,down,0.638
-BCH,Banco De Chile ADS,Financial Services,20.3,40.14,0.55,1,squeeze_release,up,0.136
-SPG,"Simon Property Group, Inc. Common Stock",Real Estate,74.2,228.7,0.09,1,trend_continuation,up,0.193
-AES,The AES Corporation Common Stock,Utilities,10.5,14.77,-0.2,1,squeeze_release,up,0.087
-FMX,Fomento Economico Mexicano S.A.B. de C.V. Common Stock,Consumer Defensive,44.0,129.02,-0.36,1,squeeze_release,up,0.061
-SUI,"Sun Communities, Inc. Common Stock",Real Estate,15.0,121.46,-0.42,1,squeeze_release,down,0.086
-ELAN,Elanco Animal Health Incorporated Common Stock,Healthcare,12.9,25.83,-0.46,1,squeeze_release,up,0.149
-DG,Dollar General Corporation Common Stock,Consumer Defensive,27.7,125.75,-1.11,1,squeeze_release,up,0.034
-EWBC,"East West Bancorp, Inc. Common Stock",Financial Services,18.4,134.52,-1.19,1,squeeze_release,up,0.141
-IDXX,"IDEXX Laboratories, Inc. Common Stock",Healthcare,44.8,567.44,-1.5,1,squeeze_release,down,0.143
-AVY,Avery Dennison Corporation Common Stock,Consumer Cyclical,12.3,160.41,-1.63,1,squeeze_release,down,0.07
-COF,Capital One Financial Corporation Common Stock,Financial Services,128.2,208.03,-1.84,1,squeeze_release,up,0.463
-TPR,"Tapestry, Inc. Common Stock",Consumer Cyclical,28.6,141.46,-1.89,1,squeeze_release,weak,0.212
-XPO,"XPO, Inc. Common Stock",Industrials,25.2,215.02,-1.95,1,squeeze_release,weak,0.073
-LOW,"Lowe's Companies, Inc. Common Stock",Consumer Cyclical,117.0,208.73,-3.44,1,squeeze_release,down,0.103
+ADM,Archer-Daniels-Midland Company Common Stock,Consumer Defensive,41.4,85.9,3.49,4,donchian_20;darvas_box;bollinger_squeeze;high_52w_momentum,up,0.016
+TRV,"The Travelers Companies, Inc. Common Stock",Financial Services,78.5,368.98,9.22,3,donchian_20;darvas_box;high_52w_momentum,up,0.003
+SUN,Sunoco LP Common Units representing limited partner interests,Energy,15.2,74.0,2.68,3,donchian_20;darvas_box;high_52w_momentum,up,1.064
+EG,"Everest Group, Ltd. Common Stock",Financial Services,15.1,382.57,2.51,3,donchian_20;darvas_box;high_52w_momentum,up,-0.047
+CTRE,"CareTrust REIT, Inc. Common Stock",Real Estate,10.1,42.88,2.17,3,donchian_20;darvas_box;high_52w_momentum,up,0.032
+PM,Philip Morris International Inc Common Stock,Consumer Defensive,300.8,192.98,1.65,3,donchian_20;darvas_box;high_52w_momentum,up,0.091
+MO,"Altria Group, Inc.",Consumer Defensive,123.9,74.21,1.62,3,donchian_20;darvas_box;high_52w_momentum,up,0.053
+OHI,"Omega Healthcare Investors, Inc. Common Stock",Real Estate,15.0,50.21,0.68,3,donchian_20;darvas_box;high_52w_momentum,up,0.143
+FRT,Federal Realty Investment Trust Common Stock,Real Estate,10.9,126.02,0.53,3,donchian_20;volume_resistance;high_52w_momentum,up,0.103
+KIM,Kimco Realty Corporation (HC) Common Stock,Real Estate,17.6,26.12,0.35,3,donchian_20;darvas_box;high_52w_momentum,up,0.04
+VG,"Venture Global, Inc. Class A common stock",Energy,34.3,13.8,8.92,2,donchian_20;bollinger_squeeze,up,0.589
+VLO,Valero Energy Corporation Common Stock,Energy,91.9,309.65,3.13,2,donchian_20;high_52w_momentum,up,0.066
+PSX,Phillips 66 Common Stock,Energy,82.9,206.86,2.75,2,donchian_20;high_52w_momentum,up,0.069
+FIVE,"Five Below, Inc. Common Stock",Consumer Cyclical,11.2,202.63,2.49,2,donchian_20;bollinger_squeeze,weak,0.325
+PR,Permian Resources Corporation Class A Common Stock,Energy,16.9,20.21,2.48,2,donchian_20;bollinger_squeeze,weak,0.009
+MPC,Marathon Petroleum Corporation Common Stock,Energy,91.3,312.6,2.21,2,donchian_20;high_52w_momentum,up,0.088
+DINO,HF Sinclair Corporation Common Stock,Energy,16.0,88.59,2.02,2,donchian_20;high_52w_momentum,up,0.118
+AFL,AFLAC Incorporated Common Stock,Financial Services,63.5,124.72,1.38,2,donchian_20;high_52w_momentum,up,0.279
+VTR,"Ventas, Inc. Common Stock",Real Estate,46.7,96.1,1.12,2,donchian_20;high_52w_momentum,up,0.219
+AHR,"American Healthcare REIT, Inc. Common Stock",Real Estate,11.0,57.16,1.01,2,donchian_20;high_52w_momentum,up,0.209
+WPC,W. P. Carey Inc. REIT,Real Estate,16.9,75.86,0.99,2,donchian_20;high_52w_momentum,up,0.089
+XOM,ExxonMobil Holdings Corporation Common Stock,Energy,610.8,147.36,0.97,2,donchian_20;bollinger_squeeze,weak,0.026
+TRGP,"Targa Resources, Inc. Common Stock",Energy,60.7,282.91,0.94,2,donchian_20;high_52w_momentum,up,-0.102
+CP,Canadian Pacific Kansas City Limited Common Shares,Industrials,83.6,93.71,0.86,2,donchian_20;high_52w_momentum,up,-0.025
+EMA,Emera Incorporated Common Shares,Utilities,16.9,55.11,0.86,2,donchian_20;high_52w_momentum,up,0.051
+DOC,"Healthpeak Properties, Inc. Common Stock",Real Estate,15.5,22.51,0.81,2,donchian_20;high_52w_momentum,up,0.071
+UNP,Union Pacific Corporation Common Stock,Industrials,179.2,301.75,0.78,2,donchian_20;high_52w_momentum,up,0.032
+RGA,"Reinsurance Group of America, Incorporated Common Stock",Financial Services,15.8,241.79,0.78,2,donchian_20;high_52w_momentum,up,0.235
+WELL,Welltower Inc. Common Stock,Real Estate,171.7,243.25,0.73,2,donchian_20;high_52w_momentum,up,0.383
+PRU,"Prudential Financial, Inc. Common Stock",Financial Services,41.3,119.07,0.69,2,donchian_20;high_52w_momentum,up,0.153
+PBA,Pembina Pipeline Corp. Ordinary Shares (Canada),Energy,29.8,51.29,0.65,2,donchian_20;high_52w_momentum,up,-0.077
+CNI,Canadian National Railway Company Common Stock,Industrials,78.4,129.03,0.63,2,donchian_20;high_52w_momentum,up,-0.005
+NSC,Norfolk Southern Corporation Common Stock,Industrials,76.4,340.16,0.62,2,donchian_20;high_52w_momentum,up,0.002
+EA,Electronic Arts Inc. Common Stock,Communication Services,52.4,208.9,0.51,2,donchian_20;high_52w_momentum,up,0.119
+TECH,Bio-Techne Corp Common Stock,Healthcare,11.3,72.12,0.49,2,donchian_20;high_52w_momentum,up,-0.015
+UPS,"United Parcel Service, Inc. Common Stock",Industrials,100.1,117.72,0.46,2,donchian_20;high_52w_momentum,up,-0.016
+EXPD,"Expeditors International of Washington, Inc. Common Stock",Industrials,23.9,182.8,0.46,2,donchian_20;high_52w_momentum,up,0.044
+ROKU,"Roku, Inc. Class A Common Stock",Communication Services,21.3,144.43,0.42,2,donchian_20;high_52w_momentum,up,0.224
+CM,Canadian Imperial Bank of Commerce Common Stock,Financial Services,110.9,121.24,0.41,2,donchian_20;high_52w_momentum,up,0.153
+REG,Regency Centers Corporation Common Stock,Real Estate,15.1,82.68,0.36,2,donchian_20;high_52w_momentum,up,0.1
+SN,"SharkNinja, Inc. Ordinary Shares",Consumer Cyclical,21.9,154.53,0.21,2,donchian_20;high_52w_momentum,up,0.156
+FTS,Fortis Inc. Common Shares,Utilities,29.9,58.78,0.19,2,donchian_20;high_52w_momentum,up,0.019
+GL,Globe Life Inc. Common Stock,Financial Services,14.3,184.76,0.11,2,donchian_20;high_52w_momentum,up,0.054
+MFC,Manulife Financial Corporation Common Stock,Financial Services,72.4,43.39,0.05,2,donchian_20;high_52w_momentum,up,0.121
+EQNR,Equinor ASA,Energy,93.4,37.37,4.88,1,donchian_20,weak,-0.053
+MUSA,Murphy USA Inc. Common Stock,Consumer Cyclical,11.4,618.57,3.27,1,donchian_20,up,0.071
+AIG,"American International Group, Inc. New Common Stock",Financial Services,42.7,80.5,3.17,1,volume_resistance,up,0.014
+DAR,Darling Ingredients Inc. Common Stock,Consumer Defensive,10.0,63.1,3.14,1,donchian_20,weak,0.123
+TIGO,Millicom International Cellular S.A. Common Stock,Communication Services,16.5,98.34,2.89,1,high_52w_momentum,up,0.451
+SU,Suncor Energy  Inc. Common Stock,Energy,73.7,62.43,2.88,1,donchian_20,weak,0.175
+FANG,"Diamondback Energy, Inc. Common Stock",Energy,55.0,195.54,2.85,1,donchian_20,weak,0.042
+CNQ,Canadian Natural Resources Limited Common Stock,Energy,91.6,43.89,2.4,1,donchian_20,weak,-0.012
+OVV,Ovintiv Inc. (DE),Energy,16.3,57.79,2.37,1,donchian_20,weak,0.085
+BP,BP p.l.c. Common Stock,Energy,109.7,41.9,2.0,1,donchian_20,weak,0.116
+CVX,Chevron Corporation Common Stock,Energy,373.2,187.38,1.91,1,donchian_20,weak,0.023
+EOG,"EOG Resources, Inc. Common Stock",Energy,74.5,139.89,1.78,1,donchian_20,weak,0.156
+COP,ConocoPhillips Common Stock,Energy,139.8,114.71,1.66,1,donchian_20,weak,-0.053
+FOXA,Fox Corporation Class A Common Stock,Communication Services,24.2,57.62,1.43,1,donchian_20,down,-0.086
+CHRW,"C.H. Robinson Worldwide, Inc. Common Stock",Industrials,24.6,208.5,1.34,1,high_52w_momentum,up,-0.008
+PANW,"Palo Alto Networks, Inc. Common Stock",Technology,292.3,358.68,1.32,1,high_52w_momentum,up,0.311
+DVA,DaVita Inc. Common Stock,Healthcare,15.2,236.97,1.26,1,high_52w_momentum,up,0.06
+AS,"Amer Sports, Inc. Ordinary Shares",Consumer Cyclical,20.3,36.44,1.14,1,ttm_squeeze,up,0.321
+FOX,Fox Corporation Class B Common Stock,Communication Services,21.7,51.63,1.08,1,donchian_20,down,-0.086
+SNY,Sanofi ADS,Healthcare,108.9,44.66,1.02,1,donchian_20,up,0.06
+GIL,"Gildan Activewear, Inc. Class A Sub. Vot. Common Stock",Consumer Cyclical,10.0,54.08,0.93,1,ttm_squeeze,down,0.638
+CVS,CVS Health Corporation Common Stock,Healthcare,137.1,107.47,0.91,1,high_52w_momentum,up,0.061
+ADBE,Adobe Inc. Common Stock,Technology,94.3,237.25,0.82,1,donchian_20,down,0.127
+CTVA,"Corteva, Inc. Common Stock",Basic Materials,58.4,87.3,0.75,1,high_52w_momentum,up,0.11
+PFG,Principal Financial Group Inc Common Stock,Financial Services,24.6,113.95,0.73,1,high_52w_momentum,up,-0.045
+VNOM,"Viper Energy, Inc. Class A Common Stock",Energy,15.8,44.38,0.73,1,donchian_20,weak,1.091
+LINE,"Lineage, Inc. Common Stock",Real Estate,10.2,44.59,0.72,1,high_52w_momentum,up,0.004
+SFD,"Smithfield Foods, Inc. Common Stock",Consumer Defensive,10.1,25.77,0.59,1,ttm_squeeze,weak,0.008
+PAA,"Plains All American Pipeline, L.P. Common Units representing Limited Partner Interests",Energy,16.8,23.87,0.51,1,donchian_20,up,0.087
+ENB,Enbridge Inc Common Stock,Energy,123.8,56.71,0.44,1,donchian_20,up,0.208
+BMY,Bristol-Myers Squibb Company Common Stock,Healthcare,124.0,60.74,0.38,1,donchian_20,up,0.026
+MET,"MetLife, Inc. Common Stock",Financial Services,60.5,94.0,0.32,1,high_52w_momentum,up,0.027
+SLF,Sun Life Financial Inc. Common Stock,Financial Services,45.6,81.78,0.2,1,high_52w_momentum,up,0.002
+CCK,"Crown Holdings, Inc.",Consumer Cyclical,13.1,117.21,0.16,1,donchian_20,up,0.129
+AAPL,Apple Inc. Common Stock,Technology,4901.8,333.74,0.14,1,high_52w_momentum,up,0.166
+BBY,"Best Buy Co., Inc. Common Stock",Consumer Cyclical,18.0,85.41,0.14,1,high_52w_momentum,up,0.019
+HSBC,"HSBC Holdings, plc. Common Stock",Financial Services,345.8,100.61,0.09,1,high_52w_momentum,up,0.033
+SPG,"Simon Property Group, Inc. Common Stock",Real Estate,74.2,228.7,0.09,1,high_52w_momentum,up,0.193
+SUI,"Sun Communities, Inc. Common Stock",Real Estate,15.0,121.46,-0.42,1,ttm_squeeze,down,0.086
+EWBC,"East West Bancorp, Inc. Common Stock",Financial Services,18.4,134.52,-1.19,1,ttm_squeeze,up,0.141
+IDXX,"IDEXX Laboratories, Inc. Common Stock",Healthcare,44.8,567.44,-1.5,1,ttm_squeeze,down,0.143

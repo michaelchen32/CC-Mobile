@@ -15,7 +15,7 @@ from .data import download_batch, session
 from .detectors import todays_signal
 from .universe import build_universe
 
-LOOKBACK_DAYS = 420  # ~290 trading days: enough for SMA200 + 126-day warmup
+LOOKBACK_DAYS = 560  # ~385 trading days: enough for the 252d high + 50d slope
 
 
 def _progress(done: int, total: int, tag: str) -> None:

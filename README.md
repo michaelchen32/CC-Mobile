@@ -47,25 +47,26 @@ Pulled live from the Nasdaq stock screener API (every NYSE/Nasdaq/AMEX name with
 a market-cap figure), filtered to >$10bn, with warrants/units/rights/preferreds
 dropped and symbols normalised for yfinance (`BRK/B` → `BRK-B`).
 
-### Detectors (high-recall OR-union)
+### The 6 canonical breakout algorithms
 
-Any single detector firing = a signal; `n_detectors` measures confluence. The
-`trend` tag (`up`/`weak`/`down`) is context only and never suppresses a signal.
+Each algorithm returns a boolean series (True on the trigger bar); the screen
+evaluates the latest bar. Any algorithm firing = a signal; `n_detectors` = how
+many of the six agree. The `trend` tag (`up`/`weak`/`down`) is context only.
 
-| Detector | Rule |
-|---|---|
-| `fast_donchian` | close > prior 10-day high |
-| `donchian_20` | close > prior 20-day high |
-| `six_month_high` | close ≥ prior 126-day high |
-| `volume_thrust` | ≥5% up day AND ≥2× 20-day avg vol AND close in top 30% of range |
-| `gap_go` | gap up ≥2.5% and holds the open |
-| `range_expansion` | true range ≥2× ATR(20) while pushing the 10-day high |
-| `squeeze_release` | TTM squeeze (BB inside Keltner) releases with positive momentum |
-| `trend_continuation` | uptrend (c>SMA50>SMA150), new 5-day high right after a ≥3% dip |
+| # | Algorithm | Rule | Params |
+|---|---|---|---|
+| 1 | `donchian_20` | close > highest high of prior N bars | lookback=20 |
+| 2 | `darvas_box` | break above a confirmed 60-day-high box top (stalls 4 days) | high_lookback=60, settle=4 |
+| 3 | `bollinger_squeeze` | bandwidth in bottom 25% of 126-day range, then close crosses above upper band within 10 bars | n=20, k=2 |
+| 4 | `ttm_squeeze` | BB inside Keltner (coiled) → fire on release with positive momentum | n=20, bb_k=2, kc_k=1.5 |
+| 5 | `volume_resistance` | close clears a horizontal swing-high by 0.5% on ≥1.5× avg volume | pivot=10, lookback=60 |
+| 6 | `high_52w_momentum` | new 252-bar closing high above a rising 50-day MA | lookback=252, trend=50 |
 
-**Interpretation:** multi-detector (`n_det≥4`) breakouts with `trend=up` are the
-high-quality signals; single-detector `gap_go`-only fires are the fragile,
-high-false-alarm cohort.
+**Reliability (from the historical study):** `volume_resistance` and
+`high_52w_momentum` are the most reliable filters (highest confirmed, lowest
+fakeout); raw `donchian_20` fires most often but is the noisiest. Multi-algorithm
+(`n_det≥3`) breakouts with `trend=up` are the high-quality signals; single-algorithm
+`donchian_20`-only fires are the low-conviction cohort.
 
 ## Caveats
 
