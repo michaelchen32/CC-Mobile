@@ -1,0 +1,34 @@
+ticker,name,sector,n_detectors,trend,rev_growth_TTM_%,net_margin_%,CFO_TTM,FCF_TTM,TEV/Sales_26E,TEV/EBITDA_26E_est,TEV/FCF_26E_est,PE_26E,TEV/Sales_TTM,PE_TTM,L1M_%,L3M_%,L12M_%
+DXCM,"DexCom, Inc.",Healthcare,7,up,13.1,20.1,1748700032.0,1021162496.0,5.3,18.8,25.9,26.8,6.2,33.0,21.2,40.1,-6.3
+AMZN,"Amazon.com, Inc.",Consumer Cyclical,6,weak,19.6,17.4,161402994688.0,22722125824.0,3.2,14.8,109.7,26.2,3.9,21.8,12.4,2.5,18.0
+EOG,"EOG Resources, Inc.",Energy,4,up,15.6,23.3,10721000448.0,2864250112.0,3.2,5.9,26.1,10.1,3.5,14.6,16.5,6.6,26.9
+MTD,"Mettler-Toledo International, I",Healthcare,4,up,4.5,21.9,975166976.0,693589632.0,6.9,22.2,40.9,27.5,7.4,31.9,8.9,10.9,11.9
+ZBRA,Zebra Technologies Corporation,Technology,4,up,14.3,7.5,915000000.0,559000000.0,2.6,14.2,26.1,14.2,3.0,35.4,9.7,29.9,-11.6
+EA,Electronic Arts Inc.,Communication Services,3,up,11.9,11.8,2552999936.0,2219124992.0,5.9,30.0,20.1,34.2,6.8,60.0,2.1,3.8,34.8
+WY,Weyerhaeuser Company,Real Estate,3,up,-0.9,6.9,547000000.0,13625000.0,3.0,30.0,1515.4,37.7,3.4,37.9,6.2,3.0,1.5
+CBOE,"Cboe Global Markets, Inc.",Financial Services,3,weak,6.5,25.8,2799699968.0,1003075008.0,10.3,27.7,49.3,20.4,6.4,24.2,25.2,3.6,29.0
+MSFT,Microsoft Corporation,Technology,3,weak,17.7,40.3,182934994944.0,16363499520.0,7.5,12.9,152.6,20.0,10.6,25.9,20.9,14.2,-8.7
+CME,CME Group Inc.,Financial Services,2,down,0.8,63.4,4309000192.0,2909012480.0,13.3,18.8,30.9,20.7,14.5,22.7,15.9,-6.5,0.2
+HII,"Huntington Ingalls Industries, ",Industrials,2,down,10.9,5.0,347000000.0,-300249984.0,1.1,12.7,,15.9,1.2,19.5,17.0,-10.0,28.4
+BEN,"Franklin Resources, Inc.",Financial Services,2,up,14.3,8.7,277800000.0,-3226200064.0,2.1,12.6,,10.8,2.2,23.0,-0.6,14.1,46.7
+BMY,Bristol-Myers Squibb Company,Healthcare,2,up,5.7,18.9,12782000128.0,8114375168.0,3.5,9.1,21.2,10.1,3.4,14.4,17.0,9.0,48.9
+MHK,"Mohawk Industries, Inc.",Consumer Cyclical,2,up,6.8,4.2,1272800000.0,966899968.0,0.9,6.5,10.1,12.4,0.9,16.3,2.7,16.6,5.0
+NTAP,"NetApp, Inc.",Technology,2,up,12.5,18.4,2067000064.0,1295250048.0,4.3,15.9,23.1,18.1,4.9,28.1,14.5,61.6,73.5
+REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,2,weak,16.7,27.9,4681299968.0,3065299968.0,3.9,12.8,19.6,15.2,4.6,18.9,22.1,8.0,38.3
+ORCL,Oracle Corporation,Technology,1,down,20.6,25.4,31977000960.0,-24536750080.0,3.9,8.7,,11.9,7.6,22.3,-8.5,-19.3,-47.6
+PDD,PDD Holdings Inc.,Consumer Cyclical,1,down,11.0,21.6,107866693632.0,71642849280.0,-0.6,-2.6,-3.5,1.1,-0.7,9.3,7.3,-11.3,-21.6
+CFG,"Citizens Financial Group, Inc.",Financial Services,1,up,14.7,26.1,,,3.5,,,11.0,4.3,15.6,0.4,10.9,52.9
+CVX,Chevron Corporation,Energy,1,up,52.6,9.8,45320998912.0,,2.1,8.6,,15.4,2.1,18.9,18.8,2.8,33.5
+ERIE,Erie Indemnity Company,Financial Services,1,up,2.8,14.0,697777024.0,481207744.0,,,,,3.0,22.0,-2.3,11.2,-30.0
+FANG,"Diamondback Energy, Inc.",Energy,1,up,4.2,2.0,8231000064.0,1397250048.0,4.6,6.5,47.2,11.7,5.3,209.2,18.0,-0.8,37.9
+IEX,IDEX Corporation,Industrials,1,up,6.4,14.5,716700032.0,555612480.0,4.7,17.4,30.4,24.3,5.1,33.1,2.8,6.5,42.4
+MPC,Marathon Petroleum Corporation,Energy,1,up,8.8,3.4,9438000128.0,3518749952.0,0.9,12.5,36.5,11.4,1.0,20.8,19.5,27.9,88.9
+PANW,"Palo Alto Networks, Inc.",Technology,1,up,31.1,7.9,4216999936.0,3579375104.0,19.5,139.5,57.8,170.1,25.4,286.1,-5.7,85.0,81.3
+TDY,Teledyne Technologies Incorpora,Technology,1,up,9.8,15.3,1271299968.0,912675008.0,4.6,18.6,32.4,24.6,5.0,31.7,-0.9,1.5,19.1
+TRGP,"Targa Resources, Inc.",Energy,1,up,-10.2,12.9,3702500096.0,-318550016.0,3.4,10.7,,22.6,4.7,27.6,5.4,4.4,66.0
+VLO,Valero Energy Corporation,Energy,1,up,51.7,5.4,10908000256.0,8416374784.0,0.8,7.7,12.3,11.4,0.7,13.1,16.6,25.0,131.1
+APA,APA Corporation,Energy,1,weak,-11.9,18.3,4003000064.0,1691250048.0,2.3,3.7,11.4,9.0,2.2,8.7,17.9,-7.7,98.3
+COP,ConocoPhillips,Energy,1,weak,-5.3,12.3,17976000512.0,5289124864.0,2.5,6.2,27.6,13.4,2.8,20.4,16.7,-3.5,28.8
+GOOG,Alphabet Inc.,Communication Services,1,weak,24.2,54.8,185675005952.0,22665000960.0,7.0,18.1,138.3,24.2,9.6,17.9,-0.3,-6.6,81.2
+OXY,Occidental Petroleum Corporatio,Energy,1,weak,-8.3,22.4,9665000448.0,3033374976.0,3.3,6.5,23.3,14.5,3.7,77.1,19.0,-5.4,31.2
+TT,Trane Technologies plc,Industrials,1,weak,10.6,13.3,3876800000.0,3121687552.0,4.0,20.7,28.5,26.1,4.7,33.9,-6.1,-7.4,6.2

@@ -1,0 +1,10 @@
+detector,episodes,caught,recall_%,signals,false_alarm_%,avg_signals_per_name_yr,avg_lead_days
+union,2711,2204,81.3,30011,88.0,14.9,-5.2
+fast_donchian,2711,1873,69.1,22579,88.7,11.2,-6.4
+donchian_20,2711,1217,44.9,16765,90.2,8.3,-6.5
+trend_continuation,2711,1060,39.1,12338,86.7,6.1,-5.4
+six_month_high,2711,629,23.2,12764,91.8,6.3,-5.3
+range_expansion,2711,616,22.7,4478,85.6,2.2,-6.8
+gap_go,2711,583,21.5,3043,79.1,1.5,-6.6
+squeeze_release,2711,332,12.2,3298,89.3,1.6,-7.0
+volume_thrust,2711,211,7.8,1097,80.8,0.5,-5.3

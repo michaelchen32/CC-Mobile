@@ -1,0 +1,7 @@
+algorithm,signals,true,false,timeout_up,timeout_down,avg_fwd_return_pct,confirmed,fakeout,tradeable_win_%,stop_whipsaw_%,confirmed_%,fakeout_%
+bollinger_squeeze,553,205,265,57,26,4.7,265,191,37.1,52.6,47.9,34.5
+darvas_box,443,169,200,56,18,5.71,219,144,38.1,49.2,49.4,32.5
+donchian_20,964,383,443,85,53,4.24,486,330,39.7,51.5,50.4,34.2
+high_52w_momentum,400,156,178,46,20,6.09,208,116,39.0,49.5,52.0,29.0
+ttm_squeeze,203,82,97,15,9,3.8,105,66,40.4,52.2,51.7,32.5
+volume_resistance,410,179,185,31,15,5.29,231,119,43.7,48.8,56.3,29.0
