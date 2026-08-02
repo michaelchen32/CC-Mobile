@@ -1,0 +1,126 @@
+{
+  "hmm": {
+    "fit_window": "2022-01-04 .. 2026-02-27",
+    "n_restarts": 5,
+    "seed": 42,
+    "log_likelihood": 2496.2273946457585,
+    "means_daily": [
+      -0.0027245431812314177,
+      0.00205442185049113
+    ],
+    "vols_daily": [
+      0.03250724374882542,
+      0.01848634422119717
+    ],
+    "transmat": [
+      [
+        0.9719188519866596,
+        0.028081148013340333
+      ],
+      [
+        0.01035901494414577,
+        0.9896409850558543
+      ]
+    ],
+    "bull_state": 1
+  },
+  "cusum": {
+    "chosen": {
+      "k": 0.5,
+      "h": 4.0
+    },
+    "train_sharpe_net": 0.716132364223164,
+    "grid_k": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "grid_h": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "selection": "max net Sharpe on train window, 20-95% time-in-market band"
+  },
+  "coppock": {
+    "variant_chosen": "daily",
+    "train_sharpe_net": {
+      "monthly": 0.5642927620819448,
+      "daily": 0.6273392154663155
+    },
+    "entry": "Coppock turns up while below zero, or crosses above zero",
+    "exit": "Coppock turns down (rolls over) while below zero"
+  },
+  "kalman": {
+    "chosen": {
+      "Q": 1e-05,
+      "mult": 0.5
+    },
+    "train_sharpe_net": 0.03919882741849054,
+    "grid_Q": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "grid_mult": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "selection": "max net Sharpe on train window, 20-95% time-in-market band"
+  },
+  "vix_ts": {
+    "rule": "VIX3M/VIX > 1.0 (contango)",
+    "tuned": "nothing"
+  },
+  "composite": {
+    "rule": "mean(hmm, cusum, coppock, kalman) >= 0.5",
+    "gated_variant": "composite AND VIX3M/VIX > 1"
+  },
+  "hmm_walkforward": {
+    "scheme": "refit each Dec-31 on all history from train_start; params through year Y generate signals for year Y+1",
+    "first_test_year": 2026,
+    "n_restarts": 5,
+    "seed": 42
+  },
+  "protocol": {
+    "train_window": "2022-01-01 .. 2026-02-28",
+    "test_window": "2026-03-01 .. 2026-07-31",
+    "execution_lag_bars": 1,
+    "cost_bps_per_side": 5.0,
+    "whipsaw_counts_test": {
+      "hmm": 2,
+      "cusum": 0,
+      "coppock": 0,
+      "kalman": 3,
+      "vix_ts": 6,
+      "composite": 0,
+      "composite_gated": 6,
+      "hmm_walkforward": 4
+    },
+    "episodes": [
+      {
+        "peak": "2026-06-22",
+        "trough": "2026-07-29",
+        "depth": -0.29008718482579243,
+        "recovery": null
+      },
+      {
+        "peak": "2026-06-03",
+        "trough": "2026-06-05",
+        "depth": -0.12329446041874681,
+        "recovery": "2026-06-15"
+      }
+    ]
+  }
+}

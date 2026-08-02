@@ -1,0 +1,17 @@
+episode_peak,episode_trough,depth,algorithm,bear_flip_date,days_peak_to_bear,bull_flip_date,days_trough_to_bull,note
+2026-06-22,2026-07-29,-0.29008718482579243,hmm,2026-06-22,0.0,,,already bear at peak
+2026-06-22,2026-07-29,-0.29008718482579243,cusum,,,,,never bear before trough; already bull at trough
+2026-06-22,2026-07-29,-0.29008718482579243,coppock,,,,,never bear before trough; already bull at trough
+2026-06-22,2026-07-29,-0.29008718482579243,kalman,2026-06-23,1.0,,,
+2026-06-22,2026-07-29,-0.29008718482579243,vix_ts,,,,,never bear before trough; already bull at trough
+2026-06-22,2026-07-29,-0.29008718482579243,composite,,,,,never bear before trough; already bull at trough
+2026-06-22,2026-07-29,-0.29008718482579243,composite_gated,,,,,never bear before trough; already bull at trough
+2026-06-22,2026-07-29,-0.29008718482579243,hmm_walkforward,2026-06-22,0.0,,,already bear at peak
+2026-06-03,2026-06-05,-0.12329446041874681,hmm,2026-06-03,0.0,,,already bear at peak
+2026-06-03,2026-06-05,-0.12329446041874681,cusum,,,,,never bear before trough; already bull at trough
+2026-06-03,2026-06-05,-0.12329446041874681,coppock,,,,,never bear before trough; already bull at trough
+2026-06-03,2026-06-05,-0.12329446041874681,kalman,2026-06-05,2.0,2026-06-12,5.0,
+2026-06-03,2026-06-05,-0.12329446041874681,vix_ts,,,,,never bear before trough; already bull at trough
+2026-06-03,2026-06-05,-0.12329446041874681,composite,,,,,never bear before trough; already bull at trough
+2026-06-03,2026-06-05,-0.12329446041874681,composite_gated,,,,,never bear before trough; already bull at trough
+2026-06-03,2026-06-05,-0.12329446041874681,hmm_walkforward,2026-06-03,0.0,,,already bear at peak

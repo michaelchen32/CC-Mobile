@@ -10,6 +10,10 @@ converted to daily long/flat strategies and backtested out of sample on
 pip install -r requirements.txt
 python main.py        # full pipeline: data -> signals -> backtest -> charts
 pytest tests/         # CUSUM correctness, look-ahead audits, execution lag
+
+# alternative windows (all fitting/tuning stays inside [train-start, train-end]):
+python main.py --train-start 2022-01-01 --train-end 2026-02-28 \
+               --test-start 2026-03-01 --out output_test2026
 ```
 
 All outputs land in `./output/` (metrics.csv, detection_lags.csv,
@@ -43,5 +47,8 @@ to force a re-download.
 - `tests/` — unit tests incl. the §4.5 look-ahead audit (truncated-data
   recompute must match the full-sample run exactly).
 
-Train window: history through 2022-12-31 (all fitting/tuning). Test window:
-2023-01-01 → today. Randomness (HMM restarts) is seeded.
+Default windows: train = history through 2022-12-31 (all fitting/tuning),
+test = 2023-01-01 → today. Randomness (HMM restarts) is seeded.
+
+`output_test2026/` holds a requested scenario run — train 2022-01 →
+2026-02, test 2026-03 → today — with its own `analysis.md`.

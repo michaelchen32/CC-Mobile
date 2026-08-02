@@ -1,0 +1,13 @@
+algorithm,truncation_date,n_compared,identical
+hmm,2026-04-08,1068,True
+cusum,2026-04-08,1068,True
+kalman,2026-04-08,1068,True
+hmm,2026-05-14,1094,True
+cusum,2026-05-14,1094,True
+kalman,2026-05-14,1094,True
+hmm,2026-06-23,1120,True
+cusum,2026-06-23,1120,True
+kalman,2026-06-23,1120,True
+hmm,2026-07-16,1136,True
+cusum,2026-07-16,1136,True
+kalman,2026-07-16,1136,True
