@@ -209,7 +209,9 @@ def detection_lags(
                 else None
             )
             note = ""
-            if bear_date is None or bear_date > trough:
+            if s.loc[:peak].iloc[-1] == 0:
+                note = "already bear at peak"
+            elif bear_date is None or bear_date > trough:
                 note = "never bear before trough"
             # Re-entry lag is only meaningful if the algo was bear at the
             # trough; otherwise it simply rode the drawdown fully invested.

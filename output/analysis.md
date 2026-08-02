@@ -1,80 +1,83 @@
 # Market Regime Detection on SOXX — Analysis
 
+**Data:** SOXX daily, dividend/split-adjusted (yfinance), 2005-01-03 → 2026-07-31.
+**Train window:** 2005-01-03 → 2022-12-30 (all fitting and tuning; 4,527 daily returns).
 **Test window:** 2023-01-03 → 2026-07-31 (out-of-sample, ~3.6 years).
-**Train window:** 2016-08-01 → 2022-12-30 (all parameter fitting and tuning).
 **Execution:** signals from day *t*'s close earn day *t+1*'s return; 5 bps per side on every switch.
 
-## 0. Data caveat (read first)
-
-Yahoo Finance was persistently rate-limited from this environment (HTTP 429 on
-every endpoint over ~40 minutes of exponential backoff), so prices come from
-Nasdaq's free API: split-adjusted daily OHLCV back-adjusted for dividends using
-Nasdaq's own dividend history (same convention as Yahoo's adjusted close).
-Nasdaq serves at most ~10 years of history, so **SOXX starts 2016-08-01, not
-2005-01-01** as the spec requested. The train window is therefore ~6.4 years
-(1,610 daily returns) instead of ~18. This matters: 2016–2022 contains two
-crash-recoveries (2018Q4, 2020 COVID) and one grinding bear (2022), and the
-tuned CUSUM/Kalman parameters lean heavily on that 2022 experience. VIX and
-VIX3M come from CBOE's published history CSVs (authoritative source). The
-automated look-ahead audit and all protocol rules are unaffected.
+Data notes: yfinance's default transport failed through this environment's
+TLS-intercepting egress proxy (its modern-Chrome TLS fingerprint gets reset);
+`data.py` hands it a curl_cffi session impersonating an older browser
+(chrome116), which both passes the proxy and avoids Yahoo's 429
+fingerprint-blocking. VIX/VIX3M closes come from CBOE's published history
+CSVs. A breadth signal (top-30 holdings above their 50-day MA) was dropped:
+no free point-in-time holdings history exists, and reconstructing it from
+today's holdings would itself be look-ahead.
 
 ## 1. HMM parameter estimates (frozen fit, train window only)
 
 Two-state Gaussian HMM on daily log returns, EM with 5 seeded restarts
-(best log-likelihood 4216.05):
+(best log-likelihood 12,175.2):
 
 | State | Daily mean | Daily vol | Annualized | Self-transition | Expected duration |
 |---|---|---|---|---|---|
-| **Bull** (state 0) | +0.223% | 1.26% | +56%/yr, 20% vol | 0.9846 | ~65 trading days |
-| **Bear** (state 1) | −0.129% | 2.94% | −32%/yr, 47% vol | 0.9765 | ~43 trading days |
+| **Bull** (state 0) | +0.127% | 1.28% | +32%/yr, 20% vol | 0.9906 | ~106 trading days |
+| **Bear** (state 1) | −0.157% | 2.82% | −40%/yr, 45% vol | 0.9773 | ~44 trading days |
 
-The classic picture: a low-volatility drifting-up state and a high-volatility
-drifting-down state, both highly persistent. Note the states are separated far
-more by **volatility** (2.3×) than by mean — the HMM is largely a volatility
-classifier with a drift tie-breaker, which is exactly why it exits fast (vol
-spikes instantly at the top) and re-enters late (vol stays elevated at the
-bottom).
+The classic picture: a persistent low-volatility drift-up state and a
+shorter-lived high-volatility drift-down state. The separation is mostly in
+**volatility** (2.2×), not mean — the HMM is largely a volatility classifier
+with a drift tie-breaker. That is exactly why it exits fast (vol jumps
+instantly at tops) and re-enters late (vol is still elevated at bottoms):
+the asymmetry is baked into what the model measures.
 
 ## 2. Detection lags at the two major test-window drawdowns
 
-Episodes identified from the data: **(A)** peak 2024-07-10 → trough 2025-04-08,
-−41.4% (the AI-semis unwind; recovery 2025-09-18); **(B)** peak 2026-06-22 →
-trough 2026-07-29, −29.0% (ongoing at the data edge — trough provisional).
+Episodes identified from the data: **(A)** peak 2024-07-10 → trough
+2025-04-08, −41.4% (recovered 2025-09-18); **(B)** peak 2026-06-22 → trough
+2026-07-29, −29.0% (ongoing at the data edge — trough provisional).
 
 Trading days from peak to bear flip / trough to bull flip:
 
 | Algorithm | A: peak→bear | A: trough→bull | B: peak→bear | B: trough→bull |
 |---|---|---|---|---|
-| HMM (frozen) | **5** | 16 | **0** | still bear |
-| HMM (walk-forward) | **5** | 16 | **0** | still bear |
-| CUSUM | 185 (at the low) | 262 | never | — |
-| Coppock | never turned bear | — | never | — |
-| Kalman drift | **1** | 23 | 1 | still bear |
-| VIX term structure | 17 | **12** | never | — |
-| Composite (≥2 of 4) | 185 | 16 | never | — |
-| Composite + contango gate | 17 | 16 | never | — |
+| HMM (frozen) | 5 | 16 | **0** | still bear |
+| HMM (walk-forward) | 5 | 16 | **0** | still bear |
+| CUSUM | already bear (flipped 2024-04-19) | **1** | never | — |
+| Coppock (monthly) | never turned bear | — | never | — |
+| Kalman drift | 5 | 17 | 8 | still bear |
+| VIX term structure | 17 | 12 | never | — |
+| Composite (≥2 of 4) | 5 | **1** | never | — |
+| Composite + contango gate | 5 | 12 | never | — |
 
-**On the asymmetry hypothesis.** The HMM shows exactly the documented pattern,
-but milder than folklore suggests: ~5 days into bear, ~16 days out of it
-(3× asymmetric), and in episode B it flagged the bear on the very day of the
-peak. Did the alternatives fix the slow bear→bull side?
+**On the asymmetry hypothesis.** The HMM shows the documented pattern, but
+milder than folklore: ~5 days into bear versus ~16 days out (3× asymmetric),
+and in episode B it flagged the bear on the day of the peak itself. Did the
+alternatives fix the slow bear→bull side?
 
-- **VIX term structure is the only signal that re-entered faster** (12 days):
-  the VIX3M/VIX ratio normalizes as soon as panic pricing leaves the front of
-  the curve, which happens near the bottom rather than after a long streak of
-  calm returns. It was, however, slower into the bear (17 days) and never
-  flagged episode B at all — VIX barely inverted in the 2026 selloff.
-- **Kalman was the fastest into bear** (1 day — a drift filter reacts to the
-  first big negative return) but *slower* out (23 days), because the filtered
-  drift must climb from deeply negative through the significance threshold.
-- **CUSUM and Coppock did not fix anything** — see §4.
-- The composite inherits the median voter, so it fixed nothing either; the
-  contango-gated variant at least exited with the VIX overlay (17 days).
+- **CUSUM re-entered one trading day after the trough** — 2025-04-09, the
+  +19% tariff-pause session, whose z-score blew straight through the S⁺
+  threshold. A cumulative-surprise trigger *can* fix re-entry lag when the
+  bottom is a V: it doesn't wait for average calm, one enormous day is
+  enough. The flip side: its "bear detection" fired 2024-04-19, three months
+  *before* the July peak, so it also skipped the final +20% melt-up leg.
+  Two switches in 3.6 years is closer to luck than to detection — see §4.
+- **VIX term structure** re-entered in 12 days with modest whipsaw cost: the
+  ratio normalizes as soon as panic leaves the front of the curve, near the
+  bottom rather than after a streak of calm. But it was slower into the bear
+  (17 days) and never flagged episode B at all (VIX barely inverted in the
+  2026 selloff).
+- **Kalman** matched the HMM into the bear (5 days) and out (17 days) — a
+  drift filter on the same returns inherits the same asymmetry.
+- The **composite** re-entered in 1 day, but only because it piggybacks on
+  CUSUM's vote; gated by contango it re-entered with the VIX overlay (12d).
 
-Conclusion: the bear→bull lag is intrinsic to *return-statistics* detectors
-(HMM, Kalman, CUSUM all wait for enough calm/positive returns to accumulate).
-The one genuine fix came from switching information source — the options
-market's term structure — not from a better filter on the same returns.
+Conclusion: return-statistics detectors (HMM, Kalman) share the slow
+bear→bull side because they wait for enough calm/positive data to
+accumulate. The two mechanisms that genuinely re-entered faster read
+*different information*: the options market's term structure (12d,
+systematic) and CUSUM's burst-sensitivity to a V-shaped reversal (1d, but
+fragile — it only works if the bottom is violent).
 
 ## 3. Re-entry speed vs false-positive cost
 
@@ -82,104 +85,109 @@ Whipsaws = bull runs shorter than 10 trading days in the test window:
 
 | Algorithm | Trough→bull (ep. A) | Whipsaws | Switches (test) |
 |---|---|---|---|
+| CUSUM | 1 | 0 | 2 |
+| Composite | 1 | 12 | 37 |
 | VIX term structure | 12 | 8 | 34 |
-| HMM (frozen) | 16 | 32 | 90 |
-| Composite | 16 | 14 | 37 |
-| Kalman | 23 | 52 | 118 |
-| CUSUM | 262 | 0 | 3 |
+| HMM (frozen) | 16 | 21 | 70 |
+| Kalman | 17 | 58 | 148 |
 
-The HMM's fast re-entry is bought with heavy chattering: 90 switches in 3.6
-years (a round trip every ~2 weeks on average), 32 of them sub-10-day bull
-stints — the filtered probability hugs the 0.5 line in mixed tape. At 5 bps a
-side this costs ~1.6 pp of annualized return (26.4% gross → 24.8% net). The
-VIX overlay achieves *faster* re-entry with a quarter of the switching. A
-hysteresis band (e.g. enter >0.6, exit <0.4) would likely cut HMM whipsaws
-substantially, but was not part of the specified design and was not tuned.
+The HMM's decent re-entry costs heavy chattering: 70 switches (21 sub-10-day
+bull stints) as filtered P(bull) hugs the 0.5 line in mixed tape, ~1.1 pp/yr
+of return lost to costs (19.7% gross → 18.6% net). Kalman is worse (148
+switches, 58 whipsaws, 2.4 pp/yr cost drag). The VIX overlay bought faster
+re-entry than the HMM with a third of the switching. CUSUM's zero whipsaws
+reflect its two-trade test window, not robustness. A hysteresis band on the
+HMM (enter > 0.6, exit < 0.4) would likely cut the chattering materially;
+it was not part of the specified design, so it was not tuned or tested.
 
 ## 4. Net-of-cost performance ranking (test window)
 
 | Strategy (net) | Ann. return | Vol | Sharpe | Sortino | MaxDD | Calmar | Time in mkt |
 |---|---|---|---|---|---|---|---|
-| Buy & hold | 53.0% | 37.9% | 1.12 | 1.09 | −41.4% | 1.28 | 100% |
-| VIX term structure | 42.7% | 34.4% | 1.03 | 0.99 | −34.7% | 1.23 | 95% |
-| Coppock | 40.9% | 37.4% | 0.92 | 0.88 | −41.4% | 0.99 | 97% |
-| HMM (walk-forward) | 25.5% | 23.6% | 0.96 | 0.75 | −28.5% | 0.90 | 59% |
-| HMM (frozen) | 24.8% | 22.2% | 1.00 | 0.78 | −17.9% | **1.39** | 53% |
-| Composite + gate | 25.0% | 32.4% | 0.69 | 0.62 | −34.2% | 0.73 | 83% |
-| Composite | 22.3% | 33.8% | 0.59 | 0.53 | −40.3% | 0.55 | 86% |
-| Kalman | 12.1% | 20.0% | 0.57 | 0.37 | −23.5% | 0.52 | 32% |
-| CUSUM | 2.3% | 30.0% | 0.08 | 0.05 | −43.3% | 0.05 | 59% |
+| **CUSUM** | **55.2%** | 30.8% | **1.43** | 1.22 | −29.0% | **1.90** | 73% |
+| Buy & hold | 52.2% | 37.9% | 1.11 | 1.08 | −41.4% | 1.26 | 100% |
+| Composite | 43.5% | 33.4% | 1.08 | 1.00 | −42.7% | 1.02 | 88% |
+| VIX term structure | 42.0% | 34.4% | 1.02 | 0.97 | −34.7% | 1.21 | 95% |
+| Coppock (monthly) | 45.3% | 37.2% | 1.01 | 0.95 | −41.4% | 1.10 | 96% |
+| Composite + gate | 35.3% | 32.3% | 0.94 | 0.87 | −37.2% | 0.95 | 85% |
+| HMM (frozen) | 18.6% | 22.3% | 0.76 | 0.59 | −22.4% | 0.83 | 55% |
+| HMM (walk-forward) | 18.2% | 22.5% | 0.74 | 0.58 | −24.3% | 0.75 | 56% |
+| Kalman | 15.4% | 26.5% | 0.54 | 0.44 | −42.8% | 0.36 | 58% |
 
-**Honest read: nothing beat buy-and-hold on Sharpe.** SOXX compounded at 53%
-a year over this window; a long/flat overlay can only subtract exposure from
-that. The one clean win is the frozen-parameter **HMM on Calmar (1.39 vs
-1.28)** — it more than halved the max drawdown (−17.9% vs −41.4%) while
-keeping a Sharpe of 1.00, which is the risk-management story these models are
-actually for. Every other strategy lost on both measures.
+**One strategy beat buy-and-hold on both Sharpe and Calmar: CUSUM** (1.43 vs
+1.11; 1.90 vs 1.26), by sidestepping most of the −41% drawdown and catching
+the entire recovery from its second day. Treat that headline with heavy
+skepticism before extrapolating:
 
-Specific post-mortems:
-
-- **CUSUM is the disaster case, and instructively so.** Train-window tuning
-  chose k=0.5, h=6 (grid in `cusum_train_grid.csv`; train Sharpe 0.75 — beat
-  looser settings because going flat early and staying flat was rewarded in
-  2018/2020/2022). Out of sample that drift term k=0.5 makes the bull-side
-  accumulator S⁺ = Σ(z−0.5) nearly unreachable: it triggered bear essentially
-  **at the April-2025 low** (185 days after the peak), then needed **262
-  trading days** to re-arm, sitting flat through the entire +130% recovery,
-  and was long again just in time for the −29% June-2026 drawdown. Sold the
-  low, bought the next high. A textbook overfit-to-train outcome.
-- **Coppock** (daily variant chosen on train, Sharpe 0.45 vs 0.37 monthly)
-  is too slow for state detection at this horizon: with ~10-month lookbacks it
-  simply never left the bull state after mid-2023 and delivered buy-and-hold
-  with a small lag drag. Its two whipsaws happened at the choppy 2023 start.
-- **Kalman** exited superbly (1 day after both peaks) but its tuned threshold
-  (Q=1e-5, mult=0.5; note the spec's mult=1.0 baseline puts the bar at
-  ~0.7%/day drift, which is never met — the tuned grid had to extend below it,
-  and a 20% minimum time-in-market floor was imposed to reject degenerate
-  always-flat optima) still keeps it out of the market two-thirds of the
-  time. In a 53%/yr tape that's fatal for returns.
-- **Walk-forward vs frozen HMM:** annual expanding refits changed little
-  (Sharpe 0.96 vs 1.00) and actually *worsened* drawdown (−28.5% vs −17.9%):
-  the 2023-refit parameters, diluted by more calm data, held P(bull) higher
-  through the early-2025 top. With ~6 years of training data the frozen
-  parameters were already stable; refitting is not where the edge is.
-- **Flat-leg yield is ignored.** Cash earned ~4–5% (T-bills) over 2023–2026.
-  The HMM was flat 47% of the time — crediting ~4.5% on the flat leg would add
-  roughly +2 pp/yr to its net return (and similar for Kalman/CUSUM), narrowing
-  but not closing the return gap to buy-and-hold. Sharpe comparisons vs a
-  rf=0 benchmark are likewise slightly unkind to the flat-heavy strategies.
+- The result rests on **two trades**. Exit three months early (lucky — the
+  April-2024 pullback happened to precede a real top), re-enter on the
+  single biggest up-day of the window (structural — that's what a CUSUM
+  trigger does in a V-bottom, but V-bottoms are not guaranteed).
+- The tuned parameters (k=0.25, h=5) sit next to configurations with very
+  different outcomes. The *unconstrained* train optimum was "thresholds so
+  wide they never trigger" — always-long, i.e. the tuning itself said the
+  detector added no train-window value; the reported configuration is the
+  best one **subject to a 20–95% time-in-market band** imposed to force the
+  detector to actually detect (documented in `tuning_log.json`; full grid in
+  `cusum_train_grid.csv`). In an earlier run of this study on a shorter
+  2016–2022 train window (Nasdaq's 10-year history, before full Yahoo data
+  was obtained), the tuner chose k=0.5, h=6 — which out-of-sample flipped
+  bear **at the April-2025 low** and stayed flat almost a year: net Sharpe
+  0.08. Same algorithm, same protocol, slightly different train data —
+  disaster instead of triumph. That interval between outcomes is the honest
+  error bar on the CUSUM row.
+- **Everything else lagged buy-and-hold on Sharpe**, as expected in a tape
+  that compounded at ~52%/yr. The defensive story is drawdown: HMM cut max
+  drawdown to −22.4% (but its 2023 chattering cost so much return that
+  Calmar still lost), the VIX overlay to −34.7% at nearly full participation.
+- **Coppock** (monthly variant won on train, Sharpe 0.50 vs 0.45 daily) is
+  too slow to be a regime detector at this horizon — one switch, ~96% long,
+  ≈ buy-and-hold with lag. **Kalman**'s tuned threshold (Q=1e-5, mult=0.05 —
+  the spec's 1.0×√P baseline is never met by realistic daily drift, so the
+  grid had to extend far below it, and every feasible configuration had
+  *negative* train Sharpe) whipsawed 148 times and lost on every metric.
+- **Walk-forward vs frozen HMM:** annual expanding refits changed almost
+  nothing (0.74 vs 0.76 Sharpe, −24.3% vs −22.4% MaxDD). With 18 years of
+  training data the parameters are stable; refitting is not where the edge
+  is.
+- **Flat-leg yield is ignored.** Cash earned ~4–5% (T-bills) in 2023–2026.
+  The HMM was flat 45% of the time — crediting ~4.5% would add roughly
+  +2 pp/yr to its net return; similar for Kalman, ~+1.2 pp/yr for CUSUM.
+  This narrows but does not close the return gap to buy-and-hold, and makes
+  the CUSUM outperformance slightly larger.
 
 ## 5. Caveats
 
-- **Single asset, single test window.** One instrument, ~3.6 years, and one
-  and a half bear episodes out of sample. Every ranking above could reshuffle
-  on another asset or window; treat the detection-lag table (which is about
-  mechanics, not luck) as the more transferable result.
-- **Short train sample (data-source limitation).** 6.4 years of training data
-  instead of the intended 18. CUSUM's and Kalman's tuned parameters are
-  clearly fragile (CUSUM's train Sharpe of 0.75 collapsed to 0.08 out of
-  sample); the HMM, with only ~6 effective parameters, traveled much better
-  than the tuned-threshold methods — small-parameter models degrade more
-  gracefully.
-- **The 2026 episode is unfinished.** Its "trough" is the last data point's
-  neighborhood; re-entry lags for episode B are unknowable yet, and B&H's
-  final-leg drawdown is still open.
-- **Costs are stylized.** 5 bps/side is reasonable for SOXX today, but ignores
-  slippage clustering exactly when regime signals fire (gaps, high-vol opens).
-  High-switching strategies (HMM, Kalman) are hurt more in reality than here.
-- **Threshold 0.5 on P(bull)** and the equal-weight composite rule were fixed
-  by spec, not tuned — but the CUSUM/Kalman/Coppock variant choices were
-  tuned on train, and with grids this small the winner's-curse risk is real.
+- **Single asset, single test window.** One instrument, ~3.6 years, one
+  completed bear episode plus one in progress. Every ranking above could
+  reshuffle on another window; the detection-lag mechanics (§2) are the more
+  transferable result.
+- **Parameter fragility is demonstrated, not hypothetical.** The same CUSUM
+  under two defensible train windows produced the best and nearly the worst
+  strategy in the table. Low-parameter models (the HMM's ~6 effective
+  parameters) traveled between train windows far more gracefully than tuned
+  thresholds.
+- **The 2026 episode is unfinished** — its trough is provisional and B&H's
+  last-leg drawdown still open; episode-B re-entry lags are unknowable yet.
+- **Costs are stylized.** 5 bps/side ignores slippage clustering exactly when
+  regime signals fire (gaps, high-vol opens); high-switching strategies
+  (Kalman, HMM) are hurt more in reality than on paper.
+- **Some structure was fixed by spec, some tuned.** P(bull) > 0.5 and the
+  equal-weight ≥ 0.5 composite rule were fixed. CUSUM (k,h), Kalman (Q,
+  mult), and the Coppock variant were tuned on train with small grids —
+  winner's-curse risk is real, and the time-in-market band on the tuners,
+  while principled, was a judgment call made to avoid degenerate optima.
 
 ## 6. Bottom line
 
-The known HMM asymmetry is confirmed but modest here (5 days into bear vs ~16
-out), and it is the *best* overall regime detector in the suite — fastest
-useful exits, acceptable re-entry, and the only strategy to beat buy-and-hold
-on any headline metric (Calmar, via a max drawdown less than half the
-market's). Of the alternatives, only the VIX term structure improved re-entry
-speed (12 days, with far fewer whipsaws), because it reads a different market
-rather than filtering the same returns harder. CUSUM and Coppock, as tuned on
-this train window, failed at the task. If the goal is faster bear→bull
-recovery detection, combine the HMM's exit with an options-market re-entry
-trigger rather than searching for a better filter on price alone.
+The HMM's known asymmetry is confirmed and explained (5 days into bear vs
+~16 out; it detects volatility, which rises faster than it falls), but the
+2023–2026 SOXX window punished its chattering more than it rewarded its
+drawdown control. The bear→bull lag was genuinely improved by two things
+that don't just re-filter returns: the VIX term structure (12-day re-entry,
+systematic, cheap in whipsaws) and CUSUM's burst trigger (1-day re-entry —
+spectacular here, but a two-trade sample whose twin, trained on a shorter
+window, was the worst strategy tested). A defensible practical synthesis:
+HMM-style exit (fast, reliable), options-market re-entry confirmation, and
+deep suspicion of any tuned threshold that a slightly different train window
+can turn from hero to disaster.

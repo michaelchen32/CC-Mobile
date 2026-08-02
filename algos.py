@@ -209,11 +209,15 @@ def tune_cusum(
     h_grid: tuple[float, ...] = (3.0, 4.0, 5.0, 6.0, 8.0, 10.0),
     cost_bps: float = 5.0,
     min_time_in_market: float = 0.2,
+    max_time_in_market: float = 0.95,
 ) -> tuple[dict[str, float], pd.DataFrame]:
     """Grid-search (k, h) on the TRAIN window only, maximizing net Sharpe.
 
     Symmetric thresholds (h_up = h_down = h). Returns best params and the
-    full grid of train Sharpes for reporting.
+    full grid of train Sharpes for reporting. Configurations outside the
+    [min, max] time-in-market band are rejected as degenerate: below the
+    floor the strategy never participates; above the cap the detector never
+    triggers and is indistinguishable from buy-and-hold.
     """
     from backtest import strategy_log_returns, sharpe
 
@@ -227,8 +231,7 @@ def tune_cusum(
             s = sharpe(res["net"])
             tim = float((res["position"] > 0).mean())
             rows.append({"k": k, "h": h, "train_sharpe_net": s, "train_time_in_mkt": tim})
-            # min in-market floor rejects degenerate almost-always-flat optima
-            if tim >= min_time_in_market and s > best["sharpe"]:
+            if min_time_in_market <= tim <= max_time_in_market and s > best["sharpe"]:
                 best = {"k": k, "h": h, "sharpe": s}
     return best, pd.DataFrame(rows)
 
@@ -366,6 +369,7 @@ def tune_kalman(
     mult_grid: tuple[float, ...] = (0.05, 0.1, 0.25, 0.5, 1.0, 2.0),
     cost_bps: float = 5.0,
     min_time_in_market: float = 0.2,
+    max_time_in_market: float = 0.95,
 ) -> tuple[dict[str, float], pd.DataFrame]:
     """Grid-search Q and the significance multiplier on the TRAIN window only.
 
@@ -387,7 +391,7 @@ def tune_kalman(
             s = sharpe(res["net"])
             tim = float((res["position"] > 0).mean())
             rows.append({"q": q, "mult": m, "train_sharpe_net": s, "train_time_in_mkt": tim})
-            if tim >= min_time_in_market and s > best["sharpe"]:
+            if min_time_in_market <= tim <= max_time_in_market and s > best["sharpe"]:
                 best = {"q": q, "mult": m, "sharpe": s}
     return best, pd.DataFrame(rows)
 

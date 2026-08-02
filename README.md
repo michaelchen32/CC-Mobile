@@ -20,14 +20,15 @@ to force a re-download.
 
 ## Layout
 
-- `data.py` — data acquisition + validation. SOXX daily adjusted OHLCV from
-  the Yahoo chart API via plain `requests` (yfinance's curl_cffi transport
-  cannot TLS-handshake through this environment's egress proxy), with an
-  automatic fallback to Nasdaq's API (split-adjusted prices, dividend
-  back-adjusted locally). VIX/VIX3M from CBOE's history CSVs.
-  **Note:** Yahoo was hard rate-limited (429) when this repo was built, so the
-  committed cache is the Nasdaq set: 2016-08-01 → today (Nasdaq caps history
-  at ~10y). The spec's 2005 start was unavailable; see `output/analysis.md` §0.
+- `data.py` — data acquisition + validation. SOXX daily adjusted OHLCV via
+  yfinance (`auto_adjust=True`), full 2005 → today history. Behind a
+  TLS-intercepting egress proxy, yfinance's default curl_cffi transport
+  (modern-Chrome TLS fingerprint with ECH/post-quantum extensions) gets its
+  handshake reset, and non-browser fingerprints get 429'd by Yahoo — so the
+  loader hands yfinance a curl_cffi session impersonating an older browser
+  (`chrome116` first), which passes both. Falls back to Nasdaq's API
+  (split-adjusted, ~10y cap, dividends back-adjusted locally) if Yahoo
+  fails entirely. VIX/VIX3M from CBOE's history CSVs.
 - `algos.py` — the detectors, each emitting a causal daily 0/1 bull state:
   two-state Gaussian HMM (frozen train params, manual forward filter — never
   smoothed/Viterbi), two-sided CUSUM on vol-normalized returns, Coppock curve

@@ -1,35 +1,35 @@
 {
   "hmm": {
-    "fit_window": "2016-08-02 .. 2022-12-30",
+    "fit_window": "2005-01-04 .. 2022-12-30",
     "n_restarts": 5,
     "seed": 42,
-    "log_likelihood": 4216.04617525928,
+    "log_likelihood": 12175.208332751214,
     "means_daily": [
-      0.0022306112126345384,
-      -0.0012854593797582043
+      0.001265498669859242,
+      -0.0015669778862397099
     ],
     "vols_daily": [
-      0.012623854420877304,
-      0.029422497328513434
+      0.01281887002572425,
+      0.0282357521857607
     ],
     "transmat": [
       [
-        0.9845831186661259,
-        0.015416881333874097
+        0.9906024012508368,
+        0.009397598749163289
       ],
       [
-        0.023453012824644275,
-        0.9765469871753557
+        0.022746937796844904,
+        0.9772530622031551
       ]
     ],
     "bull_state": 0
   },
   "cusum": {
     "chosen": {
-      "k": 0.5,
-      "h": 6.0
+      "k": 0.25,
+      "h": 5.0
     },
-    "train_sharpe_net": 0.7502705734902886,
+    "train_sharpe_net": 0.3478297114644737,
     "grid_k": [
       0.1,
       0.25,
@@ -48,10 +48,10 @@
     "selection": "max net Sharpe of long/flat strategy on train window"
   },
   "coppock": {
-    "variant_chosen": "daily",
+    "variant_chosen": "monthly",
     "train_sharpe_net": {
-      "monthly": 0.36704939065713604,
-      "daily": 0.45172766995928887
+      "monthly": 0.4966795280678969,
+      "daily": 0.4484918497510693
     },
     "entry": "Coppock turns up while below zero, or crosses above zero",
     "exit": "Coppock turns down (rolls over) while below zero"
@@ -59,9 +59,9 @@
   "kalman": {
     "chosen": {
       "Q": 1e-05,
-      "mult": 0.5
+      "mult": 0.05
     },
-    "train_sharpe_net": 0.2897103647176059,
+    "train_sharpe_net": -0.09109257443013226,
     "grid_Q": [
       1e-05,
       3e-05,
@@ -98,26 +98,26 @@
     "execution_lag_bars": 1,
     "cost_bps_per_side": 5.0,
     "whipsaw_counts_test": {
-      "hmm": 32,
+      "hmm": 21,
       "cusum": 0,
-      "coppock": 2,
-      "kalman": 52,
+      "coppock": 0,
+      "kalman": 58,
       "vix_ts": 8,
-      "composite": 14,
-      "composite_gated": 16,
-      "hmm_walkforward": 21
+      "composite": 12,
+      "composite_gated": 19,
+      "hmm_walkforward": 19
     },
     "episodes": [
       {
         "peak": "2024-07-10",
         "trough": "2025-04-08",
-        "depth": -0.41360963268988205,
+        "depth": -0.4136104909292365,
         "recovery": "2025-09-18"
       },
       {
         "peak": "2026-06-22",
         "trough": "2026-07-29",
-        "depth": -0.2900871742416147,
+        "depth": -0.29008718482579243,
         "recovery": null
       }
     ]

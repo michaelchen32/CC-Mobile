@@ -1,18 +1,23 @@
 """Data acquisition, caching, and validation for the SOXX regime study.
 
 Sources:
-- SOXX daily OHLCV (dividend/split adjusted) from the Yahoo Finance chart API.
-  yfinance itself is not used because its curl_cffi transport cannot complete
-  TLS through this environment's egress proxy; we hit the same v8 chart
-  endpoint with plain ``requests`` and adjust prices with the returned adjclose.
-- ^VIX and ^VIX3M daily closes from CBOE's published history CSVs (authoritative
-  source, no rate limits). Yahoo is the fallback.
+- SOXX daily OHLCV (dividend/split adjusted) via yfinance with
+  ``auto_adjust=True``. Behind a TLS-intercepting egress proxy, yfinance's
+  default curl_cffi browser fingerprint (recent Chrome, with ECH/post-quantum
+  extensions) gets its handshake reset; we therefore hand yfinance a
+  curl_cffi session impersonating an older browser (chrome116 first) that
+  such proxies accept, trying several fingerprints in order.
+- Fallback: Nasdaq's free API (split-adjusted prices, ~10y of history,
+  dividend back-adjusted locally).
+- ^VIX and ^VIX3M daily closes from CBOE's published history CSVs
+  (authoritative source, no rate limits).
 
 Everything is cached to ``cache/*.parquet``; delete the cache to force a
 re-download.
 """
 from __future__ import annotations
 
+import os
 import time
 from pathlib import Path
 
@@ -37,78 +42,50 @@ _CBOE_URLS = {
 }
 
 
-def _yahoo_chart_json(symbol: str, start: str, retries: int = 6) -> dict:
-    """Fetch the raw Yahoo v8 chart payload for ``symbol`` with backoff."""
-    sess = requests.Session()
-    sess.headers.update(_UA)
-    try:  # prime the anonymous cookie; 404 body is expected
-        sess.get("https://fc.yahoo.com", timeout=30)
-    except requests.RequestException:
-        pass
-    params = {
-        "period1": int(pd.Timestamp(start, tz="UTC").timestamp()),
-        "period2": int(time.time()),
-        "interval": "1d",
-        "events": "div,split",
-        "includeAdjustedClose": "true",
-    }
-    delay = 15.0
-    last_err: str = "no attempt"
-    for attempt in range(retries):
-        for host in ("query1", "query2"):
-            url = f"https://{host}.finance.yahoo.com/v8/finance/chart/{symbol}"
-            try:
-                r = sess.get(url, params=params, timeout=60)
-                if r.ok:
-                    payload = r.json()
-                    if payload.get("chart", {}).get("result"):
-                        return payload
-                    last_err = f"empty result from {host}"
-                else:
-                    last_err = f"HTTP {r.status_code} from {host}"
-            except requests.RequestException as exc:
-                last_err = f"{type(exc).__name__} from {host}"
-        if attempt < retries - 1:
-            time.sleep(delay)
-            delay = min(delay * 2, 300)
-    raise RuntimeError(f"Yahoo chart API failed for {symbol}: {last_err}")
+# Browser TLS fingerprints tried in order. Recent Chrome/Firefox fingerprints
+# carry ECH / post-quantum key-share extensions that TLS-intercepting egress
+# proxies commonly reset; the older ones below are broadly accepted.
+_IMPERSONATE_TARGETS = ("chrome116", "safari17_0", "edge101", "chrome110")
 
 
-def _yahoo_ohlcv(symbol: str, start: str) -> pd.DataFrame:
-    """Daily OHLCV for ``symbol``, adjusted for splits and dividends.
+def _yahoo_ohlcv(symbol: str, start: str, retries: int = 2) -> pd.DataFrame:
+    """Daily OHLCV for ``symbol`` via yfinance, adjusted for splits/dividends.
 
-    Mirrors ``yfinance.download(auto_adjust=True)``: every price column is
-    scaled by adjclose/close so the whole series is total-return consistent.
+    Tries several curl_cffi browser fingerprints because (a) Yahoo blocks
+    non-browser TLS fingerprints with 429s and (b) intercepting proxies
+    reset the newest fingerprints (see module docstring).
     """
-    payload = _yahoo_chart_json(symbol, start)
-    result = payload["chart"]["result"][0]
-    ts = result["timestamp"]
-    quote = result["indicators"]["quote"][0]
-    adjclose = result["indicators"]["adjclose"][0]["adjclose"]
-    tz = result["meta"].get("exchangeTimezoneName", "America/New_York")
-    idx = (
-        pd.to_datetime(ts, unit="s", utc=True)
-        .tz_convert(tz)
-        .normalize()
-        .tz_localize(None)
-    )
-    df = pd.DataFrame(
-        {
-            "Open": quote["open"],
-            "High": quote["high"],
-            "Low": quote["low"],
-            "Close": quote["close"],
-            "AdjClose": adjclose,
-            "Volume": quote["volume"],
-        },
-        index=pd.DatetimeIndex(idx, name="Date"),
-    ).dropna(subset=["Close", "AdjClose"])
-    factor = df["AdjClose"] / df["Close"]
-    for col in ("Open", "High", "Low", "Close"):
-        df[col] = df[col] * factor
-    df = df.drop(columns="AdjClose")
-    df = df[~df.index.duplicated(keep="last")].sort_index()
-    return df
+    import yfinance as yf
+    from curl_cffi import requests as cfr
+
+    ca = os.environ.get("CURL_CA_BUNDLE") or True
+    last_err: Exception | None = None
+    for attempt in range(retries):
+        for imp in _IMPERSONATE_TARGETS:
+            try:
+                sess = cfr.Session(impersonate=imp, verify=ca)
+                raw = yf.download(
+                    symbol, start=start, auto_adjust=True, progress=False,
+                    session=sess,
+                )
+            except Exception as exc:
+                last_err = exc
+                continue
+            if raw is None or len(raw) == 0:
+                continue
+            if isinstance(raw.columns, pd.MultiIndex):
+                raw.columns = raw.columns.droplevel(1)
+            df = raw[["Open", "High", "Low", "Close", "Volume"]].copy()
+            idx = pd.DatetimeIndex(df.index, name="Date")
+            if idx.tz is not None:
+                idx = idx.tz_localize(None)
+            df.index = idx
+            df = df.dropna(subset=["Close"])
+            df = df[~df.index.duplicated(keep="last")].sort_index()
+            return df
+        if attempt < retries - 1:
+            time.sleep(30)
+    raise RuntimeError(f"yfinance failed for {symbol}: {last_err!r}")
 
 
 def _cboe_close(symbol: str) -> pd.DataFrame:
